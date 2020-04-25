@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{178:function(e,n){for(var t=document.querySelectorAll("[data-parallax-image]"),a=0;a<t.length;a++)o(t[a]);function o(e){window.addEventListener("scroll",(function(n){var t=window.pageYOffset,a=e.height,o=parseInt(e.dataset.effectSize)||45,p=-.2*t+a;e.style.top=p>o?o+"px":p<-o?-o+"px":p+"px"}),{passive:!0})}}}]);
