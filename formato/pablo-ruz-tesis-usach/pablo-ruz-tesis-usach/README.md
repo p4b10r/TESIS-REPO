@@ -1,6 +1,6 @@
 # LaTex para la presentaci&oacute;n de tesis en la Universidad de Santiago de Chile (USACH)
 
-##Autor de tesis
+## Autor de tesis
 
 Pablo Ruz Donoso :: pablo.ruz@usach.cl
 
