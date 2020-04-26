@@ -17,31 +17,31 @@
 \contentsline {section}{\numberline {1.7}Organizaci\'on del documento}{3}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Marco Te\'orico}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Impresi\IeC {\'o}n 3D}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Historia de la impresi\IeC {\'o}n 3D}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}M\IeC {\'e}todos de impresi\IeC {\'o}n 3D}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Impresoras 3D FDM}{5}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Tipolog\IeC {\'\i }as de impresi\IeC {\'o}n 3D FDM}{5}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Mantenimiento}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Historia y evoluci\IeC {\'o}n del mantenimiento}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Tipos de mantenimiento}{5}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}GMAO}{5}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Lean Manufacturing}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Historia Lean Manufacturing}{5}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Herramientas de mantenimiento}{5}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Design Thinking y Scrum}{5}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{5}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Scrum}{5}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Design Thinking}{5}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Fases del Design Thinking}{5}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Herramientas para dise\IeC {\~n}o de Software}{5}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Desarrollo de Software}{5}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Programaci\IeC {\'o}n orientada a objetos}{5}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Lenguajes de programaci\IeC {\'o}n}{5}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Arquitectura Cliente-Servidor}{5}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}API}{5}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Ordenadores de placa reducida}{5}{subsection.2.5.5}%
-\contentsline {chapter}{Referencias}{6}{chapter*.5}%
-\contentsline {chapter}{Ap\IeC {\'e}ndices}{6}{section*.6}%
-\contentsline {chapter}{Manual de Usuario}{7}{appendix*.7}%
-\contentsline {section}{\numberline {.1}Requerimientos}{7}{section.Alph0.1}%
-\contentsline {section}{\numberline {.2}Instalaci\'on}{7}{section.Alph0.2}%
+\contentsline {subsection}{\numberline {2.1.1}Historia de la impresi\IeC {\'o}n 3D}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}M\IeC {\'e}todos de impresi\IeC {\'o}n 3D}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Impresoras 3D FDM}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Tipolog\IeC {\'\i }as de impresi\IeC {\'o}n 3D FDM}{6}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Mantenimiento}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Historia y evoluci\IeC {\'o}n del mantenimiento}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Tipos de mantenimiento}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}GMAO}{6}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Lean Manufacturing}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Historia Lean Manufacturing}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Herramientas de mantenimiento}{6}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Design Thinking y Scrum}{6}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{6}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Scrum}{6}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Design Thinking}{6}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Fases del Design Thinking}{6}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Herramientas para dise\IeC {\~n}o de Software}{6}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Desarrollo de Software}{6}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Programaci\IeC {\'o}n orientada a objetos}{6}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Lenguajes de programaci\IeC {\'o}n}{6}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Arquitectura Cliente-Servidor}{6}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}API}{6}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Ordenadores de placa reducida}{6}{subsection.2.5.5}%
+\contentsline {chapter}{Referencias}{7}{chapter*.6}%
+\contentsline {chapter}{Ap\IeC {\'e}ndices}{7}{section*.7}%
+\contentsline {chapter}{Manual de Usuario}{8}{appendix*.8}%
+\contentsline {section}{\numberline {.1}Requerimientos}{8}{section.Alph0.1}%
+\contentsline {section}{\numberline {.2}Instalaci\'on}{8}{section.Alph0.2}%

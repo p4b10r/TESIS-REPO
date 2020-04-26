@@ -325,7 +325,7 @@
 \RequirePackage[a4paper,nohead,nofoot]{geometry}
 % Estos margenes estan considerando la diferencia entre
 % los formatos A4 y Letter (carta)
-\geometry{top=1.77cm, bottom=3.67cm, left=2.15cm, right=0.92cm}
+\geometry{top=4cm, bottom=2.5cm, left=4cm, right=2.5cm}
 %--------Otros margenes
 \setlength{\parindent}{2cm}%2cm Tabulación
 \setlength{\headsep}{20pt}
@@ -419,7 +419,7 @@
 \iflogo
 	\vspace*{-0.5cm}
 	\begin{picture}(18,4)(0,40)
-		\put(380,-7){\includegraphics[scale=.25]{./images/LogoUsach.pdf}}
+		\put(320,-7){\includegraphics[scale=.25]{./images/LogoUsach.pdf}}
 	\end{picture}
 \fi
 
