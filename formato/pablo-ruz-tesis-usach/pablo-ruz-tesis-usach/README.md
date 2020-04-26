@@ -1,8 +1,14 @@
-# Template LaTex para la presentaci&oacute;n de tesis en la Universidad de Santiago de Chile (USACH)
+# LaTex para la presentaci&oacute;n de tesis en la Universidad de Santiago de Chile (USACH)
 
-Formato v&aacute;lido para la presentaci&oacute;n de propuesta y trabajo final de tesis, para pregrado---Ingenier&iacute;a Civil y Ejecuci&oacute;n---y postgrado---Doctorado y Mag&iacute;ster en Ingenier&iacute;a Inform&aacute;tica.
+##Autor de tesis
 
-## Author
+Pablo Ruz Donoso :: pablo.ruz@usach.cl
+
+
+Formato v&aacute;lido para la presentaci&oacute;n de propuesta y trabajo final de tesis, para pregrado---Ingenier&iacute;a Civil
+
+
+## Autor de Template
 
 Emir Muñoz :: emir@emunoz.org :: http://emunoz.org
 
