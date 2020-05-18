@@ -1,15 +1,27 @@
 \begin{thebibliography}{}
 
-\bibitem[3Dhub, 2018]{3dhub2018}
+\bibitem[3Dhub, 2018]{tresdhub2018}
 3Dhub (2018).
 \newblock What is 3d printing? the definitive guide.
 \newblock https://www.3dhubs.com/guides/3d-printing/.
+
+\bibitem[3dsourced, 2013]{tresdsourced2020}
+3dsourced (2013).
+\newblock The complete history of 3d printing: From 1980 to 2020.
+\newblock
+  https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
 
 \bibitem[Berchon and Luyt, 2014]{Berchon2014}
 Berchon, M. and Luyt, B. (2014).
 \newblock {\em La impresión 3D: Guía definitiva para makers, diseñadores,
   estudiantes profesionales, artistas y manitas en general}.
 \newblock Editorial Gustavo Gill.
+
+\bibitem[Greguric, 2018]{alltresdp2018}
+Greguric, L. (2018).
+\newblock History of 3d printing: When was 3d printing invented.
+\newblock
+  https://all3dp.com/2/history-of-3d-printing-when-was-3d-printing-invented/.
 
 \bibitem[Jorquera~Ortega, 2016]{jorquera2016}
 Jorquera~Ortega, A. (2016).
@@ -22,5 +34,11 @@ leao, L. (2017).
 \newblock Cad vs cae vs cam: What is the difference?
 \newblock
   https://www.e3seriescenters.com/modern-electrical-engineering-blog/cad-vs-cae-vs-cam-what-is-the-difference/.
+
+\bibitem[Maxey, 2013]{maxey2013}
+Maxey, K. (2013).
+\newblock Infographic: The history of 3d printing.
+\newblock
+  engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
 
 \end{thebibliography}

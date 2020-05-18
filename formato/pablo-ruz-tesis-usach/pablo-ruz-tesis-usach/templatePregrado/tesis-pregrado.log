@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  26 APR 2020 03:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  17 MAY 2020 21:12
 entering extended mode
 **./tesis-pregrado.tex
 (tesis-pregrado.tex
@@ -700,22 +700,34 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
+("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apacite\apacite.st
+y"
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count316
+\bibleftmargin=\skip100
+\bibindent=\skip101
+\bibparsep=\skip102
+\bibitemsep=\skip103
+\biblabelsep=\skip104
+)
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip100
-\bibsep=\skip101
+\bibhang=\skip105
+\bibsep=\skip106
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count316
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count317
 )
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babelbib\babelbib.
 sty"
 Package: babelbib 2019/03/11 v1.32 babelbib: multilingual bibliographies (HH)
-\c@btxromaniannumeral=\count317
+\c@btxromaniannumeral=\count318
 )
-\c@teorema=\count318
-\c@ejemplo=\count319
-\c@definicion=\count320
-\c@lema=\count321
+\c@teorema=\count319
+\c@ejemplo=\count320
+\c@definicion=\count321
+\c@lema=\count322
 
 
 Package Fancyhdr Warning: \fancyheadoffset's `E' option without twoside option 
@@ -726,8 +738,8 @@ is useless on input line 263.
 sty"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box70
-\beforetitleunit=\skip102
-\aftertitleunit=\skip103
+\beforetitleunit=\skip107
+\aftertitleunit=\skip108
 \ttl@plus=\dimen191
 \ttl@minus=\dimen192
 \ttl@toksa=\toks45
@@ -743,9 +755,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 "
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count322
-\Gm@cntv=\count323
-\c@Gm@tempcnt=\count324
+\Gm@cnth=\count323
+\Gm@cntv=\count324
+\c@Gm@tempcnt=\count325
 \Gm@bindingoffset=\dimen196
 \Gm@wd@mp=\dimen197
 \Gm@odd@mp=\dimen198
@@ -774,7 +786,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 414.
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count325
+\l__kernel_color_stack_int=\count326
 \l__pdf_internal_box=\box71
 )
 
@@ -814,16 +826,16 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
+\scratchcounter=\count327
 \scratchdimen=\dimen260
 \scratchbox=\box72
-\nofMPsegments=\count327
-\nofMParguments=\count328
+\nofMPsegments=\count328
+\nofMParguments=\count329
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count329
+\MPscratchCnt=\count330
 \MPscratchDim=\dimen261
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
 \everyMPtoPDFconversion=\toks48
 )
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
@@ -847,7 +859,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count332
+\c@section@level=\count333
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -865,8 +877,15 @@ sty"
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count333
+\c@lstlisting=\count334
+\c@maskedRefs=\count335
 
+("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apacite\spanish.ap
+c"
+File: spanish.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 138.
+LaTeX Info: Redefining \BHBI on input line 139.
+)
 babelbib: Set bibliography fall-back language to spanish
 
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babelbib\spanish.b
@@ -1074,41 +1093,64 @@ File: images/The3Dprintinghypecycle.png Graphic file (type png)
 Package pdftex.def Info: images/The3Dprintinghypecycle.png  used on input line 
 32.
 (pdftex.def)             Requested size: 412.56497pt x 233.78758pt.
-)
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+[5]
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+ [6 <./images/The3Dprintinghypecycle.png>])
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [5]
-Overfull \vbox (678.90698pt too high) has occurred while \output is active []
+ [7]
+Overfull \vbox (360.0097pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 
-[6 <./images/The3Dprintinghypecycle.png>] (tesis-pregrado.bbl
+[8] (tesis-pregrado.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 3Dhub (2018).  What is 3d prin-ting? the de-fi-ni-ti-ve gui-d
 e.
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 21--25
+Overfull \hbox (39.74565pt too wide) in paragraph at lines 9--13
+\OT1/cmr/m/n/12 https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID
+/6262/Infographic-
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 33--37
 []\OT1/cmr/m/n/12 leao, L. (2017).  Cad vs cae vs cam: What is the dif-fe-ren-c
 e?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--25
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
 \OT1/cmr/m/n/12 https://www.e3seriescenters.com/modern-electrical-engineering-b
 log/cad-
  []
 
-) [7
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+[]\OT1/cmr/m/n/12 Maxey, K. (2013).  In-fo-graphic: The his-tory of 3d prin-tin
+g.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+\OT1/cmr/m/n/12 engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/In
+fographic-
+ []
+
+) [9
 
 
 
 ]
 \openout2 = `chapters/Apendice-1.aux'.
 
- (chapters/Apendice-1.tex) [8
+ (chapters/Apendice-1.tex) [10
 
 
 ]
@@ -1127,21 +1169,21 @@ Package rerunfilecheck Info: File `tesis-pregrado.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 15772 strings out of 480930
- 237525 string characters out of 2899761
- 689648 words of memory out of 3000000
- 31156 multiletter control sequences out of 15000+200000
+ 16183 strings out of 480930
+ 242996 string characters out of 2899761
+ 688648 words of memory out of 3000000
+ 31555 multiletter control sequences out of 15000+200000
  542804 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,49p,1228b,673s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,12n,49p,1425b,673s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Pblor/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tesis-pregrado.pdf (18 pages, 330003 bytes).
+Output written on tesis-pregrado.pdf (20 pages, 337424 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
  379 words of extra memory for PDF output out of 10000 (max. 10000000)
 

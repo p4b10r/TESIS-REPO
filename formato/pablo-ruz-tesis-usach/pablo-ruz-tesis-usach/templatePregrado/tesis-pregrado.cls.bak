@@ -166,7 +166,7 @@
 	backgroundcolor=\color{gray75},
 }
 %--------Bibliografia
-%\RequirePackage{apacite}
+\RequirePackage{apacite}
 \RequirePackage{natbib}
 \RequirePackage{tocbibind} % Agregar referencias al índice
 \RequirePackage[fixlanguage]{babelbib}
