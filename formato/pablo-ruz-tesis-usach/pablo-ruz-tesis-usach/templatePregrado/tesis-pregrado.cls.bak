@@ -3,7 +3,7 @@
 % Agradecimiento por aportes a:
 % Rodrigo Campos
 % Hugo Meneses
-\ProvidesClass{tesis}[2012/08/01 v1.2 Estilo para tesis (Emir Munoz)]
+\ProvidesClass{tesis}[2020/05/18 v1.2 Estilo para tesis)]
 \newif\ifkeys\keysfalse
 \newif\iftxfonts\txfontsfalse
 \newif\ifdosguias\dosguiasfalse

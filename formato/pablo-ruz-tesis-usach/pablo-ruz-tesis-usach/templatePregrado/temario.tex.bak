@@ -1,0 +1,96 @@
+\section{Temario}
+\label{temario}
+
+
+\subsection{Capítulo I Descripción del proyecto}
+		\begin{enumerate}
+			\item Objeto de estudio
+			\item Planteamiento del problema
+			\item Objetivos
+				\begin{enumerate}
+					\item Objetivo General
+					\item Objetivos específicos 
+				\end{enumerate}		
+		\end{enumerate}
+		
+\subsection{Capítulo II Marco teórico}
+
+		\begin{enumerate}
+			\item Impresora 3D
+				\begin{enumerate}
+					\item Historia de la impresión 3D	
+					\item Métodos de impresión 3D
+					\item Impresoras 3D FDM
+					\item Tipologías de impresoras 3D FDM 
+					\item Componentes de Impresoras 3D FDM	
+				\end{enumerate}
+			\item Mantenimiento
+				\begin{enumerate}
+					\item Historia y evolución del mantenimiento
+					\item Tipos de mantenimiento
+					\item GMAO 
+					
+				\end{enumerate}					
+			\item Lean Manufacturing
+				\begin{enumerate}
+					\item Historia Lean Manufacturing
+					\item Herramientas de mantenimiento
+				\end{enumerate}
+			\item Design Thinking y Scrum
+				\begin{enumerate}
+					\item Metodologías ágiles 
+					\item Scrum 					
+					\item Design Thinking
+					\item Fases del Design Thinking
+					\item Herramientas para el diseño de software
+				\end{enumerate}
+			\item Desarrollo de Software
+				\begin{enumerate}	
+					\item Programación orientada a objetos
+					\item Lenguajes de programación
+					\item Arquitectura Cliente-Servidor
+					\item Ordenadores de placa reducida 
+				\end{enumerate}						
+		\end{enumerate}
+		
+\subsection{Capítulo III Estado del Arte}
+	
+		\begin{enumerate}
+			\item Software GMAO
+			\item Software Gestión de la impresión 3D
+			\item Design Thinking enfocado en Software
+		\end{enumerate}
+	
+\subsection{Capítulo IV Desarrollo del proyecto}
+
+		\begin{enumerate}
+			\item Descripción de la Empresa 
+			\item Descripción del Problema 
+			\item Aplicación de Design Thinking para el desarrollo de Software con metodologías ágiles
+				\begin{enumerate}
+					\item Toma de requerimientos de usuario
+					\item Desarrollo de iteraciones
+					\item Verificación y validación de usuario.		
+				\end{enumerate}		
+		\end{enumerate}
+		
+		
+\subsection{Capítulo V Resultados}
+		
+	
+		\begin{enumerate}
+			\item Situación actual de la empresa 
+			\item Realización de pruebas
+			\item Definición de indicadores
+			\item Toma y comparativa de métricas 
+			\item Elaboración de documentación 
+		
+		\end{enumerate}
+		
+\subsection{Capítulo VI Conclusiones y observaciones}
+
+\subsection{Bibliografía}
+\subsection{Anexos}
+	
+	
+

@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  17 MAY 2020 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  18 MAY 2020 22:32
 entering extended mode
-**./tesis-pregrado.tex
-(tesis-pregrado.tex
+**./Avance-de-tesis.tex
+(Avance-de-tesis.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-04-06> (tesis-pregrado.cls
 
 LaTeX Warning: You have requested document class `tesis-pregrado',
                but the document class provides `tesis'.
 
-Document Class: tesis 2012/08/01 v1.2 Estilo para tesis (Emir Munoz)
+Document Class: tesis 2020/05/18 v1.2 Estilo para tesis)
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\book.cls"
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\bk12.clo"
@@ -793,32 +793,30 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [fullpage].
 
-(tesis-pregrado.aux (cubierta.aux)
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
- (chapters/gracias.aux)
-(chapters/dedicatoria.aux) (chapters/abstract.aux) (chapters/1-intro.aux)
-(chapters/2-preliminares.aux) (chapters/Apendice-1.aux))
-\openout1 = `tesis-pregrado.aux'.
+(Avance-de-tesis.aux (cubierta.aux)
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ (Objetivos-y-alcances.aux) (temario.aux))
+\openout1 = `Avance-de-tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -845,7 +843,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 6.
+Package hyperref Info: Link coloring ON on input line 10.
 
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -861,12 +859,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
- (tesis-pregrado.out) (tesis-pregrado.out)
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
+ (Avance-de-tesis.out) (Avance-de-tesis.out)
 \@outlinefile=\write6
-\openout6 = `tesis-pregrado.out'.
+\openout6 = `Avance-de-tesis.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
@@ -934,7 +932,7 @@ babelbib: Set language for keywords in the bibliography fixed to spanish
 \openout2 = `cubierta.aux'.
 
 (cubierta.tex
-<./images/LogoUsach.pdf, id=187, 317.98799pt x 357.0138pt>
+<./images/LogoUsach.pdf, id=55, 317.98799pt x 357.0138pt>
 File: ./images/LogoUsach.pdf Graphic file (type pdf)
 <use ./images/LogoUsach.pdf>
 Package pdftex.def Info: ./images/LogoUsach.pdf  used on input line 19.
@@ -964,226 +962,70 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 
+
 {C:/Users/Pblor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/Lo
 goUsach.pdf>]
-\openout2 = `chapters/gracias.aux'.
+\openout2 = `Objetivos-y-alcances.aux'.
 
- (chapters/gracias.tex)
-Overfull \vbox (7.96431pt too high) has occurred while \output is active []
-
-
-[1
-
-
-
-]
-\openout2 = `chapters/dedicatoria.aux'.
-
- (chapters/dedicatoria.tex) [2
-
-
-]
-\openout2 = `chapters/abstract.aux'.
-
- (chapters/abstract.tex
+ (Objetivos-y-alcances.tex
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Overfull \vbox (7.96431pt too high) has occurred while \output is active []
-
-
-[3
-
-
-])
-Overfull \vbox (7.96431pt too high) has occurred while \output is active []
-
-
-[4] (tesis-pregrado.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [5
-
-
-])
-\tf@toc=\write7
-\openout7 = `tesis-pregrado.toc'.
-
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
-Make it at least 15.71667pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[6] (tesis-pregrado.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lof=\write8
-\openout8 = `tesis-pregrado.lof'.
-
- [7
-
-] (tesis-pregrado.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lot=\write9
-\openout9 = `tesis-pregrado.lot'.
-
- [8
-
-] (tesis-pregrado.loa)
-\tf@loa=\write10
-\openout10 = `tesis-pregrado.loa'.
-
-
-[9
-
-]
-\openout2 = `chapters/1-intro.aux'.
-
- (chapters/1-intro.tex
-Cap\'itulo 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 	\item E
-             laborar registros y fichas técnicas de impresoras 3D. [1
-
-
-
-]
-Underfull \hbox (badness 1348) in paragraph at lines 35--36
+Underfull \hbox (badness 1348) in paragraph at lines 17--18
 []\OT1/cmr/m/n/12 Establecer relaciones matematicas que permitan entregar indi
 cadores
  []
 
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
-[2])
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
- [3]
-\openout2 = `chapters/2-preliminares.aux'.
 
- (chapters/2-preliminares.tex
-Cap\'itulo 2.
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[2
 
- []
 
-[4
+]) [3]
+\openout2 = `temario.aux'.
 
+ (temario.tex [4
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
+Underfull \hbox (badness 1859) in paragraph at lines 69--71
+[]\OT1/cmr/m/n/12 Aplicacion de Design Thinking para el desarrollo de Software
+ con
  []
 
-<images/The3Dprintinghypecycle.png, id=331, 903.375pt x 511.9125pt>
-File: images/The3Dprintinghypecycle.png Graphic file (type png)
-<use images/The3Dprintinghypecycle.png>
-Package pdftex.def Info: images/The3Dprintinghypecycle.png  used on input line 
-32.
-(pdftex.def)             Requested size: 412.56497pt x 233.78758pt.
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
-[5]
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
- [6 <./images/The3Dprintinghypecycle.png>])
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- [7]
-Overfull \vbox (360.0097pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-
-[8] (tesis-pregrado.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
-[]\OT1/cmr/m/n/12 3Dhub (2018).  What is 3d prin-ting? the de-fi-ni-ti-ve gui-d
-e.
- []
-
-
-Overfull \hbox (39.74565pt too wide) in paragraph at lines 9--13
-\OT1/cmr/m/n/12 https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID
-/6262/Infographic-
- []
-
-
-Underfull \hbox (badness 7595) in paragraph at lines 33--37
-[]\OT1/cmr/m/n/12 leao, L. (2017).  Cad vs cae vs cam: What is the dif-fe-ren-c
-e?
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-\OT1/cmr/m/n/12 https://www.e3seriescenters.com/modern-electrical-engineering-b
-log/cad-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
-[]\OT1/cmr/m/n/12 Maxey, K. (2013).  In-fo-graphic: The his-tory of 3d prin-tin
-g.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
-\OT1/cmr/m/n/12 engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/In
-fographic-
- []
-
-) [9
-
-
-
-]
-\openout2 = `chapters/Apendice-1.aux'.
-
- (chapters/Apendice-1.tex) [10
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
- (tesis-pregrado.aux (cubierta.aux)
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
-
-(chapters/gracias.aux) (chapters/dedicatoria.aux) (chapters/abstract.aux)
-(chapters/1-intro.aux) (chapters/2-preliminares.aux) (chapters/Apendice-1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
-Package rerunfilecheck Info: File `tesis-pregrado.out' has not changed.
-(rerunfilecheck)             Checksum: 590A7E92EF1796C826F5FBA2F9050C66;3413.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+[5]) [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
+ (Avance-de-tesis.aux (cubierta.aux)
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ (Objetivos-y-alcances.aux)
+(temario.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+Package rerunfilecheck Info: File `Avance-de-tesis.out' has not changed.
+(rerunfilecheck)             Checksum: B9D612A14369B62849A37285EF878060;1038.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 16183 strings out of 480930
- 242996 string characters out of 2899761
- 688648 words of memory out of 3000000
- 31555 multiletter control sequences out of 15000+200000
- 542804 words of font info for 64 fonts, out of 3000000 for 9000
+ 16015 strings out of 480930
+ 238022 string characters out of 2899761
+ 685637 words of memory out of 3000000
+ 31450 multiletter control sequences out of 15000+200000
+ 542198 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,49p,1425b,673s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,11n,49p,420b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Pblor/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tesis-pregrado.pdf (20 pages, 337424 bytes).
+nts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Avance-de-tesis.pdf (6 pages, 128452 bytes).
 PDF statistics:
- 412 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

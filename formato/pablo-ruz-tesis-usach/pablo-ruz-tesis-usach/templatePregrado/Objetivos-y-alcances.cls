@@ -1,9 +1,10 @@
+%identificación 
+
 \NeedsTeXFormat{LaTeX2e}
-% Estilo original para tesis de Victor Munoz
-% Agradecimiento por aportes a:
-% Rodrigo Campos
-% Hugo Meneses
-\ProvidesClass{tesis}[2020/05/18 v1.2 Estilo para tesis)]
+\ProvidesClass{formato-de-avance}[2020/05/18 formato de avances de tesis]
+
+%declaraciones preliminares
+
 \newif\ifkeys\keysfalse
 \newif\iftxfonts\txfontsfalse
 \newif\ifdosguias\dosguiasfalse
@@ -22,24 +23,6 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
 \LoadClass[oneside,12pt,a4paper,fullpage]{book}
-
-%%   Modificado desde `book.cls'.
-%%
-%%   Modificado para que 
-%%   1) El default sea `oneside,12pt'
-%%   2) Los nombres de secciones aparezcan en castellano
-%%   3) La fecha aparezca en castellano
-%%   4) Bibliografia aparezca bien acentuada en heading
-%%   5) Los headings contengan el numero de pagina y capitulo.
-%%   6) Los margenes sean: Superior = 3cm, Inferior = 3cm, Izquierdo = 4cm, Derecho = 2,5cm.
-%%   7) El argumento opcional de \chapter vaya a Indice.
-%%   8) Las Referencias aparezcan en Indice.
-%%   9) Indice General -> Indice
-%%   
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tesis.cls %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%--------Archivos suplementarios
 \RequirePackage[spanish]{babel}
 \RequirePackage[utf8x]{inputenc}
 % \RequirePackage[latin1]{inputenc}
@@ -581,3 +564,5 @@
 \endinput
 %% 
 %% End of file `tesis.cls'.
+
+
