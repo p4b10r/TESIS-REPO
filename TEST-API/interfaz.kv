@@ -1,0 +1,105 @@
+<Contenedor>:
+    id: contenedor
+    orientation: 'vertical'
+    spacing: 5
+    padding: 5
+    canvas:
+        Color:		
+            rgb: 0,0,0
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+    BoxLayout:
+
+        id: Boxmenu
+        size_hint: 1,0.1
+        canvas:
+            Color:
+                rgba: 1,1,1,0.9
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Button:
+            text: 'Boton1'
+        Button:
+            text: 'Boton2'
+        Button:
+            text: 'Boton3'
+        Button:
+            text: 'Boton4'
+
+    BoxLayout:
+        id: Boxpanel
+        spacing: 5
+        padding: 5
+        orientation: 'horizontal'
+        size_hint: 1,1
+        canvas:
+            Color:
+                rgb: 0,1,0
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        PanelApi:
+        PanelMaquina:
+
+
+<PanelApi>:
+    orientation: 'vertical'
+    BoxLayout:
+        size_hint: 1,1
+        canvas:
+            Color:
+                rgb: 1,1,0
+            Rectangle:
+                size: self.size
+                pos: self.pos
+    BoxLayout:
+        size_hint: 1,1
+        canvas:
+            Color:
+                rgb: 1,0,0
+            Rectangle:
+                size: self.size
+                pos: self.pos
+
+<PanelMaquina>:
+    orientation: 'vertical'
+    BoxLayout:
+        size_hint: 1,1
+        canvas:
+            Color:
+                rgb: 1,0.5,0.5
+            Rectangle:
+                size: self.size
+                pos: self.pos
+    BoxLayout:
+        size_hint: 1,1
+        canvas:
+            Color:
+                rgb: 0.5,0.5,1
+            Rectangle:
+                size: self.size
+                pos: self.pos
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		
+					
+    	
+
+
+
