@@ -1,0 +1,109 @@
+========MOVIMIENTO: /api/printer/printhead=========
+
+===HOME====
+
+X:POST
+{
+	"command": "home",
+	"axes":"x"
+}
+Y:POST
+{
+	"command": "home",
+	"axes":"y"
+}
+Z:POST
+{
+	"command": "home",
+	"axes":"z"
+}
+ALLHOME: POST
+{
+  "command": "home",
+  "axes": ["x", "y","z"]
+}
+
+
+===JOG====
+
+X:POST
+{
+  "command": "jog",
+  "x": -40,
+  "speed":5000
+}
+Y:POST
+{
+  "command": "jog",
+  "y": -40,
+  "speed":5000
+}
+Z:POST
+{
+  "command": "jog",
+  "z": -40,
+  "speed":5000
+}
+
+FEEDRATE:POST
+
+{
+  "command": "feedrate",
+  "factor": 105
+}
+
+========TEMPERATURA EXTRUSOR: /api/printer/tool=========
+
+===EXTRUSOR===
+
+TARGET:POST
+
+{
+  "command": "target",
+  "targets": {
+    "tool0": 220
+  }
+}
+
+EXTRUIR:POST
+
+{
+  "command": "extrude",
+  "amount": 5
+}
+
+FLOWRATE: POST
+
+{
+  "command": "flowrate",
+  "factor": 0.95
+}
+
+
+========TEMPERATURA CAMA: /api/printer/bed============
+
+  
+BED: POST
+
+{
+  "command": "target",
+  "target": 75
+}
+
+
+=========STATUS: EXTRUSOR  /api/printer/tool?history=true&limit=2==========
+
+{
+  "status":"history"
+}
+
+=========STATUS: CAMA  /api/printer/tool?history=true&limit=2==========
+
+{
+  "status":"history"
+}
+
+
+
+
+

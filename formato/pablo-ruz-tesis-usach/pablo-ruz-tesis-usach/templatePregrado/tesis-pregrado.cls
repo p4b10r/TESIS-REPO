@@ -113,9 +113,9 @@
 %    language=[Visual]C++,
 	frame=Ltb,
 	framerule=0pt,
-	aboveskip=0.2cm,%0.5cm
-	framextopmargin=1pt, %3pt
-	framexbottommargin=1pt, %4pt
+	aboveskip=0.4cm,%0.5cm
+	framextopmargin=3pt, %3pt
+	framexbottommargin=3pt, %4pt
 	framexleftmargin=0cm,
 	framesep=0pt,
 	rulesep=.4pt,
@@ -325,7 +325,7 @@
 \RequirePackage[a4paper,nohead,nofoot]{geometry}
 % Estos margenes estan considerando la diferencia entre
 % los formatos A4 y Letter (carta)
-\geometry{top=4cm, bottom=2.5cm, left=4cm, right=2.5cm}
+\geometry{top=4cm, bottom=4cm, left=4cm, right=2.5cm}
 %--------Otros margenes
 \setlength{\parindent}{2cm}%2cm Tabulación
 \setlength{\headsep}{20pt}

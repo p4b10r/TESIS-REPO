@@ -18,7 +18,7 @@ Para la consecución del objetivo general, se plantean las siguientes metas inte
 	\item Diseñar funciones que permitan gestionar los datos de hardware y software para determinación de indicadores.
 	\item Diseñar interfaz de aplicación orientado al usuario. 
 	
-\end{enumerate} \ldots 
+\end{enumerate} 
 \subsection{Alcances}
 
 Se pretende desarrollar una Interfaz Programable de Aplicación utilizando como base el software Octoprint, pudiendo controlar, monitorizar en tiempo real el funcionamiento de varias impresoras 3D, y entregar indicadores para gestionar la producción y el mantenimiento de las máquinas. Para esto, se toman en cuenta los siguientes alcances:
