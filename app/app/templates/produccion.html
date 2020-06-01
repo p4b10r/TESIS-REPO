@@ -1,0 +1,49 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+
+{% with messages = get_flashed_messages()%}
+{% if messages%}
+{% for message in messages%}
+<p>{{messages}}</p>
+{% endfor%}
+{% endif %}
+{% endwith%}
+<form action="/agregar_op" method="POST">
+  <input type="text" name="OP" placeholder="OP">
+  <input type="text" name="Producto" placeholder="Producto">
+  <input type="text" name="Pieza" placeholder="Pieza">>
+  <button type="submit">
+  Enviar
+</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <td>OP</td>
+      <td>Producto</td>
+      <td>Pieza</td>
+      <td>Total</td>
+      <td>Actual</td>
+      <td>Operaciones</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    {% for proceso in procesos %}
+    <tr>
+      <td>{{ proceso.1 }}</td>
+      <td>{{ proceso.2 }}</td>
+      <td>{{ proceso.3 }}</td>
+      <td>{{ proceso.4 }}</td>
+      <td>{{ proceso.5 }}</td>
+      <td><a href="/terminar_op/{{proceso.0}}">Finalizar</a></td>
+
+    </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+{% endblock %}
