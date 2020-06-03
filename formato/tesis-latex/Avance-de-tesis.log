@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  2 JUN 2020 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  2 JUN 2020 22:34
 entering extended mode
 **./Avance-de-tesis.tex
 (Avance-de-tesis.tex
@@ -982,7 +982,9 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
 9.
 
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/stmaryrd\ustmry.fd
-")) [1
+") ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)) [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
@@ -993,9 +995,6 @@ goUsach.pdf>]
 \openout2 = `resumen.aux'.
 
  (resumen.tex
-("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 3.
 LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <12> not available
@@ -1057,28 +1056,24 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 20.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 20.
 Package rerunfilecheck Info: File `Avance-de-tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 7F5B662FF1D6FDA32CC826B18FCB870D;1140.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 20.
  ) 
 Here is how much of TeX's memory you used:
- 16271 strings out of 480930
- 239778 string characters out of 2899761
+ 16270 strings out of 480930
+ 239771 string characters out of 2899761
  686807 words of memory out of 3000000
  31665 multiletter control sequences out of 15000+200000
  581746 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,49p,2664b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,11n,49p,2579b,547s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a
 .pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua
 1r8a.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/aria
 l/ua1ri8a.pfb>
-Output written on Avance-de-tesis.pdf (10 pages, 119553 bytes).
+Output written on Avance-de-tesis.pdf (10 pages, 119436 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
