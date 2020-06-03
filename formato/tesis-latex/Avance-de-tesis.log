@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  2 JUN 2020 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  2 JUN 2020 22:27
 entering extended mode
 **./Avance-de-tesis.tex
 (Avance-de-tesis.tex
@@ -802,7 +802,8 @@ LaTeX Warning: Unused global option(s):
 (Avance-de-tesis.aux (cubierta.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- (Objetivos-y-alcances.aux) (temario.aux))
+ (resumen.aux) (Objetivos-y-alcances.aux)
+(temario.aux))
 \openout1 = `Avance-de-tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -946,7 +947,7 @@ babelbib: Set language for keywords in the bibliography fixed to spanish
 \openout2 = `cubierta.aux'.
 
 (cubierta.tex
-<./images/LogoUsach.pdf, id=55, 317.98799pt x 357.0138pt>
+<./images/LogoUsach.pdf, id=63, 317.98799pt x 357.0138pt>
 File: ./images/LogoUsach.pdf Graphic file (type pdf)
 <use ./images/LogoUsach.pdf>
 Package pdftex.def Info: ./images/LogoUsach.pdf  used on input line 19.
@@ -989,12 +990,32 @@ Non-PDF special ignored!
 
 {C:/Users/Pblor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/Lo
 goUsach.pdf>]
-\openout2 = `Objetivos-y-alcances.aux'.
+\openout2 = `resumen.aux'.
 
- (Objetivos-y-alcances.tex
+ (resumen.tex
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 3.
+LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <12> not available
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 6.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 6.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2
+
+
+] [3] [4])
+\openout2 = `Objetivos-y-alcances.aux'.
+
+ (Objetivos-y-alcances.tex
 Underfull \hbox (badness 1852) in paragraph at lines 17--18
 []\T1/ua1/m/n/12 Establecer relaciones matemáticas que permitan entregar indica
 dores
@@ -1006,17 +1027,8 @@ Underfull \hbox (badness 1701) in paragraph at lines 24--25
 
  []
 
-LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <12> not available
-(Font)              Font shape `T1/ua1/m/it' tried instead on input line 25.
-LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 25.
+[5
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[2
 
 
 ]
@@ -1025,46 +1037,48 @@ Underfull \hbox (badness 1394) in paragraph at lines 32--33
 mos y
  []
 
-) [3]
+) [6]
 \openout2 = `temario.aux'.
 
- (temario.tex [4
+ (temario.tex [7
 
 
-] [5
+] [8] [9
 
-] [6
-
-]) [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
+] [10])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 20.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 20.
  (Avance-de-tesis.aux (cubierta.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
-(Objetivos-y-alcances.aux) (temario.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+(resumen.aux) (Objetivos-y-alcances.aux) (temario.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 20.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 20.
 Package rerunfilecheck Info: File `Avance-de-tesis.out' has not changed.
-(rerunfilecheck)             Checksum: B9D612A14369B62849A37285EF878060;1038.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
+(rerunfilecheck)             Checksum: 7F5B662FF1D6FDA32CC826B18FCB870D;1140.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 20.
  ) 
 Here is how much of TeX's memory you used:
- 16246 strings out of 480930
- 239388 string characters out of 2899761
- 684807 words of memory out of 3000000
- 31658 multiletter control sequences out of 15000+200000
+ 16271 strings out of 480930
+ 239778 string characters out of 2899761
+ 686807 words of memory out of 3000000
+ 31665 multiletter control sequences out of 15000+200000
  581746 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,49p,420b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,11n,49p,2664b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a
 .pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua
 1r8a.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/aria
 l/ua1ri8a.pfb>
-Output written on Avance-de-tesis.pdf (7 pages, 109402 bytes).
+Output written on Avance-de-tesis.pdf (10 pages, 119553 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

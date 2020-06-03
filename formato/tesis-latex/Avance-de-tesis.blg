@@ -2,13 +2,14 @@ This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Avance-de-tesis.aux
 A level-1 auxiliary file: cubierta.aux
+A level-1 auxiliary file: resumen.aux
 A level-1 auxiliary file: Objetivos-y-alcances.aux
 A level-1 auxiliary file: temario.aux
 I found no \bibdata command---while reading file Avance-de-tesis.aux
 I found no \bibstyle command---while reading file Avance-de-tesis.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            86 strings with 551 characters,
+            87 strings with 562 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

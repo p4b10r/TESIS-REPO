@@ -30,32 +30,32 @@
 			\item Mantenimiento
 				\begin{enumerate}
 					\item Historia y evolución del mantenimiento
-					\item Tipos de mantenimiento
+					\item Mantenimiento Correctivo
+					\item Mantenimiento Preventivo
+					\item Mantenimiento Centrado en la Condición
+					\item Mantenimiento Centrado en la Confiabilidad
+					\item Modelos de Confiabilidad
 					\item GMAO 
 					\item PAS 55 e ISO 55000
-					\clearpage
+					
 				\end{enumerate}					
 			\item Lean Manufacturing
 				\begin{enumerate}
 					\item Historia Lean Manufacturing
 					\item Herramientas de mantenimiento
 				\end{enumerate}
-			\item Design Thinking y Scrum
+			\item Design Thinking
 				\begin{enumerate}
-					\item Metodologías ágiles 
-					\item Scrum 					
-					\item Design Thinking
+					\item Metodologías ágiles								\item Design Thinking
 					\item Fases del Design Thinking
 					\item Herramientas para el diseño de software
 				\end{enumerate}
-			\item Desarrollo de Software
+			\item Herramientas de Software
 				\begin{enumerate}	
-					\item Programación orientada a objetos
-					\item Python
-					\item HTML
-					\item CSS
-					\item JSON
-					\item SQL
+					\item Lenguajes de programación orientada a objetos
+					\item Lenguajes de Hojas de Estilo
+					\item Bases de datos 
+					\item Formato de intercambio de datos
 					\item API  
 					\item Arquitectura Cliente-Servidor
 					\item Ordenadores de placa reducida 
@@ -67,7 +67,7 @@
 		\begin{enumerate}
 			\item Software GMAO
 			\item Software Gestión de la impresión 3D
-			\item Design Thinking enfocado en Software
+			\item Design Thinking enfocado en Software 
 		\end{enumerate}
 	
 \subsection{Capítulo IV Desarrollo del proyecto}
@@ -100,6 +100,6 @@
 
 \subsection{Bibliografía}
 \subsection{Anexos}
-	
+\clearpage	
 	
 

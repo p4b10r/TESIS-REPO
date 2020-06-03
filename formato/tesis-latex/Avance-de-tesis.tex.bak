@@ -10,15 +10,11 @@
 \begin{document}
 \nocite{*}
 \setcounter{chapter}{1}
-
 \baselineskip 23pt
 \thispagestyle{empty}
 \include{cubierta}
-
+\include{resumen}
 \include{Objetivos-y-alcances}
 \include{temario}
 \label{temario}
-
-
-
 \end{document}
