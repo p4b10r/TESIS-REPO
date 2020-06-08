@@ -5,17 +5,43 @@
 <!DOCTYPE html>
 <html scr="estadoactual" lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <p>{{ bed_data }}</p>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+<h1>Estado Actual</h1>
 
 
+<table>
+  <tr>
+    <td>T° Cama [°C]</td>
+    <td>{{ bed_data }}</td>
+  </tr>
+  <tr>
+    <td>T° Boquilla [°C]</td>
+    <td>{{ tool_data }}</td>
+  </tr>
+  <tr>
+    <td>Puerto USB</td>
+    <td>{{ conn_dataport }}</td>
+  </tr>
+  <tr>
+    <td>Estado</td>
+    <td>{{ conn_datastate}}</td>
+  </tr>
+</table>
 
-  </body>
+</body>
+
 </html>
+
+
+
+
+
+
+
 
 
 

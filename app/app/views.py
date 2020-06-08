@@ -39,32 +39,32 @@ def EstadoActual(): #se define la función estado actual que no recibe parámetr
     PARAMS = {'Content-Type': 'application/json','X-Api-Key': api_token, 'form-data': form_data}
 
     #Data de bed y tool para solicitud GET
-
-    #data_conn=json.dumps({'status':'current'})
+    data_bt={'status':'history'}
+    data_conn=json.dumps({'status':'current'})
     #data_job=json.dumps({'status':'job'})
     #data_progress=json.dumps({'status':'progress'})
     #data_state=json.dumps({'status':'state'})
     #Método GET request para data de bed y tool, con los parámetros de URL, headers y json de consulta
-
-    #r_tool=requests.get(url=api_url_tool, headers=PARAMS, json=data_bt).json()
-    #r_conn=requests.get(url=api_url_connection, headers=PARAMS, json=data_conn).json()
+    r_bed=requests.get(url=api_url_bed, headers=PARAMS, json=data_bt)
+    r_tool=requests.get(url=api_url_tool, headers=PARAMS, json=data_bt)
+    r_conn=requests.get(url=api_url_connection, headers=PARAMS, json=data_conn)
     #r_job=requests.get(url=api_url_job, headers=PARAMS, json=data_job).json()
     #r_progress=requests.get(url=api_url_job, headers=PARAMS, json=data_progress).json()
     #r_state=requests.get(url=api_url_job, headers=PARAMS, json=data_state).json()
     #json data de bed y tool
 
-    #tool_data=json.dumps(r_tool)
-    #conn_data=json.dumps(r_conn)
-    #job_data=json.dumps(r_job)
-    #progress_data=json.dumps(r_progress)
-    #state_data=json.dumps(form_data)
-    data_bt={'status':'history'}
-    r_bed=requests.get(url=api_url_bed, headers=PARAMS, json=data_bt)
     r_bed=json.loads(r_bed.content)
-    r_bed=str(r_bed["bed"]["actual"])
+    r_tool=json.loads(r_tool.content)
+    r_conn=json.loads(r_conn.content)
 
-    return r_bed
-    #return render_template('interfaz.html', bed_data=bed_data, tool_data=tool_data, conn_data=conn_data, job_data=job_data, progress_data=progress_data, state_data=state_data)
+    bed_data=str(r_bed["bed"]["actual"])
+    tool_data=str(r_tool["tool0"]["actual"])
+    conn_dataport=r_conn["current"]["port"]
+    conn_datastate=r_conn["current"]["state"]
+
+
+    return render_template('interfaz.html', bed_data=bed_data, tool_data=tool_data, conn_dataport=conn_dataport, conn_datastate=conn_datastate)
+    #, job_data=job_data, progress_data=progress_data, state_data=state_data)
 
 @app.route('/produccion')
 def CentroProd():
