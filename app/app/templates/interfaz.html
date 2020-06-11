@@ -3,12 +3,14 @@
 {% block body %}
 
 <!DOCTYPE html>
-<html scr="estadoactual" lang="en" dir="ltr">
+<html src="estadoactual" lang="en" dir="ltr">
+
+
 
 <head>
 <meta charset="utf-8">
-<title></title>
 </head>
+
 <body>
 <h1>Estado Actual</h1>
 
@@ -19,17 +21,22 @@
     <td>{{ bed_data }}</td>
   </tr>
   <tr>
-    <td>T° Boquilla [°C]</td>
+    <td>T° Hta [°C]</td>
     <td>{{ tool_data }}</td>
   </tr>
   <tr>
-    <td>Puerto USB</td>
-    <td>{{ conn_dataport }}</td>
+    <td>Conexión</td>
+    <td> {{conn_data }}</td>
+  </tr>
+  <tr>
+    <td>Trabajo</td>
+    <td>{{ job_data }}</td>
   </tr>
   <tr>
     <td>Estado</td>
-    <td>{{ conn_datastate}}</td>
+    <td>{{ state_data }}</td>
   </tr>
+
 </table>
 
 </body>

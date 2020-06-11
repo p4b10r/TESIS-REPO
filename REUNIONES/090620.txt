@@ -1,0 +1,24 @@
+Reunión 
+
+Revisión del estado del arte, en contextos de la tecnología que se está usando
+tipos de modelos para el mantenimiento (desde donde se trabaja)
+
+Modelos de mantenimiento 
+
+Octoprint ocmo consecuencia
+
+gestion de activos
+
+diagramas de weibull
+
+estados probabilisticos
+
+Gemelos digitales
+
+EGAF UC 
+
+Título específico 
+
+
+
+
