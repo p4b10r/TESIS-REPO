@@ -1,5 +1,5 @@
 from flask import jsonify, request, redirect, url_for, flash
-import json
+import json, requests
 from app import app
 import urllib3
 from time import sleep
@@ -19,7 +19,7 @@ mysql=MySQL(app)
 #configuración sesion del servidor
 app.secret_key='mysecretkey'
 
-@app.route('/estadoactual',methods=['GET','POST'])
+@app.route('/estadoactual',methods=['GET'])
 def EstadoActual():
 
     bed_data=data.DataBed()["bed"]["actual"]
@@ -28,7 +28,16 @@ def EstadoActual():
     job_data=data.DataJob()["job"]
     state_data=data.DataState()["state"]
 
-    return render_template('interfaz.html', bed_data=bed_data, tool_data=tool_data, conn_data=conn_data, job_data=job_data, state_data=state_data)
+    return render_template('interfaz.html', bed_data=bed_data, tool_data=tool_data, job_data=job_data, state_data=state_data)
+
+@app.route('/conexion', methods=['GET','POST'])
+def Conexion():
+
+    conn=data.Connect()
+
+    return conn.request.method
+
+
 
 @app.route('/produccion')
 def CentroProd():

@@ -59,6 +59,82 @@ Con solo tres semanas de diferencia respecto a los investigadores franceses, Cha
 
 \section{Mantenimiento}
 
+\section{Confiabilidad}
+
+La confiabilidad puede ser definida como la "confianza que se tiene de que un componente, equipo o sistema desempeñe su función básica, durante un periodo de tiempo preestablecido, bajo condiciones estándares de operación; otra definición es la probabilidad de que un ítem pueda desempeñar su función requerida durante un intervalo establecido y bajo condiciones de uso definidas \citep{dairo2016}. Esta segunda definición da a entender que existen herramientas estadísticas que pueden ser utilizadas para obtener información acerca del cómo se comportan las fallas en el tiempo.
+
+\subsection{Función densidad de probabilidad}
+
+La función densidad de probabilidad puede describir la distribución de la probabilidad de una variable aleatoria continua $X$. Así, una función de densidad de probabilidad es una función tal que:
+
+\begin{enumerate}
+\item $f(x)\geqslant 0$
+\item $\int_{-\infty}^{\infty}f(x)dx=1$
+\item $P(a\geqslant X \geqslant b)=\int_{a}^{b}f(x)dx=$ área bajo $f(x$) de $a$ a $b$, para cualquier $a$ y $b$.
+\end{enumerate}
+
+Esta función proporciona una descripción simple de las probabilidades asociadas a una variable aleatoria.
+\subsection{Media y varianza de una variable continua}
+
+Si se tiene que $X$ es una variable aleatoria continua con función de densidad de probabilidad $f(x)$, se define la Media de $X$ como:
+
+\begin{equation*}
+\mu=E(X)=\int_{-\infty}^{\infty}xf(x)dx
+\end{equation*}
+
+Asimismo, la Varianza de $X$:
+
+\begin{equation*}
+\sigma^2=V(X)=\int_{-\infty}^{\infty}(x-\mu)^{2}f(x)dx=\int_{-\infty}^{\infty}x^{2}f(x)dx-\mu^2
+\end{equation*}
+
+La Desviación Estandar:
+
+\begin{equation*}
+\sigma=\sqrt{V(X)}
+\end{equation*}
+
+\subsection{Distribución normal}
+
+Variables aleatorias con medias y varianzas diferentes pueden modelares por medio de funciones de densidad de probabilidad normal, con la elección adecuada del centro y anchura de la curva. La función de densidad de probabilidad normal se define como:
+
+\begin{equation*}
+f(x)=\frac{1}{\sqrt{2\pi\sigma}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}  ,  -\infty<x<\infty
+\end{equation*}
+
+tiene una distribución normal con parámetros $\mu$, donde $-\infty<\mu<\infty$, y $\sigma>0$.\\
+
+Además,
+\begin{equation*}
+E(X)=\mu , V(x)=\sigma^2
+\end{equation*}
+
+\subsection{Distribución exponencial}
+
+La distribución exponencial debe su nombre a la función exponencial de la función de densidad de probabilidad. Así, la variable aleatoria $X$ (que es igual a la distancia entre conteos sucesivos de un proceso de Poisson con media $\lambda>0$ tiene una distribución exponencial con parámetro $\lambda$:
+
+\begin{equation*}
+f(x)=\lambda e^{-\lambda x}, 0<x<\infty
+\end{equation*}
+
+Si la variable tiene una distribución exponencial con parámetro $\lambda$:
+
+\begin{equation*}
+E(x)=\frac{1}{\lambda}, V(X)=\frac{1}{\lambda^2}
+\end{equation*}
+
+\subsection{Distribución de Weibull}
+
+La distribución de Weibull se utiliza con frecuencia para modelar el tiempo hasta que ocurre una falla en algún sistema. La variable aleatoria $X$ con función de densidad de probabilidad:
+
+\begin{equation*}
+f(x)=\frac{\beta}{\delta}\left( \frac{x}{\delta} \right)^{\beta-1}e^{\left( \frac{x}{\delta} \right)}{}^\beta
+\end{equation*}
+
+tiene una distribución de Weibull con parámetro de escala $\delta>0$ y parámetro de forma $\beta>0$.
+
+
+
 \subsection{Historia y evolución del mantenimiento}
 
 \subsection{Tipos de mantenimiento}

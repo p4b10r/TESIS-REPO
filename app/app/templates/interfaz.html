@@ -3,12 +3,13 @@
 {% block body %}
 
 <!DOCTYPE html>
+
 <html src="estadoactual" lang="en" dir="ltr">
 
-
-
 <head>
-<meta charset="utf-8">
+  <script src="./js/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="utf-8">
 </head>
 
 <body>
@@ -21,13 +22,16 @@
     <td>{{ bed_data }}</td>
   </tr>
   <tr>
+  <tr>
+    <td>T° Cama [°C]</td>
+    <td><div id="#temp"></div></td>
+  </tr>
+  <tr>
     <td>T° Hta [°C]</td>
     <td>{{ tool_data }}</td>
   </tr>
-  <tr>
-    <td>Conexión</td>
-    <td> {{conn_data }}</td>
-  </tr>
+
+
   <tr>
     <td>Trabajo</td>
     <td>{{ job_data }}</td>
@@ -38,7 +42,25 @@
   </tr>
 
 </table>
+  <script type="text/javascript">
 
+    $(document).ready(function(){
+      var Content_type="application/json";
+      var Api_Key="7AFEEA24F9F2465D8F6F58E2E4CF7898";
+      var Form_data="UTF-8";
+
+    $.ajax({
+          url: "http://octopi.local/api/printer/bed?history=true&limit=2",
+          data:{"status":"history"},
+          headers:{"Content-Type": Content_type,"X-Api-Key": Api_Key , "form-data": Form_data},
+          success: function (json) {
+            $(#temp).html(json);
+          };
+        });
+    });
+
+
+  </script>
 </body>
 
 </html>

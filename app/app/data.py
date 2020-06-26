@@ -8,6 +8,8 @@ form_data='UTF-8'
 
 headers={'Content-Type': 'application/json','X-Api-Key': api_token, 'form-data': form_data}
 
+
+
 def DataBed():
     api_url_bed='{}{}'.format(api_url_base, '/api/printer/bed?history=true&limit=2')
     dr_b={'status':'history'}

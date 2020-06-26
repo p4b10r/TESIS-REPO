@@ -1,0 +1,52 @@
+\BOOKMARK [0][]{chapter*.2}{\315ndice de Figuras}{}% 1
+\BOOKMARK [0][]{chapter*.3}{\315ndice de Tablas}{}% 2
+\BOOKMARK [0][]{chapter*.4}{\315ndice de Algoritmos}{}% 3
+\BOOKMARK [0][]{chapter.1}{1 Introducci\363n}{}% 4
+\BOOKMARK [1][]{section.1.1}{1.1 Antecedentes y motivaci\363n}{chapter.1}% 5
+\BOOKMARK [1][]{section.1.2}{1.2 Descripci\363n del problema}{chapter.1}% 6
+\BOOKMARK [1][]{section.1.3}{1.3 Soluci\363n propuesta}{chapter.1}% 7
+\BOOKMARK [1][]{section.1.4}{1.4 Objetivos y alcance del proyecto}{chapter.1}% 8
+\BOOKMARK [2][]{subsection.1.4.1}{1.4.1 Objetivo general}{section.1.4}% 9
+\BOOKMARK [2][]{subsection.1.4.2}{1.4.2 Objetivos espec\355ficos}{section.1.4}% 10
+\BOOKMARK [2][]{subsection.1.4.3}{1.4.3 Alcances}{section.1.4}% 11
+\BOOKMARK [1][]{section.1.5}{1.5 Metodolog\355a y herramientas utilizadas}{chapter.1}% 12
+\BOOKMARK [2][]{subsection.1.5.1}{1.5.1 Metodolog\355a}{section.1.5}% 13
+\BOOKMARK [2][]{subsection.1.5.2}{1.5.2 Herramientas de desarrollo}{section.1.5}% 14
+\BOOKMARK [1][]{section.1.6}{1.6 Resultados Obtenidos}{chapter.1}% 15
+\BOOKMARK [1][]{section.1.7}{1.7 Organizaci\363n del documento}{chapter.1}% 16
+\BOOKMARK [0][]{chapter.2}{2 Marco Te\363rico}{}% 17
+\BOOKMARK [1][]{section.2.1}{2.1 Impresi\363n 3D}{chapter.2}% 18
+\BOOKMARK [2][]{subsection.2.1.1}{2.1.1 Historia de la impresi\363n 3D}{section.2.1}% 19
+\BOOKMARK [2][]{subsection.2.1.2}{2.1.2 M\351todos de impresi\363n 3D}{section.2.1}% 20
+\BOOKMARK [2][]{subsection.2.1.3}{2.1.3 Impresoras 3D FDM}{section.2.1}% 21
+\BOOKMARK [2][]{subsection.2.1.4}{2.1.4 Tipolog\355as de impresi\363n 3D FDM}{section.2.1}% 22
+\BOOKMARK [1][]{section.2.2}{2.2 Mantenimiento}{chapter.2}% 23
+\BOOKMARK [1][]{section.2.3}{2.3 Confiabilidad}{chapter.2}% 24
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Funci\363n densidad de probabilidad}{section.2.3}% 25
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 Media y varianza de una variable continua}{section.2.3}% 26
+\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 Distribuci\363n normal}{section.2.3}% 27
+\BOOKMARK [2][]{subsection.2.3.4}{2.3.4 Distribuci\363n exponencial}{section.2.3}% 28
+\BOOKMARK [2][]{subsection.2.3.5}{2.3.5 Distribuci\363n de Weibull}{section.2.3}% 29
+\BOOKMARK [2][]{subsection.2.3.6}{2.3.6 Historia y evoluci\363n del mantenimiento}{section.2.3}% 30
+\BOOKMARK [2][]{subsection.2.3.7}{2.3.7 Tipos de mantenimiento}{section.2.3}% 31
+\BOOKMARK [2][]{subsection.2.3.8}{2.3.8 GMAO}{section.2.3}% 32
+\BOOKMARK [1][]{section.2.4}{2.4 Lean Manufacturing}{chapter.2}% 33
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Historia Lean Manufacturing}{section.2.4}% 34
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 Herramientas de mantenimiento}{section.2.4}% 35
+\BOOKMARK [1][]{section.2.5}{2.5 Design Thinking y Scrum}{chapter.2}% 36
+\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Metodolog\355as \341giles}{section.2.5}% 37
+\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 Scrum}{section.2.5}% 38
+\BOOKMARK [2][]{subsection.2.5.3}{2.5.3 Design Thinking}{section.2.5}% 39
+\BOOKMARK [2][]{subsection.2.5.4}{2.5.4 Fases del Design Thinking}{section.2.5}% 40
+\BOOKMARK [2][]{subsection.2.5.5}{2.5.5 Herramientas para dise\361o de Software}{section.2.5}% 41
+\BOOKMARK [1][]{section.2.6}{2.6 Desarrollo de Software}{chapter.2}% 42
+\BOOKMARK [2][]{subsection.2.6.1}{2.6.1 Programaci\363n orientada a objetos}{section.2.6}% 43
+\BOOKMARK [2][]{subsection.2.6.2}{2.6.2 Lenguajes de programaci\363n}{section.2.6}% 44
+\BOOKMARK [2][]{subsection.2.6.3}{2.6.3 Arquitectura Cliente-Servidor}{section.2.6}% 45
+\BOOKMARK [2][]{subsection.2.6.4}{2.6.4 API}{section.2.6}% 46
+\BOOKMARK [2][]{subsection.2.6.5}{2.6.5 Ordenadores de placa reducida}{section.2.6}% 47
+\BOOKMARK [0][]{chapter*.6}{Referencias}{}% 48
+\BOOKMARK [0][]{section*.7}{Ap\351ndices}{}% 49
+\BOOKMARK [0][]{appendix*.8}{Manual de Usuario}{}% 50
+\BOOKMARK [1][]{section.Alph0.1}{.1 Requerimientos}{appendix*.8}% 51
+\BOOKMARK [1][]{section.Alph0.2}{.2 Instalaci\363n}{appendix*.8}% 52
