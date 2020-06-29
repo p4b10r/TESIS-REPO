@@ -1,6 +1,4 @@
-%--------Preliminares
-%--------Emir Muñoz Jiménez
-%--------13-10-2010
+
 
 \chapter{Marco Te\'orico}
 \label{cap:preliminares}
@@ -59,22 +57,73 @@ Con solo tres semanas de diferencia respecto a los investigadores franceses, Cha
 
 \section{Mantenimiento}
 
-\section{Confiabilidad}
+\subsection{Historia y evolución del mantenimiento}
+
+Si bien no existe precisión histórica o documentación para establecer los orígenes del mantenimiento ya sea, por ejemplo, en la diferencia entre la evolución de las distintas industrias, la literatura sí genera distintos consensos en lo que respecta a ciertos hitos que pueden dar luces a este contexto histórico. En este sentido, las principales referencias que existen en diversas fuentes bibliográficas sobre los tipos de mantenimiento llevados a cabo han concluido, de común acuerdo entre muchos autores, en establecer durante el siglo XX tres grandes etapas que, aunque no tienen una una frontera clara desde el punto de vista temporal, si pueden dar una clara idea de cómo ha sido la evolución de las técnicas y organizaciones que se han implementado durante dicho siglo. Se ha convenido entonces, que la evolución del mantenimiento ha tenido tres etapas, a las cuales se les denomina \textit{primera, segunda} y \textit{tercera generación} \citep{gonzalez2005}.
+Así, el comienzo del siglo XX marca efectivamente el inicio de las actividades de mantenimiento reparativo y la creación de los primeros talleres que originan la \textit{Primera Generación} del mantenimiento, que se extiende hasta mediados del siglo y tiene como características relevantes \citep{garcia2012}:
+
+\begin{itemize}
+\item Equipos robustos, sobredimensionados y simples.
+\item Volúmenes de producción bajos.
+\item Las actividades demandaban poca destreza.
+\item No existía la alta mecanización industrial
+\item Poca importancia a los tiempos de parada de los equipos.
+\item La prevención de fallas en los equipos no era prioridad.
+\item El mantenimiento era mantenimiento reactivo o de reparación.
+\item No había necesidad de un mantenimiento sistemático.
+\end{itemize}  
+
+Esta etapa, la más larga desde la revolución industrial hasta después de la Segunda Guerra Mundial, se caracteriza esencialmente por la corrección de averías, reengrases, lubricaciones y limpiezas \citep{gonzalez2005}.
+
+En tiempos posteriores a la guerra se vio la necesidad de implantar técnicas con el fin de prevenir las fallas de los equipos en combate y disminuir los costos de reparación, por lo que vino a tomar importancia relevante la disponibilidad y duración de vida útil de la maquinaria \citep{garcia2012}. El descubrimiento de relación entre edad de equipos y probabilidad de fallos, junto a la enorme competencia industrial, además de la incorporación de los fabricantes orientales al mundo competitivo occidental, es uno de los desencadenantes de una contínua búsqueda de mejores resultados. En esta etapa denominada \textit{segunda generación}, se ponen en marcha sistemas de mantenimiento preventivo basados en revisiones cíclicas de equipos, instalaciones y medios en general \citep{gonzalez2005}. Dentro de las características principales de este periodo se señalan \citep{garcia2012}:
+
+\begin{itemize}
+\item Importancia de la productividad
+\item Incremento de la mecanización en las industrias
+\item Aumento de la complejidad de los equipos
+\item Mayor interés a los tiempos de parada de los equipos
+\item Inicio del mantenimiento preventivo
+\item Altos niveles de inventario de repuestos
+\item Crecimiento de los costos de mantenimiento
+\item Sistemas de planificación y control de mantenimiento
+\item Aumento de la vida útil de los equipos y sistemas
+\item Inicio de la sistematización del Mantenimiento
+\end{itemize}
+
+La optimización de este mantenimiento de segunda generación, basado por tanto en mantenimientos preventivos rutinarios y mantenimiento correctivo, se fundamenta en avanzados sistemas de planificación de actividades y de control de trabajos realizados; entendiendo por control tanto el lanzamiento de órdenes de trabajo como la retroalientacnión y verificación de los datos habidos en esas órdenes de trabajo \citep{gonzalez2005}.
+
+Se debe decir que, durante el periodo posterior a 1980, se han visto los peores accidentes en la historia de la industria mundial. Las filtraciones de baterías en Bhopal, India, o  la amenaza a la supervivencia de la humanidad causada por el accidente nuclear de Chernobyl, solo han hecho que la industria manufacturera realcen la importancia del mantenimiento \citep{shenoy2005}. Este punto de inflexión, sumado a las preocupaciones que ya existían ciertos postulados en relación a la máxima calidad, seguridad y protección del medio ambiente, dio origen a la tercera generación del mantenimiento, que se extendió hasta el final del siglo \citep{garcia2012}. Cabe destacar que en el mantenimiento de tercera generación, la observancia de normativa adquiere una importancia primordial. Son muchas las administraciones estatales, autonómicas y locales que abordan reglamentaciones específicas del mantenimiento; así pues, aparecen reglamentos para aparatos a presión, equipos de manutención y transporte, ascensores y escaleras mecánicas, etc. Este aspecto toma también relevancia y define lo que se ha convenido en llamar, dentro de los mantenimientos preventivos, mantenimientos legales o reglamentarios \citep{gonzalez2005}.    
+
+
+
+\subsection{Mantenimiento correctivo}
+
+\subsection{Mantenimiento preventivo}
+
+\subsection{Mantenimiento centrado en la condición}
+
+\subsection{Mantenimiento centrado en la confiabilidad}
+
+
+\subsection{Confiabilidad}
 
 La confiabilidad puede ser definida como la "confianza que se tiene de que un componente, equipo o sistema desempeñe su función básica, durante un periodo de tiempo preestablecido, bajo condiciones estándares de operación; otra definición es la probabilidad de que un ítem pueda desempeñar su función requerida durante un intervalo establecido y bajo condiciones de uso definidas \citep{dairo2016}. Esta segunda definición da a entender que existen herramientas estadísticas que pueden ser utilizadas para obtener información acerca del cómo se comportan las fallas en el tiempo.
 
-\subsection{Función densidad de probabilidad}
+\subsubsection{Función densidad de probabilidad}
 
 La función densidad de probabilidad puede describir la distribución de la probabilidad de una variable aleatoria continua $X$. Así, una función de densidad de probabilidad es una función tal que:
 
-\begin{enumerate}
-\item $f(x)\geqslant 0$
-\item $\int_{-\infty}^{\infty}f(x)dx=1$
-\item $P(a\geqslant X \geqslant b)=\int_{a}^{b}f(x)dx=$ área bajo $f(x$) de $a$ a $b$, para cualquier $a$ y $b$.
-\end{enumerate}
+
+ $$f(x)\geqslant 0$$
+ $$\int_{-\infty}^{\infty}f(x)dx=1$$
+ \begin{equation*}
+ P(a\geqslant X \geqslant b)=\int_{a}^{b}f(x)dx= \text{ área bajo } f(x) \text{ de } a \text{ a } b, \text{ para cualquier } a \text{ y } b.
+ \end{equation*}
+
+
 
 Esta función proporciona una descripción simple de las probabilidades asociadas a una variable aleatoria.
-\subsection{Media y varianza de una variable continua}
+\subsubsection{Media y varianza de una variable continua}
 
 Si se tiene que $X$ es una variable aleatoria continua con función de densidad de probabilidad $f(x)$, se define la Media de $X$ como:
 
@@ -94,7 +143,7 @@ La Desviación Estandar:
 \sigma=\sqrt{V(X)}
 \end{equation*}
 
-\subsection{Distribución normal}
+\subsubsection{Distribución normal}
 
 Variables aleatorias con medias y varianzas diferentes pueden modelares por medio de funciones de densidad de probabilidad normal, con la elección adecuada del centro y anchura de la curva. La función de densidad de probabilidad normal se define como:
 
@@ -109,7 +158,7 @@ Además,
 E(X)=\mu , V(x)=\sigma^2
 \end{equation*}
 
-\subsection{Distribución exponencial}
+\subsubsection{Distribución exponencial}
 
 La distribución exponencial debe su nombre a la función exponencial de la función de densidad de probabilidad. Así, la variable aleatoria $X$ (que es igual a la distancia entre conteos sucesivos de un proceso de Poisson con media $\lambda>0$ tiene una distribución exponencial con parámetro $\lambda$:
 
@@ -123,7 +172,7 @@ Si la variable tiene una distribución exponencial con parámetro $\lambda$:
 E(x)=\frac{1}{\lambda}, V(X)=\frac{1}{\lambda^2}
 \end{equation*}
 
-\subsection{Distribución de Weibull}
+\subsubsection{Distribución de Weibull}
 
 La distribución de Weibull se utiliza con frecuencia para modelar el tiempo hasta que ocurre una falla en algún sistema. La variable aleatoria $X$ con función de densidad de probabilidad:
 
@@ -134,36 +183,28 @@ f(x)=\frac{\beta}{\delta}\left( \frac{x}{\delta} \right)^{\beta-1}e^{\left( \fra
 tiene una distribución de Weibull con parámetro de escala $\delta>0$ y parámetro de forma $\beta>0$.
 
 
-
-\subsection{Historia y evolución del mantenimiento}
-
-\subsection{Tipos de mantenimiento}
-
-\subsection{GMAO}
-
 \section{Lean Manufacturing}
 
 \subsection{Historia Lean Manufacturing}
 
 \subsection{Herramientas de mantenimiento}
 
-\section{Design Thinking y Scrum}
+\section{Design Thinking}
 
 \subsection{Metodologías ágiles}
-
-\subsection{Scrum}
 
 \subsection{Design Thinking}
 
 \subsection{Fases del Design Thinking}
 
-\subsection{Herramientas para diseño de Software}
 
-\section{Desarrollo de Software}
+\section{Herramientas de software}
 
-\subsection{Programación orientada a objetos}
+\subsection{Lenguajes de programación orientada a objetos}
 
-\subsection{Lenguajes de programación}
+\subsection{Lenguajes de hojas de estilo}
+
+\subsection{Bases de datos}
 
 \subsection{Arquitectura Cliente-Servidor}
 
@@ -171,7 +212,7 @@ tiene una distribución de Weibull con parámetro de escala $\delta>0$ y paráme
 
 \subsection{Ordenadores de placa reducida}
 
- \ldots 
+
 
  
 

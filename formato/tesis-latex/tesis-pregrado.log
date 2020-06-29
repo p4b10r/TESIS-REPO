@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  25 JUN 2020 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  28 JUN 2020 20:55
 entering extended mode
 **./tesis-pregrado.tex
 (tesis-pregrado.tex
@@ -948,7 +948,7 @@ babelbib: Set language for keywords in the bibliography fixed to spanish
 \openout2 = `cubierta.aux'.
 
 (cubierta.tex
-<./images/LogoUsach.pdf, id=211, 317.98799pt x 357.0138pt>
+<./images/LogoUsach.pdf, id=215, 317.98799pt x 357.0138pt>
 File: ./images/LogoUsach.pdf Graphic file (type pdf)
 <use ./images/LogoUsach.pdf>
 Package pdftex.def Info: ./images/LogoUsach.pdf  used on input line 19.
@@ -1122,13 +1122,13 @@ LaTeX Info: Redefining \% on input line 37.
  (chapters/2-preliminares.tex
 Cap\'itulo 2.
 
-Underfull \hbox (badness 1028) in paragraph at lines 10--11
+Underfull \hbox (badness 1028) in paragraph at lines 8--9
 \T1/ua1/m/n/12 Se-gún ([][]Jor-que-ra Or-te-ga[][], [][]2016[][]), la fa-bri-ca
 -ción di-gi-tal in-clu-ye los si-guien-tes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
@@ -1137,53 +1137,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 24--25
+Underfull \hbox (badness 1184) in paragraph at lines 22--23
 []\T1/ua1/m/n/12 Software CAE (\T1/ua1/m/it/12 Computer Aided Engineering \T1/u
 a1/m/n/12 - Ingeniería Asistida por
  []
 
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 [5]
-<images/The3Dprintinghypecycle.png, id=373, 903.375pt x 511.9125pt>
+<images/The3Dprintinghypecycle.png, id=378, 903.375pt x 511.9125pt>
 File: images/The3Dprintinghypecycle.png Graphic file (type png)
 <use images/The3Dprintinghypecycle.png>
 Package pdftex.def Info: images/The3Dprintinghypecycle.png  used on input line 
-32.
+30.
 (pdftex.def)             Requested size: 412.56497pt x 233.78758pt.
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
  [6 <./images/The3Dprintinghypecycle.png>]
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
  [7]
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
  [8]
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 1527) in paragraph at lines 93--94
+[]\T1/ua1/m/n/12 La optimización de este mantenimiento de segunda generación,
+ []
+
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+[10]
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [11]
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 120.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 120.
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
-[10])
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+[13])
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [11]
-Overfull \vbox (247.85826pt too high) has occurred while \output is active []
+ [14]
+Overfull \vbox (37.03975pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 
-[12] (tesis-pregrado.bbl
+[15] (tesis-pregrado.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 []\T1/ua1/m/n/12 3Dhub (2018).  What is 3d prin-ting? the de-fi-ni-ti-ve gui-de
 .
@@ -1196,37 +1213,37 @@ Overfull \hbox (6.51338pt too wide) in paragraph at lines 9--13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
 []\T1/ua1/m/n/12 leao, L. (2017).  Cad vs cae vs cam: What is the dif-fe-ren-ce
 ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
 \T1/ua1/m/n/12 https://www.e3seriescenters.com/modern-electrical-engineering-bl
 og/cad-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
 []\T1/ua1/m/n/12 Maxey, K. (2013).  In-fo-graphic: The his-tory of 3d prin-ting
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
 \T1/ua1/m/n/12 engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Inf
 ographic-
  []
 
-) [13
+) [16
 
 
 
 ]
 \openout2 = `chapters/Apendice-1.aux'.
 
- (chapters/Apendice-1.tex) [14
+ (chapters/Apendice-1.tex) [17
 
 
 ]
@@ -1241,15 +1258,15 @@ LaTeX Info: Redefining \% on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `tesis-pregrado.out' has not changed.
-(rerunfilecheck)             Checksum: 83AA7828DD1E2477E8CEFDEACDF89F1B;3922.
+(rerunfilecheck)             Checksum: 1943BC16DCB04DC55240D77718BF3033;4132.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 16435 strings out of 480930
- 243792 string characters out of 2899761
+ 16456 strings out of 480930
+ 244198 string characters out of 2899761
  687806 words of memory out of 3000000
- 31775 multiletter control sequences out of 15000+200000
- 591944 words of font info for 72 fonts, out of 3000000 for 9000
+ 31793 multiletter control sequences out of 15000+200000
+ 600156 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,12n,49p,1425b,773s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
@@ -1269,9 +1286,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Pblor/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Pblo
 r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/
 Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis-pregrado.pdf (25 pages, 409202 bytes).
+Output written on tesis-pregrado.pdf (28 pages, 420252 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 427 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 548 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 435 words of extra memory for PDF output out of 10000 (max. 10000000)
 

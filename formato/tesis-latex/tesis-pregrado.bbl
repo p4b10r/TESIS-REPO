@@ -17,6 +17,11 @@ Berchon, M. and Luyt, B. (2014).
   estudiantes profesionales, artistas y manitas en general}.
 \newblock Editorial Gustavo Gill.
 
+\bibitem[Fernández, 2005]{gonzalez2005}
+Fernández, F.~G. (2005).
+\newblock {\em Teoría y práctica del Mantenimiento Industrial Avanzado}.
+\newblock Fundación Confemetal.
+
 \bibitem[Greguric, 2018]{alltresdp2018}
 Greguric, L. (2018).
 \newblock History of 3d printing: When was 3d printing invented.
@@ -45,5 +50,10 @@ Maxey, K. (2013).
 Mesa, D. (2006).
 \newblock La confiabilidad, la disponibilidad y la mantenibilidad, disciplinas
   modernas aplicadas al mantenimiento.
+
+\bibitem[Palencia, 2012]{garcia2012}
+Palencia, O.~G. (2012).
+\newblock {\em Gestión Moderna del Mantenimiento Industrial}.
+\newblock Ediciones de la U.
 
 \end{thebibliography}
