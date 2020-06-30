@@ -23,32 +23,31 @@
 \contentsline {subsection}{\numberline {2.1.4}Tipolog\IeC {\'\i }as de impresi\IeC {\'o}n 3D FDM}{8}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Mantenimiento}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Historia y evoluci\IeC {\'o}n del mantenimiento}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Mantenimiento correctivo}{11}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Mantenimiento preventivo}{11}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Mantenimiento centrado en la condici\IeC {\'o}n}{11}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Mantenimiento centrado en la confiabilidad}{11}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Confiabilidad}{11}{subsection.2.2.6}%
-\contentsline {subsubsection}{\numberline {2.2.6.1}Funci\IeC {\'o}n densidad de probabilidad}{12}{subsubsection.2.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.2.6.2}Media y varianza de una variable continua}{12}{subsubsection.2.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.2.6.3}Distribuci\IeC {\'o}n normal}{13}{subsubsection.2.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.2.6.4}Distribuci\IeC {\'o}n exponencial}{13}{subsubsection.2.2.6.4}%
-\contentsline {subsubsection}{\numberline {2.2.6.5}Distribuci\IeC {\'o}n de Weibull}{14}{subsubsection.2.2.6.5}%
-\contentsline {section}{\numberline {2.3}Lean Manufacturing}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Historia Lean Manufacturing}{15}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Herramientas de mantenimiento}{15}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Design Thinking}{15}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{15}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Design Thinking}{15}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Fases del Design Thinking}{15}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Herramientas de software}{15}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{15}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Lenguajes de hojas de estilo}{15}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Bases de datos}{15}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Arquitectura Cliente-Servidor}{15}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}API}{15}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Ordenadores de placa reducida}{15}{subsection.2.5.6}%
-\contentsline {chapter}{Referencias}{16}{chapter*.6}%
-\contentsline {chapter}{Ap\IeC {\'e}ndices}{16}{section*.7}%
-\contentsline {chapter}{Manual de Usuario}{17}{appendix*.8}%
-\contentsline {section}{\numberline {.1}Requerimientos}{17}{section.Alph0.1}%
-\contentsline {section}{\numberline {.2}Instalaci\'on}{17}{section.Alph0.2}%
+\contentsline {subsection}{\numberline {2.2.2}Mantenimiento correctivo}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Mantenimiento preventivo}{12}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Mantenimiento centrado en la condici\IeC {\'o}n}{12}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Mantenimiento centrado en la confiabilidad}{12}{subsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.5.1}Funci\IeC {\'o}n densidad de probabilidad}{17}{subsubsection.2.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.2.5.2}Media y varianza de una variable continua}{18}{subsubsection.2.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.2.5.3}Distribuci\IeC {\'o}n normal}{18}{subsubsection.2.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.2.5.4}Distribuci\IeC {\'o}n exponencial}{19}{subsubsection.2.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.2.5.5}Distribuci\IeC {\'o}n de Weibull}{19}{subsubsection.2.2.5.5}%
+\contentsline {section}{\numberline {2.3}Lean Manufacturing}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Historia Lean Manufacturing}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Herramientas de mantenimiento}{20}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Design Thinking}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Design Thinking}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Fases del Design Thinking}{20}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Herramientas de software}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{20}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Lenguajes de hojas de estilo}{20}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Bases de datos}{20}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Arquitectura Cliente-Servidor}{20}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}API}{20}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Ordenadores de placa reducida}{20}{subsection.2.5.6}%
+\contentsline {chapter}{Referencias}{21}{chapter*.6}%
+\contentsline {chapter}{Ap\IeC {\'e}ndices}{22}{section*.7}%
+\contentsline {chapter}{Manual de Usuario}{23}{appendix*.8}%
+\contentsline {section}{\numberline {.1}Requerimientos}{23}{section.Alph0.1}%
+\contentsline {section}{\numberline {.2}Instalaci\'on}{23}{section.Alph0.2}%

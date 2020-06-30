@@ -3,13 +3,19 @@
 \bibitem[3Dhub, 2018]{tresdhub2018}
 3Dhub (2018).
 \newblock What is 3d printing? the definitive guide.
-\newblock https://www.3dhubs.com/guides/3d-printing/.
+\newblock Recuperado de: https://www.3dhubs.com/guides/3d-printing/.
 
 \bibitem[3dsourced, 2020]{tresdsourced2020}
 3dsourced (2020).
 \newblock The complete history of 3d printing: From 1980 to 2020.
-\newblock
+\newblock Recuperado de:
   https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
+
+\bibitem[Arun, 2012]{louis2012}
+Arun, L. (2012).
+\newblock Proposal for the fourth generation of maintenance and the future
+  trends \& challenges in production.
+\newblock Master's thesis, Mälardalen University Sweden.
 
 \bibitem[Berchon and Luyt, 2014]{Berchon2014}
 Berchon, M. and Luyt, B. (2014).
@@ -25,8 +31,18 @@ Fernández, F.~G. (2005).
 \bibitem[Greguric, 2018]{alltresdp2018}
 Greguric, L. (2018).
 \newblock History of 3d printing: When was 3d printing invented.
-\newblock
+\newblock Recuperado de:
   https://all3dp.com/2/history-of-3d-printing-when-was-3d-printing-invented/.
+
+\bibitem[Hide, 2013]{hide2013}
+Hide, M. (2013).
+\newblock Fourh generation maintenance.
+\newblock {\em Strategic Maintenance Ltd}.
+
+\bibitem[Houle, 2016]{houle2016}
+Houle, L. (2016).
+\newblock Fourth-generation maintenance.
+\newblock {\em Technical Quarterly}.
 
 \bibitem[Jorquera~Ortega, 2016]{jorquera2016}
 Jorquera~Ortega, A. (2016).
@@ -37,13 +53,13 @@ Jorquera~Ortega, A. (2016).
 \bibitem[leao, 2017]{leao2017}
 leao, L. (2017).
 \newblock Cad vs cae vs cam: What is the difference?
-\newblock
+\newblock Recuperado de:
   https://www.e3seriescenters.com/modern-electrical-engineering-blog/cad-vs-cae-vs-cam-what-is-the-difference/.
 
 \bibitem[Maxey, 2013]{maxey2013}
 Maxey, K. (2013).
 \newblock Infographic: The history of 3d printing.
-\newblock
+\newblock Recuperado de:
   engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
 
 \bibitem[Mesa, 2006]{dairo2016}
@@ -51,9 +67,33 @@ Mesa, D. (2006).
 \newblock La confiabilidad, la disponibilidad y la mantenibilidad, disciplinas
   modernas aplicadas al mantenimiento.
 
+\bibitem[Mosquera, 1995]{mosquera1995}
+Mosquera, G. (1995).
+\newblock {\em Disponibilidad y confiabilidad de sistemas industriales}.
+\newblock Centro de Estudios Gerenciales Instituto Superior de Investigación y
+  Desarrollo.
+
 \bibitem[Palencia, 2012]{garcia2012}
 Palencia, O.~G. (2012).
 \newblock {\em Gestión Moderna del Mantenimiento Industrial}.
 \newblock Ediciones de la U.
+
+\bibitem[SAE, 1999]{saeja1011}
+SAE (1999).
+\newblock {\em SAE JA1011: Evaluation Criteria for Reliability-Centred
+  Maintenance(RCM) Processes}.
+\newblock The Engineering Society For Advancing Mobility Land, Sea Air and
+  Space.
+
+\bibitem[Shenoy, 2005]{shenoy2005}
+Shenoy, D. (2005).
+\newblock {\em Maintenance Resources Management Adapting MRP}.
+\newblock Taylor \& Francis e-Library.
+
+\bibitem[Sifonte, 2017]{sifonte2017}
+Sifonte, J. (2017).
+\newblock Norma sae ja1011 – criterios de evaluación para procesos de
+  mantenimiento centrado en confiabilidad (rcm).
+\newblock Recuperado de: http://www.pdmtechusa.com/criterios-evaluacion-rcm/.
 
 \end{thebibliography}

@@ -10,44 +10,44 @@ A level-1 auxiliary file: chapters/2-preliminares.aux
 The style file: apalike.bst
 A level-1 auxiliary file: chapters/Apendice-1.aux
 Database file #1: bibliografia.bib
-You've used 10 entries,
+You've used 17 entries,
             1935 wiz_defined-function locations,
-            530 strings with 5384 characters,
-and the built_in function-call counts, 2623 in all, are:
-= -- 258
-> -- 76
-< -- 10
-+ -- 24
-- -- 22
-* -- 164
-:= -- 509
-add.period$ -- 29
-call.type$ -- 10
-change.case$ -- 57
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 116
-empty$ -- 183
-format.name$ -- 34
-if$ -- 493
+            560 strings with 6375 characters,
+and the built_in function-call counts, 4483 in all, are:
+= -- 439
+> -- 125
+< -- 17
++ -- 38
+- -- 36
+* -- 280
+:= -- 867
+add.period$ -- 50
+call.type$ -- 17
+change.case$ -- 96
+chr.to.int$ -- 17
+cite$ -- 17
+duplicate$ -- 204
+empty$ -- 321
+format.name$ -- 55
+if$ -- 846
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 52
-num.names$ -- 30
-pop$ -- 52
+missing$ -- 14
+newline$ -- 87
+num.names$ -- 51
+pop$ -- 91
 preamble$ -- 1
-purify$ -- 61
+purify$ -- 103
 quote$ -- 0
-skip$ -- 95
+skip$ -- 165
 stack$ -- 0
-substring$ -- 122
-swap$ -- 4
+substring$ -- 206
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 90
 warning$ -- 0
-while$ -- 20
+while$ -- 34
 width$ -- 0
-write$ -- 120
+write$ -- 205

@@ -26,28 +26,27 @@
 \BOOKMARK [2][]{subsection.2.2.3}{2.2.3 Mantenimiento preventivo}{section.2.2}% 26
 \BOOKMARK [2][]{subsection.2.2.4}{2.2.4 Mantenimiento centrado en la condici\363n}{section.2.2}% 27
 \BOOKMARK [2][]{subsection.2.2.5}{2.2.5 Mantenimiento centrado en la confiabilidad}{section.2.2}% 28
-\BOOKMARK [2][]{subsection.2.2.6}{2.2.6 Confiabilidad}{section.2.2}% 29
-\BOOKMARK [3][]{subsubsection.2.2.6.1}{2.2.6.1 Funci\363n densidad de probabilidad}{subsection.2.2.6}% 30
-\BOOKMARK [3][]{subsubsection.2.2.6.2}{2.2.6.2 Media y varianza de una variable continua}{subsection.2.2.6}% 31
-\BOOKMARK [3][]{subsubsection.2.2.6.3}{2.2.6.3 Distribuci\363n normal}{subsection.2.2.6}% 32
-\BOOKMARK [3][]{subsubsection.2.2.6.4}{2.2.6.4 Distribuci\363n exponencial}{subsection.2.2.6}% 33
-\BOOKMARK [3][]{subsubsection.2.2.6.5}{2.2.6.5 Distribuci\363n de Weibull}{subsection.2.2.6}% 34
-\BOOKMARK [1][]{section.2.3}{2.3 Lean Manufacturing}{chapter.2}% 35
-\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Historia Lean Manufacturing}{section.2.3}% 36
-\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 Herramientas de mantenimiento}{section.2.3}% 37
-\BOOKMARK [1][]{section.2.4}{2.4 Design Thinking}{chapter.2}% 38
-\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Metodolog\355as \341giles}{section.2.4}% 39
-\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 Design Thinking}{section.2.4}% 40
-\BOOKMARK [2][]{subsection.2.4.3}{2.4.3 Fases del Design Thinking}{section.2.4}% 41
-\BOOKMARK [1][]{section.2.5}{2.5 Herramientas de software}{chapter.2}% 42
-\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Lenguajes de programaci\363n orientada a objetos}{section.2.5}% 43
-\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 Lenguajes de hojas de estilo}{section.2.5}% 44
-\BOOKMARK [2][]{subsection.2.5.3}{2.5.3 Bases de datos}{section.2.5}% 45
-\BOOKMARK [2][]{subsection.2.5.4}{2.5.4 Arquitectura Cliente-Servidor}{section.2.5}% 46
-\BOOKMARK [2][]{subsection.2.5.5}{2.5.5 API}{section.2.5}% 47
-\BOOKMARK [2][]{subsection.2.5.6}{2.5.6 Ordenadores de placa reducida}{section.2.5}% 48
-\BOOKMARK [0][]{chapter*.6}{Referencias}{}% 49
-\BOOKMARK [0][]{section*.7}{Ap\351ndices}{}% 50
-\BOOKMARK [0][]{appendix*.8}{Manual de Usuario}{}% 51
-\BOOKMARK [1][]{section.Alph0.1}{.1 Requerimientos}{appendix*.8}% 52
-\BOOKMARK [1][]{section.Alph0.2}{.2 Instalaci\363n}{appendix*.8}% 53
+\BOOKMARK [3][]{subsubsection.2.2.5.1}{2.2.5.1 Funci\363n densidad de probabilidad}{subsection.2.2.5}% 29
+\BOOKMARK [3][]{subsubsection.2.2.5.2}{2.2.5.2 Media y varianza de una variable continua}{subsection.2.2.5}% 30
+\BOOKMARK [3][]{subsubsection.2.2.5.3}{2.2.5.3 Distribuci\363n normal}{subsection.2.2.5}% 31
+\BOOKMARK [3][]{subsubsection.2.2.5.4}{2.2.5.4 Distribuci\363n exponencial}{subsection.2.2.5}% 32
+\BOOKMARK [3][]{subsubsection.2.2.5.5}{2.2.5.5 Distribuci\363n de Weibull}{subsection.2.2.5}% 33
+\BOOKMARK [1][]{section.2.3}{2.3 Lean Manufacturing}{chapter.2}% 34
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Historia Lean Manufacturing}{section.2.3}% 35
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 Herramientas de mantenimiento}{section.2.3}% 36
+\BOOKMARK [1][]{section.2.4}{2.4 Design Thinking}{chapter.2}% 37
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Metodolog\355as \341giles}{section.2.4}% 38
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 Design Thinking}{section.2.4}% 39
+\BOOKMARK [2][]{subsection.2.4.3}{2.4.3 Fases del Design Thinking}{section.2.4}% 40
+\BOOKMARK [1][]{section.2.5}{2.5 Herramientas de software}{chapter.2}% 41
+\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Lenguajes de programaci\363n orientada a objetos}{section.2.5}% 42
+\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 Lenguajes de hojas de estilo}{section.2.5}% 43
+\BOOKMARK [2][]{subsection.2.5.3}{2.5.3 Bases de datos}{section.2.5}% 44
+\BOOKMARK [2][]{subsection.2.5.4}{2.5.4 Arquitectura Cliente-Servidor}{section.2.5}% 45
+\BOOKMARK [2][]{subsection.2.5.5}{2.5.5 API}{section.2.5}% 46
+\BOOKMARK [2][]{subsection.2.5.6}{2.5.6 Ordenadores de placa reducida}{section.2.5}% 47
+\BOOKMARK [0][]{chapter*.6}{Referencias}{}% 48
+\BOOKMARK [0][]{section*.7}{Ap\351ndices}{}% 49
+\BOOKMARK [0][]{appendix*.8}{Manual de Usuario}{}% 50
+\BOOKMARK [1][]{section.Alph0.1}{.1 Requerimientos}{appendix*.8}% 51
+\BOOKMARK [1][]{section.Alph0.2}{.2 Instalaci\363n}{appendix*.8}% 52
