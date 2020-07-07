@@ -11,6 +11,12 @@
 \newblock Recuperado de:
   https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
 
+\bibitem[Aransyash et~al., 2019]{aransyash2019}
+Aransyash, D., Rosa, F., and Colombo, G. (2019).
+\newblock Smart maintenance: A wearable augmented reality application
+  integrated with cmms to minmize unsheduled downtime.
+\newblock {\em Computer-Aidded Design and Applications}.
+
 \bibitem[Arun, 2012]{louis2012}
 Arun, L. (2012).
 \newblock Proposal for the fourth generation of maintenance and the future
@@ -23,10 +29,25 @@ Berchon, M. and Luyt, B. (2014).
   estudiantes profesionales, artistas y manitas en general}.
 \newblock Editorial Gustavo Gill.
 
+\bibitem[de~León, 1998]{gomez1998}
+de~León, F.~G. (1998).
+\newblock {\em Tecnologías del Mantenimiento Industrial}.
+\newblock Universidad de Murcia. Servicio de Publicaciones.
+
+\bibitem[Fera et~al., 2018]{fera2018}
+Fera, M., Macchiaroli, R., Fruggiero, F., and Lambiase, A. (2018).
+\newblock Production managment fundamentals for additive manufacturing.
+\newblock {\em IntechOpen}.
+
 \bibitem[Fernández, 2005]{gonzalez2005}
 Fernández, F.~G. (2005).
 \newblock {\em Teoría y práctica del Mantenimiento Industrial Avanzado}.
 \newblock Fundación Confemetal.
+
+\bibitem[Garrido, 2010]{garcia2010}
+Garrido, S.~G. (2010).
+\newblock {\em Organización y Gestión Integral el Mantenimiento}.
+\newblock Ediciones Díaz de Santos, S.A.
 
 \bibitem[Greguric, 2018]{alltresdp2018}
 Greguric, L. (2018).
@@ -66,12 +87,6 @@ Maxey, K. (2013).
 Mesa, D. (2006).
 \newblock La confiabilidad, la disponibilidad y la mantenibilidad, disciplinas
   modernas aplicadas al mantenimiento.
-
-\bibitem[Mosquera, 1995]{mosquera1995}
-Mosquera, G. (1995).
-\newblock {\em Disponibilidad y confiabilidad de sistemas industriales}.
-\newblock Centro de Estudios Gerenciales Instituto Superior de Investigación y
-  Desarrollo.
 
 \bibitem[Palencia, 2012]{garcia2012}
 Palencia, O.~G. (2012).

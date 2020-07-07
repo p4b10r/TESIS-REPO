@@ -7,47 +7,48 @@ A level-1 auxiliary file: chapters/dedicatoria.aux
 A level-1 auxiliary file: chapters/abstract.aux
 A level-1 auxiliary file: chapters/1-intro.aux
 A level-1 auxiliary file: chapters/2-preliminares.aux
+A level-1 auxiliary file: chapters/3-estado_del_arte.aux
 The style file: apalike.bst
 A level-1 auxiliary file: chapters/Apendice-1.aux
 Database file #1: bibliografia.bib
-You've used 17 entries,
+You've used 20 entries,
             1935 wiz_defined-function locations,
-            560 strings with 6375 characters,
-and the built_in function-call counts, 4483 in all, are:
-= -- 439
-> -- 125
-< -- 17
-+ -- 38
-- -- 36
-* -- 280
-:= -- 867
-add.period$ -- 50
-call.type$ -- 17
-change.case$ -- 96
-chr.to.int$ -- 17
-cite$ -- 17
-duplicate$ -- 204
-empty$ -- 321
-format.name$ -- 55
-if$ -- 846
+            575 strings with 6858 characters,
+and the built_in function-call counts, 5461 in all, are:
+= -- 528
+> -- 173
+< -- 18
++ -- 54
+- -- 52
+* -- 355
+:= -- 1052
+add.period$ -- 59
+call.type$ -- 20
+change.case$ -- 118
+chr.to.int$ -- 20
+cite$ -- 20
+duplicate$ -- 244
+empty$ -- 384
+format.name$ -- 74
+if$ -- 1029
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 87
-num.names$ -- 51
-pop$ -- 91
+missing$ -- 18
+newline$ -- 102
+num.names$ -- 60
+pop$ -- 116
 preamble$ -- 1
-purify$ -- 103
+purify$ -- 126
 quote$ -- 0
-skip$ -- 165
+skip$ -- 195
 stack$ -- 0
-substring$ -- 206
-swap$ -- 10
+substring$ -- 242
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 106
 warning$ -- 0
-while$ -- 34
+while$ -- 40
 width$ -- 0
-write$ -- 205
+write$ -- 241

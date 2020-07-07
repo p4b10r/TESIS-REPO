@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  29 JUN 2020 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.24)  5 JUL 2020 23:54
 entering extended mode
 **./tesis-pregrado.tex
 (tesis-pregrado.tex
@@ -804,7 +804,8 @@ LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
  (chapters/gracias.aux)
 (chapters/dedicatoria.aux) (chapters/abstract.aux) (chapters/1-intro.aux)
-(chapters/2-preliminares.aux) (chapters/Apendice-1.aux))
+(chapters/2-preliminares.aux) (chapters/3-estado_del_arte.aux)
+(chapters/Apendice-1.aux))
 \openout1 = `tesis-pregrado.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -948,7 +949,7 @@ babelbib: Set language for keywords in the bibliography fixed to spanish
 \openout2 = `cubierta.aux'.
 
 (cubierta.tex
-<./images/LogoUsach.pdf, id=211, 317.98799pt x 357.0138pt>
+<./images/LogoUsach.pdf, id=227, 317.98799pt x 357.0138pt>
 File: ./images/LogoUsach.pdf Graphic file (type pdf)
 <use ./images/LogoUsach.pdf>
 Package pdftex.def Info: ./images/LogoUsach.pdf  used on input line 19.
@@ -1150,7 +1151,7 @@ a1/m/n/12 - Ingeniería Asistida por
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 [5]
-<images/The3Dprintinghypecycle.png, id=373, 903.375pt x 511.9125pt>
+<images/The3Dprintinghypecycle.png, id=417, 903.375pt x 511.9125pt>
 File: images/The3Dprintinghypecycle.png Graphic file (type png)
 <use images/The3Dprintinghypecycle.png>
 Package pdftex.def Info: images/The3Dprintinghypecycle.png  used on input line 
@@ -1159,71 +1160,205 @@ Package pdftex.def Info: images/The3Dprintinghypecycle.png  used on input line
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
  [6 <./images/The3Dprintinghypecycle.png>]
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
- [7]
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+[7]
+Underfull \hbox (badness 1975) in paragraph at lines 66--67
+[]\T1/ua1/m/n/12 Realizar los estudios necesarios para reducir el número de ave
+rías
+ []
+
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
- [8]
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
- [9]
-Underfull \hbox (badness 1527) in paragraph at lines 93--94
+[8]
+Underfull \hbox (badness 1259) in paragraph at lines 68--69
+[]\T1/ua1/m/n/12 Intervenir en los proyectos de modificación del diseño de equi
+pos e
+ []
+
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+[9]
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+ [10]
+Underfull \hbox (badness 1527) in paragraph at lines 109--110
 []\T1/ua1/m/n/12 La optimización de este mantenimiento de segunda generación,
  []
 
-LaTeX Info: Redefining \. on input line 96.
-LaTeX Info: Redefining \% on input line 96.
-[10]
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
- [11]
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
- [12]
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [13]
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
+[13]
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
  [14]
-LaTeX Info: Redefining \. on input line 180.
-LaTeX Info: Redefining \% on input line 180.
- [15]
-Underfull \hbox (badness 1953) in paragraph at lines 184--185
-[]\T1/ua1/m/n/12 La norma SAE JA1011 reconoce cinco posibles estrategias de
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+
+ []
+
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
+[18]
+Underfull \hbox (badness 1953) in paragraph at lines 217--218
+[]\T1/ua1/m/n/12 La nor-ma SAE JA1011 re-co-no-ce cin-co po-si-bles es-tra-te-g
+ias de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
  []
 
 ("C:\Users\Pblor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-LaTeX Info: Redefining \. on input line 190.
-LaTeX Info: Redefining \% on input line 190.
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
 
-[16]
+[19]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 203.
+(Font)              scaled to size 7.59998pt on input line 236.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 203.
-LaTeX Info: Redefining \. on input line 213.
-LaTeX Info: Redefining \% on input line 213.
- [17]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+(Font)              scaled to size 5.69998pt on input line 236.
+LaTeX Info: Redefining \. on input line 246.
+LaTeX Info: Redefining \% on input line 246.
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-LaTeX Info: Redefining \. on input line 242.
-LaTeX Info: Redefining \% on input line 242.
-[18])
+LaTeX Info: Redefining \. on input line 275.
+LaTeX Info: Redefining \% on input line 275.
+[21])
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [19]
+ [22]
 Overfull \vbox (37.03975pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 
-[20] (tesis-pregrado.bbl
+[23]
+\openout2 = `chapters/3-estado_del_arte.aux'.
+
+ (chapters/3-estado_del_arte.tex
+Cap\'itulo 3.
+
+Underfull \hbox (badness 1675) in paragraph at lines 13--14
+[]\T1/ua1/m/n/12 Presentar revisión de la literatura de las principales facetas
+ de
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 19--20
+\T1/ua1/m/n/12 ambientes tradicionales de producción, desde que ha demostrado s
+u
+ []
+
+[24
+
+
+
+]
+<images/publicacionesgestion.png, id=591, 510.40688pt x 224.33812pt>
+File: images/publicacionesgestion.png Graphic file (type png)
+<use images/publicacionesgestion.png>
+Package pdftex.def Info: images/publicacionesgestion.png  used on input line 27
+.
+(pdftex.def)             Requested size: 357.28238pt x 157.03561pt.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ [25]
+Underfull \hbox (badness 1237) in paragraph at lines 42--43
+[]$\OML/cmm/m/it/12 C[]$ \T1/ua1/m/n/12 es el costo de preparación de los datos
+ de la geometría
+ []
+
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+[26 <./images/publicacionesgestion.png>]
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+ [27]
+Underfull \hbox (badness 1281) in paragraph at lines 73--75
+\T1/ua1/m/n/12 y, entonces, esta fue reconocida como una interesante temática c
+on
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 73--75
+\T1/ua1/m/n/12 que aún siguen necesitando para evitar problemas en la porosidad
+,
+ []
+
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+[28]
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+ [29]
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+ [30]
+<images/umlra.png, id=623, 546.54187pt x 228.855pt>
+File: images/umlra.png Graphic file (type png)
+<use images/umlra.png>
+Package pdftex.def Info: images/umlra.png  used on input line 103.
+(pdftex.def)             Requested size: 382.57669pt x 160.1974pt.
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [31 <./images/umlra.png>]
+<images/arsystem.png, id=633, 518.6878pt x 221.32687pt>
+File: images/arsystem.png Graphic file (type png)
+<use images/arsystem.png>
+Package pdftex.def Info: images/arsystem.png  used on input line 114.
+(pdftex.def)             Requested size: 363.07898pt x 154.92773pt.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+ [32 <./images/arsystem.png>])
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+ [33]
+(tesis-pregrado.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 9--13
 []\T1/ua1/m/n/12 3dsourced (2020).  The com-ple-te his-tory of 3d prin-
  []
@@ -1239,74 +1374,77 @@ Overfull \hbox (6.51338pt too wide) in paragraph at lines 9--13
 6262/Infographic-
  []
 
+[34
 
-Underfull \hbox (badness 2591) in paragraph at lines 54--58
+
+
+]
+Underfull \hbox (badness 2591) in paragraph at lines 75--79
 []\T1/ua1/m/n/12 leao, L. (2017).  Cad vs cae vs cam: What is the dif-fe-ren-ce
 ?  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 81--85
 \T1/ua1/m/n/12 engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Inf
 ographic-The-
  []
 
-[21
-
-
-
-])
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
- [22]
+)
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+ [35]
 \openout2 = `chapters/Apendice-1.aux'.
 
- (chapters/Apendice-1.tex) [23
+ (chapters/Apendice-1.tex) [36
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (tesis-pregrado.aux (cubierta.aux)
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 
 (chapters/gracias.aux) (chapters/dedicatoria.aux) (chapters/abstract.aux)
-(chapters/1-intro.aux) (chapters/2-preliminares.aux) (chapters/Apendice-1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+(chapters/1-intro.aux) (chapters/2-preliminares.aux)
+(chapters/3-estado_del_arte.aux) (chapters/Apendice-1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `tesis-pregrado.out' has not changed.
-(rerunfilecheck)             Checksum: 77CA5D594A775C6AF939AB2AE27519DA;4060.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+(rerunfilecheck)             Checksum: 15DBDBF7B9D01492FAC7AFD584E13206;4478.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 16733 strings out of 480930
- 247491 string characters out of 2899761
- 687806 words of memory out of 3000000
- 32055 multiletter control sequences out of 15000+200000
+ 16805 strings out of 480930
+ 248927 string characters out of 2899761
+ 688806 words of memory out of 3000000
+ 32094 multiletter control sequences out of 15000+200000
  600156 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,49p,1434b,773s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,12n,49p,1920b,773s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmex10.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Pblor/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Pblor/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Pblor/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/U
-sers/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-8.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Pblor/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Pblor/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Pblo
-r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/
-Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis-pregrado.pdf (34 pages, 438686 bytes).
+lic/amsfonts/cmextra/cmex8.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Pblor/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Pblor/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/P
+blor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pblor/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Pblor/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.p
+fb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r
+8a.pfb><C:/Users/Pblor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/
+ua1ri8a.pfb>
+Output written on tesis-pregrado.pdf (47 pages, 644198 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 427 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 743 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
+ 474 words of extra memory for PDF output out of 10000 (max. 10000000)
 

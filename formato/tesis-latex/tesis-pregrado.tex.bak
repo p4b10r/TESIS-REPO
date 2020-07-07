@@ -36,6 +36,7 @@
 % ### Capitulos de la tesis ###
 \include{chapters/1-intro}
 \include{chapters/2-preliminares}
+\include{chapters/3-estado_del_arte}
 
 
 % ----------- TERCERA PARTE --------------------------------

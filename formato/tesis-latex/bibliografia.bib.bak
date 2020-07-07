@@ -218,6 +218,74 @@ OPTnote = {•},
 OPTannote = {•}
 }
 
+@Book{gomez1998,
+author = {Félix Gómez de León},
+ALTeditor = {•},
+title = {Tecnologías del Mantenimiento Industrial},
+publisher = {Universidad de Murcia. Servicio de Publicaciones},
+year = {1998},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {•},
+OPTseries = {•},
+OPTaddress = {•},
+OPTedition = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Book{garcia2010,
+author = {Santiago García Garrido},
+ALTeditor = {•},
+title = {Organización y Gestión Integral el Mantenimiento},
+publisher = {Ediciones Díaz de Santos, S.A.},
+year = {2010},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {•},
+OPTseries = {•},
+OPTaddress = {•},
+OPTedition = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Article{aransyash2019,
+author = {Dedy Aransyash and Francesco Rosa and Giorgio Colombo},
+title = {Smart Maintenance: A Wearable Augmented Reality Application Integrated with CMMS to Minmize Unsheduled Downtime},
+journal = {Computer-Aidded Design and Applications},
+year = {2019},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {•},
+OPTpages = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Article{fera2018,
+author = {Marcello Fera and Roberto Macchiaroli and Fabio Fruggiero and Alfredo Lambiase},
+title = {Production Managment Fundamentals for Additive Manufacturing},
+journal = {IntechOpen},
+year = {2018},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {•},
+OPTpages = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
+
+
+
+
+
 
 
 
