@@ -61,10 +61,10 @@ Donde:
 \item[$ $] $N_i$ Cantidad de piezas con i-ésima geometría [-]
 \end{itemize}
 
-Cuando las actividades previas, es decir, la preparación de la geometría y la fase de planificación, están completas, comienza la fase de producción. Este proceso incluye la importación de los datos y la configuración de la máquina. Durante esta fase, la máquina no debe estar en uso, es por esta misma razón que se incluye este como un costo horario. También, en este caso, se usó el volumen de las piezas como un criterio de distribución en la formulación final. Así:
+Cuando las actividades previas, es decir, la preparación de la geometría y la fase de planificación, están completas, comienza la fase de producción. Este proceso incluye la importación de los datos y la configuración de la máquina. Durante esta fase, la máquina no debe estar en uso, es por esta misma razón que se incluye el costo horario. También, en este caso, se usó el volumen de las piezas como un criterio de distribución en la formulación final. Así:
 
 
-$C_{setup}(G_i)=(C_{op.mach}+C_{mach})\cdot(T_{setup}+(F_{mat.ch}*T_{mat.ch})\cdot F_{inertgas}\cdot \frac{V(G_i}{\sum_{i=1}^{n} V(G_i)\cdot N_i}$
+$C_{setup}(G_i)=(C_{op.mach}+C_{mach})\cdot(T_{setup}+(F_{mat.ch}\cdot T_{mat.ch})\cdot F_{inertgas}\cdot \frac{V(G_i}{\sum_{i=1}^{n} V(G_i)\cdot N_i}$
 
 Donde:
 
@@ -83,7 +83,109 @@ Donde:
 
 \end{itemize}
 
+En la fórmula anterior, es posible incluir el tiempo extra de trabajo debido al uso de gas protector ($F_{inertgas}$), el cual es un factor que puede ser 1 o 0. También, el cambio de material puede ser considerado a través de un factor que, al igual que el anterior, puede ser 1 o 0 ($F_{mat.ch}$). Además, si el costo está dividido en más trabajos, esta formulación puede ser utilizada como una fracción.
+El costo por hora de la máquina se obtiene dividiendo el costo de compra de ésta por el periodo de depreciación de la máquina, y su tiempo de actividad por año. 
+
+\begin{equation*}
+C_{machine}=\frac{Cost_{machine}}{h\cdot upt}
+\end{equation*}
+
+Donde:
+
+\begin{itemize}
+\item[$ $] $C_{machine}$ es el costo por hora de la máquina [\$/h]
+\item[$ $] $Cost_{machine}$ es el costo de compra de la máquina [\$]
+\item[$ $] $h$ es el periodo de depreciación de la máquina [Años]
+\item[$ $] $upt$ es el tiempo de actividad de la máquina [horas/año]
+
+\end{itemize}
+
+A continuación, se muestra la fórmula para el cálculo de los pasos de construcción de las piezas. En esta fase, se considera la fabricación de todas las piezas en la cámara. EL costo considera:
+\begin{itemize}
+\item Máquina
+\item Energía
+\item Material
+\item Gas
+\end{itemize}
+
+
+$$C_{build}=T_{build}(G_i)\cdot(C_{mach}+C_{inertgas}\cdot Gas_{cons}+C_{energy}*P_{cons}\cdot K_u)+M(G_i)\cdot (C_{material}\cdot W_f)$$
+
+
+Donde:
+
+\begin{itemize}
+\item[$ $] $C_{build}$ es el costo de construcción de una pieza con i-ésima geometría [\$/pieza]
+\item[$ $] $G_i$ es la i-ésima geometría [-]
+\item[$ $] $T_{build}$ es el tiempo total de construcción [horas]
+\item[$ $] $C_{machine}$ es el costo por hora de la máquina [\$/hora]
+\item[$ $] $C_{inertgas}$ es el costo del gas inerte [\$/$m^3$]
+\item[$ $] $Gas_{cons}$ es el consumo promedio de gas [$m^3$/hora]
+\item[$ $] $C_{energy}$ es el costo de energía [\$/KWh]
+\item[$ $] $P_{cons}$ es la potencia consumida [kW]
+\item[$ $] $M$ es la masa de la geometría [kg]
+\item[$ $] $C_{material}$ es el costo del material [\$/kg]
+\item[$ $] $W_f$ es el factor de desecho para el polvo [-]
+\end{itemize}
+
+Cuando la operación de construcción concluye, es necesario remover las piezas fabricadas y el sustrato desde la cámara de la máquina. De la misma forma, en este caso se incluye el factor de modelo, esto es considerar el tiempo extra de esfuerzo por trabajar en un ambiente gas protector. EL criterio de localización para este costo está basado en el volumen de las piezas.
+
+\begin{equation*}
+C_{rem}(G_i)=T_{rem}\cdot (C_{op.mach}+C_{mach})\cdot\frac{V(G_i}{\sum_{i=1}^{n} V(G_i)\cdot N_i}\cdot F_{inertgas} 
+\end{equation*}
+Donde:
+
+\begin{itemize}
+\item[$ $] $C_{rem} $ es el costo de remoción de la pieza con i-ésima geometría desde la cámara [\$/pieza]
+\item[$ $] $G_i $ i-ésima geometría[-]
+\item[$ $] $T_{rem} $ Tiempo requerido para remover la pieza desde la cámara de la máquina [\$/hora]
+\item[$ $] $C_{op.mach} $ Tarifa horaria del operador de la máquina [\$/hora]
+\item[$ $] $C_{mach} $ Costo por hora de la máquina [\$/hora]
+\item[$ $] $F_{intertgas} $ Factor para modelar el esfuerzo requerido por manipular en ambiente protector de gases.
+\item[$ $] $V $ es el volumen de la geometría.
+\item[$ $] $N_i$ Cantidad de piezas para cada i-ésima geometría [-].
+\end{itemize}
+
+El problema de la programación en la fabricación aditiva, diferente a la programación tradicional de máquinas, ha sido un desafío a resolver desde que esta tecnología comenzó a ser parte permanente dentro de los entornos de producción en diferentes empresas, especialmente en el campo de la defensa y la industria aeroespacial. La pregunta que se busca responder es común en todos los problemas vinculados a la programación de los procesos, es decir: \textit{¿cuál es la programación que permite respetar las fechas de producción con el menor costo?}.
+Si bien la pregunta es la misma, el contexto de la fabricación aditiva es muy diferente al de producción tradicional, ya que la actividad se realiza durante toda la fase de diseño y transferencia de datos desde la estación de trabajo; además, se nota el hecho que con la manufactura aditiva es posible producir varios y complejos tipos de geometrías en la misma ejecución de la producción. Por esta razón, se debe introducir un modelo "multiobjetivo" para la programación.
+El marco de trabajo del desarrollo es parecido a los problemas tradicionales de la programación de la producción pero, en este caso, las órdenes de producción son entradas para la máquina de fabricación aditiva.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/mapaproduccion.png} 
+\caption{Marco de trabajo para la programación de la producción \citep{fera2018}}
+\end{figure}
+
+ Además, cada orden es caracterizada según los siguientes atributos:\\
+
+\begin{table}[H]
+\centering
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+Atributo & Descripción & unidades\\
+\hline 
+$d_1$ & demanda de la i-ésima geometría  & [pieza] \\ 
+\hline 
+$dd_1$ & fecha límite para la i-ésima geometría & [día] \\ 
+\hline 
+$V_1$ & Volumen de la i-ésima geometría & [$cm^3$] \\ 
+\hline 
+
+\end{tabular} 
+\caption{Atributos y descripción para programación de la producción en máquinas de fabricación aditiva \citep{fera2018}.}
+\end{table}
+
+Una vez que se listan los atributos para las órdenes de producción, se debe señalar que para  este caso se aplicará un modelo de tiempo y costo. Particularmente, se debe considerar el tiempo total o tiempo para producir una unidad de la i-ésima geometría (CT) y el costo total de la pieza (TPC).
+
+
+
 \end{description}
+
+
+
+
+
 
 \begin{description}
 \item \textbf{Conclusiones:} Se pudo realizar el intento de analizar y categorizar los temas relacionados con los problemas de producción de la fabricación aditiva. Esta tecnología comenzó a transformarse en una solución industrial reciente y, entonces, esta fue reconocida como una interesante temática con la posibilidad de profundizar la investigación en el área, acaso estas tecnologías logran un buen nivel de madurez en términos de la resistencia mecánica, y sus tolerancias. Después de este primer paso de análisis, el estado de las investigaciones acerca de la gestión de las operaciones en el campo fue analizada y estudiada. Este capítulo define un camino preciso para la revisión de la literatura, y es analizada y categorizada con el método mencionado anteriormente.
@@ -116,7 +218,7 @@ Aransyash, D., Rosa, F., and Colombo, G. (2019). Smart maintenance: A wearable a
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.7]{images/umlra.png}
+\includegraphics[scale=0.7]{images/umla.png}
 \caption{Diagrama UML que describe la relación de los registros entre máquinas, fallas, causas y acciones de mantenimiento \citep{aransyash2019}}
 \end{figure}
 
@@ -127,7 +229,7 @@ En segundo lugar, la interfaz de usuario fue diseñada para presentar la informa
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.7]{images/arsystem.png}
+\includegraphics[scale=0.7]{images/arsistema.png}
 \caption{Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inalámbrico; (b) funcionalidad del sistema; (c) operación de diagnóstico basado en el historial de fallas; (d) guía del sistema al operador a través de instrucciones de texto y video \citep{aransyash2019}.}
 \end{figure} 
 \end{description}
