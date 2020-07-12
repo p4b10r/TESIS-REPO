@@ -172,7 +172,7 @@
 }
 %--------Bibliografia
 \RequirePackage{apacite}
-\RequirePackage{natbib}
+\RequirePackage[authoryear]{natbib}
 \RequirePackage{tocbibind} % Agregar referencias al índice
 \RequirePackage[fixlanguage]{babelbib}
 \selectbiblanguage{spanish}

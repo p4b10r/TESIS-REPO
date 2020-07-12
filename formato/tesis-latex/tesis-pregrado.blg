@@ -21,44 +21,44 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: chapters/Apendice-1.aux
 Database file #1: bibliografia.bib
-You've used 20 entries,
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            575 strings with 6858 characters,
-and the built_in function-call counts, 5461 in all, are:
-= -- 528
-> -- 173
-< -- 18
-+ -- 54
-- -- 52
-* -- 355
-:= -- 1052
-add.period$ -- 59
-call.type$ -- 20
-change.case$ -- 118
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 244
-empty$ -- 384
-format.name$ -- 74
-if$ -- 1029
+            595 strings with 7729 characters,
+and the built_in function-call counts, 6690 in all, are:
+= -- 658
+> -- 208
+< -- 23
++ -- 66
+- -- 62
+* -- 430
+:= -- 1297
+add.period$ -- 74
+call.type$ -- 25
+change.case$ -- 148
+chr.to.int$ -- 25
+cite$ -- 25
+duplicate$ -- 294
+empty$ -- 459
+format.name$ -- 89
+if$ -- 1254
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 18
-newline$ -- 102
-num.names$ -- 60
-pop$ -- 116
+newline$ -- 127
+num.names$ -- 75
+pop$ -- 131
 preamble$ -- 1
-purify$ -- 126
+purify$ -- 156
 quote$ -- 0
-skip$ -- 195
+skip$ -- 240
 stack$ -- 0
-substring$ -- 242
+substring$ -- 304
 swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 106
+type$ -- 136
 warning$ -- 0
-while$ -- 40
+while$ -- 50
 width$ -- 0
-write$ -- 241
+write$ -- 301

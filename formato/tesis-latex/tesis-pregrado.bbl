@@ -11,6 +11,18 @@
 \newblock Recuperado de:
   https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
 
+\bibitem[Alexander, 2019]{donovan2019}
+Alexander, D. (2019).
+\newblock Start your own 3d printing business: 11 interesting cases of
+  companies using 3d printing.
+\newblock Recuperado de: https://int
+  erestingengineering.com/start-your-own-3d-printing-business-11-interesting-cases-of-companies-using-3d-printing.
+
+\bibitem[All3DP, 2016]{alltresdp2016}
+All3DP (2016).
+\newblock The official history of the reprap project.
+\newblock Recuperado de: https://all3dp.com/history-of-the-reprap-project/.
+
 \bibitem[Aransyash et~al., 2019]{aransyash2019}
 Aransyash, D., Rosa, F., and Colombo, G. (2019).
 \newblock Smart maintenance: A wearable augmented reality application
@@ -28,6 +40,13 @@ Berchon, M. and Luyt, B. (2014).
 \newblock {\em La impresión 3D: Guía definitiva para makers, diseñadores,
   estudiantes profesionales, artistas y manitas en general}.
 \newblock Editorial Gustavo Gill.
+
+\bibitem[Cruz, 2018]{cruz2018}
+Cruz, B. (2018).
+\newblock Aplicación de modelo rcm bajo las normas sae ja1011 y ja1012 para
+  mejorar la gestión de mantenimiento en la máquina flexoplegadora de cartón
+  martin 618.
+\newblock Universidad de Santiago de Chile.
 
 \bibitem[de~León, 1998]{gomez1998}
 de~León, F.~G. (1998).
@@ -93,6 +112,12 @@ Palencia, O.~G. (2012).
 \newblock {\em Gestión Moderna del Mantenimiento Industrial}.
 \newblock Ediciones de la U.
 
+\bibitem[Renstrom, 2012]{renstrom2012}
+Renstrom, J. (2012).
+\newblock Monkey see, monkey make.
+\newblock Recuperado de:
+  https://couldthishappen.com/2012/02/monkey-see-monkey-make/.
+
 \bibitem[SAE, 1999]{saeja1011}
 SAE (1999).
 \newblock {\em SAE JA1011: Evaluation Criteria for Reliability-Centred
@@ -110,5 +135,11 @@ Sifonte, J. (2017).
 \newblock Norma sae ja1011 – criterios de evaluación para procesos de
   mantenimiento centrado en confiabilidad (rcm).
 \newblock Recuperado de: http://www.pdmtechusa.com/criterios-evaluacion-rcm/.
+
+\bibitem[Torre, 2013]{torre2013}
+Torre, R. (2013).
+\newblock Apuntes sobre el proyecto reprap.
+\newblock Recuperado de:
+  http://www.laboralcentrodearte.org/es/files/2013/bloglaboral/apuntes-sobre-el-proyecto-reprap.
 
 \end{thebibliography}
