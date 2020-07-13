@@ -3,9 +3,33 @@
 \chapter{Marco Te\'orico}
 \label{cap:preliminares}
 
+
+
+\section{Fabricación aditiva}
+
+El Estándar Internacional ISO/ASTM 52900 del año 2015 establece y define los términos usados en la tecnología de manufactura aditiva, relativos a la impresión 3D \citep{iso2015}:
+
+\begin{itemize}
+\item \textbf{Manufactura aditiva:} proceso de unión de material para producir piezas desde la data de un modelo 3D, usualmente capa sobre capa, que se opone a las metodologías de manufactura sustractiva y formativa.
+\item \textbf{Máquina de manufactura aditiva:} sección de n sistema de manufactura aditiva. Incluye hardware, software de control de la máquina, requiere de un software de configuración y accesorios periféricos para completar el ciclo de construcción para producir piezas.
+\item \textbf{Usuario de sistema de manufactura aditiva:} Operador o entidad que utiliza por entero un sistema de manufactura aditiva, o cualquier componente del sistemaenvelope aditivo.
+\item \textbf{Extrusión de material:} Proceso de manufactura aditiva en el cual el material es dispensado selectivamente a través de un orificio de una boquilla. 
+\item \textbf{Impresora 3D:} Fabricación de objetos a través de la deposición de material usando un cabezal de impresión, boquilla u otra tecnología de impresión.
+\item \textbf{Ciclo de construcción:}  Proceso de ciclo simple en el cual uno o más componentes son construidos por capas en la cámara de procesos de un sistema de manufactura aditiva.
+\item \textbf{Plataforma de construcción:} (de una máquina) base que provee una superficie sobre la cual son construidas las piezas, desde el inicio y a través de todo el proceso de construcción.
+\item \textbf{Capas: } material dispuesto o extendido para crear una superficie.
+\item \textbf{Envoltura de construcción:} dimensiones máximas externas de los ejes-x, -y , y eje-z dentro del espacio de construcción donde las piezas pueden ser fabricadas.
+\item \textbf{Espacio de construcción:} lugar donde es posible fabricar las piezas, típicamente dentro de la cámara de construcción o sobre la plataforma de construcción.
+\item \textbf{Volumen de construcción:} volumen utilizable total, disponible en la máquina para construir piezas.
+\item \textbf{Origen, punto cero, (0,0,0):} punto universal de referencia designado, donde los tres ejes de coordenadas primarios se intersectan. 
+\item \textbf{Parámetros del proceso:} configuración de los parámetros de operación y ajustes del sistema utilizados durante el ciclo de construcción.
+\end{itemize}
+
+\pagebreak
+
 \section{Impresión 3D}
 
- A diferencia de las técnicas principales que se emplean desde hace algunos años en la fabricación de objetos, que se encargan de sustraer, combinar, o deformar paulatina y controladamente materia hasta llegar a una pieza final, la impresión 3D funciona de un modo completamente distinto. La pieza se crea en un solo paso, capa por capa, a un ritmo medio de uno a dos centímetro de altura por hora; el objeto creado puede constar de mecanismos internos (como rodamientos de bolas), formas tejidas y entrelazadas, o incluso huecos y curvas \citep{Berchon2014}. Pues bien, todas las impresoras 3D, están basadas sobre el mismo principio: un modelo digital es transformado a un objeto físico de 3 dimensiones por adición de material en capas. Esto se conoce alternativamente como \textit{Manufactura Aditiva} \citep{tresdhub2018}. Este tipo de fabricación también se puede englobar dentro de lo que se denomina \textit{Fabricación digital}, cuyo principio básico es la transformación de la información  desde el mundo físico al digital. Según \citep{jorquera2016}, la fabricación digital incluye los siguientes sistemas y tecnologías:\\
+A diferencia de las técnicas principales que se emplean desde hace décadas en la fabricación de objetos, que se encargan de sustraer, combinar, o deformar paulatina y controladamente materia hasta llegar a una pieza final, la impresión 3D funciona de un modo completamente distinto. La pieza se crea en un solo paso, capa por capa, a un ritmo medio de uno a dos centímetro de altura por hora; el objeto creado puede constar de mecanismos internos (como rodamientos de bolas), formas tejidas y entrelazadas, o incluso huecos y curvas \citep{Berchon2014}. Pues bien, todas las impresoras 3D, están basadas sobre el mismo principio: un modelo digital es transformado a un objeto físico de 3 dimensiones por adición de material en capas. Esto se conoce alternativamente como \textit{Manufactura Aditiva} \citep{tresdhub2018}. Este tipo de fabricación también se puede englobar dentro de lo que se denomina \textit{Fabricación digital}, cuyo principio básico es la transformación de la información  desde el mundo físico al digital. Según \citep{jorquera2016}, la fabricación digital incluye los siguientes sistemas y tecnologías:\\
  
  \begin{enumerate}
  	
@@ -31,7 +55,7 @@ En la misma línea, y dependiendo de la profundidad técnica que el proceso de f
 La primera vez que se hizo pública la conceptualización de algo que pudiese parecerse a una impresora 3D, se remonta al año 1964, cuando el científico y escritor británico Arthur C. Clarke realiza la descripción de una máquina ficticia llamada \textit{El Replicador}. En teoría, este artefacto -que en palabras del autor \textit{es la invención que va a poner fin todas las invenciones}- sería capaz de crear una copia exacta de una cosa, reorganizando partículas subatómicas, y luego ensamblar esas moléculas para ser transformadas en un objeto real \citep{renstrom2012}. No obstante, el comienzo de la generación del concepto técnico de impresión 3D puede ser rastreado al año 1976, a partir de la creación de la primera impresora a tinta por inyección \citep{maxey2013}. La utilización de la inyección de tinta abrió la pregunta respecto a qué tipo de materias primas podían ser utilizadas con esta tecnología, y cómo los mecanismos presentes en la época podían ser adaptados para abrir la posibilidad de ocupar otras materias primas. En Mayo de 1981, el Dr. Hideo Kodama del Instituto de Investigación Industrial del Municipio de Nagoya publicó detalles relativos a la técnica de prototipado rápido. Esta investigación se considera como la primera publicación que describe la técnica de fabricación capa a capa propia de los procesos de impresión 3D; no obstante, los desarrollos de Kodama no llegaron a ser materializados debido a problemas encontrados en el proceso de fundido de material. \citep{tresdsourced2020}. Paralelamente, la idea de \textit{máquinas de prototipado rápido} continuó su desarrollo en Francia, por Jean-Claude André, Oliver de Witte y Alain le Méhauté. En la primera mitad de la década de los 80, le Méhauté investigaba en la empresa Alcatel sobre partes y piezas generadas a partir de la geometría fractal, y la manera en que éstas podrían ser fabricadas dada su complejidad de forma.
 De Witte, quien era también investigador de Alcatel en el área de luz láser, propuso a le Méhauté que algunos líquidos compuestos por ciertos monómeros podían ser curados y transformados en sólidos tras la aplicación de luz láser, convirtiéndose en el primer paso para la construcción efectiva de máquinas de prototipado rápido a través de el proceso de Estereolitografía. Ambos compartieron el resultado de sus avances con André, que en ese tiempo trabajaba en el Centro Nacional Francés de Investigación Científica, para ya el año 1984 inscribir la patente de su desarrollo. Infortunadamente, el grupo debe abandonar el proyecto debido a problemas con la solidificación del material y poca rentabilidad desde la perspectiva económica \citep{alltresdp2018}.\
 
-Con solo tres semanas de diferencia respecto a los investigadores franceses, Charles Hull, ingeniero graduado de la Universidad de Colorado, solicita la patente del proceso de Esterolitografía con nuevos avances, como la utilización del formato STL (Standard Triangle Language) y la laminación digital de objetos. A diferencia del a Esterolitografía francesa, el método de Hull utiliza luz ultravioleta para el curado de fotopolímeros. El año 1986, obtenida su patente, Hull forma la empresa \textit{3D Systems} y lanza la primera impresora 3D, la \textit{SLA-1}, el año 1987 \citep{tresdsourced2020}. Casi al mismo tiempo, la tecnología de modelado por deposición fundida (FDM) era patentada por Scott Crump como otra tecnología de fabricación aditiva\citep{alltresdp2018}. FDM utiliza un cabezal móvil, el cual funde un filamento de material qie se deposita en una plataforma. Es interesante mencionar que tanto las máquinas SLA como FDM son actualmente las más utilizadas y diversificadas en el mundo de la impresión 3D.
+Con solo tres semanas de diferencia respecto a los investigadores franceses, Charles Hull, ingeniero graduado de la Universidad de Colorado, solicita la patente del proceso de Esterolitografía con nuevos avances, como la utilización del formato STL (Standard Triangle Language) y la laminación digital de objetos. A diferencia de la Esterolitografía francesa, el método de Hull utiliza luz ultravioleta para el curado de fotopolímeros. El año 1986, obtenida su patente, Hull forma la empresa \textit{3D Systems} y lanza la primera impresora 3D, la \textit{SLA-1}, el año 1987 \citep{tresdsourced2020}. Casi al mismo tiempo, la tecnología de modelado por deposición fundida (FDM) era patentada por Scott Crump como otra tecnología de fabricación aditiva\citep{alltresdp2018}. FDM utiliza un cabezal móvil, el cual funde un filamento de material qie se deposita en una plataforma. Es interesante mencionar que tanto las máquinas SLA como FDM son actualmente las más utilizadas y diversificadas en el mundo de la impresión 3D.
 Un año después de la presentación de la SLA-1, Carl Deckard de la Universidad de Texas patentó la tecnología de Sinterizado Selectivo por Láser (SLS). En lugar de utilizar luz ultravioleta, SLS hace uso de un láser para trazar y solidificar las capas de un polvo de polímeros \citep{tresdsourced2020}. Así, la máquina de Deckard se convirtió en la primera impresora 3D en utilizar la tecnología SLS, a la cual llamó Betsy; sin embargo, el propósito central de su invención era testear el sistema de sinterizado por láser, por lo que la calidad de impresión y el nivel de detalle no estaba dentro de sus prioridades\citep{alltresdp2018}. 
 En 1993, el MIT desarrolla una técnica de impresión 3D basada en las impresoras de inyección de tinta. Adaptando ésta a un movimiento en un nuevo eje, se crea la Z Corp Z402. El primero modelo utilizaba polvos basados en yeso como base y un aglutinante basado en agua. El mismo año, Royden Sanders fundó Solidscape, creando una impresora 3D basada en cera.
 La segunda mitad de los años noventa vio la diversificación de las tecnologías para la técnica de fabricación aditiva, ampliando la gama de materias primas a utilizar y los proceso de transformación de materiales. En 1997, se crea la impresora 3D de metales, la cual utiliza el proceso de fundición por haz de electrones (EBM) y el perfeccionamiento del Polyjet. Así, este desarrollo trajo consigo mayores oportunidades comerciales para estas máquina abriéndose, entre otras, a la industria médica con la bioimpresión de partes adaptables al cuerpo humano tales como piezas dentales o prótesis\citep{tresdsourced2020}.
@@ -44,18 +68,133 @@ Los avances de las investigaciones y la búsqueda de la competitividad en la uti
 
 \end{figure}
 
-\subsection{Métodos de impresión 3D}
+Respecto al Hype Cycle o ciclo de sobreexpectación de Gartner, el cual corresponde a una publicación anual que representa gráficamente la madurez, adopción y aplicación comercial de tecnologías disruptivas, el inicio del ciclo se caracteriza por usos técnicos especializados como la bioimpresión de órganos, impresión 3D a nanoescala o lo macro fabricación. El peak de expectativas se alcanza con la impresión 3D en el retail para luego decaer en usos pedagógicos o la cadena de suministros. La meseta de productividad se caracteriza por la creación de empresas dedicadas a la impresión 3D, nuevos materiales, la creación de software y servicios. Por otra parte, las predicciones para el año 2019 se centran en el comienzo de la impresión 4D, el auge del sector médico y la impresión 3D de nuevas aleaciones de metal \citep{valdivieso2019}.
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/The3Dprintinghypecycle.png}
+\caption{Hype Cycle o Ciclo de sobreexplotación de Gartner de la tecnología de impresión 3D al año 2019 \citep{valdivieso2019}.}
+\end{figure}
+  
 
+\subsection{Tecnologías de impresión 3D}
+
+Según la norma ASTM F2792-12a del año 2013 que define el estándar de terminologías para tecnologías de manufactura aditiva, establece las siguientes categorías \citep{astm2013}:
+
+\begin{itemize}
+\item \textbf{Chorro de aglutinante:} proceso de manufactura aditiva en el cual un agente líquido de unión es depositado selectivamente para unir polvo de materiales.
+\item \textbf{Deposición de energía directa:} proceso de manufactura aditiva en el cual se enfoca energía térmica, que es usada para fundir materiales soldándose a medida que se depositan (láser, flujo de electrones, o arco de plasma).
+\item \textbf{Extrusión de material:} proceso de manufactura aditiva en el cual un material es depositado selectivamente a través del orificio de una boquilla.
+\item \textbf{Chorro de material:} proceso de manufactura aditiva en el cual gotas del material de construcción son depositadas selectivamente (ejemplo de materiales incluyen fotopolímeros y ceras).
+\item \textbf{Fusión de lecho de polvos:} proceso de manufactura aditiva en el cual energía térmica funde selectivamente fusiona regiones del lecho de polvos.
+\item \textbf{Laminación:} proceso de manufactura aditiva en el cual láminas de material son depositadas para formar un objeto.
+\item \textbf{Fotopolimerización:} proceso de manufactura aditiva en el cual un fotopolímero líquido dentro de un recipiente es curado selectivamente por polimerización de luz activa.
+\end{itemize}
 
 
 \subsection{Impresoras 3D FDM}
 
+Según la norma ASTM F2792-12a, el método de modelado por deposición fundida (FDM por sus siglas en inglés), se define como un proceso de extrusión de material usado para hacer piezas de termoplásticos a través de la extrusión en caliente y la deposición de material capa a capa. Este término denota a las máquinas construidas por la compañía Stratasys \citep{astm2013}. De una forma más amplia, el proceso físico del modelo de fabricación corresponde a un filamento que pasa a través de un elemento calentador, el cual lo convierte en un material fundido o semi-fundido. El filamento ya licuado, es alimentado por una boquilla y depositado sobre la pieza parcialmente construida. El nuevo material añadido se une con el material adyacente ya depositado. El cabezal de extrusión se mueve en el plano X-Y, y vierte controladamente el material acorde a la geometría de las capas ya impresas. Luego de terminar una capa, la plataforma de construcción realiza un movimiento relativo en el eje Z, para comenzar a depositar una nueva capa en la parte superior de la capa anterior. Luego de un tiempo que depende del volumen de la pieza impresa, el cabezal de extrusión habrá realizado una representación física completa del archivo CAD \citep{pdudek2013}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{images/fdmprocess.png}
+\caption{Proceso de impresión 3D FDM \citep{bournias2017} }
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/fdmesquema.png}
+\caption{Esquema de funcionamiento de impresión 3D FDM \citep{bournias2017}.}
+\end{figure}
+\pagebreak
+
+Dentro de las características principales de este proceso de fabricación se encuentran \citep{bournias2017}:
+
+\begin{description}
+\item \textbf{Parámetros de impresión:} la mayoría de los sistemas FDM permiten el ajuste de parámetros del proceso, dentro de los que se incluyen la temperatura de la boquilla y de la plataforma de construcción, velocidad de construcción, altura de capa y velocidad de ventilador de enfriamiento.
+\end{description}
+\begin{description}
+\item \textbf{Adhesión de capa:} Cuando el termoplástico fundido es extruído a través de la boquilla, ejerce una presión sobre la capa previa. La alta temperatura y la presión re-funde la superficie y posibilita la unión con la capa previa. Esto significa que el proceso FDM es ineherentemente anisotrópico: el esfuerzo en el eje-Z es siempre menor que en el plano X-Y.
+\end{description}
+
+\begin{description}
+\item \textbf{Estructura de Soporte:} Un termoplástico fundido no puede ser depositado en el aire. Por esta razón, algunas geometrías requieren una estructura de soporte, generalmente con una calidad menor que el resto de la pieza.
+\end{description}
+
+\begin{description}
+\item \textbf{Relleno y ancho de pared:} Usualmente, las piezas impresas en FDM no son sólidas, con el objetivo de reducir el tiempo de impresión y material. Así, los perímetro exteriores son trazados realizando varias pasadas denominadas ancho de pared, mientras que el interior es fabricado con una estructura de baja densidad, llamada relleno.
+\end{description}
+
+Por otro lado, los materiales mayoritariamente utilizados por esta tecnología y sus características son: 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Material & Características \\
+\hline
+ABS & \parbox{25em}{Alto resistencia, alta resistencia a la temperatura, susceptibilidad a la separación de capas}\\
+\hline
+PLA & \parbox{25em}{Excelente calidad visual, fácil de imprimir, baja resistencia al impacto}\\
+\hline
+Nylon (PA) & \parbox{25em}{Alta resistencia, Excelente resistencia química, baja resistencia a la humedad}\\
+\hline
+PETG & \parbox{25em}{Seguro para alimentos, buena resistencia, fácil de imprimir}\\
+\hline
+TPU & \parbox{25em}{Muy Flexible, difícil de imprimir}\\
+\hline
+PEI & \parbox{25em}{Excelente resistencia al peso, ignífugo, Excelente resistencia química, alto costo}\\
+\hline
+\end{tabular}
+\caption{Principales materiales utilizados en impresión 3D FDM \citep{bournias2017}.}
+\end{table}
+
 \subsection{Tipologías de impresión 3D FDM}
 
+Si bien el principio de funcionamiento para las impresoras 3D FDM es el mismo, existen diferentes tipologías o modelos de clasificación de éstas. En este caso, se presenta una clasificación según el sistema de coordenadas que utiliza para construir las piezas, donde se distinguen cuatro tipos \citep{b3dsourced2020}:
+
+\begin{description}
+\item \textbf{Cartesiana:} Estas impresoras siguen el patrón de coordenadas X, Y y Z para posicionar el cabezal de impresión en el lugar correcto. Existen dos posibilidades de movimiento tanto del cabezal como de la plataforma de construcción: (a) Cabezal móvil en el plano X-Z y plataforma en el eje-Y; (b) Cabezal móvil en el plano X-Y y plataforma en el eje-Z.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/cartesiana.png}
+\caption{Esquema de impresora 3D cartesiana \citep{b3dsourced2020}.}
+\end{figure}
+
+\item \textbf{Delta:} Las impresoras tipo delta incluyen una plataforma de construcción circular y un cabezal unido a tres puntos triangulares fijos. Cada uno de esos tres puntos pueden mover hacia arriba y abajo el cabezal dentro del cilindro de impresión.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/delta.png}
+\caption{Esquema de impresora 3D Delta \citep{b3dsourced2020}.}
+\end{figure}
+
+\item \textbf{Polar:} Esta impresora utiliza un sistema de coordenadas polares, donde cada punto de impresión está determinado por su posición comparada con un punto central en el medio de la plataforma de fabricación.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/polar.png}
+\caption{Esquema de impresora 3D polar \citep{takamori2018}}
+\end{figure}
+
+\item \textbf{SCARA}: una impresora SCARA (acrónimo de las siglas en inglés Selective Compilant Assembly Robot Arm) maniobra en los ejes X, Y, y Z dentro de un límite de 180 grados. El cabezal de esta máquina se sitúa en un extremo del brazo robot, el cual consta de dos articulaciones giratorias con ejes verticales.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/scara.png}
+\caption{Esquema de impresora 3D scara \citep{saygin2016}}
+\end{figure}
+
+
+
+\end{description}
+
+\pagebreak
 \section{Mantenimiento}
 
-Habitualmente, el concepto de mantenimiento puede definirse según distintas formas según el enfoque que se dé en cada caso. Un punto de partida, es mantener el correcto estado funcional de los equipos e instalaciones, sin embargo, las consecuencias que el desarrollo de este principio elemental puede tener sobrepasan ampliamente el objetivo inicial \citep{gomez1998}. En este sentido, y buscando una definición global, se puede decir que el mantenimiento corresponde al conjunto de técnicas destinado a conservar equipos e instalaciones en servicio durante el mayor tiempo posible (buscando la más alta disponibilidad) y con el máximo rendimiento \citep{garcia2010}.
+Según la norma ISO-14224:2016, el mantenimiento se define como una combinación de todas las técnicas y acciones de gestión destinadas a mantener un item o restablecerlo, a un estado en el cual su desempeño es requerido \citep{iso2016}. De una manera más amplia, el concepto de mantenimiento puede establecerse según distintas formas dado el enfoque que se dé en cada caso. Un punto de partida, es mantener el correcto estado funcional de los equipos e instalaciones, sin embargo, las consecuencias que el desarrollo de este principio elemental puede tener sobrepasan ampliamente el objetivo inicial \citep{gomez1998}. En este sentido, y buscando una definición global, se puede decir que el mantenimiento corresponde al conjunto de técnicas destinado a conservar equipos e instalaciones en servicio durante el mayor tiempo posible (buscando la más alta disponibilidad) y con el máximo rendimiento \citep{garcia2010}.
 Teniendo en cuenta factores como el tipo de industria y su tamaño, la política de la empresa, las características de la producción, el campo de acción de las actividades de un departamento de ingeniería de mantenimiento puede incluir las siguientes responsabilidades\citep{gomez1998}: \\
 
 \begin{itemize}
@@ -133,7 +272,7 @@ En tanto a los procesos, la tecnología de la información, el uso y la disponib
 
 \subsection{Mantenimiento correctivo}
 
-Este tipo de mantenimiento, también llamado mantenimiento a rotura, sólo se interviene en los equipos cuando el fallo ya se ha producido. Se trata, por tanto, de una actitud pasiva, frente a la evolución del estado de los equipos, a la espera de la avería o fallo \citep{gomez1998}. De la misma forma, el mantenimiento correctivo es el conjunto de tareas destinadas a corregir los defectos que se van presentando en los distintos equipos y que son comunicados al departamento de mantenimiento por los usuarios de los mismos \citep{garcia2010}.
+El estándar ISO-14224-2016 define el mantenimiento correctivo como el mantenimiento realizado después de la detección de fallas, con objeto de efectuar su restauración \citep{iso2016}. Este tipo de mantenimiento, también llamado mantenimiento a rotura, sólo se interviene en los equipos cuando el fallo ya se ha producido. Se trata, por tanto, de una actitud pasiva, frente a la evolución del estado de los equipos, a la espera de la avería o fallo \citep{gomez1998}. De la misma forma, el mantenimiento correctivo es el conjunto de tareas destinadas a corregir los defectos que se van presentando en los distintos equipos y que son comunicados al departamento de mantenimiento por los usuarios de los mismos \citep{garcia2010}.
 Adoptar esta forma de mantenimiento supone asumir algunos inconvenientes respecto a las máquinas y equipos afectados, entre los que pueden citarse \citep{gomez1998}:\\
 
 \begin{itemize}
@@ -153,7 +292,57 @@ De aquellas empresas donde el 100\% del mantenimiento es correctivo, se podría 
 
 \subsection{Mantenimiento preventivo}
 
+El estándar ISO-14224-2016 presenta el mantenimiento preventivo planificado como el mantenimiento realizado de acuerdo a una planificación específica \citep{iso2016}. En este sentido, este tipo de mantenimiento pretende evitar la reparación mediante una rutina de inspecciones periódicas y la renovación de los elementos deteriorados. En estas inspecciones, se procede al desmontaje total o parcial de la máquina con el fin de revisar el estado de sus elementos, reemplazando aquellos que se estime oportuno a la vista del examen realizado. Otros elementos son sustituidos sistemáticamente en cada inspección, tomando como referencia el número de operaciones realizadas o un determinado periodo de tiempo de funcionamiento \citep{gomez1998}. Dicho esto, existen autores que plantean modelos donde estos tipos de mantenimiento estén involucrados y compartan otras actividades, con el fin de hacer más rentable las acciones determinadas. Uno de estos modelos es el mantenimiento preventivo sistemático, el cual incluye un conjunto de tareas que se realizarán sin importar la condición del equipo. Es importante señalar que un equipo sujeto a un modelo de mantenimiento sistemático no tiene por qué tener todas sus tareas con su periodicidad fija. El mantenimiento preventivo sistemático contempla \citep{garcia2010}:
+
+\begin{itemize}
+\item Inspecciones visuales.
+\item Lubricación.
+\item Mantenimiento preventivo planificado.
+\item Mantenimiento condicional.
+\item Reparación de averías.
+\end{itemize}
+
+Dentro de las principales ventajas de este tipo de mantenimiento están \citep{jimenez2015}:
+
+\begin{itemize}
+\item Conocimiento del estado de funcionamiento de las instalaciones.
+\item Mejora de las condiciones de seguridad laborales.
+\item Aumento de la vida útil de las instalaciones.
+\item Mayor rendimiento de trabajadores y máquinas debido a la eliminación de tiempos muertos.
+\item Disminución en los costes de reparación de averías.
+\end{itemize}
+
+Según Jimenez (2015), los principales inconvenientes son:
+
+\begin{itemize}
+\item Los elementos son cambiados antes de que estos lleguen a su vida útil completa.
+\item Si no se realiza una buena programación de operaciones y con una frecuencia óptima, con este tipo de mantenimiento se pueden aumentar los costes, así como la disminución del rendimiento de las máquinas o instalaciones.
+\end{itemize}
+
+Para que un mantenimiento preventivo sea efectivo, deberá seguir los siguientes pasos \citep{jimenez2015}:
+
+\begin{enumerate}
+\item Saber los objetivos del trabajo.
+\item Conocer el programa de mantenimiento preventivo y predictivo.
+\item Seleccionar los equipos para realizar el mantenimiento.
+\item Recoger información de los equipos susceptibles de mantenimiento.
+\item Estudio de la información obtenida.
+\item Estudio de los métodos de trabajo así de cómo las desviaciones de las operaciones de mantenimiento.
+\item Análisis y conclusiones de las operaciones de mantenimiento realizadas.
+\item Presentación de las propuestas de mejora.
+\item Estudio de propuestas de mejora y posibilidad de nueva frecuencia del mantenimiento preventivo.
+\item Estudio y análisis de los resultados.
+\item Actualización del programa de mantenimiento.
+\end{enumerate}
+
+
+
 \subsection{Mantenimiento centrado en la condición}
+
+
+Respecto al mantenimiento centrado en la condición de equipos y las normas que definen su marco de trabajo, se encuentra la norma ISO 13372:2012 la cual se refiere al vocabulario relacionado al monitoreo de la condición y su diagnóstico, y el estándar ISO 17359-2018 que presenta las guías generales para el proceso anteriormente mencionado.
+Las perspectivas del proceso de monitoreo de la condición se presentan a través de un diagrama que detalla los pasos necesarios para dirigir las actividades de monitoreo para identificar y evitar modos de falla \citep{iso2018}.
+
 
 \subsection{Mantenimiento centrado en la confiabilidad}
 

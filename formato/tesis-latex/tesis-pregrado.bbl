@@ -5,6 +5,13 @@
 \newblock What is 3d printing? the definitive guide.
 \newblock Recuperado de: https://www.3dhubs.com/guides/3d-printing/.
 
+\bibitem[3DSourced, 2020]{b3dsourced2020}
+3DSourced (2020).
+\newblock The 4 types of fdm 3d printer explained (cartesian, delta, polar and
+  scara).
+\newblock Recuperado de:
+  https://3dsourced.com/3d-printers/types-of-fdm-3d-printer-cartesian-delta/.
+
 \bibitem[3dsourced, 2020]{tresdsourced2020}
 3dsourced (2020).
 \newblock The complete history of 3d printing: From 1980 to 2020.
@@ -35,11 +42,22 @@ Arun, L. (2012).
   trends \& challenges in production.
 \newblock Master's thesis, Mälardalen University Sweden.
 
+\bibitem[ASTM, 2013]{astm2013}
+ASTM (2013).
+\newblock {\em Standard Terminology for Additive Manufacturing Technologies}.
+\newblock American Society of Testing Materials.
+
 \bibitem[Berchon and Luyt, 2014]{Berchon2014}
 Berchon, M. and Luyt, B. (2014).
 \newblock {\em La impresión 3D: Guía definitiva para makers, diseñadores,
   estudiantes profesionales, artistas y manitas en general}.
 \newblock Editorial Gustavo Gill.
+
+\bibitem[Bournias, 2017]{bournias2017}
+Bournias, A. (2017).
+\newblock Introduction to fdm 3d printing.
+\newblock Recuperado de:
+  https://www.3dhubs.com/knowledge-base/introduction-fdm-3d-printing/.
 
 \bibitem[Cruz, 2018]{cruz2018}
 Cruz, B. (2018).
@@ -52,6 +70,11 @@ Cruz, B. (2018).
 de~León, F.~G. (1998).
 \newblock {\em Tecnologías del Mantenimiento Industrial}.
 \newblock Universidad de Murcia. Servicio de Publicaciones.
+
+\bibitem[Dudek, 2013]{pdudek2013}
+Dudek, P. (2013).
+\newblock Fdm 3d printing technology in manufacturing composite elements.
+\newblock {\em Archives Of Metallurgy and Materials}, 58.
 
 \bibitem[Fera et~al., 2018]{fera2018}
 Fera, M., Macchiaroli, R., Fruggiero, F., and Lambiase, A. (2018).
@@ -83,6 +106,30 @@ Hide, M. (2013).
 Houle, L. (2016).
 \newblock Fourth-generation maintenance.
 \newblock {\em Technical Quarterly}.
+
+\bibitem[ISO, 2015]{iso2015}
+ISO (2015).
+\newblock {\em ISO/ASTM 52900:2015 Additive manufacturing-General
+  principles-Terminology}.
+\newblock International Organization for Standardization.
+
+\bibitem[ISO, 2016]{iso2016}
+ISO (2016).
+\newblock {\em Petroleum , petrochemical and natural gas industries —
+  Collection and exchange of reliab ility and maintenance data for equipment}.
+\newblock International Organization for Standardization.
+
+\bibitem[ISO, 2018]{iso2018}
+ISO (2018).
+\newblock {\em Condition monitoring and diagnostics of machines — General
+  guidelines}.
+\newblock International Organization for Standardization.
+
+\bibitem[Jimenez, 2015]{jimenez2015}
+Jimenez, F. (2015).
+\newblock {\em Mantenimiento preventivo de sistemas de automatización
+  industrial}.
+\newblock IC Editorial.
 
 \bibitem[Jorquera~Ortega, 2016]{jorquera2016}
 Jorquera~Ortega, A. (2016).
@@ -125,6 +172,11 @@ SAE (1999).
 \newblock The Engineering Society For Advancing Mobility Land, Sea Air and
   Space.
 
+\bibitem[Saygin et~al., 2016]{saygin2016}
+Saygin, A., Cakan, A., and Tinkir, M. (2016).
+\newblock Modeling and position control of scara type 3d printer.
+\newblock {\em NTERNATIONAL JOURNAL OF SCIENTIFIC AND TECHNOLOGY RESEARCH}.
+
 \bibitem[Shenoy, 2005]{shenoy2005}
 Shenoy, D. (2005).
 \newblock {\em Maintenance Resources Management Adapting MRP}.
@@ -136,10 +188,21 @@ Sifonte, J. (2017).
   mantenimiento centrado en confiabilidad (rcm).
 \newblock Recuperado de: http://www.pdmtechusa.com/criterios-evaluacion-rcm/.
 
+\bibitem[Takamori, 2018]{takamori2018}
+Takamori, R. (2018).
+\newblock Growable robot with additive-additive-manufacturing.
+\newblock In {\em Conference on Human Factors in Computing}.
+
 \bibitem[Torre, 2013]{torre2013}
 Torre, R. (2013).
 \newblock Apuntes sobre el proyecto reprap.
 \newblock Recuperado de:
   http://www.laboralcentrodearte.org/es/files/2013/bloglaboral/apuntes-sobre-el-proyecto-reprap.
+
+\bibitem[Valdivieso, 2019]{valdivieso2019}
+Valdivieso, C. (2019).
+\newblock Gartner hype cycle 2019: 3d printing predictions.
+\newblock Recuperado de:
+  https://www.3dnatives.com/en/gartner-hype-cycle-3dprintingpredictions-150120194/.
 
 \end{thebibliography}
