@@ -341,15 +341,92 @@ Para que un mantenimiento preventivo sea efectivo, deberá seguir los siguientes
 
 
 Respecto al mantenimiento centrado en la condición de equipos y las normas que definen su marco de trabajo, se encuentra la norma ISO 13372:2012 la cual se refiere al vocabulario relacionado al monitoreo de la condición y su diagnóstico, y el estándar ISO 17359-2018 que presenta las guías generales para el proceso anteriormente mencionado.
-Las perspectivas del proceso de monitoreo de la condición se presentan a través de un diagrama que detalla los pasos necesarios para dirigir las actividades de monitoreo para identificar y evitar modos de falla \citep{iso2018}.
+Las perspectivas del proceso de monitoreo de la condición se presentan a través de un diagrama que detalla los pasos necesarios para dirigir las actividades de monitoreo para identificar y evitar modos de falla \citep{iso2018}. 
+Al mismo tiempo, el estándar propone una diversidad de análisis a tener en cuenta para el monitoreo de la condición, entre los que se encuentran \citep{iso2018}:
+
+\begin{description}
+\item \textbf{Análisis costo beneficio:} un análisis inicial de factibilidad y costo beneficio ayuda a establecer indicadores de desempeño precisos y referencias para medir la efectividad de cualquier programa de monitoreo de la condición. Los ítem a considerar incluyen:
+\begin{itemize}
+\item Ciclo de costo de vida.
+\item Costo de la producción perdida.
+\item Daño consecuente.
+\item Garantías y seguros.
+\end{itemize}
+
+\item \textbf{Identificación del equipo:} Se establece un esquema genérico de una máquina y sus distintos componentes y procesos para considerar la gestión del monitoreo de la condición. Entre ellos se encuentran: estructura; tuberías; lubricación; sistemas de control; configuración y rangos; entradas y salidas; personal; medio ambiente; sistemas de protección; data; técnicas de monitoreo de la condición; posición y accesibilidad; máquinas adyacentes.
+
+\item \textbf{Identificación de la función del equipo:} Se busca identificar la siguiente información: (a) qué debe realizar el sistema, máquina o equipamiento; (b) cuáles son las condiciones de operación de la máquina o sistema, o el rango de condiciones de operación.
+
+\item \textbf{Equipos críticos:} se recomienda una evaluación crítica de todas las máquinas, para crear una lista de prioridades y ser incluidas (o no) en el programa de monitoreo de la condición. Puede ser un sistema simple de calificación basado en los siguientes factores:
+
+\begin{itemize}
+\item Costo de máquina fuera de servicio o pérdida de costos de producción.
+\item Rango de falla y tiempo medio para reparar.
+\item Redundancia.
+\item daño secundario.
+\item Costo de reemplazo de la máquina.
+\item Costo del mantenimiento.
+\item Costo del ciclo de vida.
+\item Costo del sistema de monitoreo.
+\item Seguridad e impacto medioambiental.
+\end{itemize}
+
+\item \textbf{Técnicas de medición:} Para la medición particular de los parámetros considerados, pueden ser apropiadas una o más mediciones. Los parámetros de éstas pueden ser simples mediciones de valores generales, o valores promediados en el tiempo. Para ciertos parámetros como voltaje, corriente o vibraciones, puede que este tipo de mediciones no sean suficientes para mostrar la ocurrencia de una falla.
+
+\item \textbf{Exactitud de los parámetros de monitoreo:} En la mayoría de los casos, la exactitud de los parámetros requeridos para ser usado en el monitoreo y diagnostico de la condición de la máquina no es necesariamente tan absoluto como la precisión que se podría requerir para otras mediciones, como pruebas de rendimiento.
+
+\item \textbf{Condiciones de operación durante el monitoreo:} Si es posible, el monitoreo debe ser llevado a cabo cuando la máquina ya ha alcanzado una configuración predeterminada de las operaciones de condición. Mediciones de diferentes parámetros deben ser tomados siempre que sea posible y al mismo tiempo bajo las mismas condiciones de operación.
+
+\item \textbf{Intervalos de monitoreo:} Se debe considerar el intervalo entre mediciones, y si se requiere un muestreo continuo o periódico. El intervalo primario del monitoreo depende del tipo de falta, su rango de progresión y el rango de cambio de los parámetros relevantes. El tiempo transcurrido entre la detección de la falta y la falla actual es conocido como tiempo de espera para fallar (LTTF).
+
+\item \textbf{Registro de parámetros de monitoreo:} el regitro de parámetros de monitoreo debe incluir, como mínimo, la siguiente información:
+\begin{itemize}
+\item Data esencial que describe la máquina.
+\item Data esencial que describe la condición de operación.
+\item Posición de medición.
+\item Unidades y procesamiento de medición.
+\item Información sobre fecha y hora.
+\end{itemize}
+
+\item \textbf{Criterio de alerta inicial:} el criterio de alerta inicial debe ser configurado  como el más temprano indicador posible de la ocurrencia de una falta. Las alarmas deben ser valores unitarios o de niveles múltiples, donde ambos incrementan y/o decrecen. 
+
+\item \textbf{Data Base o referencia:} Esta data es medida u observada cuando la operación del equipo se conoce como aceptable o estable. 
+
+\item \textbf{Diagnóstico y pronóstico:} el proceso de diagnóstico es generalmente provocado por una detección anormal. Esta detección es llevada a cabo realizando una comparación entre los descriptores presentes de la máquina, o comparando con una máquina similar.
+
+\item \textbf{Determinar acciones de mantenimiento:} la acción más simple que puede ser tomada en ciertas circunstancias es decidir el llevar a cabo una acción no inmediata,  y continuar el monitoreo a intervalos normales. en caso de ocurrencia de una falta, las decisiones incluyen lo siguiente:
+\begin{itemize}
+\item Sin acción, continuar con el monitoreo de rutina.
+\item Reducir el intervalo a la siguiente medición requerida.
+\item cambiar la carga o velocidad de la máquina.
+\item Apagar la máquina.
+\item Inspeccionar la máquina o adelantar mantenimiento de rutina planificado.
+\item Llevar a cabo mantenimiento correctivo.
+
+\end{itemize}
+\end{description}
+
+
 
 
 \subsection{Mantenimiento centrado en la confiabilidad}
 
-La confiabilidad puede ser definida como la "confianza que se tiene de que un componente, equipo o sistema desempeñe su función básica, durante un periodo de tiempo preestablecido, bajo condiciones estándares de operación; otra definición es la probabilidad de que un ítem pueda desempeñar su función requerida durante un intervalo establecido y bajo condiciones de uso definidas \citep{dairo2016}. 
+
 
 El Mantenimiento Centrado en Confiabilidad (RCM) corresponde a un procedimiento basado en el sentido común con un diagrama de decisión para la creación de estrategias de mantenimiento para proteger las funciones de los activos. RCM se define como un proceso para determinar qué debe hacerse para mantener los activos físicos funcionando de acuerdo a lo que sus operadores quieren que éstos hagan en su contexto operacional actual \citep{sifonte2017}.
-Los criterios que todo proceso debe cumplir para ser llamado RCM son establecidos en la norma SAE JA1011, publicada en 1999. En este sentido, la norma establece siete pasos descritos a continuación:\\
+El estándar internacional ISO 14224-2016 reúne los criterios para la colección e intercambio de data de mantenimiento y confiabilidad para los equipos. Por otra parte, los criterios que todo proceso debe cumplir para ser llamado RCM son establecidos en la norma SAE JA1011, publicada en 1999. respecto a la primera, se plantean las siguientes definiciones \citep{iso2016}:\\
+
+\begin{description}
+\item \textbf{Ciclo medio de Falla (MCTF):} número de ciclos esperado antes de que el item falle.
+\item \textbf{Número medio de ciclos:} número esperado de ciclos por unidad de tiempo.
+\item \textbf{Tiempo medio de reparación activa (MART):} tiempo esperado para reparación activa.
+\item \textbf{Tiempo medio transcurrido entre fallas (METBF):} tiempo medio transcurrido esperado entre fallas sucesivas de un ítem reparable.
+\item \textbf{Tiempo medio de reparación general:} tiempo esperado para lograr las siguientes acciones: tiempo gastado antes de comenzar la reparación y; tiempo anterior en que el ítem esté disponible para volver a operación
+\item \textbf{Tiempo medio para falla (MTTF):}: tiempo esperado antes de que un ítem falle.
+\item \textbf{Tiempo medio para reparar (MTTR):} tiempo esperado para lograr la reparación un ítem fallado.
+\end{description}
+
+Por otra parte, la norma SAE JA1011 establece siete pasos descritos a continuación:\\
 
 \begin{itemize}
 \item Delimitar el contexto operativo, las funciones y los estándares de desempeño asociados al activo (contexto operacional y funciones.
@@ -412,6 +489,11 @@ La norma SAE JA1011 reconoce cinco posibles estrategias de mantenimiento que deb
 
 \end{itemize}
 
+
+\subsection{Confiabilidad}
+
+La confiabilidad puede ser definida como la confianza que se tiene de que un componente, equipo o sistema desempeñe su función básica, durante un periodo de tiempo preestablecido, bajo condiciones estándares de operación; otra definición es la probabilidad de que un ítem pueda desempeñar su función requerida durante un intervalo establecido y bajo condiciones de uso definidas \citep{dairo2016}. Existen diversos modelos matemáticos que pueden describir el comportamiento de una variable a través del tiempo, los cuales se enuncian a continuación:
+
 \subsubsection{Función densidad de probabilidad}
 
 La función densidad de probabilidad puede describir la distribución de la probabilidad de una variable aleatoria continua $X$. Así, una función de densidad de probabilidad es una función tal que:
@@ -426,64 +508,118 @@ La función densidad de probabilidad puede describir la distribución de la prob
 
 
 Esta función proporciona una descripción simple de las probabilidades asociadas a una variable aleatoria.
+
 \subsubsection{Media y varianza de una variable continua}
 
 Si se tiene que $X$ es una variable aleatoria continua con función de densidad de probabilidad $f(x)$, se define la Media de $X$ como:
 
-\begin{equation*}
+\begin{equation}
 \mu=E(X)=\int_{-\infty}^{\infty}xf(x)dx
-\end{equation*}
+\end{equation}
 
 Asimismo, la Varianza de $X$:
 
-\begin{equation*}
+\begin{equation}
 \sigma^2=V(X)=\int_{-\infty}^{\infty}(x-\mu)^{2}f(x)dx=\int_{-\infty}^{\infty}x^{2}f(x)dx-\mu^2
-\end{equation*}
+\end{equation}
 
 La Desviación Estandar:
 
-\begin{equation*}
+\begin{equation}
 \sigma=\sqrt{V(X)}
-\end{equation*}
+\end{equation}
 
 \subsubsection{Distribución normal}
 
 Variables aleatorias con medias y varianzas diferentes pueden modelares por medio de funciones de densidad de probabilidad normal, con la elección adecuada del centro y anchura de la curva. La función de densidad de probabilidad normal se define como:
 
-\begin{equation*}
+\begin{equation}
 f(x)=\frac{1}{\sqrt{2\pi\sigma}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}  ,  -\infty<x<\infty
-\end{equation*}
+\end{equation}
 
 tiene una distribución normal con parámetros $\mu$, donde $-\infty<\mu<\infty$, y $\sigma>0$.\\
 
 Además,
-\begin{equation*}
+\begin{equation}
 E(X)=\mu , V(x)=\sigma^2
-\end{equation*}
+\end{equation}
 
 \subsubsection{Distribución exponencial}
 
 La distribución exponencial debe su nombre a la función exponencial de la función de densidad de probabilidad. Así, la variable aleatoria $X$ (que es igual a la distancia entre conteos sucesivos de un proceso de Poisson con media $\lambda>0$ tiene una distribución exponencial con parámetro $\lambda$:
 
-\begin{equation*}
+\begin{equation}
 f(x)=\lambda e^{-\lambda x}, 0<x<\infty
-\end{equation*}
+\end{equation}
 
 Si la variable tiene una distribución exponencial con parámetro $\lambda$:
 
-\begin{equation*}
+\begin{equation}
 E(x)=\frac{1}{\lambda}, V(X)=\frac{1}{\lambda^2}
-\end{equation*}
+\end{equation}
 
 \subsubsection{Distribución de Weibull}
 
-La distribución de Weibull se utiliza con frecuencia para modelar el tiempo hasta que ocurre una falla en algún sistema. La variable aleatoria $X$ con función de densidad de probabilidad:
+La distribución de Weibull se utiliza con frecuencia para modelar el tiempo hasta que ocurre una falla en algún sistema. La función de densidad de problabilidad para la distribución está definida como:
 
-\begin{equation*}
-f(x)=\frac{\beta}{\delta}\left( \frac{x}{\delta} \right)^{\beta-1}e^{\left( \frac{x}{\delta} \right)}{}^\beta
-\end{equation*}
+\begin{equation}
+f(t)=\frac{\beta\cdot t^{\beta-1}}{\theta^\beta}\cdot exp\left[-\left(\frac{t}{\theta}\right)^\beta\right] \quad t\geq 0,\text{ }\theta>0,\text{ }b>0 
+\end{equation}
 
-tiene una distribución de Weibull con parámetro de escala $\delta>0$ y parámetro de forma $\beta>0$.
+Donde $\beta$ y $\theta$ son los parámetros forma de y escala de la distribución, respectivamente; mientras que $t$ corresponde a la variable aleatoria que en el caso de la confiabilidad responde al tiempo entre fallas.
+
+La función confiabilidad de Weibull se determina como:
+
+\begin{equation}
+R(t)=\int_{s}^{\infty}f(s)ds= exp\left[-\left(\frac{t}{\theta}\right)^\beta\right]
+\end{equation}
+
+Por otro lado, la función de distribución acumulativa está dad por la ecuación
+
+\begin{equation}
+R(t)=1-F(t)\quad R(t)=1-exp-\left[\left( \frac{t}{\theta}\right)^\beta\right]
+\end{equation}
+
+Utilizando el método de mínimos cuadrados para obtener los parámetros de forma y escala, aplicado a la función de distribución acumulativa:
+
+\begin{equation}
+F(t)=1-exp\left[-\left(\frac{t}{\theta}\right)^\beta\right]
+\end{equation}
+
+\begin{equation}
+\rightarrow \frac{1}{exp \left[\left(\frac{t}{\theta}\right)^\beta\right]}=1-F(t)
+\end{equation}
+
+\begin{equation}
+\rightarrow \frac{1}{1-F(t)}=exp\left[\left(\frac{t}{\theta}\right)^\beta\right]
+\end{equation}
+
+Aplicando logaritmo natural:
+
+\begin{equation}
+\rightarrow ln\left(\frac{1}{1-F(t)}\right)=ln\left[exp\left[\left(\frac{t}{\theta}\right)^\beta \right]\right]
+\end{equation}
+
+\begin{equation}
+\rightarrow ln\left( \frac{1}{1-F(t)} \right)=\left( \frac{t}{\theta}\right)^\beta 
+\end{equation}
+
+Calculando nuevamente el logaritmo natural para la expresión anterior:
+
+\begin{equation}
+\rightarrow ln\left[ln\left[\frac{1}{1-F(t)}\right]\right]=\beta\cdot ln\left(\frac{t}{\theta}\right)
+\end{equation}
+
+\begin{equation}
+\rightarrow ln\left[ln\left[\frac{1}{1-F(t)}\right]\right]=\beta ln(t)-\beta ln(\theta)
+\end{equation}
+
+Luego, se obtiene una ecuación lineal de la forma $y=ax-b$. Se debe notar que $\beta$ corresponde a la pendiente de la ecuación. Como se éste se define como el factor de forma, surgen las siguientes consideraciones:
+
+\begin{description}
+\item Cuando $\beta<1$ existen desgastes en que la tasa de fallos disminuye en función del tiempo, luego de un incremento repentino. Si $\beta\rightarrow0$, se asocia a ciclos de desgaste bajo; por otra parte, cuando $\beta\rightarrow1$, existen ciclos de desgaste altos. Asimismo, un valor de $\beta$ menor a uno indica fallos infantiles.
+\item Cuando $\beta>1$, se trata de desgaste debido a la disminución constante de la resistencia antes de su puesta en servicio.
+\end{description}
 
 
 \section{Lean Manufacturing}
