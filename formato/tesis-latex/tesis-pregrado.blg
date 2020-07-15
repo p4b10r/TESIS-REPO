@@ -11,44 +11,46 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
-You've used 36 entries,
+Warning--can't use both author and editor fields in socconini2019
+You've used 39 entries,
             1935 wiz_defined-function locations,
-            632 strings with 9096 characters,
-and the built_in function-call counts, 9666 in all, are:
-= -- 952
-> -- 296
-< -- 33
-+ -- 94
-- -- 88
-* -- 623
-:= -- 1864
-add.period$ -- 107
-call.type$ -- 36
-change.case$ -- 211
-chr.to.int$ -- 36
-cite$ -- 36
-duplicate$ -- 433
-empty$ -- 673
-format.name$ -- 126
-if$ -- 1815
+            645 strings with 9366 characters,
+and the built_in function-call counts, 10512 in all, are:
+= -- 1032
+> -- 323
+< -- 36
++ -- 102
+- -- 96
+* -- 681
+:= -- 2022
+add.period$ -- 116
+call.type$ -- 39
+change.case$ -- 228
+chr.to.int$ -- 39
+cite$ -- 40
+duplicate$ -- 472
+empty$ -- 735
+format.name$ -- 139
+if$ -- 1977
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 182
-num.names$ -- 108
-pop$ -- 191
+missing$ -- 25
+newline$ -- 197
+num.names$ -- 117
+pop$ -- 211
 preamble$ -- 1
-purify$ -- 224
+purify$ -- 243
 quote$ -- 0
-skip$ -- 343
+skip$ -- 372
 stack$ -- 0
-substring$ -- 438
-swap$ -- 26
+substring$ -- 474
+swap$ -- 29
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 202
-warning$ -- 0
-while$ -- 72
+type$ -- 216
+warning$ -- 1
+while$ -- 78
 width$ -- 0
-write$ -- 434
+write$ -- 470
+(There was 1 warning)
