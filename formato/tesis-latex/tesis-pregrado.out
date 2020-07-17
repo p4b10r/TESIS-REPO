@@ -1,42 +1,40 @@
 \BOOKMARK [0][]{chapter*.2}{\315ndice de Figuras}{}% 1
 \BOOKMARK [0][]{chapter*.3}{\315ndice de Tablas}{}% 2
-\BOOKMARK [0][]{chapter*.4}{\315ndice de Algoritmos}{}% 3
-\BOOKMARK [0][]{chapter.1}{1 Marco Te\363rico}{}% 4
-\BOOKMARK [1][]{section.1.1}{1.1 Fabricaci\363n aditiva}{chapter.1}% 5
-\BOOKMARK [1][]{section.1.2}{1.2 Impresi\363n 3D}{chapter.1}% 6
-\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 Historia de la impresi\363n 3D}{section.1.2}% 7
-\BOOKMARK [2][]{subsection.1.2.2}{1.2.2 Tecnolog\355as de impresi\363n 3D}{section.1.2}% 8
-\BOOKMARK [2][]{subsection.1.2.3}{1.2.3 Impresoras 3D FDM}{section.1.2}% 9
-\BOOKMARK [2][]{subsection.1.2.4}{1.2.4 Tipolog\355as de impresi\363n 3D FDM}{section.1.2}% 10
-\BOOKMARK [1][]{section.1.3}{1.3 Mantenimiento}{chapter.1}% 11
-\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Historia y evoluci\363n del mantenimiento}{section.1.3}% 12
-\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Mantenimiento correctivo}{section.1.3}% 13
-\BOOKMARK [2][]{subsection.1.3.3}{1.3.3 Mantenimiento preventivo}{section.1.3}% 14
-\BOOKMARK [2][]{subsection.1.3.4}{1.3.4 Mantenimiento centrado en la condici\363n}{section.1.3}% 15
-\BOOKMARK [2][]{subsection.1.3.5}{1.3.5 Mantenimiento centrado en la confiabilidad}{section.1.3}% 16
-\BOOKMARK [2][]{subsection.1.3.6}{1.3.6 Confiabilidad}{section.1.3}% 17
-\BOOKMARK [3][]{subsubsection.1.3.6.1}{1.3.6.1 Funci\363n densidad de probabilidad}{subsection.1.3.6}% 18
-\BOOKMARK [3][]{subsubsection.1.3.6.2}{1.3.6.2 Media y varianza de una variable continua}{subsection.1.3.6}% 19
-\BOOKMARK [3][]{subsubsection.1.3.6.3}{1.3.6.3 Distribuci\363n normal}{subsection.1.3.6}% 20
-\BOOKMARK [3][]{subsubsection.1.3.6.4}{1.3.6.4 Distribuci\363n exponencial}{subsection.1.3.6}% 21
-\BOOKMARK [3][]{subsubsection.1.3.6.5}{1.3.6.5 Distribuci\363n de Weibull}{subsection.1.3.6}% 22
-\BOOKMARK [1][]{section.1.4}{1.4 Lean Manufacturing}{chapter.1}% 23
-\BOOKMARK [2][]{subsection.1.4.1}{1.4.1 Historia Lean Manufacturing}{section.1.4}% 24
-\BOOKMARK [2][]{subsection.1.4.2}{1.4.2 T\351cnicas y herramientas Lean}{section.1.4}% 25
-\BOOKMARK [1][]{section.1.5}{1.5 Design Thinking}{chapter.1}% 26
-\BOOKMARK [2][]{subsection.1.5.1}{1.5.1 Metodolog\355as \341giles}{section.1.5}% 27
-\BOOKMARK [2][]{subsection.1.5.2}{1.5.2 Design Thinking}{section.1.5}% 28
-\BOOKMARK [2][]{subsection.1.5.3}{1.5.3 Fases del Design Thinking}{section.1.5}% 29
-\BOOKMARK [1][]{section.1.6}{1.6 Herramientas de software}{chapter.1}% 30
-\BOOKMARK [2][]{subsection.1.6.1}{1.6.1 Lenguajes de programaci\363n orientada a objetos}{section.1.6}% 31
-\BOOKMARK [2][]{subsection.1.6.2}{1.6.2 Lenguajes de hojas de estilo}{section.1.6}% 32
-\BOOKMARK [2][]{subsection.1.6.3}{1.6.3 Bases de datos}{section.1.6}% 33
-\BOOKMARK [2][]{subsection.1.6.4}{1.6.4 Arquitectura Cliente-Servidor}{section.1.6}% 34
-\BOOKMARK [2][]{subsection.1.6.5}{1.6.5 API}{section.1.6}% 35
-\BOOKMARK [2][]{subsection.1.6.6}{1.6.6 Ordenadores de placa reducida}{section.1.6}% 36
-\BOOKMARK [0][]{chapter.2}{2 Estado del Arte}{}% 37
-\BOOKMARK [1][]{section.2.1}{2.1 Gesti\363n de la producci\363n en la fabricaci\363n aditiva}{chapter.2}% 38
-\BOOKMARK [1][]{section.2.2}{2.2 Gesti\363n del mantenimiento basado en la teor\355a de la confiabilidad}{chapter.2}% 39
-\BOOKMARK [1][]{section.2.3}{2.3 Tecnolog\355as innovadoras que utilicen CMMS para la gesti\363n del mantenimiento.}{chapter.2}% 40
-\BOOKMARK [0][]{chapter*.24}{Referencias}{}% 41
-\BOOKMARK [0][]{section*.25}{Ap\351ndices}{}% 42
+\BOOKMARK [0][]{chapter.1}{1 Marco Te\363rico}{}% 3
+\BOOKMARK [1][]{section.1.1}{1.1 Fabricaci\363n aditiva}{chapter.1}% 4
+\BOOKMARK [1][]{section.1.2}{1.2 Impresi\363n 3D}{chapter.1}% 5
+\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 Historia de la impresi\363n 3D}{section.1.2}% 6
+\BOOKMARK [2][]{subsection.1.2.2}{1.2.2 Tecnolog\355as de impresi\363n 3D}{section.1.2}% 7
+\BOOKMARK [2][]{subsection.1.2.3}{1.2.3 Impresoras 3D FDM}{section.1.2}% 8
+\BOOKMARK [2][]{subsection.1.2.4}{1.2.4 Tipolog\355as de impresi\363n 3D FDM}{section.1.2}% 9
+\BOOKMARK [1][]{section.1.3}{1.3 Mantenimiento}{chapter.1}% 10
+\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Historia y evoluci\363n del mantenimiento}{section.1.3}% 11
+\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Mantenimiento correctivo}{section.1.3}% 12
+\BOOKMARK [2][]{subsection.1.3.3}{1.3.3 Mantenimiento preventivo}{section.1.3}% 13
+\BOOKMARK [2][]{subsection.1.3.4}{1.3.4 Mantenimiento centrado en la condici\363n}{section.1.3}% 14
+\BOOKMARK [2][]{subsection.1.3.5}{1.3.5 Mantenimiento centrado en la confiabilidad}{section.1.3}% 15
+\BOOKMARK [2][]{subsection.1.3.6}{1.3.6 Confiabilidad}{section.1.3}% 16
+\BOOKMARK [3][]{subsubsection.1.3.6.1}{1.3.6.1 Funci\363n densidad de probabilidad}{subsection.1.3.6}% 17
+\BOOKMARK [3][]{subsubsection.1.3.6.2}{1.3.6.2 Media y varianza de una variable continua}{subsection.1.3.6}% 18
+\BOOKMARK [3][]{subsubsection.1.3.6.3}{1.3.6.3 Distribuci\363n normal}{subsection.1.3.6}% 19
+\BOOKMARK [3][]{subsubsection.1.3.6.4}{1.3.6.4 Distribuci\363n exponencial}{subsection.1.3.6}% 20
+\BOOKMARK [3][]{subsubsection.1.3.6.5}{1.3.6.5 Distribuci\363n de Weibull}{subsection.1.3.6}% 21
+\BOOKMARK [1][]{section.1.4}{1.4 Lean Manufacturing}{chapter.1}% 22
+\BOOKMARK [2][]{subsection.1.4.1}{1.4.1 Historia Lean Manufacturing}{section.1.4}% 23
+\BOOKMARK [2][]{subsection.1.4.2}{1.4.2 T\351cnicas y herramientas Lean}{section.1.4}% 24
+\BOOKMARK [1][]{section.1.5}{1.5 Metodolog\355as \341giles}{chapter.1}% 25
+\BOOKMARK [2][]{subsection.1.5.1}{1.5.1 Design Thinking}{section.1.5}% 26
+\BOOKMARK [2][]{subsection.1.5.2}{1.5.2 Fases del Design Thinking}{section.1.5}% 27
+\BOOKMARK [1][]{section.1.6}{1.6 Herramientas de software}{chapter.1}% 28
+\BOOKMARK [2][]{subsection.1.6.1}{1.6.1 Lenguajes de programaci\363n orientada a objetos}{section.1.6}% 29
+\BOOKMARK [2][]{subsection.1.6.2}{1.6.2 Lenguajes de hojas de estilo}{section.1.6}% 30
+\BOOKMARK [2][]{subsection.1.6.3}{1.6.3 Bases de datos}{section.1.6}% 31
+\BOOKMARK [2][]{subsection.1.6.4}{1.6.4 Arquitectura Cliente-Servidor}{section.1.6}% 32
+\BOOKMARK [2][]{subsection.1.6.5}{1.6.5 Interfaz de Programaci\363n de Aplicaciones}{section.1.6}% 33
+\BOOKMARK [2][]{subsection.1.6.6}{1.6.6 Ordenadores de placa reducida}{section.1.6}% 34
+\BOOKMARK [0][]{chapter.2}{2 Estado del Arte}{}% 35
+\BOOKMARK [1][]{section.2.1}{2.1 Gesti\363n de la producci\363n en la fabricaci\363n aditiva}{chapter.2}% 36
+\BOOKMARK [1][]{section.2.2}{2.2 Gesti\363n del mantenimiento basado en la teor\355a de la confiabilidad}{chapter.2}% 37
+\BOOKMARK [1][]{section.2.3}{2.3 Tecnolog\355as innovadoras que utilicen CMMS para la gesti\363n del mantenimiento.}{chapter.2}% 38
+\BOOKMARK [0][]{chapter*.30}{Referencias}{}% 39
+\BOOKMARK [0][]{section*.31}{Ap\351ndices}{}% 40

@@ -1,9 +1,8 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\'Indice de Figuras}{iii}{chapter*.2}%
 \contentsline {chapter}{\'Indice de Tablas}{v}{chapter*.3}%
-\contentsline {chapter}{\'Indice de Algoritmos}{vi}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Marco Te\'orico}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Fabricaci\IeC {\'o}n aditiva}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Fabricaci\'on aditiva}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Impresi\IeC {\'o}n 3D}{3}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Historia de la impresi\IeC {\'o}n 3D}{5}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Tecnolog\IeC {\'\i }as de impresi\IeC {\'o}n 3D}{10}{subsection.1.2.2}%
@@ -24,20 +23,19 @@
 \contentsline {section}{\numberline {1.4}Lean Manufacturing}{41}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Historia Lean Manufacturing}{43}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}T\IeC {\'e}cnicas y herramientas Lean}{45}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Design Thinking}{50}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{50}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Design Thinking}{50}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Fases del Design Thinking}{50}{subsection.1.5.3}%
-\contentsline {section}{\numberline {1.6}Herramientas de software}{50}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{50}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Lenguajes de hojas de estilo}{50}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Bases de datos}{50}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}Arquitectura Cliente-Servidor}{50}{subsection.1.6.4}%
-\contentsline {subsection}{\numberline {1.6.5}API}{50}{subsection.1.6.5}%
-\contentsline {subsection}{\numberline {1.6.6}Ordenadores de placa reducida}{50}{subsection.1.6.6}%
-\contentsline {chapter}{\numberline {2}Estado del Arte}{51}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Gesti\IeC {\'o}n de la producci\IeC {\'o}n en la fabricaci\IeC {\'o}n aditiva}{51}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Gesti\IeC {\'o}n del mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{61}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Tecnolog\IeC {\'\i }as innovadoras que utilicen CMMS para la gesti\IeC {\'o}n del mantenimiento.}{65}{section.2.3}%
-\contentsline {chapter}{Referencias}{70}{chapter*.24}%
-\contentsline {chapter}{Ap\IeC {\'e}ndices}{72}{section*.25}%
+\contentsline {section}{\numberline {1.5}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{49}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Design Thinking}{51}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Fases del Design Thinking}{53}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Herramientas de software}{56}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{56}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Lenguajes de hojas de estilo}{58}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Bases de datos}{59}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Arquitectura Cliente-Servidor}{61}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Interfaz de Programaci\IeC {\'o}n de Aplicaciones}{62}{subsection.1.6.5}%
+\contentsline {subsection}{\numberline {1.6.6}Ordenadores de placa reducida}{66}{subsection.1.6.6}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{69}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Gesti\IeC {\'o}n de la producci\IeC {\'o}n en la fabricaci\IeC {\'o}n aditiva}{69}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Gesti\IeC {\'o}n del mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{79}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Tecnolog\IeC {\'\i }as innovadoras que utilicen CMMS para la gesti\IeC {\'o}n del mantenimiento.}{83}{section.2.3}%
+\contentsline {chapter}{Referencias}{88}{chapter*.30}%
+\contentsline {chapter}{Ap\IeC {\'e}ndices}{91}{section*.31}%

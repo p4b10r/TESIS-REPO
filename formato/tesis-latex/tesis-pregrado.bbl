@@ -1,5 +1,14 @@
 \begin{thebibliography}{}
 
+\bibitem[mar, 2012]{marini2012}
+ (2012).
+\newblock El modelo cliente servidor.
+
+\bibitem[gar, 2018]{gareth2018}
+ (2018).
+\newblock {\em Raspberry Pi: User Guide}.
+\newblock Raspberry Pi Trading Ltd.
+
 \bibitem[3Dhub, 2018]{tresdhub2018}
 3Dhub (2018).
 \newblock What is 3d printing? the definitive guide.
@@ -30,6 +39,15 @@ All3DP (2016).
 \newblock The official history of the reprap project.
 \newblock Recuperado de: https://all3dp.com/history-of-the-reprap-project/.
 
+\bibitem[Alvarez, 2019]{alvarez2019}
+Alvarez, M. (2019).
+\newblock Que es la programacion orientada a objetos.
+\newblock Recuperado de: https://desarrolloweb.com/articulos/499.php.
+
+\bibitem[Ambrose and Harris, 2010]{ambrose2010}
+Ambrose, G. and Harris, P. (2010).
+\newblock {\em Design Thinking}.
+
 \bibitem[Aransyash et~al., 2019]{aransyash2019}
 Aransyash, D., Rosa, F., and Colombo, G. (2019).
 \newblock Smart maintenance: A wearable augmented reality application
@@ -59,12 +77,33 @@ Bournias, A. (2017).
 \newblock Recuperado de:
   https://www.3dhubs.com/knowledge-base/introduction-fdm-3d-printing/.
 
+\bibitem[Camps et~al., 2005]{camps2005}
+Camps, R., Casillas, L., Costal, D., Gibert, M., Martin, C., and Perez, O.
+  (2005).
+\newblock {\em Bases de Datos}.
+\newblock Fundacio per a la Universita Oberta de Catalunya.
+
+\bibitem[Canos et~al., 2012]{canos2012}
+Canos, J., Letelier, P., and Penades, C. (2012).
+\newblock Metodologias agiles en el desarrollo de software.
+\newblock Technical report, DSIC-Universidad Politecnica de Valencia.
+
+\bibitem[Codina, 2012]{codina2012}
+Codina, L. (2012).
+\newblock Hojas de estilo.
+\newblock {\em El profesional de la informacion}, 11(4).
+
 \bibitem[Cruz, 2018]{cruz2018}
 Cruz, B. (2018).
 \newblock Aplicación de modelo rcm bajo las normas sae ja1011 y ja1012 para
   mejorar la gestión de mantenimiento en la máquina flexoplegadora de cartón
   martin 618.
 \newblock Universidad de Santiago de Chile.
+
+\bibitem[de~Hacienda~y Administraciones~Publicas, 2019]{aporta2019}
+de~Hacienda~y Administraciones~Publicas, M. (2019).
+\newblock {\em Buenas Practicas en el diseño de APIS y Linked Data}.
+\newblock Gobierno de España.
 
 \bibitem[de~León, 1998]{gomez1998}
 de~León, F.~G. (1998).
@@ -85,6 +124,11 @@ Fera, M., Macchiaroli, R., Fruggiero, F., and Lambiase, A. (2018).
 Fernández, F.~G. (2005).
 \newblock {\em Teoría y práctica del Mantenimiento Industrial Avanzado}.
 \newblock Fundación Confemetal.
+
+\bibitem[Garcia, 2014]{garcia2014}
+Garcia, J. (2014).
+\newblock Que es una placa sbc.
+\newblock Recuperado de: https://www.hwlibre.com/que-es-una-placa-sbc/.
 
 \bibitem[Garrido, 2010]{garcia2010}
 Garrido, S.~G. (2010).
@@ -130,6 +174,12 @@ ISO (2018).
   guidelines}.
 \newblock International Organization for Standardization.
 
+\bibitem[Izquierdo, 2013]{izquierdo2013}
+Izquierdo, L. (2013).
+\newblock Introduccion a la programación orientada a objetos.
+\newblock Recuperado de:
+  http://luis.izqui.org/resources/ProgOrientadaObjetos.pdf.
+
 \bibitem[Jimenez, 2015]{jimenez2015}
 Jimenez, F. (2015).
 \newblock {\em Mantenimiento preventivo de sistemas de automatización
@@ -154,10 +204,21 @@ Maxey, K. (2013).
 \newblock Recuperado de:
   engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
 
+\bibitem[Merino, 2014]{merino2014}
+Merino, M. (2014).
+\newblock Que es una api y para que sirve.
+\newblock Recuperado de:
+  https://www.ticbeat.com/tecnologias/que-es-una-api-para-que-sirve/.
+
 \bibitem[Mesa, 2006]{dairo2016}
 Mesa, D. (2006).
 \newblock La confiabilidad, la disponibilidad y la mantenibilidad, disciplinas
   modernas aplicadas al mantenimiento.
+
+\bibitem[Mueller, 2018]{mueller2018}
+Mueller, C. (2018).
+\newblock {\em Handbook of Design Thinking. Tips and Tools for how to design
+  thinking}.
 
 \bibitem[Palencia, 2012]{garcia2012}
 Palencia, O.~G. (2012).
@@ -202,6 +263,11 @@ Sifonte, J. (2017).
 Socconini, L. (2019).
 \newblock {\em LEAN MANUFACTURING. PASO A PASO}.
 \newblock Marge Books.
+
+\bibitem[SPIP, 2012]{spip2012}
+SPIP (2012).
+\newblock Introduccion a las hojas de estilo.
+\newblock Recuperado de: https://www.spip.net/esarticle2500.html.
 
 \bibitem[Takamori, 2018]{takamori2018}
 Takamori, R. (2018).

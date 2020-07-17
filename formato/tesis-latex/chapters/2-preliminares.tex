@@ -5,7 +5,7 @@
 
 
 
-\section{Fabricación aditiva}
+\section{Fabricaci\'on aditiva}
 
 El Estándar Internacional ISO/ASTM 52900 del año 2015 establece y define los términos usados en la tecnología de manufactura aditiva, relativos a la impresión 3D \citep{iso2015}:
 
@@ -130,21 +130,21 @@ Por otro lado, los materiales mayoritariamente utilizados por esta tecnología y
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|}
+\begin{tabular}{|p{2cm}|p{8cm}|}
 \hline
 Material & Características \\
 \hline
-ABS & \parbox{25em}{Alto resistencia, alta resistencia a la temperatura, susceptibilidad a la separación de capas}\\
+ABS & Alto resistencia, alta resistencia a la temperatura, susceptibilidad a la separación de capas\\
 \hline
-PLA & \parbox{25em}{Excelente calidad visual, fácil de imprimir, baja resistencia al impacto}\\
+PLA & Excelente calidad visual, fácil de imprimir, baja resistencia al impacto\\
 \hline
-Nylon (PA) & \parbox{25em}{Alta resistencia, Excelente resistencia química, baja resistencia a la humedad}\\
+Nylon (PA) & Alta resistencia, Excelente resistencia química, baja resistencia a la humedad\\
 \hline
-PETG & \parbox{25em}{Seguro para alimentos, buena resistencia, fácil de imprimir}\\
+PETG & Seguro para alimentos, buena resistencia, fácil de imprimir\\
 \hline
-TPU & \parbox{25em}{Muy Flexible, difícil de imprimir}\\
+TPU & Muy Flexible, difícil de imprimir\\
 \hline
-PEI & \parbox{25em}{Excelente resistencia al peso, ignífugo, Excelente resistencia química, alto costo}\\
+PEI & Excelente resistencia al peso, ignífugo, Excelente resistencia química, alto costo\\
 \hline
 \end{tabular}
 \caption{Principales materiales utilizados en impresión 3D FDM \citep{bournias2017}.}
@@ -734,40 +734,309 @@ El último grupo está conformado por técnicas más específicas que cambian la
 \end{description}
 
 
-\section{Design Thinking}
+\section{Metodologías ágiles}
 
-\subsection{Metodologías ágiles}
+El término \textit{ágil} nace en febrero de 2001, tras una reunión celebrada en Utah-EEUU donde participan un grupo de 17 expertos de la industria del software, incluyendo algunos creadores o impulsores de distintas metodologías de softwares. Su objetivo fue esbozar los valores y principios que deberían permitir a los equipos desarrollar software rápidamente y respondiendo a los cambios que puedan surgir a lo largo del proyecto \citep{canos2012}. Así, surge el \textit{Manifiesto ágil}, cuyo objetivos es englobar aquellos principios y valores que hacen diferente un proyecto de desarrollo de software ágil de uno en su forma tradicional. Según el manifiesto, se valora \citep{canos2012}:
+
+\begin{description}
+\item \textbf{Al individuo y las interacciones del equipo de desarrollo sobre el proceso y las herramientas.} La gente es el principal factor de éxito de un modelo de software. Es más importante construir un buen equipo que construir el entorno. Muchas veces se comete el error de construir primero el entorno y esperar que el equipo se adapte automáticamente. Es mejor crear el equipo y que éste configure su propio entorno de desarrollo en base a sus necesidades.
+\item \textbf{Desarrollar Software que funciona más que conseguir una buena documentación.} La regla a seguir es ''no producir documentos a menos que sean necesarios de forma inmediata para tomar una decisión importante''. Estos documentos deben ser cortos y centrarse en lo fundamental.
+
+\item \textbf{La colaboración con el cliente más que la negociación de un contrato.} Se propone que exista una interacción constante entre el cliente y el equipo de desarrollo. Esta colaboración entre ambos será la que marque la marcha del proyecto y asegure su éxito.
+\item \textbf{Responder a los cambios más que seguir estrictamente un plan.} La habilidad de responder a los cambios que puedan surgir a lo largo del proyecto (cambios en los requisitos, en la tecnología, en el equipo, etc.) determina también el éxito o fracaso del mismo. por lo tanto, la planificación no debe ser estricta sino flexible y abierta.
+\end{description}
+
+Las principales diferencias entre las metodologías ágiles con respecto a las tradicionales, se pueden comparar en la siguiente tabla: 
+
+\begin{table}[H]
+ \centering
+ \begin{tabular}{|p{6cm}|p{6cm}|}
+ \hline
+ \textbf{Metodologías Ágiles} & \textbf{Metodologías Tradicionales} \\
+ \hline
+Basadas en heurísticas provenientes de prácticas de producción de código & Basadas en normas provenientes de estándares seguidos por el entorno de desarrollo\\
+ \hline
+Especialmente preparados para cambios durante el proyecto & Cierta resistencia a los cambios\\
+\hline
+Impuestas internamente (por el equipo) & Impuestas externamente\\
+\hline
+Proceso menos controlado, con pocos principios &Proceso mucho más controlado, con numerosas políticas y normas\\
+\hline
+No existe contrato tradicional o al menos es bastante flexible & Existe un contrato prefijado\\
+\hline
+El cliente es parte del desarrollo & El cliente interactúa con el equipo de desarrollo mediante reuniones\\
+\hline
+ \end{tabular}
+ \caption{Principales diferencias entre Metodologías ágiles y tradicionales \citep{canos2012}.}
+\end{table}
 
 \subsection{Design Thinking}
 
+Design Thinking es una innovación comprensiva orientada al cliente , que se enfoca en desarrollar ideas o modelos de negocio creativas. Esencialmente, plantea diversas aproximaciones para los diseñadores de proyectos y métodos en los procesos de negocio. EL enfoque es aplicable a todo tipo de ideas de negocio, productos o servicios \citep{mueller2018}. Como el diseño es un proceso que transforma requerimientos en un producto final, el proceso de Design Thinking puede ser comprimido en siete fases escenarios: Definir, investigar, idear, prototipar, seleccionar, implementar y testear \citep{ambrose2010}. Las características del Design Thinking se pueden enumerar de la siguiente manera \citep{mueller2018}:
+
+\begin{description}
+\item \textbf{Aproximación integrativa:} Esto significa que, para el problea a resolver, su proceso debe estar sujeto a las condiciones del marco de trabajo. El análisis del problema y el desarrollo de su solución deben ser consideradas sistemática y holísticamente en la formación del proceso. 
+\item \textbf{Foco en la temprana orientación del cliente:} el Design Thinking comienza con las personas y no con la tecnología o las metas del negocio. En último lugar, el cliente debe tener una influencia decisiva en las decisiones de seguir o parar el proceso. No es suficiente preguntar a los clientes con los instrumentos de investigación del mercado tradicional.
+\item \textbf{Empatía:} EL elemento centrar es ponerse uno mismo en la posición del cliente o usuario, y tener en cuenta los detalles desde su observación. La empatía puede crear una distancia entre la persona que innova y, al mismo tiempo, proximidad con el cliente.
+\item \textbf{Esfuerzo en crear ideas tempranas:} Los prototipos deben ser creados tan rápido como sea posible. Esto no significa tener un producto perfecto y casi terminado, sino todo lo contrario: funciones o características individuales que ofrece el producto para ser probadas por los clientes.
+\item \textbf{Consistencia en la frecuencia de ciclos de iteración entre las fases de desarrollo:} el retorno a una fase previa no es un error, pero muestra un logro en el proceso de aprendizaje. Las fallas son parte integral desde este enfoque y deben ser tolerados y aceptadas por todos los participantes.
+\item \textbf{Combinar fases analíticas y fases sintéticas:} En la primera parte, el problema es analizado en detalle (recolección, organización, evaluación y posibles soluciones). En segundo lugar se plantean soluciones concretas que son desarrolladas y testeadas.
+\end{description}
+
+
 \subsection{Fases del Design Thinking}
+
+Como se dijo anteriormente, el Design Thinking puede separarse en siete fases, que se muestran a continuación \citep{ambrose2010}: 
+
+\begin{description}
+\item \textbf{Definir:} la mayoría de las veces, esta primera parte involucra la generación o recepción de los requisitos de diseño. Estos pueden ser verbales o escritos, simples o complejos. Los clientes o usuarios tienen una variedad de experiencias en servicios relacionados al diseño, es por esta razón que suelen ser muy diversos. En este sentido, si estos requerimientos no son lo suficientemente robustos, posiblemente sea necesario reescribirlos y trabajarlos nuevamente junto al cliente. Una vez obtenidos los requisitos, son transformados en objetivos con el fin de especificar al equipo de diseño qué es lo que se pretende lograr, y plantear el marco para el desarrollo. Para esto, existe la técnica de las \textit{cinco W}, referida a cinco palabras en ingles que comienzan con ''W", que permiten obtener respuestas objetivas mediante preguntas para definir el trabajo de diseño. Estas son: who (quién), what (cómo), when (cuándo), where (dónde) y why (por qué).
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{6cm}|p{5cm}|}
+\hline
+Pregunta & Resultados \\
+\hline
+¿Quién es el cliente y el público objetivo? & Tamaño, naturaleza, características \\
+\hline
+¿En qué solución de diseño piensa el cliente?& Impresión, web, video \\
+\hline
+¿Cuándo y por cuánto tiempo será necesitado el diseño? & escalas de tiempo \\
+\hline
+¿Dónde sera utilizado el diseño? & Media, territorio, país \\
+\hline
+¿Por qué el cliente piensa que se necesita una solución de diseño? & [-] \\
+\hline
+¿Cómo será implementada la solución? & Presupuesto, distribución, campaña\\
+\hline
+
+\end{tabular}
+\caption{Tabla de preguntas y resultados con la técnica de las cinco W \citep{ambrose2010}}
+\end{table}
+
+
+\item \textbf{Investigar:} una vez se han definido y acordado los acuerdos, el diseñador comienza a realizar una búsqueda de información. Ésta puede ser cuantitativa, con una estadística dura respecto al tamaño y la composición de los grupos objetivo de usuarios, o cualitativa, con información acerca de qué grupos consumen o compran este tipo de productos. La investigación se separa en dos tipos: \textbf{primaria}, corresponde a la retroalimentación generada durante la fase de aprendizaje de proyectos previamente acometidos con el cliente; \textbf{secundaria}, cuando la información es obtenida por fuente secundarias como reportes o investigaciones en el mercado de consumidores. Para esto, se plantea una lista de ítem a responder:
+\begin{itemize}
+\item ¿Se tiene una retroalimentación de proyectos previos?
+\item ¿Se tiene una composición estadística del conjunto de usuarios?
+\item ¿Se comprende el mercado objetivo?
+\item ¿Cuál es el nivel educativo de ese grupo?
+\item ¿Cuál es el estilo de vida típico de ese grupo?
+\item ¿Cuáles son las aspiraciones de ese grupo de usuarios?
+\end{itemize}
+
+
+\item \textbf{Idear:} Durante la fase de idear, el equipo de diseño esboza la información obtenida y las restricciones establecidas durante la etapa de definición. Esta información es usada para crear ideas usando como entrada los requerimientos de diseño. Para esto, existen distintos métodos para idear, entre los que se encuentran:
+\begin{itemize}
+\item Brainsorming: Los participantes son libres para hacer propuestas en un ambiente no crítico. Estas propuestas pueden ser puestas en tarjetas sobre una pizarra para facilitar el proceso o registrar las ideas generadas.
+\item Sketching ideas: En esta instancia, el diseñador puede esbozar una representación de quien es el público objetivo. Este esbozo puede usarse para producir un diseño o concepto inicial, refinar elementos o resolver detalles.
+\end{itemize}
+
+\item \textbf{Prototipar:} la fase anterior genera una variedad de soluciones potenciales para los requisitos del diseño. Por esto, el prototipo puede ser utilizado para testear la fiabilidad técnica del diseño. Un prototipo entrega al equipo de diseño y a los clientes la capacidad de visualizar y manejar el concepto del diseño, o para tener una idea física o real sobre éste. Como el objetivo del prototipo es probar aspectos particulares de la solución de diseño, este puede hacer que alguno de los aspectos presentados puedan ser efectivamente evaluados; también, no necesita estar hecho con los materiales o funcionalidades finales. Dentro de los distintos tipos de prototipos se encuentran:
+\begin{itemize}
+\item Bosquejo: idea básica visual de diferentes elementos del diseño.
+\item Modelo: una réplica del diseño que los clientes pueden ver en tres dimensiones. Puede
+ tener distintos grados de funcionalidad y componentes de trabajo.
+ \item Maqueta: réplica a escala del diseño, que los clientes pueden observar según su configuración en el terreno.
+\end{itemize}
+
+\item \textbf{Seleccionar:} la etapa de selección es un punto en el cual uno de las soluciones de diseño propuestas son elegidas para el desarrollo. El criterio de decisión se ajusta para un propósito: ¿está el diseño interpretando las necesidades y objetivos de los requerimientos? No obstante, pueden existir otros factores como el costo, tiempo o el presupuesto disponible.
+
+\item \textbf{Implementar y testear:} durante esta fase, la solución de diseño debe ser implementada o producida. Corresponde a la etapa final del proceso de diseño, e involucra la puesta en marcha física del proyecto en el ambiente donde se encuentran los objetivos, funciones y restricciones obtenidas de los requerimientos del cliente. 
+
+\end{description}
 
 
 \section{Herramientas de software}
 
 \subsection{Lenguajes de programación orientada a objetos}
 
+La programación orientada a objetos se define como un paradigma de la programación, es decir, una manera de programar específica donde se organiza un código en unidades denominadas clases, de las cuales se crean objetos que se relacionan entre sí para conseguir los objetivos de las aplicaciones \citep{alvarez2019}. SE diferencia de la programación estructurada puesto que los programas se deben escribir en términos de clases, objetos, propiedades y métodos.
+Un objeto no es más que un conjunto de variables (o datos) y métodos (o funciones) relacionados entre sí. Los objetos se utilizan para modelar objetos o entidades del mundo real. Un objeto es, por tanto, la representación en un programa de un concepto, y contiene toda la información necesaria para abstraerlo \citep{izquierdo2013}. Cuando las variables de un objeto se empaquetan o protegen ''rodeado" con sus métodos, se denomina encapsulamiento. El hecho de realizar esta acción proporciona dos beneficios a los programadores \citep{izquierdo2013}:
+\begin{itemize}
+\item \textbf{Capacidad de crear módulos:} el código fuente de un objeto puede escribirse y mantenerse independiente del código fuente del resto de los objetos. De esta forma, un objeto puede pasarse fácilmente de una parte a otra del programa.
+\item \textbf{Protección de la información:} Un objeto tendrá una interfaz pública perfectamente definida que otros objetos puedan mantener información privada y pueden cambiar el modo de operar de sus funciones miembros sin que esto afecte a otros objetos que usen estas funciones miembro. Es decir, no se necesita entender cómo funciona el mecanismo de cambio de marcha para hacer uso de él. 
+\end{itemize}
+
+Las clases son declaraciones o abstracciones de objetos. Esto quiere decir que la definición de un objeto es la clase. Cuando se programa un objeto y se define sus características y funcionalidades, en realidad lo que se hace es programar una clase. Las propiedades o atributos son las características de los objetos; también se pueden entender como variables donde se almacenan datos relacionados con los objetos. Por otra parte, los métodos son las funcionalidades asociadas a los objetos. Un mensaje, es la acción de efectuar una llamada a un método; para mandar mensajes a los objetos se utiliza el operador punto, seguido del método que se desea invocar y los paréntesis, como en las llamadas a las funciones \citep{alvarez2019}. Dentro de los lenguajes orientados a objetos se reconocen:
+
+\begin{itemize}
+\item C++
+\item Java
+\item Ruby
+\item Python
+\end{itemize}
+
 \subsection{Lenguajes de hojas de estilo}
+
+
+Las hojas de estilo (\textit{css} debido a las palabras en inglés \textit{cascading style sheets} corresponden a una norma que permite especificar y controlar de una forma muy cómoda y racional el aspecto del texto en los documentos HTML. Estas son constituidas por una recomendación del \textit{W3Consortium}, organismo internacional que publica las normas sobre la web \citep{codina2012}. Esta centralización de la información permite que se puedan trabajar por separado el contenido de una página web y su aspecto gráfico \citep{spip2012}. Las hojas de estilo consisten en instrucciones simples que pueden situarse dentro de documentos html (en la zona head o distribuidas en el cuerpo del documento) o como un fichero externo \citep{codina2012}
+
 
 \subsection{Bases de datos}
 
+Una base de datos de un sistema informático corresponde a la representación integrada de los conjuntos de entidades instancia correspondientes a diferentes entidades tipo del sistema, y de sus interrelaciones. Esta representación informática debe poder ser utilizada de forma compartida por muchos usuarios de distintos tipos \citep{camps2005}. Según Camps (2005), se pueden enumerar de forma simplificada las principales diferencias entre ficheros tradicionales y las bases de datos según la siguiente tabla:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{3cm}|p{4cm}|p{4cm}|}
+\hline
+Item&Ficheros&Bases de datos \\
+\hline
+Entidades tipo&Tienen registros de una sola entidad tipo&Tienen datos de varias entidades tipo\\
+\hline
+Interrelaciones&El sistema no interrelaciona ficheros&El sistema tiene previstas herramientas para interrelacionar entidades\\
+\hline
+Redundancia& Se crean ficheros a la medida de cada aplicación, con todos los datos necesarios aunque algunos sean redundantes respecto de otros ficheros&Todas las aplicaciones trabajan con la misma BD y la integración de los datos es básica, de modo que se evita la redundancia\\
+\hline
+Usuarios& Sirven para un solo usuario o aplicación&Es compartida por muchos usuarios de distintos tipos \\
+\hline
+
+\end{tabular}
+\caption{Diferencias entre ficheros y bases de datos \citep{camps2005}}
+\end{table}
+
+Respecto a la arquitectura de las bases de datos, y de acuerdo con el estándar ANSI/SPARC, existen tres niveles de esquemas \citep{camps2005}:
+
+\begin{itemize}
+\item \textbf{Nivel externo:} aquí se sitúan las diferentes visiones lógicas que los procesos usuarios (programas de aplicación y usuarios directos) tendrán de las partes de la BD que utilizarán.
+\item \textbf{Nivel Conceptual:} existe una sola descripción básica, única y global, que sirve de referencia para el resto de los esquemas.
+\item \textbf{Nivel Físico:} hay solo una descripción física, denominada esquema interno.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/arqbd.png}
+\caption{Esquema conceptual de niveles \citep{camps2005}}
+\end{figure}
+
+Con el fin de comunicarse con el sistema de gestión de base de datos, el usuario o aplicación debe valerse de un lenguaje específicos. En este sentido, el lenguaje SQL es más utilizado en las bases de datos, y tiene tres tipos de instrucciones diferentes \citep{camps2005}:
+
+\begin{itemize}
+\item \textbf{Verbos tipo DML:} por ejemplo \textit{SELECT} para hacer consultas, e \textit{INSERT}, \textit{UPDATE}, y \textit{DELETE} para hacer mantenimiento de los datos.
+\item \textbf{Verbos tipo DDL:} por ejemplo, \textit{CREATE TABLE} para definir tablas, columnas y restricciones.
+\item \textbf{Verbos de control de entorno:} por ejemplo, \textit{COMMIT} y \textit{ROLLBACK} para delimitar transacciones.
+\end{itemize}
+
 \subsection{Arquitectura Cliente-Servidor}
 
-\subsection{API}
+El modelo Cliente/Servidor corresponde a una aplicación distribuida en el que las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes, denominados clientes. Este modelo permite diversificar el trabajo que realiza cada aplicación, de forma que los clientes no se sobrecarguen. La arquitectura Cliente/Servidor tiene en consideración que la capacidad de proceso se encuentre repartida en ambos proveedores; asimismo, la centralización de la gestión de la información separada de las responsabilidades permite mayores ventajas desde el punto de vista organizativo. Tanto cliente como servidor son entidades abstractas que pueden residir en la misma máquina como en máquinas diferentes \citep{marini2012}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/clienteservidor.png}
+\caption{Modelo Cliente/Servidor \citep{marini2012}.}
+\end{figure}
+
+El modelo de servicios corresponde a una vista abstracta, en la que se establece las definiciones, reglas y relaciones entre las estructuras vinculadas a la aplicación. Sirve de base para el intercambio de ideas durante el desarrollo lógico de la aplicación y determina su resultado. Dicho modelo establece tres conjuntos de funcionalidades, en los cuales se encuadran las distintas tareas en las que se ve involucrado cualquier tipo de desarrollo \citep{marini2012}:
+
+\begin{itemize}
+\item \textbf{Lógica de presentación:} Es la responsable del control de todos los aspectos relacionados con la interacción entre el usuario y la aplicación. La codificación de las tareas asociadas a esta lógica consiste en la llamada a procesos independientes situados en otras lógicas, cuya ejecución es totalmente transparente.
+\item \textbf{Lógica de negocios:} Es la que controla la secuencia de acciones y fuerza el cumplimiento de las reglas de negocio propias de cada empresa. Es flexible a la hora de decidir cómo y donde situar el código de esta lógica; tiene la habilidad de colocar distintas interfaces de usuario para un mismo conjunto estándar de reglas de negocio; facilita el mantenimiento de las reglas del negocio y de su lógica, aislando los cambios de las interfaces de usuario; y tiene la habilidad para sustituir el código de estas reglas.
+
+\item \textbf{Lógica de datos:} En este conjunto entran los proceso encargados de la gestión de los datos propiamente dicha. Es decir, los proceso encargados del mantenimiento de los datos, de garantizar las reglas de integridad referencial establecidas, así como la gestión de las transacciones. Estas tareas son realizadas generalmente por un sistema de gestión de bases de datos.
+\end{itemize}
+
+\subsection{Interfaz de Programación de Aplicaciones}
+
+Una Interfaz de Aplicación Programable o API (por las siglas en ingles de \textit{Application Programming Interface}) corresponde a un conjunto de reglas que las aplicaciones pueden seguir para comunicarse entre ellas, sirviendo de interfaz entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción entre el humano y el software \citep{merino2014}. Las API permiten hacer uso de funciones existentes en otro software, reutilizando así el código que se sabe que está probado y que funciona correctamente. Asimismo, un recurso es cualquier objeto de información que se pueda apuntar que no sea un literal asignado a una propiedad del recurso. Por otra parte, existe un conjunto de principios de arquitectura para la construcción de interfaces entre sistemas, denominado REST por el acrónimo inglés \textit{Representational State Transfer}, y que tiene las siguientes características \citep{aporta2019}:
+\begin{itemize}
+\item El uso de HTTP (Hipertext Transfer Protocol) como protocolo de comunicación para obtener datos o indicar la ejecución de operaciones sobre los datos.
+\item La transferencia de los datos se realiza utilizando formatos como XML (Extensible Markup Languaje) o JSON (Javascript Object Notation)
+\end{itemize}
+
+El protocolo utilizado es del tipo cliente/servidor sin estado, esto quiere decir que no recuerda pasadas interacciones. Las funciones principales con las cuales el sistema interactúa con los datos y las gestiones propias de la conexión se muestran en la siguiente tabla \citep{aporta2019}:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{2cm}|p{4cm}|}
+\hline
+Función&Descripción\\
+\hline
+HEAD & Solicita la cabecera de la respuesta. Permite obtener los metadatos de las entidades sin solicitar la entidad propiamente\\
+\hline
+GET&Solicita el recurso especificado\\
+\hline
+POST&Envía un recurso. Esta petición suele usarse tanto para crear como para actualizar contenidos\\
+\hline
+PUT&Sube o carga un recurso especificado\\
+\hline
+DELETE&Solicita la eliminación del recurso especificado\\
+\hline
+OPTIONS&Solicita las opciones que el servidor soporta para un URL específico\\
+\hline
+\end{tabular}
+\caption{Funciones principales utilizadas en API \citep{aporta2019}}
+\end{table}
+
+Los errores HTTP de la API son fuente importante de información para quien esté desarrollando. Las más relevantes respecto al esado de las peticiones son \citep{aporta2019}:
+
+\begin{description}
+\item \textbf{2xx Peticiones correctas:} Conjunto de respuestas para indicar recepción, compresión y aceptación de peticiones.
+\begin{itemize}
+\item \textbf{200 OK:} Respuesta correcta. Indica que el servidor ha recibido, entendido y aceptado la petición.
+\item \textbf{201 Created:} La petición ha sido aceptada y ha resultado en la creación de un nuevo recurso.
+\item \textbf{202 Accepted:} La petición ha sido aceptada para procesarse pero aun no se ha completado.
+\item \textbf{204:} El recurso ha sido borrado con éxito.
+\end{itemize}
+\item \textbf{3xx Redirecciones:} Esta categoría permite informar que la petición ha de concretarse en algun sentido o se atiende desde otra ubicación.
+\begin{itemize}
+\item \textbf{300 Multiple choices:} La petición corresponde a cualquier elemento de un conjunto y debe especificarse uno en concreto. La respuesta ha de incluir las posibilidades.
+\item \textbf{304 Not modified:} Especifica que el documento solicitado no ha variado con respecto al solicitado.
+\end{itemize}
+\item \textbf{4xx Errores del cliente:} Esta categoría permite informar de peticiones incorrectas por parte del cliente.
+\begin{itemize}
+\item \textbf{401 Unauthorized:} El recurso solicitado requiere autorización.
+\item \textbf{402 Forbidden:} Prohibido. La petición se ha entendido pero no hay autorización para atenderla.
+\item \textbf{404 Not Found:} El servidor no encuentra lo solicitado en la petición.
+\end{itemize}
+\item \textbf{5xx Errores internos del servidor:} Permite indicar cuando el servidor no responde satisfactoriamente las peticiones y es consciente de ello.
+\begin{itemize}
+\item \textbf{500 Internal Server Error:} El servidor encontró algo inesperado que le impidió resolver la petición.
+\end{itemize}
+\end{description}
+
 
 \subsection{Ordenadores de placa reducida}
 
+Los Ordenadores de Placa reducida o SBC por las siglas en inglés \textit{Single Board Computer} son placas que contienen todos o la mayor parte de los componentes de un ordenador \citep{garcia2014}. Las principales características de estas placas es su reducido tamaño en comparación con ordenadores disponibles en el mercado, su precio económico y una potencia relativamente baja. Algunos ejemplos de placas SBC son \citep{garcia2014}:
+\begin{itemize}
+\item Raspberry Pi
+\item BeagleBone Black
+\item PcDuino
+\item Pandaboard.
+\end{itemize}
+
+Para este caso, se profundizará en torno a la SBC Raspberry Pi. En este sentido, la placa está compuesta por los siguientes componentes \citep{gareth2018}:
+
+\begin{enumerate}
+\item \textbf{Sistema en chip:} Corresponde a una  con una cubierta metálica, compuesta por la unidad central de procesamiento (CPU), y la unidad gráfica de procesamiento.
+\item \textbf{Memoria RAM:} del inglés \textit{Random Access Memory}, almacena datos e instrucciones para que puedan ser accedidos por otros componentes, evitando que vuelvan a pasar por las unidades de procesamiento.
+\item \textbf{Radio:} componente que permite a la placa comunicarse con otros aparatos sin cables.
+\item \textbf{Controlador USB:} Responsable de correr el puerto Ethernet y los puertos USB.
+\item \textbf{Puertos USB:} Permite conectar periféricos compatibles con USB.
+\item \textbf{Puerto Ethernet:} puerto de red, que permite conectar el computador a la red.
+\item \textbf{Puerto AV:} Posee un \textit{jack} para conexión a parlantes y audífonos.
+\item \textbf{CSI}: del inglés Camera Serial Interface, permite la conexión a una cámara diseñada especialmente para la placa.
+\item \textbf{Puerto HDMI:} puerto para conexión de interfaz multimedia de alta definición.
+\item \textbf{Puerto MicroUSB:} Utilizado para conectar la placa a una fuente de poder.
+\item \textbf{Conector Display:} conector DSI diseñado para utilizar dispositivo touch.
+\item \textbf{pines GPIO:} Del inglés General-purpose input/output, pines utilizados para agregar hardware adicional como botones y sensores.
+\item \textbf{conector Tarjeta MicroSD:} conector para insertar tarjeta MicroSD con el sistema operativo, softwares y archivos guardados.
 
 
+\end{enumerate}
+
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.9]{images/rbpi.png}
+\caption{Raspberry Pi 3 modelo B+ \citep{gareth2018}}
+\end{figure}
  
 
-% Figura: \'Arbol XML 1
-%\begin{figure}[tp]
-%  \centering
-%  \includegraphics[scale=.5]{images/XML-document-example1}
-%  \caption{\em Modelo de árbol para un documento XML.}
-%  \label{fig:xml-tree-exa1}
-%\end{figure}
+
 
 
 

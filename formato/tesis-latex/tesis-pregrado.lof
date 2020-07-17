@@ -1,20 +1,23 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Tama\IeC {\~n}o del mercado y pron\IeC {\'o}stico de la impresi\IeC {\'o}n 3D \citep {donovan2019}.\relax }}{9}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Hype Cycle o Ciclo de sobreexplotaci\IeC {\'o}n de Gartner de la tecnolog\IeC {\'\i }a de impresi\IeC {\'o}n 3D al a\IeC {\~n}o 2019 \citep {valdivieso2019}.\relax }}{10}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Proceso de impresi\IeC {\'o}n 3D FDM \citep {bournias2017} \relax }}{12}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Esquema de funcionamiento de impresi\IeC {\'o}n 3D FDM \citep {bournias2017}.\relax }}{12}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Esquema de impresora 3D cartesiana \citep {b3dsourced2020}.\relax }}{15}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Esquema de impresora 3D Delta \citep {b3dsourced2020}.\relax }}{15}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Esquema de impresora 3D polar \citep {takamori2018}\relax }}{16}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Esquema de impresora 3D scara \citep {saygin2016}\relax }}{16}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Esquema actualizado de la Casa Toyota \citep {leansis2017} \relax }}{42}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Linea temporal Lean Manufacturing \citep {socconini2019}\relax }}{45}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Tama\IeC {\~n}o del mercado y pron\IeC {\'o}stico de la impresi\IeC {\'o}n 3D \citep {donovan2019}.\relax }}{9}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Hype Cycle o Ciclo de sobreexplotaci\IeC {\'o}n de Gartner de la tecnolog\IeC {\'\i }a de impresi\IeC {\'o}n 3D al a\IeC {\~n}o 2019 \citep {valdivieso2019}.\relax }}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Proceso de impresi\IeC {\'o}n 3D FDM \citep {bournias2017} \relax }}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Esquema de funcionamiento de impresi\IeC {\'o}n 3D FDM \citep {bournias2017}.\relax }}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Esquema de impresora 3D cartesiana \citep {b3dsourced2020}.\relax }}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Esquema de impresora 3D Delta \citep {b3dsourced2020}.\relax }}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Esquema de impresora 3D polar \citep {takamori2018}\relax }}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Esquema de impresora 3D scara \citep {saygin2016}\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Esquema actualizado de la Casa Toyota \citep {leansis2017} \relax }}{42}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Linea temporal Lean Manufacturing \citep {socconini2019}\relax }}{45}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Esquema conceptual de niveles \citep {camps2005}\relax }}{60}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Modelo Cliente/Servidor \citep {marini2012}.\relax }}{61}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Raspberry Pi 3 modelo B+ \citep {gareth2018}\relax }}{68}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces N\IeC {\'u}mero de publicaciones por a\IeC {\~n}o y seg\IeC {\'u}n tem\IeC {\'a}tica \citep {fera2018}\relax }}{53}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Marco de trabajo para la programaci\IeC {\'o}n de la producci\IeC {\'o}n \citep {fera2018}\relax }}{59}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Pareto por n\IeC {\'u}mero de fallas para Plegadora \citep {cruz2018}\relax }}{63}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva de confiabilidad para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{64}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Indicadores de mantenimiento para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{64}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama UML que describe la relaci\IeC {\'o}n de los registros entre m\IeC {\'a}quinas, fallas, causas y acciones de mantenimiento \citep {aransyash2019}\relax }}{67}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inal\IeC {\'a}mbrico; (b) funcionalidad del sistema; (c) operaci\IeC {\'o}n de diagn\IeC {\'o}stico basado en el historial de fallas; (d) gu\IeC {\'\i }a del sistema al operador a trav\IeC {\'e}s de instrucciones de texto y video \citep {aransyash2019}.\relax }}{68}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces N\IeC {\'u}mero de publicaciones por a\IeC {\~n}o y seg\IeC {\'u}n tem\IeC {\'a}tica \citep {fera2018}\relax }}{71}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Marco de trabajo para la programaci\IeC {\'o}n de la producci\IeC {\'o}n \citep {fera2018}\relax }}{77}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Pareto por n\IeC {\'u}mero de fallas para Plegadora \citep {cruz2018}\relax }}{81}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva de confiabilidad para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{82}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Indicadores de mantenimiento para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{82}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama UML que describe la relaci\IeC {\'o}n de los registros entre m\IeC {\'a}quinas, fallas, causas y acciones de mantenimiento \citep {aransyash2019}\relax }}{85}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inal\IeC {\'a}mbrico; (b) funcionalidad del sistema; (c) operaci\IeC {\'o}n de diagn\IeC {\'o}stico basado en el historial de fallas; (d) gu\IeC {\'\i }a del sistema al operador a trav\IeC {\'e}s de instrucciones de texto y video \citep {aransyash2019}.\relax }}{86}{figure.caption.29}%
