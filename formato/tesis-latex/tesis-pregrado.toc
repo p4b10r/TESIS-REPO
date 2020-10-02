@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\'Indice de Figuras}{iii}{chapter*.2}%
-\contentsline {chapter}{\'Indice de Tablas}{v}{chapter*.3}%
+\contentsline {chapter}{\'Indice de Figuras}{iv}{chapter*.2}%
+\contentsline {chapter}{\'Indice de Tablas}{vi}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Marco Te\'orico}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Fabricaci\'on aditiva}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Impresi\IeC {\'o}n 3D}{3}{section.1.2}%
@@ -37,5 +37,17 @@
 \contentsline {section}{\numberline {2.1}Gesti\IeC {\'o}n de la producci\IeC {\'o}n en la fabricaci\IeC {\'o}n aditiva}{69}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Gesti\IeC {\'o}n del mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{79}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Tecnolog\IeC {\'\i }as innovadoras que utilicen CMMS para la gesti\IeC {\'o}n del mantenimiento.}{83}{section.2.3}%
-\contentsline {chapter}{Referencias}{88}{chapter*.30}%
-\contentsline {chapter}{Ap\IeC {\'e}ndices}{91}{section*.31}%
+\contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{88}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Antecedentes de la empresa}{88}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Descripci\IeC {\'o}n de la empresa}{88}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Proceso de impresi\IeC {\'o}n 3D}{89}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del Problema}{90}{section.3.2}%
+\contentsline {section}{\numberline {3.3} Aplicaci\IeC {\'o}n de mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{91}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Selecci\IeC {\'o}n del equipo}{91}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Descripci\IeC {\'o}n del equipo}{94}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Contexto Operacional}{98}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Delimitaci\IeC {\'o}n de funciones}{100}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Determinaci\IeC {\'o}n de fallas}{101}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Aplicaci\IeC {\'o}n de metodolog\IeC {\'\i }a Design Thinking para el desarrollo de Software}{103}{section.3.4}%
+\contentsline {chapter}{Referencias}{104}{chapter*.43}%
+\contentsline {chapter}{Ap\IeC {\'e}ndices}{107}{section*.44}%

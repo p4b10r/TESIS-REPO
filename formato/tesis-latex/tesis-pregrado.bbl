@@ -4,6 +4,11 @@
  (2012).
 \newblock El modelo cliente servidor.
 
+\bibitem[ger, 2016]{germanreprap2019}
+ (2016).
+\newblock {\em X350 3D-printer quick start guide}.
+\newblock German-RepRap.
+
 \bibitem[gar, 2018]{gareth2018}
  (2018).
 \newblock {\em Raspberry Pi: User Guide}.
@@ -224,6 +229,13 @@ Mueller, C. (2018).
 Palencia, O.~G. (2012).
 \newblock {\em Gestión Moderna del Mantenimiento Industrial}.
 \newblock Ediciones de la U.
+
+\bibitem[Piqu\'e, 1998]{pique1998}
+Piqu\'e, T. (1998).
+\newblock Ntp 333: Análisis probabilístico de riesgos: Metodología del arbol
+  de fallos y errores.
+\newblock Technical report, Instituto Nacional de Seguridad e Higiene en el
+  Trabajo.
 
 \bibitem[Productividad, 2017]{leansis2017}
 Productividad, L. (2017).

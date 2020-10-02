@@ -7,56 +7,59 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: chapters/2-preliminares.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chapters/3-estado_del_arte.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: chapters/4-desarrollo.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
 Warning--to sort, need author or key in marini2012
 Warning--to sort, need author, editor, or key in gareth2018
+Warning--to sort, need author or key in germanreprap2019
 Warning--empty author and editor in gareth2018
 Warning--empty publisher in ambrose2010
 Warning--can't use both author and editor fields in camps2005
 Warning--empty publisher in mueller2018
 Warning--can't use both author and editor fields in socconini2019
-You've used 52 entries,
+You've used 54 entries,
             1935 wiz_defined-function locations,
-            694 strings with 10747 characters,
-and the built_in function-call counts, 14066 in all, are:
-= -- 1372
-> -- 443
-< -- 45
-+ -- 140
-- -- 134
-* -- 943
-:= -- 2685
-add.period$ -- 152
-call.type$ -- 52
-change.case$ -- 308
-chr.to.int$ -- 52
-cite$ -- 61
-duplicate$ -- 627
-empty$ -- 986
-format.name$ -- 190
-if$ -- 2645
+            702 strings with 11000 characters,
+and the built_in function-call counts, 14548 in all, are:
+= -- 1420
+> -- 450
+< -- 46
++ -- 142
+- -- 136
+* -- 976
+:= -- 2771
+add.period$ -- 158
+call.type$ -- 54
+change.case$ -- 319
+chr.to.int$ -- 54
+cite$ -- 65
+duplicate$ -- 651
+empty$ -- 1027
+format.name$ -- 193
+if$ -- 2738
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 33
-newline$ -- 259
-num.names$ -- 150
-pop$ -- 288
+newline$ -- 269
+num.names$ -- 153
+pop$ -- 299
 preamble$ -- 1
-purify$ -- 327
+purify$ -- 338
 quote$ -- 0
-skip$ -- 490
+skip$ -- 506
 stack$ -- 0
-substring$ -- 632
-swap$ -- 37
+substring$ -- 657
+swap$ -- 39
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 286
-warning$ -- 7
-while$ -- 100
+type$ -- 298
+warning$ -- 8
+while$ -- 102
 width$ -- 0
-write$ -- 620
-(There were 7 warnings)
+write$ -- 644
+(There were 8 warnings)

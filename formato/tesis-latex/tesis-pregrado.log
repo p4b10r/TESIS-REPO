@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.7)  16 JUL 2020 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.7)  2 OCT 2020 02:03
 entering extended mode
 **./tesis-pregrado.tex
 (tesis-pregrado.tex
@@ -726,7 +726,29 @@ LaTeX Warning: Unused global option(s):
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (chapters/2-preliminares.aux)
-(chapters/3-estado_del_arte.aux))
+(chapters/3-estado_del_arte.aux) (chapters/4-desarrollo.aux
+
+LaTeX Warning: Label `cap:estadodelarte' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+))
 \openout1 = `tesis-pregrado.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -747,8 +769,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Trying to load font information for T1+ua1 on input line 6.
 
-
-(C:\Users\pablo\AppData\Roaming\MiKTeX\tex/latex/arial\t1ua1.fd
+ (C:\Users\pablo\AppData\Roaming\MiKTeX\tex/latex/arial\t1ua1.fd
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
@@ -861,7 +882,7 @@ babelbib: Set language for keywords in the bibliography fixed to spanish
 \openout2 = `cubierta.aux'.
 
 (cubierta.tex
-<./images/LogoUsach.pdf, id=163, 317.98799pt x 357.0138pt>
+<./images/LogoUsach.pdf, id=211, 317.98799pt x 357.0138pt>
 File: ./images/LogoUsach.pdf Graphic file (type pdf)
 <use ./images/LogoUsach.pdf>
 Package pdftex.def Info: ./images/LogoUsach.pdf  used on input line 19.
@@ -904,7 +925,7 @@ Non-PDF special ignored!
 {C:/Users/pablo/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images/LogoUs
 ach.pdf>]
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 24.
+(Font)              scaled to size 16.41594pt on input line 25.
  (tesis-pregrado.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -912,16 +933,13 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-])
-\tf@toc=\write7
-\openout7 = `tesis-pregrado.toc'.
-
+]
 LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <12> not available
-(Font)              Font shape `T1/ua1/m/it' tried instead on input line 25.
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 47.
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 25.
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+(Font)              scaled to size 11.39996pt on input line 47.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -929,31 +947,66 @@ Make it at least 14.9748pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2] (tesis-pregrado.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [3
+[2]
+Overfull \hbox (1.34512pt too wide) detected at line 49
+ []\T1/ua1/m/n/12 100
+ []
 
-])
-\tf@lof=\write8
-\openout8 = `tesis-pregrado.lof'.
+
+Overfull \hbox (1.34512pt too wide) detected at line 50
+ []\T1/ua1/m/n/12 101
+ []
+
+
+Overfull \hbox (1.34512pt too wide) detected at line 51
+ []\T1/ua1/m/n/12 103
+ []
+
+)
+\tf@toc=\write7
+\openout7 = `tesis-pregrado.toc'.
 
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
- [4] (tesis-pregrado.lot
+ [3] (tesis-pregrado.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+ [4
+
+]
+Overfull \hbox (1.34512pt too wide) detected at line 28
+ []\T1/ua1/m/n/12 100
+ []
+
+
+Overfull \hbox (1.34512pt too wide) detected at line 29
+ []\T1/ua1/m/n/12 103
+ []
+
+)
+\tf@lof=\write8
+\openout8 = `tesis-pregrado.lof'.
+
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ [5] (tesis-pregrado.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Overfull \hbox (1.34512pt too wide) detected at line 18
+ []\T1/ua1/m/n/12 102
+ []
+
 )
 \tf@lot=\write9
 \openout9 = `tesis-pregrado.lot'.
 
- [5
+ [6
 
 ]
 \openout2 = `chapters/2-preliminares.aux'.
 
-
-(chapters/2-preliminares.tex
+ (chapters/2-preliminares.tex
 Cap\'itulo 1.
 (C:\Users\pablo\AppData\Roaming\MiKTeX\tex/latex/ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
@@ -1011,7 +1064,7 @@ LaTeX Info: Redefining \% on input line 63.
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
  [7]
-<images/3dmarket.png, id=460, 487.06969pt x 302.63063pt>
+<images/3dmarket.png, id=557, 487.06969pt x 302.63063pt>
 File: images/3dmarket.png Graphic file (type png)
 <use images/3dmarket.png>
 Package pdftex.def Info: images/3dmarket.png  used on input line 66.
@@ -1019,7 +1072,7 @@ Package pdftex.def Info: images/3dmarket.png  used on input line 66.
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
  [8]
-<images/The3Dprintinghypecycle.png, id=474, 511.15968pt x 288.3272pt>
+<images/The3Dprintinghypecycle.png, id=571, 511.15968pt x 288.3272pt>
 File: images/The3Dprintinghypecycle.png Graphic file (type png)
 <use images/The3Dprintinghypecycle.png>
 Package pdftex.def Info: images/The3Dprintinghypecycle.png  used on input line 
@@ -1038,12 +1091,12 @@ Underfull \hbox (badness 1043) in paragraph at lines 97--98
 LaTeX Info: Redefining \. on input line 98.
 LaTeX Info: Redefining \% on input line 98.
 [11]
-<images/fdmprocess.png, id=500, 444.15938pt x 148.30406pt>
+<images/fdmprocess.png, id=597, 444.15938pt x 148.30406pt>
 File: images/fdmprocess.png Graphic file (type png)
 <use images/fdmprocess.png>
 Package pdftex.def Info: images/fdmprocess.png  used on input line 101.
 (pdftex.def)             Requested size: 355.32797pt x 118.64339pt.
-<images/fdmesquema.png, id=505, 492.33937pt x 402.00188pt>
+<images/fdmesquema.png, id=602, 492.33937pt x 402.00188pt>
 File: images/fdmesquema.png Graphic file (type png)
 <use images/fdmesquema.png>
 Package pdftex.def Info: images/fdmesquema.png  used on input line 107.
@@ -1054,7 +1107,7 @@ LaTeX Info: Redefining \% on input line 111.
 LaTeX Info: Redefining \. on input line 152.
 LaTeX Info: Redefining \% on input line 152.
  [13]
-<images/cartesiana.png, id=530, 179.16937pt x 216.05719pt>
+<images/cartesiana.png, id=627, 179.16937pt x 216.05719pt>
 File: images/cartesiana.png Graphic file (type png)
 <use images/cartesiana.png>
 Package pdftex.def Info: images/cartesiana.png  used on input line 162.
@@ -1062,12 +1115,12 @@ Package pdftex.def Info: images/cartesiana.png  used on input line 162.
 LaTeX Info: Redefining \. on input line 165.
 LaTeX Info: Redefining \% on input line 165.
  [14]
-<images/delta.png, id=539, 176.15813pt x 206.27063pt>
+<images/delta.png, id=636, 176.15813pt x 206.27063pt>
 File: images/delta.png Graphic file (type png)
 <use images/delta.png>
 Package pdftex.def Info: images/delta.png  used on input line 170.
 (pdftex.def)             Requested size: 105.69568pt x 123.76332pt.
-<images/polar.png, id=544, 107.65219pt x 121.95563pt>
+<images/polar.png, id=641, 107.65219pt x 121.95563pt>
 File: images/polar.png Graphic file (type png)
 <use images/polar.png>
 Package pdftex.def Info: images/polar.png  used on input line 178.
@@ -1076,7 +1129,7 @@ LaTeX Info: Redefining \. on input line 181.
 LaTeX Info: Redefining \% on input line 181.
 
 [15 <./images/cartesiana.png> <./images/delta.png>]
-<images/scara.png, id=555, 204.765pt x 126.4725pt>
+<images/scara.png, id=652, 204.765pt x 126.4725pt>
 File: images/scara.png Graphic file (type png)
 <use images/scara.png>
 Package pdftex.def Info: images/scara.png  used on input line 186.
@@ -1240,7 +1293,7 @@ LaTeX Info: Redefining \% on input line 599.
 LaTeX Info: Redefining \. on input line 625.
 LaTeX Info: Redefining \% on input line 625.
  [40]
-<images/casalean.png, id=803, 375.65344pt x 411.78844pt>
+<images/casalean.png, id=900, 375.65344pt x 411.78844pt>
 File: images/casalean.png Graphic file (type png)
 <use images/casalean.png>
 Package pdftex.def Info: images/casalean.png  used on input line 643.
@@ -1254,7 +1307,7 @@ LaTeX Info: Redefining \% on input line 656.
 LaTeX Info: Redefining \. on input line 666.
 LaTeX Info: Redefining \% on input line 666.
  [43]
-<images/historialean.png, id=833, 416.30531pt x 190.46156pt>
+<images/historialean.png, id=930, 416.30531pt x 190.46156pt>
 File: images/historialean.png Graphic file (type png)
 <use images/historialean.png>
 Package pdftex.def Info: images/historialean.png  used on input line 669.
@@ -1389,7 +1442,7 @@ Underfull \hbox (badness 2012) in paragraph at lines 892--892
 LaTeX Info: Redefining \. on input line 904.
 LaTeX Info: Redefining \% on input line 904.
 [59]
-<images/arqbd.png, id=965, 266.49562pt x 199.49532pt>
+<images/arqbd.png, id=1062, 266.49562pt x 199.49532pt>
 File: images/arqbd.png Graphic file (type png)
 <use images/arqbd.png>
 Package pdftex.def Info: images/arqbd.png  used on input line 909.
@@ -1403,7 +1456,7 @@ REATE TABLE \T1/ua1/m/n/12 para definir tablas,
 LaTeX Info: Redefining \. on input line 924.
 LaTeX Info: Redefining \% on input line 924.
 [60 <./images/arqbd.png>]
-<images/clienteservidor.png, id=979, 191.9672pt x 109.91063pt>
+<images/clienteservidor.png, id=1077, 191.9672pt x 109.91063pt>
 File: images/clienteservidor.png Graphic file (type png)
 <use images/clienteservidor.png>
 Package pdftex.def Info: images/clienteservidor.png  used on input line 927.
@@ -1435,17 +1488,17 @@ LaTeX Info: Redefining \% on input line 1003.
 LaTeX Info: Redefining \. on input line 1018.
 LaTeX Info: Redefining \% on input line 1018.
  [66]
-<images/rbpi.png, id=1037, 216.05719pt x 320.69812pt>
+<images/rbpi.png, id=1135, 216.05719pt x 320.69812pt>
 File: images/rbpi.png Graphic file (type png)
 <use images/rbpi.png>
 Package pdftex.def Info: images/rbpi.png  used on input line 1034.
 (pdftex.def)             Requested size: 194.44965pt x 288.62563pt.
 )
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
  [67]
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
  [68 <./images/rbpi.png>]
 \openout2 = `chapters/3-estado_del_arte.aux'.
 
@@ -1469,7 +1522,7 @@ u
 
 
 ]
-<images/publicacionesgestion.png, id=1067, 510.40688pt x 224.33812pt>
+<images/publicacionesgestion.png, id=1164, 510.40688pt x 224.33812pt>
 File: images/publicacionesgestion.png Graphic file (type png)
 <use images/publicacionesgestion.png>
 Package pdftex.def Info: images/publicacionesgestion.png  used on input line 27
@@ -1509,7 +1562,7 @@ LaTeX Info: Redefining \% on input line 122.
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
  [75]
-<images/mapaproduccion.png, id=1099, 434.37282pt x 229.60782pt>
+<images/mapaproduccion.png, id=1196, 434.37282pt x 229.60782pt>
 File: images/mapaproduccion.png Graphic file (type png)
 <use images/mapaproduccion.png>
 Package pdftex.def Info: images/mapaproduccion.png  used on input line 154.
@@ -1556,7 +1609,7 @@ icando
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
 [80]
-<images/plegadorapareto.png, id=1129, 292.09125pt x 207.77625pt>
+<images/plegadorapareto.png, id=1226, 292.09125pt x 207.77625pt>
 File: images/plegadorapareto.png Graphic file (type png)
 <use images/plegadorapareto.png>
 Package pdftex.def Info: images/plegadorapareto.png  used on input line 231.
@@ -1569,12 +1622,12 @@ Underfull \hbox (badness 1681) in paragraph at lines 235--236
 LaTeX Info: Redefining \. on input line 236.
 LaTeX Info: Redefining \% on input line 236.
 [81 <./images/plegadorapareto.png>]
-<images/plegadoraconf.png, id=1139, 309.40594pt x 185.19188pt>
+<images/plegadoraconf.png, id=1236, 309.40594pt x 185.19188pt>
 File: images/plegadoraconf.png Graphic file (type png)
 <use images/plegadoraconf.png>
 Package pdftex.def Info: images/plegadoraconf.png  used on input line 239.
 (pdftex.def)             Requested size: 247.52509pt x 148.15369pt.
-<images/plegadoraind.png, id=1144, 309.40594pt x 31.61812pt>
+<images/plegadoraind.png, id=1241, 309.40594pt x 31.61812pt>
 File: images/plegadoraind.png Graphic file (type png)
 <use images/plegadoraind.png>
 Package pdftex.def Info: images/plegadoraind.png  used on input line 245.
@@ -1591,7 +1644,7 @@ LaTeX Info: Redefining \% on input line 254.
 LaTeX Info: Redefining \. on input line 274.
 LaTeX Info: Redefining \% on input line 274.
  [83]
-<images/umla.png, id=1159, 518.6878pt x 221.32687pt>
+<images/umla.png, id=1256, 518.6878pt x 221.32687pt>
 File: images/umla.png Graphic file (type png)
 <use images/umla.png>
 Package pdftex.def Info: images/umla.png  used on input line 281.
@@ -1599,7 +1652,7 @@ Package pdftex.def Info: images/umla.png  used on input line 281.
 LaTeX Info: Redefining \. on input line 284.
 LaTeX Info: Redefining \% on input line 284.
  [84]
-<images/arsistema.png, id=1168, 471.26062pt x 268.75406pt>
+<images/arsistema.png, id=1266, 471.26062pt x 268.75406pt>
 File: images/arsistema.png Graphic file (type png)
 <use images/arsistema.png>
 Package pdftex.def Info: images/arsistema.png  used on input line 292.
@@ -1611,41 +1664,18 @@ LaTeX Info: Redefining \% on input line 295.
 LaTeX Info: Redefining \. on input line 299.
 LaTeX Info: Redefining \% on input line 299.
  [86 <./images/arsistema.png>])
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
  [87]
-(tesis-pregrado.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
-[]\T1/ua1/m/n/12 3dsourced (2020).  The com-ple-te his-tory of 3d prin-
- []
+\openout2 = `chapters/4-desarrollo.aux'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
-\T1/ua1/m/n/12 ting: From 1980 to 2020.  Re-cu-pe-ra-do de:
- []
+(chapters/4-desarrollo.tex
+Cap\'itulo 3.
 
-
-Overfull \hbox (6.51338pt too wide) in paragraph at lines 25--29
-\T1/ua1/m/n/12 https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/
-6262/Infographic-
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 31--36
-[]\T1/ua1/m/n/12 Alexander, D. (2019).  Start your own 3d prin-ting bu-si-ness:
- 11 in-ter-es-
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 31--36
-\T1/ua1/m/n/12 ting ca-ses of com-pa-nies using 3d prin-ting.  Re-cu-pe-ra-do d
-e: https://int
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--36
-\T1/ua1/m/n/12 erestingengineering.com/start-your-own-3d-printing-business-11-i
-nteresting-
+Underfull \hbox (badness 1038) in paragraph at lines 9--11
+\T1/ua1/m/n/12 de piezas, enfocadas principalmente a las soluciones del área in
+dustrial y
  []
 
 [88
@@ -1653,82 +1683,329 @@ nteresting-
 
 
 ]
-Underfull \hbox (badness 2050) in paragraph at lines 75--79
+<images/proceso.png, id=1289, 963.6pt x 602.25pt>
+File: images/proceso.png Graphic file (type png)
+<use images/proceso.png>
+Package pdftex.def Info: images/proceso.png  used on input line 30.
+(pdftex.def)             Requested size: 385.43317pt x 240.89572pt.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+ [89]
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+ [90 <./images/proceso.png>]
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+ [91]
+Underfull \hbox (badness 1655) in paragraph at lines 65--66
+[]\T1/ua1/m/n/12 Las tablas de ponderaciones para cada uno de estos son las
+ []
+
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+[92]
+Overfull \hbox (13.2148pt too wide) in paragraph at lines 164--164
+[]|\T1/ua1/m/n/12 Frecuencia
+ []
+
+
+Overfull \hbox (9.316pt too wide) in paragraph at lines 164--164
+[]|\T1/ua1/m/n/12 Seguridad| 
+ []
+
+
+Overfull \hbox (18.73236pt too wide) in paragraph at lines 164--164
+[]|\T1/ua1/m/n/12 Operacional| 
+ []
+
+
+Overfull \hbox (15.32378pt too wide) in paragraph at lines 164--164
+[]|\T1/ua1/m/n/12 Reparación| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[]|\T1/ua1/m/n/12 Total
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+\T1/ua1/m/n/12 Con-
+ []
+
+
+Overfull \hbox (0.70833pt too wide) in paragraph at lines 164--164
+[]|\T1/ua1/m/n/12 Critic.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\T1/ua1/m/n/12 Impresora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\T1/ua1/m/n/12 PRU-SA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|\T1/ua1/m/n/12 Impresora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\T1/ua1/m/n/12 Impresora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+\T1/ua1/m/n/12 X350 G.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]|\T1/ua1/m/n/12 Impresora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+\T1/ua1/m/n/12 X400 G.
+ []
+
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+[93]
+Underfull \hbox (badness 1325) in paragraph at lines 185--186
+[]\T1/ua1/m/n/12 A continuación, se resumen los datos técnicos generales de la
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ua1 on input line 2
+12.
+(C:\Users\pablo\AppData\Roaming\MiKTeX\tex/latex/arial\ts1ua1.fd
+File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
+)
+LaTeX Font Info:    Font shape `TS1/ua1/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 212.
+<images/x350pormientras.jpg, id=1316, 1027.84pt x 834.11626pt>
+File: images/x350pormientras.jpg Graphic file (type jpg)
+<use images/x350pormientras.jpg>
+Package pdftex.def Info: images/x350pormientras.jpg  used on input line 227.
+(pdftex.def)             Requested size: 411.12872pt x 333.6406pt.
+LaTeX Info: Redefining \. on input line 230.
+LaTeX Info: Redefining \% on input line 230.
+ [94]
+Underfull \hbox (badness 1097) in paragraph at lines 234--235
+[]\T1/ua1/m/n/12 Paneles de chapa metálica: cubierta lateral plegada, que sirve
+ como
+ []
+
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
+[95 <./images/x350pormientras.jpg>]
+LaTeX Info: Redefining \. on input line 246.
+LaTeX Info: Redefining \% on input line 246.
+ [96]
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
+ [97]
+LaTeX Info: Redefining \. on input line 286.
+LaTeX Info: Redefining \% on input line 286.
+ [98]
+<images/layout.png, id=1340, 963.6pt x 722.7pt>
+File: images/layout.png Graphic file (type png)
+<use images/layout.png>
+Package pdftex.def Info: images/layout.png  used on input line 289.
+(pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
+LaTeX Info: Redefining \. on input line 296.
+LaTeX Info: Redefining \% on input line 296.
+ [99 <./images/layout.png>]
+<images/diagramafuncional.png, id=1346, 963.6pt x 722.7pt>
+File: images/diagramafuncional.png Graphic file (type png)
+<use images/diagramafuncional.png>
+Package pdftex.def Info: images/diagramafuncional.png  used on input line 299.
+(pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
+
+[100 <./images/diagramafuncional.png>]
+<images/arbol/basico.png, id=1356, 37.13875pt x 37.13875pt>
+File: images/arbol/basico.png Graphic file (type png)
+<use images/arbol/basico.png>
+Package pdftex.def Info: images/arbol/basico.png  used on input line 313.
+(pdftex.def)             Requested size: 37.13866pt x 37.13866pt.
+<images/arbol/nodesarrollado.png, id=1357, 37.13875pt x 37.13875pt>
+File: images/arbol/nodesarrollado.png Graphic file (type png)
+<use images/arbol/nodesarrollado.png>
+Package pdftex.def Info: images/arbol/nodesarrollado.png  used on input line 31
+5.
+(pdftex.def)             Requested size: 37.13866pt x 37.13866pt.
+
+Underfull \hbox (badness 1796) in paragraph at lines 315--316
+\T1/ua1/m/n/12 considerado como básico, pero sus
+ []
+
+<images/arbol/intermedio.png, id=1358, 37.13875pt x 37.13875pt>
+File: images/arbol/intermedio.png Graphic file (type png)
+<use images/arbol/intermedio.png>
+Package pdftex.def Info: images/arbol/intermedio.png  used on input line 317.
+(pdftex.def)             Requested size: 37.13866pt x 37.13866pt.
+<images/arbol/puertay.png, id=1359, 37.13875pt x 37.13875pt>
+File: images/arbol/puertay.png Graphic file (type png)
+<use images/arbol/puertay.png>
+Package pdftex.def Info: images/arbol/puertay.png  used on input line 319.
+(pdftex.def)             Requested size: 37.13866pt x 37.13866pt.
+<images/arbol/puertao.png, id=1360, 37.13875pt x 37.13875pt>
+File: images/arbol/puertao.png Graphic file (type png)
+<use images/arbol/puertao.png>
+Package pdftex.def Info: images/arbol/puertao.png  used on input line 321.
+(pdftex.def)             Requested size: 37.13866pt x 37.13866pt.
+<images/arbol/transferencia.png, id=1361, 37.13875pt x 37.13875pt>
+File: images/arbol/transferencia.png Graphic file (type png)
+<use images/arbol/transferencia.png>
+Package pdftex.def Info: images/arbol/transferencia.png  used on input line 323
+.
+(pdftex.def)             Requested size: 37.13866pt x 37.13866pt.
+LaTeX Info: Redefining \. on input line 328.
+LaTeX Info: Redefining \% on input line 328.
+[101]
+LaTeX Info: Redefining \. on input line 336.
+LaTeX Info: Redefining \% on input line 336.
+ [102 <./images/arbol/basico.png> <./images/arbol/nodesarrollado.png> <./images
+/arbol/intermedio.png> <./images/arbol/puertay.png> <./images/arbol/puertao.png
+> <./images/arbol/transferencia.png>]
+<images/arbol/arbol1.png, id=1386, 1069.9975pt x 743.77875pt>
+File: images/arbol/arbol1.png Graphic file (type png)
+<use images/arbol/arbol1.png>
+Package pdftex.def Info: images/arbol/arbol1.png  used on input line 340.
+(pdftex.def)             Requested size: 427.99142pt x 297.50623pt.
+
+Overfull \hbox (15.42645pt too wide) in paragraph at lines 340--341
+ [][] 
+ []
+
+)
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+ [103 <./images/arbol/arbol1.png>] (tesis-pregrado.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+[]\T1/ua1/m/n/12 3dsourced (2020).  The com-ple-te his-tory of 3d prin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+\T1/ua1/m/n/12 ting: From 1980 to 2020.  Re-cu-pe-ra-do de:
+ []
+
+
+Overfull \hbox (6.51338pt too wide) in paragraph at lines 30--34
+\T1/ua1/m/n/12 https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/
+6262/Infographic-
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 36--41
+[]\T1/ua1/m/n/12 Alexander, D. (2019).  Start your own 3d prin-ting bu-si-ness:
+ 11 in-ter-es-
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 36--41
+\T1/ua1/m/n/12 ting ca-ses of com-pa-nies using 3d prin-ting.  Re-cu-pe-ra-do d
+e: https://int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+\T1/ua1/m/n/12 erestingengineering.com/start-your-own-3d-printing-business-11-i
+nteresting-
+ []
+
+[104
+
+
+
+]
+Underfull \hbox (badness 2050) in paragraph at lines 80--84
 []\T1/ua1/m/n/12 Bournias, A. (2017).  In-tro-duc-tion to fdm 3d prin-ting.  Re
 -cu-pe-ra-do de:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 []\T1/ua1/m/n/12 Garcia, J. (2014).  Que es una pla-ca sbc.  Re-cu-pe-ra-do de:
 
  []
 
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
-[89]
-Underfull \hbox (badness 1112) in paragraph at lines 178--182
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+[105]
+Underfull \hbox (badness 1112) in paragraph at lines 183--187
 []\T1/ua1/m/n/12 Izquierdo, L. (2013).  Introduccion a la programación orientad
 a a objetos.
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 196--200
+Underfull \hbox (badness 2591) in paragraph at lines 201--205
 []\T1/ua1/m/n/12 leao, L. (2017).  Cad vs cae vs cam: What is the dif-fe-ren-ce
 ?  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--211
 \T1/ua1/m/n/12 engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Inf
 ographic-The-
  []
 
-
-Underfull \hbox (badness 4108) in paragraph at lines 234--238
+LaTeX Info: Redefining \. on input line 245.
+LaTeX Info: Redefining \% on input line 245.
+[106]
+Underfull \hbox (badness 4108) in paragraph at lines 246--250
 []\T1/ua1/m/n/12 Renstrom, J. (2012).  Mon-key see, mon-key ma-ke.  Re-cu-pe-ra
 -do de:
  []
 
-LaTeX Info: Redefining \. on input line 239.
-LaTeX Info: Redefining \% on input line 239.
-[90]
-Underfull \hbox (badness 4713) in paragraph at lines 268--271
+
+Underfull \hbox (badness 4713) in paragraph at lines 280--283
 []\T1/ua1/m/n/12 SPIP (2012).  In-tro-duc-cion a las ho-jas de es-ti-lo.  Re-cu
 -pe-ra-do de:
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 278--282
+Underfull \hbox (badness 5802) in paragraph at lines 290--294
 []\T1/ua1/m/n/12 Torre, R. (2013).  Apun-tes so-bre el pro-yec-to re-prap.  Re-
 cu-pe-ra-do
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
- [91]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [107]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (tesis-pregrado.aux (cubierta.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (chapters/2-preliminares.aux)
-(chapters/3-estado_del_arte.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+(chapters/3-estado_del_arte.aux) (chapters/4-desarrollo.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `tesis-pregrado.out' has not changed.
-(rerunfilecheck)             Checksum: 0A94BD1D07893D6065C3479000F44B66;3359.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+(rerunfilecheck)             Checksum: 0CE9D6514D9ACADD160E8FB4F1EACDA2;4416.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 17181 strings out of 480790
- 249006 string characters out of 2907056
+ 17349 strings out of 480790
+ 252911 string characters out of 2907056
  697215 words of memory out of 3000000
- 32510 multiletter control sequences out of 15000+200000
- 596050 words of font info for 73 fonts, out of 3000000 for 9000
+ 32606 multiletter control sequences out of 15000+200000
+ 596367 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,49p,3396b,676s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,13n,49p,3396b,781s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
@@ -1743,9 +2020,9 @@ cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
 pablo/AppData/Roaming/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/pablo/A
 ppData/Roaming/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/pablo/AppData/
 Roaming/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis-pregrado.pdf (97 pages, 1943346 bytes).
+Output written on tesis-pregrado.pdf (114 pages, 2188627 bytes).
 PDF statistics:
- 1315 PDF objects out of 1440 (max. 8388607)
- 271 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1529 PDF objects out of 1728 (max. 8388607)
+ 319 named destinations out of 1000 (max. 500000)
+ 577 words of extra memory for PDF output out of 10000 (max. 10000000)
 
