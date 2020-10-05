@@ -75,12 +75,14 @@
 \RequirePackage{epic,eepic} % para imagenes
 \RequirePackage{subfigure}
 %\RequirePackage{color}
+
 %-------Referencias
 \RequirePackage{hyperref}
 \RequirePackage{url} %citacion de URL
 \RequirePackage[all]{hypcap}
 %--------Tablas
 %\RequirePackage{colortbl} % Darle color a las tablas
+\RequirePackage{booktabs}
 \RequirePackage{multirow} % Multiples filas en Tablas
 \RequirePackage{array}
 \RequirePackage{caption}

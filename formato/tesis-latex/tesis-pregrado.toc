@@ -40,14 +40,22 @@
 \contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{88}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Antecedentes de la empresa}{88}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Descripci\IeC {\'o}n de la empresa}{88}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Proceso de impresi\IeC {\'o}n 3D}{89}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del Problema}{90}{section.3.2}%
-\contentsline {section}{\numberline {3.3} Aplicaci\IeC {\'o}n de mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{91}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Selecci\IeC {\'o}n del equipo}{91}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Descripci\IeC {\'o}n del equipo}{94}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del Problema}{89}{section.3.2}%
+\contentsline {section}{\numberline {3.3} Aplicaci\IeC {\'o}n de mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{90}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Selecci\IeC {\'o}n del equipo}{90}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Descripci\IeC {\'o}n del equipo}{92}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Contexto Operacional}{98}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Delimitaci\IeC {\'o}n de funciones}{100}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Determinaci\IeC {\'o}n de fallas}{101}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Aplicaci\IeC {\'o}n de metodolog\IeC {\'\i }a Design Thinking para el desarrollo de Software}{103}{section.3.4}%
-\contentsline {chapter}{Referencias}{104}{chapter*.43}%
-\contentsline {chapter}{Ap\IeC {\'e}ndices}{107}{section*.44}%
+\contentsline {subsection}{\numberline {3.3.4}Delimitaci\IeC {\'o}n de funciones}{99}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Determinaci\IeC {\'o}n de fallas}{100}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}An\IeC {\'a}lisis de Modos y Efectos de Falla}{105}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Resultados}{108}{subsection.3.3.7}%
+\contentsline {section}{\numberline {3.4}Aplicaci\IeC {\'o}n de metodolog\IeC {\'\i }a Design Thinking para el desarrollo de Aplicaci\IeC {\'o}n Web}{108}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Situaci\IeC {\'o}n actual}{108}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Planificaci\IeC {\'o}n del marco de trabajo}{110}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Inicio}{111}{subsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}Empatizar}{111}{subsubsection.3.4.3.1}%
+\contentsline {subsection}{\numberline {3.4.4}Planeaci\IeC {\'o}n}{116}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Ejecuci\IeC {\'o}n}{116}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Cierre}{116}{subsection.3.4.6}%
+\contentsline {chapter}{Referencias}{117}{chapter*.54}%
+\contentsline {chapter}{Ap\IeC {\'e}ndices}{120}{section*.55}%

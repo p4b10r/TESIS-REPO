@@ -22,8 +22,17 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama UML que describe la relaci\IeC {\'o}n de los registros entre m\IeC {\'a}quinas, fallas, causas y acciones de mantenimiento \citep {aransyash2019}\relax }}{85}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inal\IeC {\'a}mbrico; (b) funcionalidad del sistema; (c) operaci\IeC {\'o}n de diagn\IeC {\'o}stico basado en el historial de fallas; (d) gu\IeC {\'\i }a del sistema al operador a trav\IeC {\'e}s de instrucciones de texto y video \citep {aransyash2019}.\relax }}{86}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de flujo del proceso de impresi\IeC {\'o}n 3D.\relax }}{90}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Impresora X350.\relax }}{95}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Layout y simbolog\IeC {\'\i }a del taller de impresi\IeC {\'o}n 3D.\relax }}{99}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama funcional de bloques para la m\IeC {\'a}quina de impresi\IeC {\'o}n 3D.\relax }}{100}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{103}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Impresora X350.\relax }}{94}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout y simbolog\IeC {\'\i }a del taller de impresi\IeC {\'o}n 3D.\relax }}{99}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama funcional de bloques para la m\IeC {\'a}quina de impresi\IeC {\'o}n 3D.\relax }}{100}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{102}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{103}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{103}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{104}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{104}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de decisi\IeC {\'o}n para impresora 3D.\relax }}{107}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagrama de flujo del proceso de impresi\IeC {\'o}n 3D.\relax }}{109}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Mapa de Stakeholders del proyecto.\relax }}{112}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Primera etapa del mapa de experiencia.\relax }}{114}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Segunda etapa del mapa de experiencia.\relax }}{114}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Tercera etapa del mapa de experiencia.\relax }}{115}{figure.caption.53}%

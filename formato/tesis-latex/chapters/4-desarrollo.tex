@@ -9,27 +9,7 @@
 3Dlux es un emprendimiento dedicado al diseño e impresión 3D, fundada el año 2016 por Javier Oliva y Juan Marinetti. La empresa comenzó con el propósito de utilizar la tecnología de impresión 3D FDM para la fabricación de piezas, enfocadas principalmente a las soluciones del área industrial y manufactura. Así, el año 2017 la empresa comenzó con una etapa de investigación y aprendizaje de la maquinaria para estos efectos, y la posibles industrias en las cuales la impresión 3D podría agregar valor. El interés de Javier, diseñador de profesión, por trabajar con softwares de diseño 3D y la visión de Juan, empresario, por incursionar en nuevas áreas de negocio, fueron dando forma al estado actual de la empresa. 
 La primera capacitación o acercamiento a la industria fue en Estados Unidos, donde Javier estuvo de pasante en la empresa de impresión 3D \textit{3DChimera} durante dos semanas. Tanto las máquinas como el modelo de negocio que utilizaban, fueron tomados como ejemplo para lo que se implementaría en Chile. Posterior a este hecho, el primer año de desarrollo se llevó a cabo con la colaboración de la empresa \textit{Acrus-ccl}, dedicada al etiquetado de vinos ubicada en la comuna de Conchalí. Allí, haciendo uso de una oficina facilitada para estos efectos, se instalaron las primeras máquinas e impresoras 3d, haciendo trabajos ocasionales y a pedido. En 2018, la empresa se trasladó a las dependencias de la Fundacion Mustakis, en la comuna de Recoleta, emplazamiento que ocupa en la actualidad. Hoy, el taller cuenta con 9 impresoras 3d y desarrolla piezas para distintas industrias como minería, salud, entre otras. La capacidad instalada ha permitido la producción de piezas de un volumen aproximado de 300 unidades por pedido; asimismo, la diversidad de impresoras da la posibilidad de trabajar con diversos filamentos de impresión 3D, tanto materiales tradicionales (PLA, ABS y PETG) como plásticos de ingeniería (ASA, PC, entre otros). Dentro de los servicios ofrecidos está el diseño y fabricación de productos y piezas, escaneo 3D y capacitaciones orientadas al uso de las máquinas. 
 
-\subsection{Proceso de impresión 3D}
 
-El proceso de impresión 3D, a grandes rasgos, consiste en:
-
-\begin{itemize}
-\item Exportación de la pieza a lenguaje estándar de triángulos (.stl).
-\item Configuración de variables de impresión en software CAM.
-\item Exportación de la pieza en formato .gcode.
-\item Carga de archivo en la máquina.
-\item Precalentamiento de la máquina.
-\item Fabricación de la pieza.
-\item Extracción de la pieza y post-proceso en caso de ser necesario.
-\end{itemize}
-
-El diagrama de flujo que representa el proceso, decisiones y resultados, se muestra a continuación:
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{images/proceso.png}
-\caption{Diagrama de flujo del proceso de impresión 3D.}
-\end{figure}
 
 
 \section{Descripción del Problema}
@@ -159,9 +139,9 @@ Los resultados del análisis de criticidad para elegir el activo más crítico s
 \begin{table}[H]
   \centering
   
-    \begin{tabular}{|r|p{2cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+    \scalebox{0.75}{\begin{tabular}{|r|l|l|l|l|l|l|l|}
     \hline
-    \multicolumn{1}{|l|}{Ítem} & Activo & \multicolumn{1}{p{1.5cm}|}{Frecuencia de fallas} & \multicolumn{1}{p{1.5cm}|}{Seguridad} & \multicolumn{1}{p{1.5cm}|}{Operacional} & \multicolumn{1}{p{1.5cm}|}{Reparación} & \multicolumn{1}{p{1cm}|}{Total Consec.} & \multicolumn{1}{p{1cm}|}{Critic. Total} \\
+    \multicolumn{1}{|l|}{Ítem} & Activo & \multicolumn{1}{p{2cm}|}{Frecuencia de fallas} & \multicolumn{1}{p{2cm}|}{Seguridad} & \multicolumn{1}{p{2cm}|}{Operacional} & \multicolumn{1}{p{2cm}|}{Reparación} & \multicolumn{1}{p{1cm}|}{Total Consec.} & \multicolumn{1}{p{1cm}|}{Critic. Total} \\
     \hline
     1     & Impresora PRUSA MK3 & 1 & 2& 9 & 8& 19& 19 \\
     \hline
@@ -171,7 +151,7 @@ Los resultados del análisis de criticidad para elegir el activo más crítico s
     \hline
     4     & Impresora X400 G. RepRap & 2 & 4 & 12 & 8 & 24 & 48 \\
     \hline
-    \end{tabular}%
+    \end{tabular}}
     \caption{Análisis de criticidad para determinar el activo más crítico.}
   \label{tab:addlabel}%
 \end{table}%
@@ -237,6 +217,7 @@ Los componentes principales del equipo son:
 \item Rodamientos lineales: elementos de rodadura para el movimiento en el plano x-y. Están unidas, tanto a los carros del eje-y como al cabezal de impresión en el eje-x.
 \item Husillos: barra roscada de diámetro 8 mm y paso 2 mm que sirve como elemento de transmisión de movimiento desde los motores paso a paso a la cama caliente en el eje-z. 
 \item Motores Paso a Paso: dispositivo electromecánico que transforma los pulsos eléctricos a movimiento angular. Los motores paso a paso que componen la impresora son del tipo NEMA 17, con una corriente máxima de 1.5 A. Existe uno para generar el movimiento de cada eje.
+\item Finales de carrera: dispositivo electrónico que funciona como interruptor del movimientos de los ejes, y limita el recorrido de los ejes x-y-z. Además, la interrupción del movimiento de todos los ejes coincide con el origen de la máquina.
 \item Correas GT2: elemento de transmisión de movimiento desde los motores paso a paso a los ejes x-y. la transformación de movimiento angular a lineal se realiza en las poleas dentadas unidas al motor.
 \item Cama caliente: superficie de impresión de la impresora 3D compuesta por una resistencia que abarca toda el área. 
 \item Termistor: componente electrónico resistivo de 100K, que funciona como sensor de temperatura de extrusor y cama caliente.
@@ -292,7 +273,7 @@ El activo en cuestión realiza sus operaciones en el Taller de Impresión 3Dlux,
 
 \subsection{Delimitación de funciones}
 
-Para expresar de forma gráfica el funcionamiento de una impresora 3D comprendida como un sistema, se elige el diagrama funcional de bloques. Esta herramienta permite representar gráficamente el flujo de variables entre los diversos procesos de un sistema, así también sus entradas y salidas. En el diagrama mostrado a continuación, se representan las interacciones internas y externas en el sistema comprendido por la máquina. Asimismo, se observa que si una de las interacciones se ve interrumpida, quiere decir que existe algún tipo de falla en la impresora, y su efecto puede propagarse en la medida que afecte a alguno de los componentes funcionales.
+Según \cite{unit2009}, un Diagrama de Interrelaciones Funcionales permite identificar las conexiones lógicas y secuenciales en un producto. En este caso, el diagrama se utiliza para expresar de forma gráfica el funcionamiento de una impresora 3D comprendida como un sistema. Así, se permite representar gráficamente el flujo de variables entre los diversos procesos de un sistema, así también sus entradas y salidas. En el diagrama mostrado a continuación, se representan las interacciones internas y externas en el sistema comprendido por la máquina, y los subsistemas de alimentación, control, construcción, movimiento y extrusión. Asimismo, se observa que si una de las interacciones se ve interrumpida, quiere decir que existe algún tipo de falla en la impresora, y su efecto puede propagarse en la medida que afecte a alguno de los componentes funcionales.
 
 \begin{figure}[H]
 \centering
@@ -335,17 +316,222 @@ Según \cite{pique1998}, los pasos para la resolución de árboles de fallo son 
 \item Eliminación de los conjuntos de fallo que contengan a su vez conjuntos de fallo más pequeños.
 \end{enumerate}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{images/arbol/arbol1.png}
 \caption{Árbol de fallas de impresora 3D.}
 \end{figure}
 
-\section{Aplicación de metodología Design Thinking para el desarrollo de Software}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/arbol/arbol2.png}
+\caption{Continuación del árbol de fallas de impresora 3D.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/arbol/arbol3.png}
+\caption{Continuación del árbol de fallas de impresora 3D.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/arbol/arbol4.png}
+\caption{Continuación del árbol de fallas de impresora 3D.}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/arbol/arbol5.png}
+\caption{Árbol de fallas de impresora 3D.}
+\end{figure}
+
+\subsection{Análisis de Modos y Efectos de Falla}
+Según la norma SAE JA-1012, un análisis de modos y efectos de fallas puede ayudar a documentar las funciones de un activo, su falla funcional, modos de falla, y los efectos que ésta puede producir. Según \cite{saeja1012}, La descripción debe ser suficientemente detallada de modo que posibilite la selección de una política de manejo de fallas adecuada, pero no tan detallada que tome demasiado tiempo realizar el proceso de análisis. Asimismo, los verbos utilizados para describir los modos de falla se deben seleccionar cuidadosamente, ya que tienen una gran influencia en el proceso de selección de las políticas de manejo de fallas. La estructura propuesta para el análisis se muestra a continuación:
+
+
+\begin{table}[H]
+  \centering
+ 
+    \scalebox{0.6}{\begin{tabular}{|p{15em}|p{8em}|p{9em}|p{9em}|p{8em}|}
+    \hline
+    \multirow{4}[4]{*}{\textbf{HOJA DE INFORMACIÓN RCM}} & \multicolumn{2}{l|}{\multirow{2}[2]{*}{\textbf{ACTIVO}}} & \multicolumn{2}{l|}{\multirow{2}[2]{*}{\textbf{ACTIVO N°}}} \\
+    \multicolumn{1}{|c|}{} & \multicolumn{2}{l|}{} & \multicolumn{2}{l|}{} \\
+   \multicolumn{1}{|c|}{} & \multicolumn{2}{l|}{\multirow{2}[2]{*}{\textbf{SUBSISTEMA}}} & \multicolumn{2}{l|}{\multirow{2}[2]{*}{\textbf{SUBSISTEMA N°}}} \\
+    \multicolumn{1}{|c|}{} & \multicolumn{2}{l|}{} & \multicolumn{2}{l|}{} \\
+    \hline
+    \textbf{COMPONENTE} & \textbf{FUNCIÓN} & \textbf{FALLA FUNCIONAL} & \textbf{MODO DE FALLA} & \textbf{EFECTOS DE LAS FALLAS} \\
+    \hline
+    \end{tabular}}
+    
+    \caption{Estructura propuesta para hoja de Información RCM.}
+  \label{tab:addlabel}%
+\end{table}%
+
+Si bien la norma SAE JA1012 entrega diagramas tipo para la elaboración del diagrama de decisión RCM, deja de manifiesto que existen diferencias entre los distintos tipos de diagramas utilizados en el mundo, llegando a siquiera cumplir con la normativa SAE JA1011 en algunos casos. Es por esto que, para la realización de esta herramienta, se realiza una búsqueda con el fin de encontrar un algoritmo de de decisión afín al tipo de mantenimiento que se busca hacer en este caso. En todo caso, según \cite{saeja1012}, las fases de aplicación de este diagrama se conforma típicamente por tres fases:
+
+\begin{enumerate}
+\item Trabajando desde el principio, utilice el diagrama de decisión para determinar las categorías de consecuencias que aplica al modo de falla en consideración.
+\item Luego trabajando con la columna de consecuencias relevantes, utilice el criterio de factibilidad técnica de las posibles políticas de manejo de fallas en cada categoría.
+\item Seleccione una política de manejo de fallas desde la primera categoría que satisfaga el criterio de factibilidad técnica y que tratará con las consecuencias del modo de falla en consideración.
+
+\end{enumerate}
+
+El diagrama de decisión utilizado en este caso, se muestra a continuación:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.45, angle=90]{images/decisionrcm.png}
+\caption{Diagrama de decisión para impresora 3D.}
+\end{figure}
+
+
+Por otra parte, la estructura para la hoja de decisión RCM es la siguiente:
+
+
+\begin{table}[H]
+  \centering
+  
+    \scalebox{0.4}{\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|c|c|c|}
+    \hline
+    \multicolumn{7}{|c|}{\multirow{3}[4]{*}{\textbf{HOJA DE DECISIÓN RCM}}} & \multicolumn{6}{l|}{\textbf{SISTEMA/ACTIVO}}  & \multicolumn{3}{l|}{\textbf{ACTIVO N°}} \\
+\cline{8-16}    \multicolumn{7}{|c|}{}                                & \multicolumn{6}{l|}{\multirow{2}[2]{*}{\textbf{SUBSISTEMA}}} & \multicolumn{3}{l|}{\multirow{2}[2]{*}{\textbf{SUBSISTEMA N°}}} \\
+    \multicolumn{7}{|c|}{}                                & \multicolumn{6}{l|}{}                         & \multicolumn{3}{l|}{} \\
+    \hline
+    \multicolumn{3}{|c|}{\multirow{3}[6]{*}{Referencia de Información}} & \multicolumn{4}{c|}{\multirow{3}[6]{*}{Evaluación de consecuencias}} & H1    & H2    & H3    & \multicolumn{3}{c|}{\multirow{3}[6]{*}{Tareas a falta de}} & \multicolumn{1}{c|}{\multirow{4}[8]{*}{Tareas Propuestas}} & \multicolumn{1}{c|}{\multirow{4}[8]{*}{Frecuencia Inicial}} & \multicolumn{1}{c|}{\multirow{4}[8]{*}{A  realizar por}} \\
+\cline{8-10}    \multicolumn{3}{|c|}{} & \multicolumn{4}{c|}{}         & S1    & S2    & S3    & \multicolumn{3}{c|}{} &       &       &  \\
+\cline{8-10}    \multicolumn{3}{|c|}{} & \multicolumn{4}{c|}{}         & O1    & O2    & O3    & \multicolumn{3}{c|}{} &       &       &  \\
+\cline{1-13}    F     & FF    & MF    & H     & S     & E     & O     & N1    & N2    & N3    & H4    & H5    & S4    &       &       &   \\
+    \hline
+    \end{tabular}}%
+    \caption{Estructura propuesta para hoja de Información RCM.}
+  \label{tab:addlabel}%
+\end{table}%
+
+\subsection{Resultados}
+
+
+
+
+\section{Aplicación de metodología Design Thinking para el desarrollo de Aplicación Web}
+
+En esta sección de detallará la implementación y aplicación de la metodología de Design thinking junto a su respectivo marco de trabajo, definido para el desarrollo y testeo de una aplicación web para la gestión del mantenimiento de impresoras 3D. En primer lugar, se define la situación actual de la empresa, y posteriormente se detallan los pasos para la implementación del marco de trabajo propuesto para cada fase de la metodología.
+
+\subsection{Situación actual}
+
+Actualmente, la empresa posee un proceso definido para la producción de piezas que involucra tanto al operador, la máquina de impresión y un computador donde se realiza el tratamiento de los archivos. Este proceso a grandes rasgos, consiste en:
+
+\begin{itemize}
+\item Exportación de la pieza a lenguaje estándar de triángulos (.stl).
+\item Configuración de variables de impresión en software CAM.
+\item Exportación de la pieza en formato .gcode.
+\item Carga de archivo en la máquina.
+\item Precalentamiento de la máquina.
+\item Fabricación de la pieza.
+\item Extracción de la pieza y post-proceso en caso de ser necesario.
+\end{itemize}
+
+El diagrama de flujo que representa el proceso, decisiones y resultados, se muestra a continuación:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/proceso.png}
+\caption{Diagrama de flujo del proceso de impresión 3D.}
+\end{figure}
+
+Se observa que durante el proceso existen, a lo menos, tres escenarios o lugares para la producción de una pieza. En primer lugar, se nota que todo el tratamiento del archivo se realiza en un solo computador bajo la utilización de dos softwares simultáneos, en este caso, el programa de diseño CAD y el laminador CAM. El laminador, además de convertir el archivo a un formato legible para la máquina, entrega ciertos parámetros que sirven como insumo para estimar los costos de producción, como el peso del filamento utilizado en la fabricación y el tiempo que eventualmente tardaría en terminar la operación. Luego, el archivo en formato Gcode es almacenado en una tarjeta SD y extraído del computador para ser llevado físicamente hasta la máquina de impresión 3D; en este lugar, el operador carga la tarjeta y realiza las tareas previas para la impresión del archivo, ya sea la inspección visual, limpieza del conjunto extrusor y las superficie de construcción, y el precalentamiento de la cama según el material realizado. Finalmente, al término de la operación la interfaz de la impresora muestra el tiempo efectivo de construcción, y comienza a enfriar los elementos térmicos con el fin de facilitar la extracción de la pieza; en este momento, el operador saca las piezas, verifica que cumplan con los requerimientos especificados y desecha los objetos que, producto del proceso, resultaron fallidos o fuera de especificación. 
+
+\subsection{Planificación del marco de trabajo}
+
+Para definir el rumbo de planificación del proyecto, se estima conveniente trabajar en cuatro fases: inicio, planeación, ejecución,  y cierre. A cada una de estas fases se les corresponderá las etapas para el design thinking: empatizar, definir, investigar, idear, prototipar, seleccionar y testear. De esta forma, el marco de trabajo resulta de la siguiente forma:
+
+\begin{enumerate}
+\item \textbf{Inicio}: en esta fase se consideran las etapas de empatizar y definir con el usuario de la aplicación en cuestión. Así, quedarán definidos los requerimientos iniciales del cliente.
+\item \textbf{Planeación}: esta fase considera la ejecución y evaluación de las técnicas destinadas a los usuarios directos de la aplicación, así como la investigación requerida en torno a soluciones similares existentes y la ideación de propuestas que podrán ser ejecutadas en el siguiente paso.
+\item \textbf{Ejecución}: esta parte está ligada a la etapa de prototipado de la metodología design thinking. Se definen las tecnologías de uso de aplicación y los requerimientos técnicos para el funcionamiento de la aplicación. Asimismo, se prueban distintas propuestas que puedan cumplir con las necesidades del cliente detectadas en la fase de inicio.
+\item \textbf{Cierre:} finalmente, se selecciona la alternativa que cumpla de forma equilibrada con las necesidades del cliente y  los requerimientos técnicos. De la misma forma, se elabora la documentación necesaria para el correcto uso de la aplicación.  
+\end{enumerate}
+
+\subsection{Inicio}
+
+\subsubsection{Empatizar}
+
+La fase de inicio consiste en investigar cómo y por qué los usuarios, en este caso todos las personas involucradas en el proceso de impresión 3D, realizan las acciones que ellos encuentran determinantes en el proceso de impresión. Según la metodología, estos son definidos como \textit{stakeholders}. Este paso es indispensable, pues revela las personalidades, necesidades y patrones de trabajo de los stakeholders, y solo así se puede comenzar a esbozar el diseño de un concepto de producto en el cual se orientará la aplicación. Esto se realiza a través de un \textit{mapa de stakeholders}. Así, se reconoce que el principal sujeto de análisis es el operario de la impresora 3D. En la misma línea, otros participantes que tienen conexión con el proyecto son el diseñador y quien se encarga de la gestión de la empresa. Se consideran como contribuyentes o beneficiarios indirectos a los clientes de la empresa y quienes prestan servicios o insumos; también se encuentran indirectamente los competidores con capacidad similar de producción.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/stakeholders.png}
+\caption{Mapa de Stakeholders del proyecto.}
+\end{figure}
+
+Considerando el resultado obtenido, se solicitó realizar una entrevista al operario de las máquinas con el fin de obtener información respecto a su visión de usuario respecto a entender su visión como usuario de impresoras 3D, su percepción de la actual acción y gestión del mantenimiento, la forma en que realiza el mantenimiento a las máquinas, y conocer sus canales de proveedores. El resultado de la entrevista se sistematiza en la siguiente tabla:
+
+\textbf{aqui va una tabla}\\
+
+Una forma de obtener las vivencias del operario en su recorrido durante el proceso de impresión 3D es utilizando el mapa de experiencia o \textit{customer journey map}. Esta herramienta permite obtener información sobre cada etapa del proceso, conociendo los objetivos, actividad, puntos de contacto, sentimientos, emociones, además de obtener conclusiones que puedan surgir como oportunidad a partir de los resultados. En este caso, el mapa de experiencia pretende apoyaren la mejora de las labores que se están realizando actualmente respecto al buen estado de las máquinas en una granja de impresoras 3D con 9 máquinas. Muchas veces, no existe control sobre los pedidos grandes, entregando piezas defectuosas o en cantidades erróneas. Asimismo, debido a fallas de distinto tipo, los pedidos se atrasan en su plazo de entrega. También, las máquinas fallan y no se encuentran disponibles para realizar trabajos. Esta herramienta será usada por quien realiza esta tesis, con el fin de desarrollar herramientas digitales para mejorar y estandarizar el proceso de impresión 3D, y también mantener las máquinas disponibles y en buen estado. Los mapas de experiencia tratan de la experiencia de Javier Oliva, operario de impresoras 3D, quien a su vez está encargado de la gestión de la producción, y fueron realizados en el taller de la empresa. A continuación, se definen las etapas que se evaluarán:
+
+\begin{enumerate}
+\item Preparación de archivos.
+\begin{enumerate} 
+\item Abrir archivo .stl.
+\item Guardar archivo Gcode y extraer tarjeta SD.
+\end{enumerate}
+\item Preparación de la impresora.
+\begin{enumerate}
+\item Encendido y limpieza general de la impresora.
+\item Preparación de la impresora.
+\item Insertar SD e imprimir archivo Gcode.
+\end{enumerate}
+\item Finalización de la impresión.
+\begin{enumerate}
+\item Control visual de la impresión.
+\item Término del proceso.
+\item Control visual y registro de piezas.
+\end{enumerate}
+
+\begin{figure}[H]
+\includegraphics[scale=0.55]{images/jm1.png}
+\caption{Primera etapa del mapa de experiencia.}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[scale=0.55]{images/jm2.png}
+\caption{Segunda etapa del mapa de experiencia.}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[scale=0.55]{images/jm3.png}
+\caption{Tercera etapa del mapa de experiencia.}
+\end{figure}
+
+\end{enumerate}
+
+Del análisis realizado a través del mapa de experiencia, se obtienen las siguientes conclusiones en función de sus fases:
+
+\begin{itemize}
+\item Preparación de archivos
+\begin{itemize}
+\item Podría existir una oportunidad de mejora al saber el estado de la máquina a utilizar respecto a los fallos anteriores, y obtener el tiempo de impresión real.
+\item Una oportunidad de mejora es establecer un estándar para el nombre de los archivos que se guardarán. Asimismo, explorar posibilidades que puedan suplir el uso de la tarjeta micro SD y que sean confiables.
+\end{itemize}
+\item Preparación de la impresora
+\begin{itemize}
+\item Se plantea como mejora el poder configurar el precalentamiento desde el mismo lugar desde donde se configuran los archivos, con el fin de disminuir el tránsito entre la estación de trabajo y la máquina.
+\item Una oportunidad de mejora está en poder cargar los archivos desde el mismo espacio de trabajo, con el fin de reducir la inspección de la impresora solo al momento del encendido y construcción de primera capa.
+\end{itemize}
+\item término del proceso de impresión
+\begin{itemize}
+\item Se puede obtener una mejora al poder registrar automáticamente las veces en que una impresión está terminada, así como el tiempo que demoró, y la marca temporal en que ocurre el suceso.
+\item Existe una oportunidad de mejora al poder realizar un asistente de registro que libere al usuario de tener que abrir planillas para el registro, así como tener un acceso fácil a estos. 
+\end{itemize}
+\end{itemize}
 
 
 
 
 
 
+\subsection{Planeación}
 
+\subsection{Ejecución}
+
+\subsection{Cierre}
