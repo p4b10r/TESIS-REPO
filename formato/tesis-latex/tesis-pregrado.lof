@@ -8,31 +8,44 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Esquema de impresora 3D Delta \citep {b3dsourced2020}.\relax }}{15}{figure.caption.10}%
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Esquema de impresora 3D polar \citep {takamori2018}\relax }}{16}{figure.caption.11}%
 \contentsline {figure}{\numberline {1.8}{\ignorespaces Esquema de impresora 3D scara \citep {saygin2016}\relax }}{16}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Esquema actualizado de la Casa Toyota \citep {leansis2017} \relax }}{42}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Linea temporal Lean Manufacturing \citep {socconini2019}\relax }}{45}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Esquema conceptual de niveles \citep {camps2005}\relax }}{60}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Modelo Cliente/Servidor \citep {marini2012}.\relax }}{61}{figure.caption.19}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Raspberry Pi 3 modelo B+ \citep {gareth2018}\relax }}{68}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Esquema conceptual de niveles \citep {camps2005}\relax }}{51}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Modelo Cliente/Servidor \citep {marini2012}.\relax }}{52}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Raspberry Pi 3 modelo B+ \citep {gareth2018}\relax }}{59}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces N\IeC {\'u}mero de publicaciones por a\IeC {\~n}o y seg\IeC {\'u}n tem\IeC {\'a}tica \citep {fera2018}\relax }}{71}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Marco de trabajo para la programaci\IeC {\'o}n de la producci\IeC {\'o}n \citep {fera2018}\relax }}{77}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Pareto por n\IeC {\'u}mero de fallas para Plegadora \citep {cruz2018}\relax }}{81}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva de confiabilidad para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{82}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Indicadores de mantenimiento para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{82}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama UML que describe la relaci\IeC {\'o}n de los registros entre m\IeC {\'a}quinas, fallas, causas y acciones de mantenimiento \citep {aransyash2019}\relax }}{85}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inal\IeC {\'a}mbrico; (b) funcionalidad del sistema; (c) operaci\IeC {\'o}n de diagn\IeC {\'o}stico basado en el historial de fallas; (d) gu\IeC {\'\i }a del sistema al operador a trav\IeC {\'e}s de instrucciones de texto y video \citep {aransyash2019}.\relax }}{86}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces N\IeC {\'u}mero de publicaciones por a\IeC {\~n}o y seg\IeC {\'u}n tem\IeC {\'a}tica \citep {fera2018}\relax }}{62}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Marco de trabajo para la programaci\IeC {\'o}n de la producci\IeC {\'o}n \citep {fera2018}\relax }}{68}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Pareto por n\IeC {\'u}mero de fallas para Plegadora \citep {cruz2018}\relax }}{72}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva de confiabilidad para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{73}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Indicadores de mantenimiento para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{73}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama UML que describe la relaci\IeC {\'o}n de los registros entre m\IeC {\'a}quinas, fallas, causas y acciones de mantenimiento \citep {aransyash2019}\relax }}{76}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inal\IeC {\'a}mbrico; (b) funcionalidad del sistema; (c) operaci\IeC {\'o}n de diagn\IeC {\'o}stico basado en el historial de fallas; (d) gu\IeC {\'\i }a del sistema al operador a trav\IeC {\'e}s de instrucciones de texto y video \citep {aransyash2019}.\relax }}{77}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Impresora X350.\relax }}{94}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout y simbolog\IeC {\'\i }a del taller de impresi\IeC {\'o}n 3D.\relax }}{99}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama funcional de bloques para la m\IeC {\'a}quina de impresi\IeC {\'o}n 3D.\relax }}{100}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{102}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{103}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{103}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{104}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{104}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de decisi\IeC {\'o}n para impresora 3D.\relax }}{107}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagrama de flujo del proceso de impresi\IeC {\'o}n 3D.\relax }}{109}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Mapa de Stakeholders del proyecto.\relax }}{112}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Primera etapa del mapa de experiencia.\relax }}{114}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Segunda etapa del mapa de experiencia.\relax }}{114}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Tercera etapa del mapa de experiencia.\relax }}{115}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Impresora X350.\relax }}{85}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout y simbolog\IeC {\'\i }a del taller de impresi\IeC {\'o}n 3D.\relax }}{90}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama funcional de bloques para la m\IeC {\'a}quina de impresi\IeC {\'o}n 3D.\relax }}{91}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{94}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{95}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{95}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{96}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{96}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de decisi\IeC {\'o}n para impresora 3D.\relax }}{99}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagrama de flujos para el proceso de recepci\IeC {\'o}n, producci\IeC {\'o}n y entrega de piezas y productos.\relax }}{101}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de flujo del proceso de impresi\IeC {\'o}n 3D.\relax }}{102}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Mapa de Stakeholders del proyecto.\relax }}{105}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Primera etapa del mapa de experiencia.\relax }}{108}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Segunda etapa del mapa de experiencia.\relax }}{108}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Tercera etapa del mapa de experiencia.\relax }}{109}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el monitoreo de la condici\IeC {\'o}n.\relax }}{114}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el monitoreo de la condici\IeC {\'o}n.\relax }}{114}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el control de la producci\IeC {\'o}n.\relax }}{115}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Captura de interfaz utilizada por \textit {AMFG} para el control de la producci\IeC {\'o}n\relax }}{116}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Captura de interfaz utilizada por \textit {AMFG} para el control de la producci\IeC {\'o}n.\relax }}{116}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para el control de indicadores.\relax }}{117}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para el control del mantenimiento.\relax }}{117}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para la gesti\IeC {\'o}n de tareas.\relax }}{118}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Interfaz del estado actual de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)\relax }}{121}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Interfaz del mando a distancia de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)\relax }}{121}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Visualizaci\IeC {\'o}n de datos en grafana \citep {olano2019}.\relax }}{126}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Nodos utilizados en la programaci\IeC {\'o}n por flujos En Node-Red.\relax }}{127}{figure.caption.73}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Dashboard de Node-red para acceso remoto por navegador.\relax }}{127}{figure.caption.74}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Interfaz de bases de datos MySQL en PHPMyAdmin\relax }}{128}{figure.caption.75}%

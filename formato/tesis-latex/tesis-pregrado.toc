@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\'Indice de Figuras}{iv}{chapter*.2}%
-\contentsline {chapter}{\'Indice de Tablas}{vi}{chapter*.3}%
+\contentsline {chapter}{\'Indice de Tablas}{vii}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Marco Te\'orico}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Fabricaci\'on aditiva}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Impresi\IeC {\'o}n 3D}{3}{section.1.2}%
@@ -20,42 +20,55 @@
 \contentsline {subsubsection}{\numberline {1.3.6.3}Distribuci\IeC {\'o}n normal}{38}{subsubsection.1.3.6.3}%
 \contentsline {subsubsection}{\numberline {1.3.6.4}Distribuci\IeC {\'o}n exponencial}{38}{subsubsection.1.3.6.4}%
 \contentsline {subsubsection}{\numberline {1.3.6.5}Distribuci\IeC {\'o}n de Weibull}{39}{subsubsection.1.3.6.5}%
-\contentsline {section}{\numberline {1.4}Lean Manufacturing}{41}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Historia Lean Manufacturing}{43}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}T\IeC {\'e}cnicas y herramientas Lean}{45}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{49}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Design Thinking}{51}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Fases del Design Thinking}{53}{subsection.1.5.2}%
-\contentsline {section}{\numberline {1.6}Herramientas de software}{56}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{56}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Lenguajes de hojas de estilo}{58}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Bases de datos}{59}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}Arquitectura Cliente-Servidor}{61}{subsection.1.6.4}%
-\contentsline {subsection}{\numberline {1.6.5}Interfaz de Programaci\IeC {\'o}n de Aplicaciones}{62}{subsection.1.6.5}%
-\contentsline {subsection}{\numberline {1.6.6}Ordenadores de placa reducida}{66}{subsection.1.6.6}%
-\contentsline {chapter}{\numberline {2}Estado del Arte}{69}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Gesti\IeC {\'o}n de la producci\IeC {\'o}n en la fabricaci\IeC {\'o}n aditiva}{69}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Gesti\IeC {\'o}n del mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{79}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Tecnolog\IeC {\'\i }as innovadoras que utilicen CMMS para la gesti\IeC {\'o}n del mantenimiento.}{83}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{88}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Antecedentes de la empresa}{88}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Descripci\IeC {\'o}n de la empresa}{88}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del Problema}{89}{section.3.2}%
-\contentsline {section}{\numberline {3.3} Aplicaci\IeC {\'o}n de mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{90}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Selecci\IeC {\'o}n del equipo}{90}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Descripci\IeC {\'o}n del equipo}{92}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Contexto Operacional}{98}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Delimitaci\IeC {\'o}n de funciones}{99}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Determinaci\IeC {\'o}n de fallas}{100}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}An\IeC {\'a}lisis de Modos y Efectos de Falla}{105}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Resultados}{108}{subsection.3.3.7}%
-\contentsline {section}{\numberline {3.4}Aplicaci\IeC {\'o}n de metodolog\IeC {\'\i }a Design Thinking para el desarrollo de Aplicaci\IeC {\'o}n Web}{108}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Situaci\IeC {\'o}n actual}{108}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Planificaci\IeC {\'o}n del marco de trabajo}{110}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Inicio}{111}{subsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.3.1}Empatizar}{111}{subsubsection.3.4.3.1}%
-\contentsline {subsection}{\numberline {3.4.4}Planeaci\IeC {\'o}n}{116}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Ejecuci\IeC {\'o}n}{116}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Cierre}{116}{subsection.3.4.6}%
-\contentsline {chapter}{Referencias}{117}{chapter*.54}%
-\contentsline {chapter}{Ap\IeC {\'e}ndices}{120}{section*.55}%
+\contentsline {section}{\numberline {1.4}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{41}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Design Thinking}{42}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Fases del Design Thinking}{44}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Herramientas de software}{47}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{47}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Lenguajes de hojas de estilo}{49}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Bases de datos}{50}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Arquitectura Cliente-Servidor}{52}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Interfaz de Programaci\IeC {\'o}n de Aplicaciones}{53}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Ordenadores de placa reducida}{57}{subsection.1.5.6}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{60}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Gesti\IeC {\'o}n de la producci\IeC {\'o}n en la fabricaci\IeC {\'o}n aditiva}{60}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Gesti\IeC {\'o}n del mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{70}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Tecnolog\IeC {\'\i }as innovadoras que utilicen CMMS para la gesti\IeC {\'o}n del mantenimiento.}{74}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{79}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Antecedentes de la empresa}{79}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Descripci\IeC {\'o}n de la empresa}{79}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del Problema}{80}{section.3.2}%
+\contentsline {section}{\numberline {3.3} Aplicaci\IeC {\'o}n de mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{81}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Selecci\IeC {\'o}n del equipo}{81}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}An\IeC {\'a}lisis de criticidad}{81}{subsubsection.3.3.1.1}%
+\contentsline {subsection}{\numberline {3.3.2}Descripci\IeC {\'o}n del equipo}{83}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Contexto Operacional}{89}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Delimitaci\IeC {\'o}n de funciones}{90}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}Diagrama de Interrelaciones Funcionales}{90}{subsubsection.3.3.4.1}%
+\contentsline {subsection}{\numberline {3.3.5}Determinaci\IeC {\'o}n de fallas}{92}{subsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.5.1}\IeC {\'A}rbol de Fallas}{92}{subsubsection.3.3.5.1}%
+\contentsline {subsection}{\numberline {3.3.6}An\IeC {\'a}lisis de Modos y Efectos de Falla}{97}{subsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.6.1}Estructura del An\IeC {\'a}lisis}{97}{subsubsection.3.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.3.6.2}Estructura Diagrama de decisi\IeC {\'o}n}{97}{subsubsection.3.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.3.6.3}Resultados}{100}{subsubsection.3.3.6.3}%
+\contentsline {section}{\numberline {3.4}Aplicaci\IeC {\'o}n de metodolog\IeC {\'\i }a Design Thinking para el desarrollo de Aplicaci\IeC {\'o}n Web}{100}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Situaci\IeC {\'o}n actual}{100}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Planificaci\IeC {\'o}n del marco de trabajo}{103}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Empatizar}{104}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Definir}{110}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Investigar}{112}{subsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}Investigaci\IeC {\'o}n de referentes}{113}{subsubsection.3.4.5.1}%
+\contentsline {paragraph}{3Dtrust - https://3dtrust.de/}{113}{subsubsection.3.4.5.1}%
+\contentsline {paragraph}{AMFG - https://amfg.ai/service-bureaus-2/}{115}{figure.caption.58}%
+\contentsline {paragraph}{FRACCTAL - https://www.fracttal.com/es/}{116}{figure.caption.60}%
+\contentsline {subsubsection}{\numberline {3.4.5.2}Investigaci\IeC {\'o}n de software a utilizar}{120}{subsubsection.3.4.5.2}%
+\contentsline {subsubsection}{\numberline {3.4.5.3}Investigaci\IeC {\'o}n de las herramientas de desarrollo a utilizar}{125}{subsubsection.3.4.5.3}%
+\contentsline {paragraph}{Grafana}{125}{subsubsection.3.4.5.3}%
+\contentsline {paragraph}{Node-red/Node-red Dashboard}{126}{figure.caption.72}%
+\contentsline {paragraph}{Mysql-PHPMyAdmin}{128}{figure.caption.74}%
+\contentsline {paragraph}{Flask-Python framework}{128}{figure.caption.75}%
+\contentsline {subsection}{\numberline {3.4.6}Idear}{129}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Prototipar}{129}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Testear}{129}{subsection.3.4.8}%
+\contentsline {chapter}{Referencias}{130}{chapter*.76}%
+\contentsline {chapter}{Ap\IeC {\'e}ndices}{134}{section*.77}%

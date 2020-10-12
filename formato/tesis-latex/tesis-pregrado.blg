@@ -13,53 +13,49 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
-Warning--to sort, need author or key in marini2012
-Warning--to sort, need author, editor, or key in gareth2018
-Warning--to sort, need author or key in germanreprap2019
-Warning--empty author and editor in gareth2018
 Warning--empty publisher in ambrose2010
 Warning--can't use both author and editor fields in camps2005
+Warning--can't use both author and editor fields in gareth2018
 Warning--empty publisher in mueller2018
-Warning--can't use both author and editor fields in socconini2019
-You've used 56 entries,
+You've used 58 entries,
             1935 wiz_defined-function locations,
-            710 strings with 11193 characters,
-and the built_in function-call counts, 15088 in all, are:
-= -- 1471
-> -- 464
-< -- 48
-+ -- 146
-- -- 140
-* -- 1010
-:= -- 2872
-add.period$ -- 164
-call.type$ -- 56
-change.case$ -- 329
-chr.to.int$ -- 56
-cite$ -- 67
-duplicate$ -- 678
+            720 strings with 11680 characters,
+and the built_in function-call counts, 15593 in all, are:
+= -- 1536
+> -- 493
+< -- 53
++ -- 154
+- -- 148
+* -- 1027
+:= -- 3009
+add.period$ -- 170
+call.type$ -- 58
+change.case$ -- 345
+chr.to.int$ -- 58
+cite$ -- 62
+duplicate$ -- 687
 empty$ -- 1070
-format.name$ -- 199
-if$ -- 2842
+format.name$ -- 210
+if$ -- 2920
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 279
-num.names$ -- 159
-pop$ -- 313
+missing$ -- 32
+newline$ -- 289
+num.names$ -- 174
+pop$ -- 304
 preamble$ -- 1
-purify$ -- 350
+purify$ -- 364
 quote$ -- 0
-skip$ -- 525
+skip$ -- 547
 stack$ -- 0
-substring$ -- 681
-swap$ -- 42
+substring$ -- 702
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 308
-warning$ -- 8
-while$ -- 106
+type$ -- 324
+warning$ -- 4
+while$ -- 116
 width$ -- 0
-write$ -- 668
-(There were 8 warnings)
+write$ -- 695
+(There were 4 warnings)

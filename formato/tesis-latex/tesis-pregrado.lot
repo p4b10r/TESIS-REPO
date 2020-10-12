@@ -1,20 +1,29 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Principales materiales utilizados en impresi\IeC {\'o}n 3D FDM \citep {bournias2017}.\relax }}{14}{table.caption.8}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Principales diferencias entre Metodolog\IeC {\'\i }as \IeC {\'a}giles y tradicionales \citep {canos2012}.\relax }}{51}{table.caption.15}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Tabla de preguntas y resultados con la t\IeC {\'e}cnica de las cinco W \citep {ambrose2010}\relax }}{54}{table.caption.16}%
-\contentsline {table}{\numberline {1.4}{\ignorespaces Diferencias entre ficheros y bases de datos \citep {camps2005}\relax }}{59}{table.caption.17}%
-\contentsline {table}{\numberline {1.5}{\ignorespaces Funciones principales utilizadas en API \citep {aporta2019}\relax }}{64}{table.caption.20}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Principales diferencias entre Metodolog\IeC {\'\i }as \IeC {\'a}giles y tradicionales \citep {canos2012}.\relax }}{42}{table.caption.13}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces Tabla de preguntas y resultados con la t\IeC {\'e}cnica de las cinco W \citep {ambrose2010}\relax }}{45}{table.caption.14}%
+\contentsline {table}{\numberline {1.4}{\ignorespaces Diferencias entre ficheros y bases de datos \citep {camps2005}\relax }}{50}{table.caption.15}%
+\contentsline {table}{\numberline {1.5}{\ignorespaces Funciones principales utilizadas en API \citep {aporta2019}\relax }}{55}{table.caption.18}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Atributos y descripci\IeC {\'o}n para programaci\IeC {\'o}n de la producci\IeC {\'o}n en m\IeC {\'a}quinas de fabricaci\IeC {\'o}n aditiva \citep {fera2018}.\relax }}{77}{table.caption.24}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Atributos y descripci\IeC {\'o}n para programaci\IeC {\'o}n de la producci\IeC {\'o}n en m\IeC {\'a}quinas de fabricaci\IeC {\'o}n aditiva \citep {fera2018}.\relax }}{68}{table.caption.22}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de frecuencia de fallas\relax }}{91}{table.caption.30}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de costo de reparaci\IeC {\'o}n\relax }}{91}{table.caption.31}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de Impacto a la seguridad\relax }}{91}{table.caption.32}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de impacto operacional\relax }}{92}{table.caption.33}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces An\IeC {\'a}lisis de criticidad para determinar el activo m\IeC {\'a}s cr\IeC {\'\i }tico.\relax }}{92}{table.caption.34}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Ficha T\IeC {\'e}cnica de la m\IeC {\'a}quina X350 German RepRap \citep {germanreprap2019}.\relax }}{93}{table.caption.35}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Tabla de problemas frecuentes entregados por el fabricante.\relax }}{97}{table.caption.37}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces S\IeC {\'\i }mbolos y significados del \IeC {\'a}rbol de fallas \citep {pique1998}\relax }}{101}{table.caption.40}%
-\contentsline {table}{\numberline {3.9}{\ignorespaces Estructura propuesta para hoja de Informaci\IeC {\'o}n RCM.\relax }}{105}{table.caption.46}%
-\contentsline {table}{\numberline {3.10}{\ignorespaces Estructura propuesta para hoja de Informaci\IeC {\'o}n RCM.\relax }}{108}{table.caption.48}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de frecuencia de fallas\relax }}{82}{table.caption.28}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de costo de reparaci\IeC {\'o}n\relax }}{82}{table.caption.29}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de Impacto a la seguridad\relax }}{82}{table.caption.30}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Ponderaciones para el \IeC {\'\i }tem de impacto operacional\relax }}{83}{table.caption.31}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces An\IeC {\'a}lisis de criticidad para determinar el activo m\IeC {\'a}s cr\IeC {\'\i }tico.\relax }}{83}{table.caption.32}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Ficha T\IeC {\'e}cnica de la m\IeC {\'a}quina X350 German RepRap \citep {germanreprap2019}.\relax }}{84}{table.caption.33}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Tabla de problemas frecuentes entregados por el fabricante.\relax }}{88}{table.caption.35}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces S\IeC {\'\i }mbolos y significados del \IeC {\'a}rbol de fallas \citep {pique1998}\relax }}{93}{table.caption.38}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Estructura propuesta para hoja de Informaci\IeC {\'o}n RCM.\relax }}{97}{table.caption.44}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Estructura propuesta para hoja de Informaci\IeC {\'o}n RCM.\relax }}{100}{table.caption.46}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Tabla resumen del marco de trabajo y sus caracter\IeC {\'\i }sticas.\relax }}{104}{table.caption.49}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Resumen de respuestas dadas por el operario de mantenimiento en entrevista.\relax }}{106}{table.caption.51}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Resultados de la t\IeC {\'e}cnica de las cinco W.\relax }}{111}{table.caption.55}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Tabla resumen del an\IeC {\'a}lisis de referentes seg\IeC {\'u}n los criterios propuestos.\relax }}{119}{table.caption.64}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Ejemplo de una consulta GET a la API de \textit {Octoprint}.\relax }}{122}{table.caption.67}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Ejemplo de una respuesta en formato .json de la API de \textit {Octoprint} ante la consulta GET.\relax }}{123}{table.caption.68}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Ejemplo de una consulta POST a la API de \textit {Octoprint}.\relax }}{123}{table.caption.69}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Ejemplo de respuesta exitosa de la API de \textit {Octoprint} ante la consulta POST.\relax }}{123}{table.caption.70}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Principales operaciones permitidas por la API de \textit {Octoprint}\relax }}{124}{table.caption.71}%

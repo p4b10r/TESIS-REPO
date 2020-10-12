@@ -33,6 +33,8 @@ Las ventajas del proceso de impresión 3D FDM como la fabricación de diseños c
 
 \subsection{Selección del equipo}
 
+\subsubsection{Análisis de criticidad}
+
 El primer paso para determinar la máquina de impresión 3D más crítica, es la realización de un análisis de criticidad a los equipos del taller. Debido a que la empresa no ha registrado periódicamente las fallas ocurridas y las acciones de mantenimiento realizadas, el análisis se basará en establecer cual sería la condición más favorable, así como la condición menos favorable de cada uno de los criterios a evaluar, según apreciaciones generales e información obtenida en los últimos seis meses. Para esto, los aspectos a evaluar son:
 
 \begin{itemize}
@@ -273,6 +275,8 @@ El activo en cuestión realiza sus operaciones en el Taller de Impresión 3Dlux,
 
 \subsection{Delimitación de funciones}
 
+\subsubsection{Diagrama de Interrelaciones Funcionales}
+
 Según \cite{unit2009}, un Diagrama de Interrelaciones Funcionales permite identificar las conexiones lógicas y secuenciales en un producto. En este caso, el diagrama se utiliza para expresar de forma gráfica el funcionamiento de una impresora 3D comprendida como un sistema. Así, se permite representar gráficamente el flujo de variables entre los diversos procesos de un sistema, así también sus entradas y salidas. En el diagrama mostrado a continuación, se representan las interacciones internas y externas en el sistema comprendido por la máquina, y los subsistemas de alimentación, control, construcción, movimiento y extrusión. Asimismo, se observa que si una de las interacciones se ve interrumpida, quiere decir que existe algún tipo de falla en la impresora, y su efecto puede propagarse en la medida que afecte a alguno de los componentes funcionales.
 
 \begin{figure}[H]
@@ -282,6 +286,8 @@ Según \cite{unit2009}, un Diagrama de Interrelaciones Funcionales permite ident
 \end{figure}
 
 \subsection{Determinación de fallas}
+
+\subsubsection{Árbol de Fallas} 
  
 Según \cite{pique1998}, el método de árbol de fallos o FTA por sus siglas en inglés \textit{Fault Tree Analysis} se trata de un método deductivo de análisis que parte de la previa selección de un suceso no deseado o evento que se pretende evitar. Seguidamente, de manera sistemática y lógica se presentan las combinaciones de las situaciones que pueden dar a lugar a la producción del evento a evitar. Se deben conformar niveles sucesivos de tal manera que cada suceso esté generado a partir de sucesos del nivel inferior siendo el nexo de unión entre los niveles la existencia de operadores o puertas lógicas \citep{pique1998}. En la siguiente tabla se muestran los símbolos que se utilizan en el árbol de falla.
  
@@ -348,6 +354,9 @@ Según \cite{pique1998}, los pasos para la resolución de árboles de fallo son 
 \end{figure}
 
 \subsection{Análisis de Modos y Efectos de Falla}
+
+\subsubsection{Estructura del Análisis}
+
 Según la norma SAE JA-1012, un análisis de modos y efectos de fallas puede ayudar a documentar las funciones de un activo, su falla funcional, modos de falla, y los efectos que ésta puede producir. Según \cite{saeja1012}, La descripción debe ser suficientemente detallada de modo que posibilite la selección de una política de manejo de fallas adecuada, pero no tan detallada que tome demasiado tiempo realizar el proceso de análisis. Asimismo, los verbos utilizados para describir los modos de falla se deben seleccionar cuidadosamente, ya que tienen una gran influencia en el proceso de selección de las políticas de manejo de fallas. La estructura propuesta para el análisis se muestra a continuación:
 
 
@@ -368,6 +377,8 @@ Según la norma SAE JA-1012, un análisis de modos y efectos de fallas puede ayu
     \caption{Estructura propuesta para hoja de Información RCM.}
   \label{tab:addlabel}%
 \end{table}%
+
+\subsubsection{Estructura Diagrama de decisión}
 
 Si bien la norma SAE JA1012 entrega diagramas tipo para la elaboración del diagrama de decisión RCM, deja de manifiesto que existen diferencias entre los distintos tipos de diagramas utilizados en el mundo, llegando a siquiera cumplir con la normativa SAE JA1011 en algunos casos. Es por esto que, para la realización de esta herramienta, se realiza una búsqueda con el fin de encontrar un algoritmo de de decisión afín al tipo de mantenimiento que se busca hacer en este caso. En todo caso, según \cite{saeja1012}, las fases de aplicación de este diagrama se conforma típicamente por tres fases:
 
@@ -409,18 +420,28 @@ Por otra parte, la estructura para la hoja de decisión RCM es la siguiente:
   \label{tab:addlabel}%
 \end{table}%
 
-\subsection{Resultados}
+\subsubsection{Resultados}
 
 
 
 
 \section{Aplicación de metodología Design Thinking para el desarrollo de Aplicación Web}
 
-En esta sección de detallará la implementación y aplicación de la metodología de Design thinking junto a su respectivo marco de trabajo, definido para el desarrollo y testeo de una aplicación web para la gestión del mantenimiento de impresoras 3D. En primer lugar, se define la situación actual de la empresa, y posteriormente se detallan los pasos para la implementación del marco de trabajo propuesto para cada fase de la metodología.
+En esta sección de detallará la implementación, marco de trabajo y aplicación de la metodología de Design thinking que busca obtener mejoras en los procesos de la gestión de la producción y el mantenimiento en impresoras 3D FDM a través del desarrollo y pruebas de una aplicación web. En primer lugar, se define la situación actual de la empresa, y posteriormente se detallan los pasos para la implementación del marco de trabajo propuesto para cada fase de la metodología.
 
 \subsection{Situación actual}
 
-Actualmente, la empresa posee un proceso definido para la producción de piezas que involucra tanto al operador, la máquina de impresión y un computador donde se realiza el tratamiento de los archivos. Este proceso a grandes rasgos, consiste en:
+Actualmente, la empresa posee un proceso definido para la recepción, producción y entrega de piezas y productos que involucra tanto al operador, la máquina de impresión y un computador donde se realiza el tratamiento de los archivos. Este proceso a grandes rasgos, consiste en la recepción y evaluación de lo solicitado por el cliente, definir si solo contempla servicios de impresión 3D u otros adicionales (diseño 3D para otros procesos, escáner 3D, post-procesos de piezas, entre otros), ejecución del o los servicios, y confirmación de despacho al cliente.  
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/procesosdiag.png}
+\caption{Diagrama de flujos para el proceso de recepción, producción y entrega de piezas y productos.}
+\label{procesosdiag}
+\end{figure}
+
+
+Específicamente, el interés de aplicación de la metodología es la mejora del proceso de la producción y el mantenimiento, por tanto se delimita el marco de trabajo a estos pasos específicos del flujo, tal como se muestra en la figura \ref{procesosdiag}. Así, se puede representar según el siguiente orden.
 
 \begin{itemize}
 \item Exportación de la pieza a lenguaje estándar de triángulos (.stl).
@@ -432,30 +453,45 @@ Actualmente, la empresa posee un proceso definido para la producción de piezas 
 \item Extracción de la pieza y post-proceso en caso de ser necesario.
 \end{itemize}
 
-El diagrama de flujo que representa el proceso, decisiones y resultados, se muestra a continuación:
+El diagrama de flujo que representa el proceso, decisiones y resultados, se muestra en la figura \ref{proceso}
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{images/proceso.png}
 \caption{Diagrama de flujo del proceso de impresión 3D.}
+\label{proceso}
 \end{figure}
 
 Se observa que durante el proceso existen, a lo menos, tres escenarios o lugares para la producción de una pieza. En primer lugar, se nota que todo el tratamiento del archivo se realiza en un solo computador bajo la utilización de dos softwares simultáneos, en este caso, el programa de diseño CAD y el laminador CAM. El laminador, además de convertir el archivo a un formato legible para la máquina, entrega ciertos parámetros que sirven como insumo para estimar los costos de producción, como el peso del filamento utilizado en la fabricación y el tiempo que eventualmente tardaría en terminar la operación. Luego, el archivo en formato Gcode es almacenado en una tarjeta SD y extraído del computador para ser llevado físicamente hasta la máquina de impresión 3D; en este lugar, el operador carga la tarjeta y realiza las tareas previas para la impresión del archivo, ya sea la inspección visual, limpieza del conjunto extrusor y las superficie de construcción, y el precalentamiento de la cama según el material realizado. Finalmente, al término de la operación la interfaz de la impresora muestra el tiempo efectivo de construcción, y comienza a enfriar los elementos térmicos con el fin de facilitar la extracción de la pieza; en este momento, el operador saca las piezas, verifica que cumplan con los requerimientos especificados y desecha los objetos que, producto del proceso, resultaron fallidos o fuera de especificación. 
 
 \subsection{Planificación del marco de trabajo}
 
-Para definir el rumbo de planificación del proyecto, se estima conveniente trabajar en cuatro fases: inicio, planeación, ejecución,  y cierre. A cada una de estas fases se les corresponderá las etapas para el design thinking: empatizar, definir, investigar, idear, prototipar, seleccionar y testear. De esta forma, el marco de trabajo resulta de la siguiente forma:
+Para definir el rumbo de planificación del proyecto, se estima conveniente trabajar en seis fases inspiradas en el design tinking: empatizar, definir, investigar, idear, prototipar y testear. De esta forma, el marco de trabajo se resume de la siguiente forma:
 
-\begin{enumerate}
-\item \textbf{Inicio}: en esta fase se consideran las etapas de empatizar y definir con el usuario de la aplicación en cuestión. Así, quedarán definidos los requerimientos iniciales del cliente.
-\item \textbf{Planeación}: esta fase considera la ejecución y evaluación de las técnicas destinadas a los usuarios directos de la aplicación, así como la investigación requerida en torno a soluciones similares existentes y la ideación de propuestas que podrán ser ejecutadas en el siguiente paso.
-\item \textbf{Ejecución}: esta parte está ligada a la etapa de prototipado de la metodología design thinking. Se definen las tecnologías de uso de aplicación y los requerimientos técnicos para el funcionamiento de la aplicación. Asimismo, se prueban distintas propuestas que puedan cumplir con las necesidades del cliente detectadas en la fase de inicio.
-\item \textbf{Cierre:} finalmente, se selecciona la alternativa que cumpla de forma equilibrada con las necesidades del cliente y  los requerimientos técnicos. De la misma forma, se elabora la documentación necesaria para el correcto uso de la aplicación.  
-\end{enumerate}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
+\hline
+Etapa & Hito & Características \\
+\hline
+Empatizar & detectar problemática & Mapa skateholders,entrevista personal, journey map \\
+\hline
+Definir & Definición de necesidades del usuario & 5W, obtención de \textit{insight}\\
+\hline
+Investigar & Conocimiento de referentes y herramientas de desarrollo & Investigación de referentes y herramientas \\
+\hline
+Idear & Obtener propuestas de desarrollo & lluvia de ideas \\
+\hline
+Prototipar & Estructurar la información, interfaz de usuario & prototipos estéticos y funcionales \\
+\hline
+Testear & prueba en entorno de producción & aplicación funcional \\
+\hline
 
-\subsection{Inicio}
+\end{tabular}
+\caption{Tabla resumen del marco de trabajo y sus características.}
+\end{table}
 
-\subsubsection{Empatizar}
+\subsection{Empatizar}
 
 La fase de inicio consiste en investigar cómo y por qué los usuarios, en este caso todos las personas involucradas en el proceso de impresión 3D, realizan las acciones que ellos encuentran determinantes en el proceso de impresión. Según la metodología, estos son definidos como \textit{stakeholders}. Este paso es indispensable, pues revela las personalidades, necesidades y patrones de trabajo de los stakeholders, y solo así se puede comenzar a esbozar el diseño de un concepto de producto en el cual se orientará la aplicación. Esto se realiza a través de un \textit{mapa de stakeholders}. Así, se reconoce que el principal sujeto de análisis es el operario de la impresora 3D. En la misma línea, otros participantes que tienen conexión con el proyecto son el diseñador y quien se encarga de la gestión de la empresa. Se consideran como contribuyentes o beneficiarios indirectos a los clientes de la empresa y quienes prestan servicios o insumos; también se encuentran indirectamente los competidores con capacidad similar de producción.
 
@@ -467,7 +503,43 @@ La fase de inicio consiste en investigar cómo y por qué los usuarios, en este 
 
 Considerando el resultado obtenido, se solicitó realizar una entrevista al operario de las máquinas con el fin de obtener información respecto a su visión de usuario respecto a entender su visión como usuario de impresoras 3D, su percepción de la actual acción y gestión del mantenimiento, la forma en que realiza el mantenimiento a las máquinas, y conocer sus canales de proveedores. El resultado de la entrevista se sistematiza en la siguiente tabla:
 
-\textbf{aqui va una tabla}\\
+
+\begin{table}[H]
+\begin{tabular}{|p{5cm}|p{8cm}|}
+\hline
+Presentación, ocupación y cargo & Su nombre es Javier Oliva, es cofundador de 3Dlux y diseñador de profesión.  \\
+\hline
+Tareas relacionadas con impresión 3D & La tareas que realiza  se relacionan a la administración, marketing y fabricación de piezas 3D, además de post proceso de piezas en caso de ser necesario.\\
+\hline 
+Importancia de sistemas de gestión de Mantenimiento & Bastante importante, pues estandariza proceso y existe mayor control. Piensa que es positivo adelantarse a las fallas y mantener las máquinas en buen estado dada su experiencia en pedidos grandes o con tiempo limitado \\
+\hline
+Realización de mantenimientos & Si ha realizado mantenimientos \\ 
+\hline
+Problemas relacionados con el mantenimiento & Ha tenido problemas en el desconocimiento de algunas piezas, o manejar piezas electrónicas.\\
+\hline
+Herramientas de gestión & No ocupa ninguna herramienta para gestionar el mantenimiento. \\
+\hline
+Mantenimiento preventivo o correctivo & En mayor proporción espera a que un componente falle. El mantenimiento preventivo no está calendarizado, sino que se realiza antes de trabajos largos.\\
+\hline
+Clasificación de fallas & No especifica las fallas que ocurren. Busca identificar el problema según algún subsistema de la impresora, mecánico o electrónico, por ejemplo.\\
+\hline
+Utilidad de registros de mantenimiento & Encuentra mucha utilidad a los registros, pues sería más sencillo facilitar la tarea a quienes puedan conformar el grupo.\\
+\hline
+Información relevante para el negocio & Cree relevante el detectar los tipos de falla y el procedimiento más óptimo.\\
+\hline
+Comunicación con proveedores & Si tiene comunicación con proveedores. No existe solo uno, sino que dependen de la oportunidad de compra.\\
+\hline
+Uso de Octoprint & Lo ha utilizado, pero cree que la configuración puede ser difícil en ocasiones. Sin embargo, piensa que puede ser una buena alternativa en caso que se pueda relacionar con los registros.\\
+\hline
+\end{tabular}
+\caption{Resumen de respuestas dadas por el operario de mantenimiento en entrevista.}
+\end{table}
+
+
+
+
+
+
 
 Una forma de obtener las vivencias del operario en su recorrido durante el proceso de impresión 3D es utilizando el mapa de experiencia o \textit{customer journey map}. Esta herramienta permite obtener información sobre cada etapa del proceso, conociendo los objetivos, actividad, puntos de contacto, sentimientos, emociones, además de obtener conclusiones que puedan surgir como oportunidad a partir de los resultados. En este caso, el mapa de experiencia pretende apoyaren la mejora de las labores que se están realizando actualmente respecto al buen estado de las máquinas en una granja de impresoras 3D con 9 máquinas. Muchas veces, no existe control sobre los pedidos grandes, entregando piezas defectuosas o en cantidades erróneas. Asimismo, debido a fallas de distinto tipo, los pedidos se atrasan en su plazo de entrega. También, las máquinas fallan y no se encuentran disponibles para realizar trabajos. Esta herramienta será usada por quien realiza esta tesis, con el fin de desarrollar herramientas digitales para mejorar y estandarizar el proceso de impresión 3D, y también mantener las máquinas disponibles y en buen estado. Los mapas de experiencia tratan de la experiencia de Javier Oliva, operario de impresoras 3D, quien a su vez está encargado de la gestión de la producción, y fueron realizados en el taller de la empresa. A continuación, se definen las etapas que se evaluarán:
 
@@ -525,13 +597,333 @@ Del análisis realizado a través del mapa de experiencia, se obtienen las sigui
 \end{itemize}
 \end{itemize}
 
+\subsection{Definir}
+Para comprender y definir los requisitos de diseño para la solución propuesta y, al mismo tiempo, transformarlos en objetivos de diseño, es trabaja con la técnica de las \textit{cinco W}. Este se sintetiza desde la entrevista con el usuario, la cual arroja los siguientes resultados:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{5cm}|p{5cm}|}
+\hline
+Pregunta & Resultados \\
+\hline
+¿Quién es el cliente y el público objetivo? &  Operador de granja de impresión 3D que cumple más responsabilidades, como gestión de la producción, reparación y administración de la empresa\\
+\hline
+¿En qué solución del diseño piensa el cliente? & aplicaciones que puedan ser utilizadas desde computador o dispositivo móvil \\
+\hline
+¿Cuándo y por cuánto tiempo será necesitado el diseño & No existe un límite inicial, se pretende utilizar durante el tiempo en que las máquinas se encuentren operativas.\\
+\hline
+¿Dónde será utilizado el diseño? & En el taller de impresión 3D de 3Dlux, a través de una interfaz como un computador o dispositivo móvil \\
+\hline
+¿Cómo será implementada la solución? & de manera gradual, hasta completar la mayor cantidad de impresoras 3D.\\
+\hline
+\end{tabular}
+\caption{Resultados de la técnica de las cinco W.}
+\end{table}
+
+
+
+De las técnicas anteriormente utilizadas, y a modo de conseguir los \textit{insight} o los porqués detrás de las necesidades del usuario, se obtiene lo siguiente:
+
+\begin{itemize}
+\item El usuario cree importante tener un sistema de gestión y de registros, pues vislumbra mayor control de lo que se está haciendo.
+\item Al usuario le preocupa que la información referida al proceso de impresión no suele ser correcta (los tiempos son infravalorados y el tiempo real siempre es mayor al tiempo entregado por el software CAM).
+\item Existe preocupación a que no se puedan realizar los registros debido a que existe mucho tránsito entre el espacio de trabajo y el banco de impresoras.
+\item Al usuario le resulta frustrante la manipulación excesiva de la tarjeta SD para efectuar la fabricación. 
+\item El usuario se siente satisfecho con la limpieza de las impresoras, pues es fácil y rápido, y no suelen haber problemas en torno a esto.
+\item Al usuario le preocupa una planificación incorrecta del trabajo, que pueda provocar demoras en la fabricación.
+\item Al usuario le resulta tedioso tener múltiples aplicaciones abiertas (planillas, carpetas, programas de uso en el trabajo), y no poder registrar en pocos pasos la producción.
+\end{itemize}
 
 
 
 
+\subsection{Investigar}
 
-\subsection{Planeación}
+En esta etapa se busca obtener la mayor información posible respecto a la tecnologías desarrolladas para la gestión de los procesos de mantenimiento, ya sea para pequeñas y medianas empresas, industrias y manufactura aditiva. Para esto, se realiza una investigación del tipo secundaria a partir de información obtenida por fuentes externas, y cualitativa en la medida que pueda informar respecto al consumo de tecnologías de gestión. Para esto, se proponen tres tipos de investigación:
 
-\subsection{Ejecución}
+\begin{itemize}
 
-\subsection{Cierre}
+\item Investigación de referentes 
+\item Investigación de softwares a utilizar
+\item Investigación de las herramientas de desarrollo a utilizar.
+\end{itemize}
+
+\subsubsection{Investigación de referentes}
+
+La investigación de referentes estará centrada en softwares o aplicaciones de gestión de la producción y/o mantenimiento disponibles en el mercado mundial. Se elegirán tres empresas que prestan este tipo de servicio, según: (a) vinculación con la impresión 3D; (b) relación con el mantenimiento; (c) relación a la producción. Asimismo, los criterios para el análisis se centran en:
+\begin{itemize}
+\item Público objetivo
+\item Interfaz de monitoreo de condición
+\item Interfaz de mantenimiento de activos
+\item Interfaz de producción y procesos
+
+\end{itemize}
+
+\paragraph{3Dtrust - https://3dtrust.de/}
+
+\textit{3dtrust} es una empresa de cinco años de antiguedad fundada en Munich, Alemania. Al principio, el equipo formaba parte de una serie de nuevas empresas que querían asegurar la cadena de suministro digital. Según la empresa, a través del cifrado y el software las empresas podían asegurarse de que estaban imprimiendo las piezas correctas. A través del desarrollo de productos y el contacto con el mercado, la empresa ha crecido hasta  crear un software que puede realizar la trazabilidad, la optimización de la productividad y analizar flotas enteras de sistemas de aditivos que producen piezas a tiempo, así como los pasos de posproducción, para decidir qué se debe hacer.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/3dtmonitoreo.png}
+\caption{Captura de interfaz utilizada por \textit{3Dtrust} para el monitoreo de la condición.}
+\label{3dtmonitoreo}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/3dtmonitoreo2.png}
+\caption{Captura de interfaz utilizada por \textit{3Dtrust} para el monitoreo de la condición.}
+\label{3dtmonitoreo2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/3dtmonitoreo3.png}
+\caption{Captura de interfaz utilizada por \textit{3Dtrust} para el control de la producción.}
+\label{3dtmonitoreo3}
+\end{figure}
+
+\paragraph{AMFG - https://amfg.ai/service-bureaus-2/}
+
+\textit{AMFG} En el sector de la impresión 3D, la empresa londinense AMFG ofrece un software de automatización de flujo de trabajo de manufactura aditiva para empresas. Su software es una solución de gestión de flujo de trabajo completa e integral. AMFG es la única plataforma de software que ofrece una solución completa de automatización de extremo a extremo para las operaciones
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/amfg.png}
+\caption{Captura de interfaz utilizada por \textit{AMFG} para el control de la producción}
+\label{amfg}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/amfg2.png}
+\label{amfg2}
+\caption{Captura de interfaz utilizada por \textit{AMFG} para el control de la producción.}
+\end{figure}
+
+\paragraph{FRACCTAL - https://www.fracttal.com/es/}
+
+\textit{FRACCTAL} es una empresa fundada en Chile el año 2014 con el fin de crear un software de mantenimiento y gestión de activos accesibles a medianas y pequeña empresas. Actualmente, su software es utilizado por empresas como Unilever, Aguas Andinas y Petrobras.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/fracctal.png}
+\caption{Captura de interfaz utilizada por \textit{FRACCTAL} para el control de indicadores.}
+\label{fracctal}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/fracctal2.png}
+\caption{Captura de interfaz utilizada por \textit{FRACCTAL} para el control del mantenimiento.}
+\label{fracctal2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/fracctal2.png}
+\caption{Captura de interfaz utilizada por \textit{FRACCTAL} para la gestión de tareas.}
+\label{fracctal3}
+\end{figure}
+
+En primer lugar, se nota que el público objetivo de todas las empresas corresponde a pequeñas, medianas y grandes industrias de manufactura. Como se observa en las figuras \ref{3dtmonitoreo} y \ref{3dtmonitoreo2}, en el caso de \textit{3DTrust} el monitoreo de la condición se realiza a través de dos interfaces distintas, una para la la observación de los estados de temperatura de una impresora 3D a lo largo del tiempo, y otra a modo de \textit{dashboard} para el monitoreo de las máquinas conectadas. En la figura \ref{3dtmonitoreo3}, se muestra que la forma de gestionar el control de la producción es a través de las funciones básicas de las bases de datos denominada \textit{CRUD},por el acrónimo en inglés de las funciones leer, actualizar, eliminar o crear. Por otra parte, \textit{AMFG} opta por realizar un calendario de actividades para la gestión de la producción. En la figura \ref{amfg} se muestra una interfaz gráfica para representar el estado y el tiempo de realización de las tareas planificadas. Además, existe la posibilidad de verificar el modelo a imprimir en la misma aplicación, tal como se observa en la figura \ref{amfg2}. En relación a \textit{FRACCTAL}, la principal cualidad es que en su \textit{dashboard} entrega información a modo de indicadores, ya sea gráficos o escalas, del cumplimiento de las tareas propuestas. En la figura \ref{fracctal} se pueden encontrar indicadores de porcentaje de cumplimiento, tareas planificadas versus no planificadas, entre otros. Al igual que con la empresa anterior, la sección relacionada a acciones y control de mantenimiento se realiza a través de funciones \textit{CRUD}, y se muestra a través de una interfaz de base de datos; esta característica se repite respecto al sistema de gestión de tareas, como se observa en la figura \ref{fracctal3}.
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{2.5cm}|p{3.4cm}|p{3.4cm}|p{3.4cm}|}
+\hline
+Criterio & 3DTrust & AMFG & FRACCTAL \\
+\hline
+Público Objetivo & Medianas y grandes empresas de la industria de manufactura en impresión 3D& Grandes empresas de la manufactura aditiva & Pequeñas, medianas y grandes empresas de la industria y logística\\
+\hline
+Relación con impresión 3D & Software diseñado para impresión 3D & Software diseñado para impresión 3D & Se puede implementar en algunos proceso de la impresión 3D \\
+\hline
+Mantenimiento de activos & Presenta monitoreo de la condición a través del control permanente de algunas variables & Presenta monitoreo de la condición a través del control permanente de algunas variables & Permite la gestión de los registros de mantenimiento a través de operaciones de bases de datos y la obtención de indicadores para el mantenimiento.\\
+\hline
+
+Gestión de los procesos & Es posible controlar y gestionar la producción a través de operaciones de bases de datos & Es posible controlar y gestionar la producción a través de la calendarización de la fabricación & Es posible controlar y gestionar la producción a través de operaciones de bases de datos\\
+\hline
+\end{tabular}
+\caption{Tabla resumen del análisis de referentes según los criterios propuestos.}
+\end{table}
+
+\subsubsection{Investigación de software a utilizar}
+
+Según \cite{marchante2020}, \textit{OctoPrint} es una aplicación de código abierto y gratuita para el control de impresoras 3D. Permite administrar todas tus impresiones de forma remota y controlar el parque de máquinas con total tranquilidad. Funciona directamente desde su interfaz web, solo hay que conectar la aplicación a la red local. Concretamente, permitirá enviar varios archivos Gcode a diferentes máquinas a través de una única interfaz. La mayoría de los usuarios ahora lo instalan en una Raspberry Pi, usando la imagen OctoPi disponible en línea. OctoPrint también es compatible con cámaras que permitirán el monitoreo en tiempo real de una impresión y verificar de forma remota que todo funciona correctamente.En 2012, Gina Häußge desarrolló una primera aplicación de control, utilizando su propia impresora 3D. Muy rápidamente, la solución sedujo al mercado y fue el fabricante español BQ quien apoyó financieramente el desarrollo. Hoy, OctoPrint es ampliamente utilizado en todo el mundo, es de código abierto y completamente gratuito. Incluso se ha creado un foro para reunir a toda la comunidad de usuarios, resolver problemas técnicos, facilitar la instalación de la aplicación o intercambiar ideas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{images/octoprint.png}
+\caption{Interfaz del estado actual de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{images/octoprint2.png}
+\caption{Interfaz del mando a distancia de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)}
+\end{figure}
+
+\textit{OctoPrint} es un software de código abierto, y todo su código fuente está disponible en un repositorio de \textit{Github}, donde cualquiera lo puede clonar y modificar respecto a sus necesidades. Asimismo, el programa dispone de una API, por lo cual permite la comunicación con otros servicios a través del protocolo HTTP, inclusive con protocolos MQTT siempre y cuando se disponga del \textit{plugin} necesario. Tanto la información general, desde la autorización del servidor, el contenido de la petición hasta la enumeración de todas las operaciones disponibles para la API se encuentran a modo de documentación en https://docs.octoprint.org/en/master/.
+Para poder establecer la comunicación a través de HTTP, es necesario contar con una \textit{Api key} o identificador al cual se le asignarán todos los cargos que correspondan por uso de los distintos servicios. Este identificador se puede obtener en las configuraciones del servidor de \textit{Octoprint}. Los métodos admitidos por la aplicación son del tipo GET o POST, y permiten obtener datos del servidor y enviar órdenes en formato \textit{.json.}  
+
+\begin{table}[H]
+\begin{lstlisting}
+GET /api/connection HTTP/1.1
+Host: example.com
+X-Api-Key: abcdef...
+\end{lstlisting}
+\caption{Ejemplo de una consulta GET a la API de \textit{Octoprint}.}
+\end{table}
+
+\begin{table}[H]
+\begin{lstlisting}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "current": {
+    "state": "Operational",
+    "port": "/dev/ttyACM0",
+    "baudrate": 250000,
+    "printerProfile": "_default"
+  },
+  "options": {
+    "ports": ["/dev/ttyACM0", "VIRTUAL"],
+    "baudrates": [250000, 230400, 115200, 57600, 38400, 19200, 9600],
+    "printerProfiles": [{"name": "Default", "id": "_default"}],
+    "portPreference": "/dev/ttyACM0",
+    "baudratePreference": 250000,
+    "printerProfilePreference": "_default",
+    "autoconnect": true
+  }
+}.
+\end{lstlisting}
+\caption{Ejemplo de una respuesta en formato .json de la API de \textit{Octoprint} ante la consulta GET.}
+\end{table}
+
+\begin{table}[H]
+\begin{lstlisting}
+POST /api/connection HTTP/1.1
+Host: example.com
+Content-Type: application/json
+X-Api-Key: abcdef...
+
+{
+  "command": "connect",
+  "port": "/dev/ttyACM0",
+  "baudrate": 115200,
+  "printerProfile": "my_printer_profile",
+  "save": true,
+  "autoconnect": true
+}.
+\end{lstlisting}
+\caption{Ejemplo de una consulta POST a la API de \textit{Octoprint}.}
+\end{table}
+
+\begin{table}[H]
+\begin{lstlisting}
+HTTP/1.1 204 No Content
+\end{lstlisting}
+\caption{Ejemplo de respuesta exitosa de la API de \textit{Octoprint} ante la consulta POST.}
+\end{table}
+
+las operaciones que permite la API son las siguientes:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{4cm}|p{3cm}|}
+\hline
+Operación & Tipo de consulta \\
+\hline 
+Recuperar archivos & GET \\
+\hline
+Subir archivo & POST\\
+\hline
+Comenzar, cancelar, reiniciar, pausar y resumir impresión & POST \\
+\hline
+Recuperar información del estado actual & GET\\
+\hline
+Recuperar estado actual de impresora & GET\\
+\hline
+Emitir comando a cama o extrusor & POST\\
+\hline
+Recuperar estado actual del modelo & GET\\
+\hline
+\end{tabular}
+\caption{Principales operaciones permitidas por la API de \textit{Octoprint}}
+\label{api-octo}
+\end{table}
+
+Dentro de todas las operaciones mencionadas en la tabla \ref{api-octo}, se obtienen las siguientes variables que servirán como data de análisis para la aplicación a desarrollar:
+
+\begin{itemize}
+\item Estado de conexión de la impresora.
+\item Impresiones canceladas.
+\item Impresiones terminadas.
+\item Impresiones pausadas.
+\item Estado actual de la temperatura de la cama caliente y extrusor.
+\item Nombre de la pieza en construcción.
+\item Peso de la pieza en construcción
+\item Tiempo de construcción de la pieza.
+\item Tiempo de funcionamiento de la impresora.
+\end{itemize}
+
+\subsubsection{Investigación de las herramientas de desarrollo a utilizar}
+
+Esta etapa consiste en encontrar las herramientas de programación que puedan interactuar con la API de \textit{Octoprint}, obtener, almacenar y procesar los datos, transformarlos en información, y que esta última esté disponible de forma clara y amigable para el usuario. La investigación estará determinada a seleccionar:
+
+\begin{itemize}
+\item Interfaz gráfica para el estado actual de impresoras 3D.
+\item Código que permita obtener datos desde la API de \textit{Octoprint}.
+\item Código que permita crear, reemplazar, actualizar y eliminar bases de datos.
+\item Servidores para implementar la aplicación. 
+\end{itemize} 
+
+\paragraph{Grafana} Según \cite{olano2019}, Grafana es una herramienta hecha en software libre, específicamente con licencia Apache 2.0, ideada por Torkel Ödegaard (quien todavía está al frente de su desarrollo y mantenimiento) y creada en enero de 2014. Este desarrollador sueco comenzó su carrera en el ambiente .NET y en 2012 (hasta la fecha) sigue ofreciendo servicios de desarrollo y consultoría en esta popular plataforma privativa, de forma paralela con el desarrollo de software libre. Grafana es una herramienta para visualizar datos de serie temporales. A partir de una serie de datos recolectados obtendremos un panorama gráfico de la situación de una empresa u organización.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{images/grafana.png}
+\caption{Visualización de datos en grafana \citep{olano2019}.}
+\end{figure}
+
+Grafana es compatible con servidores de diversas bases de datos como \textit{influxdb} o \textit{MySQL}, lo que permite vincularlo a códigos realizados en otras plataformas.
+
+\paragraph{Node-red/Node-red Dashboard}
+
+Según \cite{sancho2020}, NODE-RED, es una herramienta de código libre (Open Source) construida en Node.js y que se encuadra en la familia de herramientas \textit{flow-based programming (FBP) tools} (Herramientas de programación basadas en flujos). Originalmente desarrollado por el equipo de Emerging Technology Services de IBM, es ahora parte de la OpenJS Foundation, cuenta con una creciente comunidad de desarrollo muy activa y goza actualmente de un gran predicamento y una amplia difusión de aplicación en multitud de proyectos innovadores. Según el mismo autor, La programación basada en flujos es una forma de describir el comportamiento de una aplicación como una red de cajas negras o nodos, como se les llama en Node-RED. Cada nodo tiene un propósito bien definido: recibe o captura algunos datos, realiza algún tratamiento con esos datos y luego los pasa a uno o varios nodos con los que se enlaza.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/nodered.png}
+\caption{Nodos utilizados en la programación por flujos En Node-Red.}
+\end{figure}
+
+En palabras de \cite{sancho2020} es importante destacar igualmente que una de sus capacidades menos conocida, pero no por ello de menor importancia y utilidad, es la capacidad de poder crear y desplegar Cuadros de Mando (Dashboards) a los que se puede acceder remotamente vía navegador y cuyo acceso puede ser, al igual que lo descrito para el editor, protegido con credenciales de acceso.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/nodereddash.png}
+\caption{Dashboard de Node-red para acceso remoto por navegador.}
+\end{figure}
+
+\paragraph{Mysql-PHPMyAdmin} Según \cite{velasco2017}, MySQL es un potente administrador de bases de datos utilizado para organizar y recopilar información. Este administrador de bases de datos es propiedad de Oracle y está desarrollado bajo una licencia GPL, convirtiéndose así en una de las bases de datos OpenSource más utilizadas en todo el mundo. Por otra parte, PHPMyAdmin es una herramienta escrita en PHP que nos va a permitir gestionar y administrar bases de datos MySQL fácilmente a través de su sencilla interfaz web.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/mysql.png}
+\caption{Interfaz de bases de datos MySQL en PHPMyAdmin}
+\end{figure}
+
+\paragraph{Flask-Python framework} En palabras de \cite{munoz2017}, Flask es un micro Framework escrito en Python y concebido para facilitar el desarrollo de Aplicaciones Web bajo el patrón MVC. La palabra \textit{micro} no designa a que sea un proyecto pequeño o que nos permita hacer páginas web pequeñas sino que al instalar Flask tenemos las herramientas necesarias para crear una aplicación web funcional pero si se necesita en algún momento una nueva funcionalidad hay un conjunto muy grande extensiones (plugins) que se pueden instalar con Flask que le van dotando de funcionalidad. 
+
+\subsection{Idear}
+
+
+
+\subsection{Prototipar}
+
+\subsection{Testear}

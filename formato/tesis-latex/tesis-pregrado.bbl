@@ -1,19 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[mar, 2012]{marini2012}
- (2012).
-\newblock El modelo cliente servidor.
-
-\bibitem[ger, 2016]{germanreprap2019}
- (2016).
-\newblock {\em X350 3D-printer quick start guide}.
-\newblock German-RepRap.
-
-\bibitem[gar, 2018]{gareth2018}
- (2018).
-\newblock {\em Raspberry Pi: User Guide}.
-\newblock Raspberry Pi Trading Ltd.
-
 \bibitem[3Dhub, 2018]{tresdhub2018}
 3Dhub (2018).
 \newblock What is 3d printing? the definitive guide.
@@ -140,16 +126,21 @@ Garrido, S.~G. (2010).
 \newblock {\em Organización y Gestión Integral el Mantenimiento}.
 \newblock Ediciones Díaz de Santos, S.A.
 
+\bibitem[German-RepRap, 2016]{germanreprap2019}
+German-RepRap (2016).
+\newblock {\em X350 3D-printer quick start guide}.
+\newblock German-RepRap.
+
 \bibitem[Greguric, 2018]{alltresdp2018}
 Greguric, L. (2018).
 \newblock History of 3d printing: When was 3d printing invented.
 \newblock Recuperado de:
   https://all3dp.com/2/history-of-3d-printing-when-was-3d-printing-invented/.
 
-\bibitem[Hernandez and Vizan, 2013]{hernandez2013}
-Hernandez, J. and Vizan, A. (2013).
-\newblock {\em Lean Manufacturing. Conceptos, tecnicas e implementacion}.
-\newblock Fundacion EOI.
+\bibitem[Halfacree, 2018]{gareth2018}
+Halfacree, G. (2018).
+\newblock {\em Raspberry Pi: User Guide}.
+\newblock Raspberry Pi Trading Ltd.
 
 \bibitem[Hide, 2013]{hide2013}
 Hide, M. (2013).
@@ -203,6 +194,16 @@ leao, L. (2017).
 \newblock Recuperado de:
   https://www.e3seriescenters.com/modern-electrical-engineering-blog/cad-vs-cae-vs-cam-what-is-the-difference/.
 
+\bibitem[Marchante, 2020]{marchante2020}
+Marchante, A. (2020).
+\newblock Octoprint, la aplicación para controlar tu impresora 3d.
+\newblock Recuperado de
+  https://www.3dnatives.com/es/octoprint-aplicacion-control-impresora-210820202/.
+
+\bibitem[Marini, 2012]{marini2012}
+Marini, E. (2012).
+\newblock El modelo cliente servidor.
+
 \bibitem[Maxey, 2013]{maxey2013}
 Maxey, K. (2013).
 \newblock Infographic: The history of 3d printing.
@@ -225,6 +226,16 @@ Mueller, C. (2018).
 \newblock {\em Handbook of Design Thinking. Tips and Tools for how to design
   thinking}.
 
+\bibitem[Munoz, 2017]{munoz2017}
+Munoz, J. (2017).
+\newblock Qu\'e es flask.
+\newblock Recuperado de: https://openwebinars.net/blog/que-es-flask/.
+
+\bibitem[Olano, 2019]{olano2019}
+Olano, J. (2019).
+\newblock Qu\'e es grafana y c\'omo podemos emplearlo para la monitorizaci\'on.
+\newblock Recuperado de: https://pandorafms.com/blog/es/que-es-grafana/.
+
 \bibitem[Palencia, 2012]{garcia2012}
 Palencia, O.~G. (2012).
 \newblock {\em Gestión Moderna del Mantenimiento Industrial}.
@@ -236,11 +247,6 @@ Piqu\'e, T. (1998).
   de fallos y errores.
 \newblock Technical report, Instituto Nacional de Seguridad e Higiene en el
   Trabajo.
-
-\bibitem[Productividad, 2017]{leansis2017}
-Productividad, L. (2017).
-\newblock Introducción al lean manufacturing.
-\newblock Ecoembres.
 
 \bibitem[Renstrom, 2012]{renstrom2012}
 Renstrom, J. (2012).
@@ -262,6 +268,12 @@ SAE (2002).
 \newblock The Engineering Society For Advancing Mobility Land, Sea Air and
   Space.
 
+\bibitem[Sancho, 2019]{sancho2020}
+Sancho, P. (2019).
+\newblock Fundamentos de node-red.
+\newblock Recuperado de:
+  https://www.techedgegroup.com/es/blog/fundamenos-node-red/.
+
 \bibitem[Saygin et~al., 2016]{saygin2016}
 Saygin, A., Cakan, A., and Tinkir, M. (2016).
 \newblock Modeling and position control of scara type 3d printer.
@@ -277,11 +289,6 @@ Sifonte, J. (2017).
 \newblock Norma sae ja1011 – criterios de evaluación para procesos de
   mantenimiento centrado en confiabilidad (rcm).
 \newblock Recuperado de: http://www.pdmtechusa.com/criterios-evaluacion-rcm/.
-
-\bibitem[Socconini, 2019]{socconini2019}
-Socconini, L. (2019).
-\newblock {\em LEAN MANUFACTURING. PASO A PASO}.
-\newblock Marge Books.
 
 \bibitem[SPIP, 2012]{spip2012}
 SPIP (2012).
@@ -309,5 +316,11 @@ Valdivieso, C. (2019).
 \newblock Gartner hype cycle 2019: 3d printing predictions.
 \newblock Recuperado de:
   https://www.3dnatives.com/en/gartner-hype-cycle-3dprintingpredictions-150120194/.
+
+\bibitem[Velasco, 2017]{velasco2017}
+Velasco, R. (2017).
+\newblock C\'omo instalar y configurar un servidor mysql y phpmyadmin.
+\newblock Recuperado de:
+  https://www.redeszone.net/2017/03/18/instalar-configurar-servidor-mysql-phpmyadmin/.
 
 \end{thebibliography}
