@@ -204,11 +204,18 @@ A continuación, se resumen los datos técnicos generales de la máquina:
   \label{tab:addlabel}%
 \end{table}%
 
-\begin{figure}[H]
+
+
+\begin{table}[H]
 \centering
-\includegraphics[scale=0.4]{images/x350pormientras.jpg}
-\caption{Impresora X350.}
-\end{figure}
+\begin{tabular}{p{6cm}p{6cm}}
+\includegraphics[scale=0.04]{images/x350front.jpg} & \includegraphics[scale=0.04]{images/x350inf.jpg}\\
+\includegraphics[scale=0.04]{images/x350lat.jpg} & \includegraphics[scale=0.04]{images/x350sup.jpg}\\
+\includegraphics[scale=0.04]{images/x350tras.jpg} & \includegraphics[scale=0.04]{images/x350ext.jpg}\\
+
+\end{tabular}
+\caption{Impresora X350 desde izquierda a derecha, arriba a abajo: (a) frente; (b) inferior; (c) lateral; (d) superior; (e) trasera; (f) primer plano extrusor.}
+\end{table}
 
 Los componentes principales del equipo son:
 
@@ -235,6 +242,57 @@ Los componentes principales del equipo son:
 \item Interfaz LCD: dispositivo electrónico que muestra información relevante de la impresora en forma gráfica y sirve como elemento de interacción entre el operador y la máquina. Cuenta con una conexión para tarjetas SD, una pantalla LCD y un potenciómetro para controlar la impresora 3D. 
 \item Fuente de alimentación: fuente conmutada que trasforma la energía eléctrica de corriente continua a alterna. Alimenta la placa electrónica, los dispositivos electromecánicos y resistivos de la máquina. 
 \end{itemize}
+
+La tabla de componentes para la impresora X350 resulta de la siguiente forma:
+
+\begin{table}[H]\centering
+
+
+\begin{tabular}{|p{1cm}|p{8cm}|p{2cm}|}
+\hline
+\textbf{ITEM} &\textbf{COMPONENTE} &\textbf{CANTIDAD} \\ \hline
+1 &PLACA CONTROLADORA GREPRAP &1 \\ \hline
+2 &PANTALLA LCD CON LECTOR PER. SD &1 \\ \hline
+3 &DRIVERS A4988 &4 \\ \hline
+4 &DISIPADOR DE CALOR PARA DRIVER &4 \\ \hline
+5 &FUENTE DE PODER S-360-24 &1 \\ \hline
+6 &FUSIBLE 15A 250V 32mm &1 \\ \hline
+7 &CABLE 2,5MM NEGRO &1 \\ \hline
+8 &CABLE 2,5MM ROJO &1 \\ \hline
+9 &CABLE 1MM NEGRO &3 \\ \hline
+10 &CABLE 1MM ROJO &3 \\ \hline
+11 &CABLES CONECTOR NEMA 17 &8 \\ \hline
+12 &CABLES CONECTOR 2PIN 1MM &4 \\ \hline
+13 &CABLES CONECTOR 3 PIN 1MM &3 \\ \hline
+14 &TIRA LED 24V &1 \\ \hline
+15 &FINAL DE CARRERA MECÁNICO &3 \\ \hline
+16 &TERMISTOR 100K &2 \\ \hline
+17 &HEATBLOCK DYZ &1 \\ \hline
+18 &CALENTADOR CAMA 24V &1 \\ \hline
+19 &BOQUILLA DYZ &1 \\ \hline
+20 &ALUCORE &1 \\ \hline
+21 &VENTILADOR 24V 12,5X12,5MM &1 \\ \hline
+22 &VENTILADOR 24V 50X50MM &2 \\ \hline
+23 &NEMA 17 &3 \\ \hline
+24 &EXTRUSOR DYZ &1 \\ \hline
+25 &CORREA GT2 &3 \\ \hline
+26 &POLEA GT2 &4 \\ \hline
+27 &BARRAS LISAS 8MM &6 \\ \hline
+28 &BARRAS ROSCADAS 8MM PASO 2MM &1 \\
+\hline
+29 &RODAMIENTOS LINEALES 8MM &8 \\
+\hline
+30 &RODAMIENTOS DE BOLA 8MM &2 \\
+\hline
+31 &SOPORTES ALUMINIO DE BARRAS &4 \\
+\hline
+32 &CUBIERTA CHAPA METÁLICA &1 \\
+\hline
+33 &CUBIERTA POLICARBONATO &2 \\
+\hline
+\end{tabular}
+\caption{Tabla de componentes para impresora X350.}
+\end{table}
 
 A continuación, se resumen las recomendaciones de mantenimiento y los problemas frecuentes que el fabricante entrega en su guía para el usuario \citep{germanreprap2019}:
 
@@ -283,6 +341,7 @@ Según \cite{unit2009}, un Diagrama de Interrelaciones Funcionales permite ident
 \centering
 \includegraphics[scale=0.4]{images/diagramafuncional.png}
 \caption{Diagrama funcional de bloques para la máquina de impresión 3D.}
+\label{diagramafuncional}
 \end{figure}
 
 \subsection{Determinación de fallas}
@@ -422,6 +481,111 @@ Por otra parte, la estructura para la hoja de decisión RCM es la siguiente:
 
 \subsubsection{Resultados}
 
+A continuación, se muestran las hojas de información RCM obtenidos para los subsistemas comprendidos en la figura \ref{diagramafuncional}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/amef1.png}
+\caption{Hoja de información RCM para subsistema de extrusión de impresora X350.}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/amef2.png}
+\caption{Continuación de hoja de información RCM para subsistema de extrusión de impresora X350.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/amef3.png}
+\caption{Continuación de hoja de información RCM para subsistema de extrusión de impresora X350.}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision1.png}
+\caption{Hoja de decisión RCM para subsistema de extrusión de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision2.png}
+\caption{Continuación de hoja de decisión RCM para subsistema de extrusión de impresora X350}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision3.png}
+\caption{Continuación de hoja de decisión RCM para subsistema de extrusión de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/amef21.png}
+\caption{Hoja de información RCM para subsistema de movimiento de impresora X350.}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/amef22.png}
+\caption{Continuación de hoja de información RCM para subsistema de movimiento de impresora X350.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{images/amef23.png}
+\caption{Continuación de hoja de información RCM para subsistema de movimiento de impresora X350.}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision21.png}
+\caption{Hoja de decisión RCM para subsistema de movimiento de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision22.png}
+\caption{Continuación de hoja de decisión RCM para subsistema de movimiento de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/amef31.png}
+\caption{Hoja de información RCM para subsistema de control de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision31.png}
+\caption{Hoja de decisión RCM para subsistema de control de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65]{images/amef41.png}
+\caption{Hoja de información RCM para subsistema de alimentación de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision41.png}
+\caption{Hoja de decisión RCM para subsistema de alimentación de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/amef51.png}
+\caption{Hoja de información RCM para subsistema de construcción de impresora X350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/amef52.png}
+\caption{Continuación de hoja de información RCM para subsistema de construcción de impresora X350}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/decision41.png}
+\caption{Hoja de decisión RCM para subsistema de construcción de impresora X350}
+\end{figure}
 
 
 
@@ -866,7 +1030,7 @@ Dentro de todas las operaciones mencionadas en la tabla \ref{api-octo}, se obtie
 \item Impresiones pausadas.
 \item Estado actual de la temperatura de la cama caliente y extrusor.
 \item Nombre de la pieza en construcción.
-\item Peso de la pieza en construcción
+\item Volumen de la pieza en construcción
 \item Tiempo de construcción de la pieza.
 \item Tiempo de funcionamiento de la impresora.
 \end{itemize}
@@ -922,8 +1086,78 @@ En palabras de \cite{sancho2020} es importante destacar igualmente que una de su
 
 \subsection{Idear}
 
+Según \citep{leis2020}, el Brainstorming es una técnica creativa, ideada en 1939 por Alex Faickney Osborn, que se basa en la interacción entre los integrantes de un grupo para crear nuevas ideas sobre un tema en concreto. De acuerdo con esta técnica, la interacción entre los distintos integrantes del grupo potencia la creatividad y se generan ideas que, trabajando individualmente, no se conseguirían. De esta forma, gracias al trabajo en grupo, las ideas de los usuarios se retroalimentan con las de los otros integrantes del grupo.
+El mismo autor propone tres fases para la realización de la técnica del brainstorming \citep{leis2020}:
+
+\begin{itemize}
+\item Identificación del problema
+\item Generación de ideas
+\item Análisis
+\end{itemize}
+
+\paragraph{Identificación del problema} Como se menciona en el Capítulo 3, los problemas detectados se relacionan a la imposibilidad del monitoreo de máquinas simultánemanete, detenciones imprevistas por mantenimientos y la ausencia de registro datos en general. Por tanto, la pregunta para comenzar el brainstorming queda enunciada como: \textit{¿Cómo se puede mejorar el sistema de monitoreo y mantenimiento a través de una aplicación web?}
+
+\paragraph{Generación de ideas} La fase de generación de ideas parte con las siguientes definiciones:
+
+\begin{itemize}
+\item Participantes: Javier Oliva, Pablo Ruz (moderador).
+\item Lugar: entrevista virtual plataforma Meet.
+\item Fecha: viernes 26 de junio de 2020, al medio día.
+\item Duración: 20 minutos, aproximadamente.
+\end{itemize}
+
+Los resultados se sistematizan según ideas orientadas a la información importante para las mejoras, la interfaz y los modos de utilización.
+
+\paragraph{Información:}
+\begin{itemize}
+\item Impresiones buenas y fallidas
+\item Estado (conectada, no conectada)
+\item Saber cuando y qué mantenimiento se realizó
+\item Info relacionada con el peso o el tiempo de una impresión
+\item Saber disponibilidad
+
+\end{itemize}
+
+\paragraph{Interfaz:}
+\begin{itemize}
+\item Interfaz amigable
+\item Gráficos de distintos tipos
+\item Tablas para la información
+\item Alertas para no equivocarse
+
+\end{itemize}
+
+\paragraph{Modos de utilización:}
+
+\begin{itemize}
+\item Desde un solo computador
+\item Desde un tablet
+
+\end{itemize}
+
+
 
 
 \subsection{Prototipar}
 
+En primer lugar, se discute de qué formas se utilizarán las herramientas de desarrollo para la aplicación web. Respecto a la interfaz, uno de los requerimientos es que las impresoras puedan ser controladas remotamente. En este sentido, Octoprint ya posee una interfaz de control completa y extendible, por lo que realizar acciones POST desde otro servidor al de Octoprint puede provocar saturaciones innecesarias en los servidores. Es por esto que se define utilizar la interfaz de Octoprint como el centro de mandos principal para cada impresora, e insertar un enlace directo desde el dashboard de la aplicación. Respecto a la visualización de métricas, existen dos formas para su desarrollo: (a) aplicación web programada en JavaScript y/o Python, y en lenguajes de estilo HTML; (b) utilización de visores de métricas. La primera, involucra un trabajo mucho mayor y que no es de interés para este trabajo, no obstante, parte de su utilización puede servir para el desarrollo de las bases de datos. En el caso de los visores de métricas, proponen una mayor diversidad de usos con los mismos recursos, puesto que los gráficos y tablas ya vienen predefinidos y se pueden vincular con el resto de la aplicación. Las acciones de almacenar y procesar los datos se realizará a través de un servidor programado en Python y otro programado en Node-red. Esto se realiza para facilitar la creación de la interfaz de la aplicación y la modificación de las bases de datos. En la misma línea, la programación por flujos facilita la comunicación con bases de datos de series de tiempo. El esquema que representa la arquitectura de la aplicación se observa en la figura \ref{esquemaapi}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{images/esquemaapi.png}
+\caption{Esquema de la arquitectura propuesta para la aplicación}
+\label{esquemaapi}
+\end{figure}  
+
+La lógica de la aplicación se encargará de requerir y recibir los datos desde la API de Octoprint, administrar las bases de datos y realizar las métricas con la información obtenida. Para el ordenamiento y el análisis de la información, se toman como base los resultados obtenidos en la Sección 3.3. En la figura \ref{esquemadb} se observa la estructura e información de las bases de datos propuestas para la aplicación.  
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{images/esquemadb.png}
+\caption{Esquema de las bases de datos propuestas para la aplicación}
+\label{esquemadb}
+\end{figure}
+
+
 \subsection{Testear}
+

@@ -1,61 +1,55 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis-pregrado.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: cubierta.aux
-Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: chapters/2-preliminares.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chapters/3-estado_del_arte.aux
-Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: chapters/4-desarrollo.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
 Warning--empty publisher in ambrose2010
 Warning--can't use both author and editor fields in camps2005
 Warning--can't use both author and editor fields in gareth2018
 Warning--empty publisher in mueller2018
-You've used 58 entries,
+You've used 59 entries,
             1935 wiz_defined-function locations,
-            720 strings with 11680 characters,
-and the built_in function-call counts, 15593 in all, are:
-= -- 1536
-> -- 493
-< -- 53
-+ -- 154
-- -- 148
-* -- 1027
-:= -- 3009
-add.period$ -- 170
-call.type$ -- 58
-change.case$ -- 345
-chr.to.int$ -- 58
-cite$ -- 62
-duplicate$ -- 687
-empty$ -- 1070
-format.name$ -- 210
-if$ -- 2920
+            724 strings with 11856 characters,
+and the built_in function-call counts, 15838 in all, are:
+= -- 1562
+> -- 500
+< -- 54
++ -- 156
+- -- 150
+* -- 1042
+:= -- 3058
+add.period$ -- 173
+call.type$ -- 59
+change.case$ -- 351
+chr.to.int$ -- 59
+cite$ -- 63
+duplicate$ -- 697
+empty$ -- 1085
+format.name$ -- 213
+if$ -- 2965
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 32
-newline$ -- 289
-num.names$ -- 174
-pop$ -- 304
+newline$ -- 294
+num.names$ -- 177
+pop$ -- 307
 preamble$ -- 1
-purify$ -- 364
+purify$ -- 370
 quote$ -- 0
-skip$ -- 547
+skip$ -- 556
 stack$ -- 0
-substring$ -- 702
+substring$ -- 714
 swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 324
+type$ -- 330
 warning$ -- 4
-while$ -- 116
+while$ -- 118
 width$ -- 0
-write$ -- 695
+write$ -- 707
 (There were 4 warnings)
