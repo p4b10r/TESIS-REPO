@@ -1,6 +1,7 @@
-\documentclass[logo,civil,propuesta]{tesis-pregrado}
+\documentclass[logo,civil,final]{tesis-pregrado}
 % opciones: logo,dosguias,civil,ejecucion,propuesta,txfonts
-
+\usepackage[backend=bibtex8, style=iso-numeric]{biblatex}
+\addbibresource{bibliografia.bib}
 \keywords{XML; Key Implication}
 
 \begin{document}
@@ -14,43 +15,71 @@
 % ----------------------------------------------------------
 % ----------- PRIMERA PARTE --------------------------------
 \frontmatter
+
 % ### Resumen e Indices ####
-%\include{chapters/gracias}
-%\include{chapters/dedicatoria}
-%\include{chapters/abstract}
-\pagestyle{fancy}
-\fancyhead[L]{\slshape \leftmark}
+
+\fancypagestyle{plain}{
+
+%\fancyhead[L]{\slshape \leftmark}
 \fancyhead[C]{}
-\fancyhead[R]{\thepage}
+\fancyhead[R]{}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+}
+\pagestyle{fancy}
+%\fancyhead[L]{\slshape \leftmark}
+%\fancyhead[C]{}
+%\fancyhead[R]{}
+\fancyhf{}
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+\include{chapters/dedicatoria}
+\include{chapters/gracias}
+\include{chapters/abstract}
+
 \tableofcontents        %% Indice general
+\listoftables 
+\clearpage  
 \listoffigures          %% Indice de figuras
-\listoftables           %% Indice de tablas
+        %% Indice de tablas
 %\listofalgorithms       %% Indice de algoritmos
 % ----------- SEGUNDA PARTE --------------------------------LAFRAIA, J. R 
 \mainmatter
 % ### Configuración del header ###
+
+
 \pagestyle{fancy}
 \fancyhead[L]{\slshape \leftmark}
 \fancyhead[C]{}
-\fancyhead[R]{\thepage}
+\fancyhead[R]{}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
 \pagenumbering{arabic}
 % ### Capitulos de la tesis ###
-%\include{chapters/1-intro}
+\include{chapters/1-intro}
 \include{chapters/2-preliminares}
 \include{chapters/3-estado_del_arte}
 \include{chapters/4-desarrollo}
+\backmatter
+\include{chapters/conclusiones}
+
 
 % ----------- TERCERA PARTE --------------------------------
-\backmatter %Elimina la numeración
+%\backmatter %Elimina la numeración
 % ### Bibliografía de este documento ###
-\bibliographystyle{apalike}
-\bibliography{bibliografia}
+\printbibliography
+%\bibliography{bibliografia}
 % ----------------------------------------------------------
 % ----------- CUARTA PARTE ---------------------------------
-\appendix
+%\appendix
 \addappheadtotoc %agregar Apéndice al índice. Si no tiene apéndices COMENTAR o BORRAR
 % \noappendicestocpagenum %quitar número de páginas a los apéndices
 % ### ANEXOS ###
-%\include{chapters/Apendice-1} % Manuales de Usuario
+\include{chapters/Apendice-1} % Manuales de Usuario
 \end{document}
 %\\end

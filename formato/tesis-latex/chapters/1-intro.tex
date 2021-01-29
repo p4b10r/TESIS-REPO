@@ -1,20 +1,26 @@
 \chapter{Introducci\'on}
 \label{cap:intro}
 
+Si bien las tecnologías aditivas y procesos de impresión 3D datan de la década de los ochenta, el advenimiento de un nuevo tipo de industria basada en la interconexión de los procesos, han hecho de esta tecnología un eslabón importante en el cambio de paradigma hacia la industria 4.0. Estos nuevos sistemas de procesos, con mayores niveles de automatización, conectividad y acceso a la información digital, han transformado tanto la manera en que los clientes acceden a los procesos productivos, como la forma en que los mismos trabajadores interactúan con las unidades de producción. En este sentido, uno de los aspectos más importantes es que el modelo de fabricación masiva basado en la automatización en serie pasa a ser de personalización en masas, presentando desafíos asociados al estudio de la demanda con un cliente hiperconectado, y el verdadero potencial que pueden tener los productos y servicios ofrecidos. En la medida en que una empresa es capaz de conocer las nuevas necesidades del cliente, puede adaptar sus aspectos tecnológicos, productivos y logísticos hacia una fabricación flexible, donde son importantes la personalización, modularización y estandarización de los procesos. En estas nuevas economías unitarias, las tecnologías aditivas como la impresión 3D permite llevar a la realidad el paradigma del lote unitario, puesto que otorga funcionalidad tanto en el diseño de los productos y su prototipado rápido, como en los procesos de fabricación orientado a la flexibilidad.  En este sentido, determinar, medir, obtener, y discriminar la información relevante para la fabricación es esencial para interconectar y crear redes de producción eficientes y flexibles. Actualmente, y en relación a la impresión 3D FDM, parte de la información es recogida por los principales softwares de Manufactura Asistida por Computadora, mas no es utilizada o aprovechada de forma idónea. Por otra parte, existen herramientas como el software \textit{Octoprint}, el cual cumple la función de controlar una impresora 3D desde un servidor, lo que implica una gran ventaja en comparación con la acción manual, permitiendo el control remoto desde cualquier parte con acceso a Internet; no obstante, la aplicación solo opera en una sola impresora, limitando su funcionalidad. Asimismo, el servidor solo realiza actividades de monitoreo y control de la máquina, dejando de lado acciones relativas a la producción misma de piezas o el mantenimiento de las máquinas. \\      
+El presente trabajo consiste en el desarrollo de una aplicación web a través de una Interfaz de Aplicación de Programación (API por sus siglas en inglés) para la gestión de la producción y el mantenimiento de impresoras 3D FDM, por medio de la utilización del servidor e interfaz web \textit{Octoprint}, utilizando el ordenador de placa reducida \textit{Raspberry Pi}.  
+En primer lugar, se determina el objeto de estudio y el planteamiento del problema a solucionar, seguido de los objetivos generales y específicos de este trabajo. Seguidamente, a modo de marco teórico se presenta la historia, métodos, tipologías y componentes de las impresoras 3D; historia, tipos de mantenimiento, modelos basados en confiabilidad, normativas asociadas a la gestión de activos y el mantenimiento; metodologías ágiles de diseño como Design Thinking; herramientas y lenguajes de programación relativas al desarrollo de aplicaciones web. A continuación, se presenta el estado del arte respecto a trabajos o proyectos similares a esta memoria, como lo son softwares GMAO y gestión de la fabricación aditiva. El desarrollo del proyecto se enfoca en la descripción de la empresa donde se desenvuelve este trabajo, los métodos utilizados para la generación de la aplicación, y los resultados de la aplicación de la metodología de Design Thinking para el desarrollo de esta memoria. Luego, se muestran los resultados respecto a las pruebas realizadas, la definición de indicadores relevantes para el proceso, la toma de métricas y elaboración de documentación para instalación y uso de la aplicación web. Finalmente, se presentan las conclusiones y observaciones relativas a la realización de este trabajo, y la bibliografía utilizada. 
+
+\newpage
+
 \section{Antecedentes y motivaci\'on}
 \label{intro:motivacion}
 
- \ldots 
+ El desarrollo de este trabajo responde a la participación del autor por más de dos años en empresas enfocadas al diseño 3D y la fabricación digital a través de la impresión 3D FDM. Dentro de las motivaciones para la realización de este trabajo, y basada en la experiencia práctica, se identifican:
 
+\begin{enumerate}
+	\item Plantear una solución tecnológica y eficiente para el control remoto de impresoras 3D con la menor cantidad de recursos posibles.
+	\item Utilizar la información entregada por un software existente para ampliar las funciones que un operario pueda realizar.
+	\item Incorporar conocimientos de programación y control de versiones relativos a la disciplina de la Ingeniería Mecánica y el Diseño.
+	\item Conocer y utilizar metodologías innovadoras para la gestión de activos y el mantenimiento.
+	\item Desarrollar una aplicación web que interactúe con máquinas de impresión 3D y sea capaz de emitir, recibir, editar y borrar información.   
+\end{enumerate} 
 
-\section{Descripci\'on del problema}
-\label{intro:problema}
-
-
-
-\section{Soluci\'on propuesta}
-\label{intro:solucion}
-
+\clearpage
 
 \section{Objetivos y alcance del proyecto}
 \label{intro:objetivos}
@@ -29,17 +35,17 @@ Para la consecución del objetivo general, se plantean las siguientes metas inte
 
 \begin{enumerate}
  
-	\item Determinar las variables implicadas en el proceso que permiten obtener indicadores.
+	\item Identificar las variables implicadas en el proceso de impresión 3D que permitan obtener indicadores relacionados al mantenimiento.
 	\item Investigar compatibilidad entre hardware, software, protocolos de comunicación, y códigos de programación a utilizar.
-	\item Elaborar registros y fichas técnicas de impresoras 3D.
-	\item Establecer relaciones matemáticas que permitan entregar indicadores relevantes para la producción y mantenimiento.
+	\item Identificar registros y fichas técnicas de impresoras 3D.
+	\item Determinar relaciones matemáticas que permitan entregar indicadores relevantes para la producción y mantenimiento.
 	\item Diseñar funciones que permitan gestionar los datos de hardware y software para determinación de indicadores.
-	\item Diseñar interfaz de aplicación orientado al usuario. 
+	\item Diseñar interfaz de aplicación orientada al usuario. 
 	
-\end{enumerate} \ldots 
+\end{enumerate} 
 \subsection{Alcances}
 
-Se pretende desarrollar una Interfaz Programable de Aplicación utilizando como base el software Octoprint, pudiendo controlar, monitorizar en tiempo real el funcionamiento de varias impresoras 3D, y entregar indicadores para gestionar la producción y el mantenimiento de las máquinas. Para esto, se toman en cuenta los siguientes alcances:
+Se pretende desarrollar una Interfaz Programable de Aplicación utilizando como base el software Octoprint, de esta forma, se puede controlar y monitorizar en tiempo real el funcionamiento de las impresoras 3D, entregando indicadores para gestionar la producción y el mantenimiento de las máquinas. Para esto, se toman en cuenta los siguientes alcances:
 
 \begin{enumerate}
 	\item Emplear metodologías ágiles para el diseño.
@@ -48,26 +54,12 @@ Se pretende desarrollar una Interfaz Programable de Aplicación utilizando como 
 	\item Diseñar un sistema enfocado en el usuario.
 	\item Tomar las entradas de impresoras, lista de piezas, tiempos de producción, peso de filamento y tiempo de actividad. 
 	\item Configurar planificación y frecuencia de mantenimientos autónomos y preventivos.
-	\item Configurar planificación y emitir órdenes de producción.
-	\item Emitir reportes y consultas sobre el estado de las órdenes de producción y mantenimiento. 
+	
+	
 
 
 \end{enumerate}  
 
-\section{Metodolog\'ia y herramientas utilizadas}
-\label{intro:metodologia}
-
-\subsection{Metodolog\'ia}
-
-
-\subsection{Herramientas de desarrollo}
-
-
-\section{Resultados Obtenidos}
-\label{intro:resultados}
-
-
-\section{Organizaci\'on del documento}
-\label{intro:organizacion}
+\
 
 

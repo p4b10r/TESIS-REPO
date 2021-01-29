@@ -1,333 +1,1269 @@
-\begin{thebibliography}{}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[3Dhub, 2018]{tresdhub2018}
-3Dhub (2018).
-\newblock What is 3d printing? the definitive guide.
-\newblock Recuperado de: https://www.3dhubs.com/guides/3d-printing/.
+\datalist[entry]{none/global//global/global}
+  \entry{iso2015}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={ISO},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {International Organization for Standardization}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{ISO/ASTM 52900:2015 Additive manufacturing-General
+  principles-Terminology}
+    \field{year}{2015}
+  \endentry
 
-\bibitem[3DSourced, 2020]{b3dsourced2020}
-3DSourced (2020).
-\newblock The 4 types of fdm 3d printer explained (cartesian, delta, polar and
-  scara).
-\newblock Recuperado de:
-  https://3dsourced.com/3d-printers/types-of-fdm-3d-printer-cartesian-delta/.
+  \entry{Berchon2014}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BM}{%
+         family={Berchon},
+         familyi={B\bibinitperiod},
+         given={Mathilde},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Luyt},
+         familyi={L\bibinitperiod},
+         given={Bertier},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Editorial Gustavo Gill}%
+    }
+    \strng{namehash}{BMLB1}
+    \strng{fullhash}{BMLB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{La impresión 3D: Guía definitiva para makers, diseñadores,
+  estudiantes profesionales, artistas y manitas en general}
+    \field{year}{2014}
+  \endentry
 
-\bibitem[3dsourced, 2020]{tresdsourced2020}
-3dsourced (2020).
-\newblock The complete history of 3d printing: From 1980 to 2020.
-\newblock Recuperado de:
-  https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
+  \entry{tresdhub2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={3Dhub},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D2}
+    \strng{fullhash}{D2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.3dhubs.com/guides/3d-printing/}
+    \field{title}{What is 3D printing? The definitive guide}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[Alexander, 2019]{donovan2019}
-Alexander, D. (2019).
-\newblock Start your own 3d printing business: 11 interesting cases of
-  companies using 3d printing.
-\newblock Recuperado de: https://int
-  erestingengineering.com/start-your-own-3d-printing-business-11-interesting-cases-of-companies-using-3d-printing.
+  \entry{jorquera2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JA}{%
+         family={Jorquera},
+         familyi={J\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Ministerio de Educaci{\'o}n, Cultura y Deporte}%
+    }
+    \strng{namehash}{JA1}
+    \strng{fullhash}{JA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fabricaci{\'o}n digital: Introducci{\'o}n al modelado e
+  impresi{\'o}n 3D}
+    \field{year}{2016}
+  \endentry
 
-\bibitem[All3DP, 2016]{alltresdp2016}
-All3DP (2016).
-\newblock The official history of the reprap project.
-\newblock Recuperado de: https://all3dp.com/history-of-the-reprap-project/.
+  \entry{leao2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=lL}{%
+         family={leao},
+         familyi={l\bibinitperiod},
+         given={Lucas},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{lL1}
+    \strng{fullhash}{lL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.e3seriescenters.com/modern-electrical-engineering-blog/cad-vs-cae-vs-cam-what-is-the-difference/}
+    \field{title}{CAD vs CAE vs CAM: What is the Difference?}
+    \field{year}{2017}
+  \endentry
 
-\bibitem[Alvarez, 2019]{alvarez2019}
-Alvarez, M. (2019).
-\newblock Que es la programacion orientada a objetos.
-\newblock Recuperado de: https://desarrolloweb.com/articulos/499.php.
+  \entry{renstrom2012}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RJ}{%
+         family={Renstrom},
+         familyi={R\bibinitperiod},
+         given={Joelle},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJ1}
+    \strng{fullhash}{RJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://couldthishappen.com/2012/02/monkey-see-monkey-make/}
+    \field{title}{Monkey See, Monkey Make}
+    \field{year}{2012}
+  \endentry
 
-\bibitem[Ambrose and Harris, 2010]{ambrose2010}
-Ambrose, G. and Harris, P. (2010).
-\newblock {\em Design Thinking}.
+  \entry{maxey2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MK}{%
+         family={Maxey},
+         familyi={M\bibinitperiod},
+         given={Kyle},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MK1}
+    \strng{fullhash}{MK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx}
+    \field{title}{Infographic: The History of 3d Printing}
+    \field{year}{2013}
+  \endentry
 
-\bibitem[Aransyash et~al., 2019]{aransyash2019}
-Aransyash, D., Rosa, F., and Colombo, G. (2019).
-\newblock Smart maintenance: A wearable augmented reality application
-  integrated with cmms to minmize unsheduled downtime.
-\newblock {\em Computer-Aidded Design and Applications}.
+  \entry{tresdsourced2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=d}{%
+         family={3dsourced},
+         familyi={d\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{d1}
+    \strng{fullhash}{d1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx}
+    \field{title}{The Complete History of 3D Printing: From 1980 to 2020}
+    \field{year}{2020}
+  \endentry
 
-\bibitem[Arun, 2012]{louis2012}
-Arun, L. (2012).
-\newblock Proposal for the fourth generation of maintenance and the future
-  trends \& challenges in production.
-\newblock Master's thesis, Mälardalen University Sweden.
+  \entry{torre2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TR}{%
+         family={Torre},
+         familyi={T\bibinitperiod},
+         given={Roman},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TR2}
+    \strng{fullhash}{TR2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  http://www.laboralcentrodearte.org/es/files/2013/bloglaboral/apuntes-sobre-el-proyecto-reprap}
+    \field{title}{Apuntes sobre el proyecto RepRap}
+    \field{year}{2013}
+  \endentry
 
-\bibitem[ASTM, 2013]{astm2013}
-ASTM (2013).
-\newblock {\em Standard Terminology for Additive Manufacturing Technologies}.
-\newblock American Society of Testing Materials.
+  \entry{alltresdp2016}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={All3DP},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://all3dp.com/history-of-the-reprap-project/}
+    \field{title}{The Official History of the RepRap Project}
+    \field{year}{2016}
+  \endentry
 
-\bibitem[Berchon and Luyt, 2014]{Berchon2014}
-Berchon, M. and Luyt, B. (2014).
-\newblock {\em La impresión 3D: Guía definitiva para makers, diseñadores,
-  estudiantes profesionales, artistas y manitas en general}.
-\newblock Editorial Gustavo Gill.
+  \entry{donovan2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=AD}{%
+         family={Alexander},
+         familyi={A\bibinitperiod},
+         given={Donovan},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AD1}
+    \strng{fullhash}{AD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de: https://int
+  erestingengineering.com/start-your-own-3d-printing-business-11-interesting-cases-of-companies-using-3d-printing}
+    \field{title}{Start Your Own 3D Printing Business: 11 Interesting Cases of
+  Companies Using 3D Printing}
+    \field{year}{2019}
+  \endentry
 
-\bibitem[Bournias, 2017]{bournias2017}
-Bournias, A. (2017).
-\newblock Introduction to fdm 3d printing.
-\newblock Recuperado de:
-  https://www.3dhubs.com/knowledge-base/introduction-fdm-3d-printing/.
+  \entry{valdivieso2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=VC}{%
+         family={Valdivieso},
+         familyi={V\bibinitperiod},
+         given={Carlota},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VC1}
+    \strng{fullhash}{VC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.3dnatives.com/en/gartner-hype-cycle-3dprintingpredictions-150120194/}
+    \field{title}{Gartner Hype Cycle 2019: 3D Printing Predictions}
+    \field{year}{2019}
+  \endentry
 
-\bibitem[Camps et~al., 2005]{camps2005}
-Camps, R., Casillas, L., Costal, D., Gibert, M., Martin, C., and Perez, O.
-  (2005).
-\newblock {\em Bases de Datos}.
-\newblock Fundacio per a la Universita Oberta de Catalunya.
+  \entry{astm2013}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={ASTM},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {American Society of Testing Materials}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Standard Terminology for Additive Manufacturing Technologies}
+    \field{year}{2013}
+  \endentry
 
-\bibitem[Canos et~al., 2012]{canos2012}
-Canos, J., Letelier, P., and Penades, C. (2012).
-\newblock Metodologias agiles en el desarrollo de software.
-\newblock Technical report, DSIC-Universidad Politecnica de Valencia.
+  \entry{pdudek2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DP}{%
+         family={Dudek},
+         familyi={D\bibinitperiod},
+         given={Piotr},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DP1}
+    \strng{fullhash}{DP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{FDM 3D PRINTING TECHNOLOGY IN MANUFACTURING COMPOSITE
+  ELEMENTS}
+    \field{volume}{58}
+    \field{journaltitle}{Archives Of Metallurgy and Materials}
+    \field{year}{2013}
+  \endentry
 
-\bibitem[Codina, 2012]{codina2012}
-Codina, L. (2012).
-\newblock Hojas de estilo.
-\newblock {\em El profesional de la informacion}, 11(4).
+  \entry{bournias2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Bournias},
+         familyi={B\bibinitperiod},
+         given={Alkaios},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.3dhubs.com/knowledge-base/introduction-fdm-3d-printing/}
+    \field{title}{Introduction to FDM 3D printing}
+    \field{year}{2017}
+  \endentry
 
-\bibitem[Cruz, 2018]{cruz2018}
-Cruz, B. (2018).
-\newblock Aplicación de modelo rcm bajo las normas sae ja1011 y ja1012 para
-  mejorar la gestión de mantenimiento en la máquina flexoplegadora de cartón
-  martin 618.
-\newblock Universidad de Santiago de Chile.
+  \entry{b3dsourced2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={3DSourced},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://3dsourced.com/3d-printers/types-of-fdm-3d-printer-cartesian-delta/}
+    \field{title}{The 4 Types of FDM 3D Printer Explained (Cartesian, Delta,
+  Polar and Scara)}
+    \field{year}{2020}
+  \endentry
 
-\bibitem[de~Hacienda~y Administraciones~Publicas, 2019]{aporta2019}
-de~Hacienda~y Administraciones~Publicas, M. (2019).
-\newblock {\em Buenas Practicas en el diseño de APIS y Linked Data}.
-\newblock Gobierno de España.
+  \entry{takamori2018}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=TR}{%
+         family={Takamori},
+         familyi={T\bibinitperiod},
+         given={Ryoma},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TR1}
+    \strng{fullhash}{TR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Conference on Human Factors in Computing}
+    \field{title}{Growable Robot with Additive-Additive-Manufacturing}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[de~León, 1998]{gomez1998}
-de~León, F.~G. (1998).
-\newblock {\em Tecnologías del Mantenimiento Industrial}.
-\newblock Universidad de Murcia. Servicio de Publicaciones.
+  \entry{saygin2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Saygin},
+         familyi={S\bibinitperiod},
+         given={Ahmet},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cakan},
+         familyi={C\bibinitperiod},
+         given={Abdulla},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tinkir},
+         familyi={T\bibinitperiod},
+         given={Mustafa},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SACATM1}
+    \strng{fullhash}{SACATM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Modeling And Position Control Of Scara Type 3D Printer}
+    \field{journaltitle}{NTERNATIONAL JOURNAL OF SCIENTIFIC AND TECHNOLOGY
+  RESEARCH}
+    \field{year}{2016}
+  \endentry
 
-\bibitem[Dudek, 2013]{pdudek2013}
-Dudek, P. (2013).
-\newblock Fdm 3d printing technology in manufacturing composite elements.
-\newblock {\em Archives Of Metallurgy and Materials}, 58.
+  \entry{iso2016}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={ISO},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {International Organization for Standardization}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Petroleum , petrochemical and natural gas industries —
+  Collection and exchange of reliab ility and maintenance data for equipment}
+    \field{year}{2016}
+  \endentry
 
-\bibitem[Fera et~al., 2018]{fera2018}
-Fera, M., Macchiaroli, R., Fruggiero, F., and Lambiase, A. (2018).
-\newblock Production managment fundamentals for additive manufacturing.
-\newblock {\em IntechOpen}.
+  \entry{gomez1998}{book}{}
+    \name{author}{1}{}{%
+      {{hash=dLFG}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={León},
+         familyi={L\bibinitperiod},
+         given={Félix\bibnamedelima Gómez},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Universidad de Murcia. Servicio de Publicaciones}%
+    }
+    \strng{namehash}{LFGd1}
+    \strng{fullhash}{LFGd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Tecnologías del Mantenimiento Industrial}
+    \field{year}{1998}
+  \endentry
 
-\bibitem[Fernández, 2005]{gonzalez2005}
-Fernández, F.~G. (2005).
-\newblock {\em Teoría y práctica del Mantenimiento Industrial Avanzado}.
-\newblock Fundación Confemetal.
+  \entry{garcia2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GSG}{%
+         family={Garrido},
+         familyi={G\bibinitperiod},
+         given={Santiago\bibnamedelima García},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Ediciones Díaz de Santos, S.A.}%
+    }
+    \strng{namehash}{GSG1}
+    \strng{fullhash}{GSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Organización y Gestión Integral el Mantenimiento}
+    \field{year}{2010}
+  \endentry
 
-\bibitem[Garcia, 2014]{garcia2014}
-Garcia, J. (2014).
-\newblock Que es una placa sbc.
-\newblock Recuperado de: https://www.hwlibre.com/que-es-una-placa-sbc/.
+  \entry{gonzalez2005}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FFG}{%
+         family={Fernández},
+         familyi={F\bibinitperiod},
+         given={Francisco\bibnamedelima González},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Fundación Confemetal}%
+    }
+    \strng{namehash}{FFG1}
+    \strng{fullhash}{FFG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Teoría y práctica del Mantenimiento Industrial Avanzado}
+    \field{year}{2005}
+  \endentry
 
-\bibitem[Garrido, 2010]{garcia2010}
-Garrido, S.~G. (2010).
-\newblock {\em Organización y Gestión Integral el Mantenimiento}.
-\newblock Ediciones Díaz de Santos, S.A.
+  \entry{garcia2012}{book}{}
+    \name{author}{1}{}{%
+      {{hash=POG}{%
+         family={Palencia},
+         familyi={P\bibinitperiod},
+         given={Oliverio\bibnamedelima García},
+         giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Ediciones de la U}%
+    }
+    \strng{namehash}{POG1}
+    \strng{fullhash}{POG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Gestión Moderna del Mantenimiento Industrial}
+    \field{year}{2012}
+  \endentry
 
-\bibitem[German-RepRap, 2016]{germanreprap2019}
-German-RepRap (2016).
-\newblock {\em X350 3D-printer quick start guide}.
-\newblock German-RepRap.
+  \entry{shenoy2005}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SD}{%
+         family={Shenoy},
+         familyi={S\bibinitperiod},
+         given={Dinesh},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis e-Library}%
+    }
+    \strng{namehash}{SD1}
+    \strng{fullhash}{SD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Maintenance Resources Management Adapting MRP}
+    \field{year}{2005}
+  \endentry
 
-\bibitem[Greguric, 2018]{alltresdp2018}
-Greguric, L. (2018).
-\newblock History of 3d printing: When was 3d printing invented.
-\newblock Recuperado de:
-  https://all3dp.com/2/history-of-3d-printing-when-was-3d-printing-invented/.
+  \entry{louis2012}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AL}{%
+         family={Arun},
+         familyi={A\bibinitperiod},
+         given={Louis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AL1}
+    \strng{fullhash}{AL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Proposal for the fourth generation of maintenance and the
+  future trends \& challenges in production}
+    \list{institution}{1}{%
+      {Mälardalen University Sweden}%
+    }
+    \field{type}{mathesis}
+    \field{year}{2012}
+  \endentry
 
-\bibitem[Halfacree, 2018]{gareth2018}
-Halfacree, G. (2018).
-\newblock {\em Raspberry Pi: User Guide}.
-\newblock Raspberry Pi Trading Ltd.
+  \entry{hide2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HM}{%
+         family={Hide},
+         familyi={H\bibinitperiod},
+         given={Malcolm},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HM1}
+    \strng{fullhash}{HM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fourh Generation Maintenance}
+    \field{journaltitle}{Strategic Maintenance Ltd}
+    \field{year}{2013}
+  \endentry
 
-\bibitem[Hide, 2013]{hide2013}
-Hide, M. (2013).
-\newblock Fourh generation maintenance.
-\newblock {\em Strategic Maintenance Ltd}.
+  \entry{houle2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HL}{%
+         family={Houle},
+         familyi={H\bibinitperiod},
+         given={Louis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HL1}
+    \strng{fullhash}{HL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fourth-Generation Maintenance}
+    \field{journaltitle}{Technical Quarterly}
+    \field{year}{2016}
+  \endentry
 
-\bibitem[Houle, 2016]{houle2016}
-Houle, L. (2016).
-\newblock Fourth-generation maintenance.
-\newblock {\em Technical Quarterly}.
+  \entry{jimenez2015}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=JF}{%
+         family={Jimenez},
+         familyi={J\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IC Editorial}%
+    }
+    \strng{namehash}{JF1}
+    \strng{fullhash}{JF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Mantenimiento preventivo de sistemas de automatización
+  industrial}
+    \field{year}{2015}
+  \endentry
 
-\bibitem[ISO, 2015]{iso2015}
-ISO (2015).
-\newblock {\em ISO/ASTM 52900:2015 Additive manufacturing-General
-  principles-Terminology}.
-\newblock International Organization for Standardization.
+  \entry{iso2018}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={ISO},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {International Organization for Standardization}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Condition monitoring and diagnostics of machines — General
+  guidelines}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[ISO, 2016]{iso2016}
-ISO (2016).
-\newblock {\em Petroleum , petrochemical and natural gas industries —
-  Collection and exchange of reliab ility and maintenance data for equipment}.
-\newblock International Organization for Standardization.
+  \entry{sifonte2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Sifonte},
+         familyi={S\bibinitperiod},
+         given={Jesús},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  http://www.pdmtechusa.com/criterios-evaluacion-rcm/}
+    \field{title}{Norma SAE JA1011 – Criterios de Evaluación para Procesos
+  de Mantenimiento Centrado en Confiabilidad (RCM)}
+    \field{year}{2017}
+  \endentry
 
-\bibitem[ISO, 2018]{iso2018}
-ISO (2018).
-\newblock {\em Condition monitoring and diagnostics of machines — General
-  guidelines}.
-\newblock International Organization for Standardization.
+  \entry{saeja1011}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={SAE},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{2}{%
+      {The Engineering Society For Advancing Mobility Land, Sea Air}%
+      {Space}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{SAE JA1011: Evaluation Criteria for Reliability-Centred
+  Maintenance(RCM) Processes}
+    \field{year}{1999}
+  \endentry
 
-\bibitem[Izquierdo, 2013]{izquierdo2013}
-Izquierdo, L. (2013).
-\newblock Introduccion a la programación orientada a objetos.
-\newblock Recuperado de:
-  http://luis.izqui.org/resources/ProgOrientadaObjetos.pdf.
+  \entry{dairo2016}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MD}{%
+         family={Mesa},
+         familyi={M\bibinitperiod},
+         given={Dairo},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Scientia et Technica}%
+    }
+    \strng{namehash}{MD1}
+    \strng{fullhash}{MD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{La confiabilidad, la disponibilidad y la mantenibilidad,
+  disciplinas modernas aplicadas al mantenimiento}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\bibitem[Jimenez, 2015]{jimenez2015}
-Jimenez, F. (2015).
-\newblock {\em Mantenimiento preventivo de sistemas de automatización
-  industrial}.
-\newblock IC Editorial.
+  \entry{canos2012}{report}{}
+    \name{author}{3}{}{%
+      {{hash=CJ}{%
+         family={Canos},
+         familyi={C\bibinitperiod},
+         given={Jose},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Letelier},
+         familyi={L\bibinitperiod},
+         given={Patricio},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Penades},
+         familyi={P\bibinitperiod},
+         given={Carmen},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJLPPC1}
+    \strng{fullhash}{CJLPPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Metodologias Agiles en el Desarrollo de Software}
+    \list{institution}{1}{%
+      {DSIC-Universidad Politecnica de Valencia}%
+    }
+    \field{type}{techreport}
+    \field{year}{2012}
+  \endentry
 
-\bibitem[Jorquera~Ortega, 2016]{jorquera2016}
-Jorquera~Ortega, A. (2016).
-\newblock {\em Fabricaci{\'o}n digital: Introducci{\'o}n al modelado e
-  impresi{\'o}n 3D}.
-\newblock Ministerio de Educaci{\'o}n, Cultura y Deporte.
+  \entry{mueller2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MC}{%
+         family={Mueller},
+         familyi={M\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MC1}
+    \strng{fullhash}{MC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Handbook of Design Thinking. Tips and Tools for how to design
+  thinking}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[leao, 2017]{leao2017}
-leao, L. (2017).
-\newblock Cad vs cae vs cam: What is the difference?
-\newblock Recuperado de:
-  https://www.e3seriescenters.com/modern-electrical-engineering-blog/cad-vs-cae-vs-cam-what-is-the-difference/.
+  \entry{ambrose2010}{book}{}
+    \name{author}{2}{}{%
+      {{hash=AG}{%
+         family={Ambrose},
+         familyi={A\bibinitperiod},
+         given={Gavin},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AGHP1}
+    \strng{fullhash}{AGHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Design Thinking}
+    \field{year}{2010}
+  \endentry
 
-\bibitem[Leis, 2020]{leis2020}
-Leis, C. (2020).
-\newblock C\'omo hacer un brainstorming y generar ideas creativas para tu
-  negocio.
-\newblock Recuperado de:
-  https://aulacm.com/guia-hacer-brainstorming-generar-ideas-creativas/.
+  \entry{alvarez2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Alvarez},
+         familyi={A\bibinitperiod},
+         given={Miguel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://desarrolloweb.com/articulos/499.php}
+    \field{title}{Que es la programacion orientada a objetos}
+    \field{year}{2019}
+  \endentry
 
-\bibitem[Marchante, 2020]{marchante2020}
-Marchante, A. (2020).
-\newblock Octoprint, la aplicación para controlar tu impresora 3d.
-\newblock Recuperado de
-  https://www.3dnatives.com/es/octoprint-aplicacion-control-impresora-210820202/.
+  \entry{izquierdo2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IL}{%
+         family={Izquierdo},
+         familyi={I\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IL1}
+    \strng{fullhash}{IL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  http://luis.izqui.org/resources/ProgOrientadaObjetos.pdf}
+    \field{title}{Introduccion a la programación orientada a objetos}
+    \field{year}{2013}
+  \endentry
 
-\bibitem[Marini, 2012]{marini2012}
-Marini, E. (2012).
-\newblock El modelo cliente servidor.
+  \entry{codina2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CL}{%
+         family={Codina},
+         familyi={C\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CL1}
+    \strng{fullhash}{CL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{title}{Hojas de estilo}
+    \field{volume}{11}
+    \field{journaltitle}{El profesional de la informacion}
+    \field{year}{2012}
+  \endentry
 
-\bibitem[Maxey, 2013]{maxey2013}
-Maxey, K. (2013).
-\newblock Infographic: The history of 3d printing.
-\newblock Recuperado de:
-  engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6262/Infographic-The-History-of-3D-Printing.aspx.
+  \entry{spip2012}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={SPIP},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S2}
+    \strng{fullhash}{S2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.spip.net/esarticle2500.html}
+    \field{title}{Introduccion a las hojas de estilo}
+    \field{year}{2012}
+  \endentry
 
-\bibitem[Merino, 2014]{merino2014}
-Merino, M. (2014).
-\newblock Que es una api y para que sirve.
-\newblock Recuperado de:
-  https://www.ticbeat.com/tecnologias/que-es-una-api-para-que-sirve/.
+  \entry{camps2005}{book}{}
+    \name{author}{6}{}{%
+      {{hash=CR}{%
+         family={Camps},
+         familyi={C\bibinitperiod},
+         given={Rafael},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Casillas},
+         familyi={C\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Costal},
+         familyi={C\bibinitperiod},
+         given={Dolors},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gibert},
+         familyi={G\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Carme},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PO}{%
+         family={Perez},
+         familyi={P\bibinitperiod},
+         given={Oscar},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=�}{%
+         family={•},
+         familyi={�\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Fundacio per a la Universita Oberta de Catalunya}%
+    }
+    \strng{namehash}{CRCLCDGMMCPO1}
+    \strng{fullhash}{CRCLCDGMMCPO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Bases de Datos}
+    \field{year}{2005}
+  \endentry
 
-\bibitem[Mesa, 2006]{dairo2016}
-Mesa, D. (2006).
-\newblock La confiabilidad, la disponibilidad y la mantenibilidad, disciplinas
-  modernas aplicadas al mantenimiento.
+  \entry{marini2012}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ME}{%
+         family={Marini},
+         familyi={M\bibinitperiod},
+         given={Emiliano},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ME1}
+    \strng{fullhash}{ME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{El modelo Cliente Servidor}
+    \field{year}{2012}
+  \endentry
 
-\bibitem[Mueller, 2018]{mueller2018}
-Mueller, C. (2018).
-\newblock {\em Handbook of Design Thinking. Tips and Tools for how to design
-  thinking}.
+  \entry{merino2014}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Merino},
+         familyi={M\bibinitperiod},
+         given={Marcos},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.ticbeat.com/tecnologias/que-es-una-api-para-que-sirve/}
+    \field{title}{Que es una API y para que sirve}
+    \field{year}{2014}
+  \endentry
 
-\bibitem[Munoz, 2017]{munoz2017}
-Munoz, J. (2017).
-\newblock Qu\'e es flask.
-\newblock Recuperado de: https://openwebinars.net/blog/que-es-flask/.
+  \entry{aporta2019}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=dHyAPM}{%
+         prefix={de\bibnamedelima Hacienda\bibnamedelima y},
+         prefixi={d\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  y\bibinitperiod},
+         family={Administraciones\bibnamedelima Publicas},
+         familyi={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Ministerio},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Gobierno de España}%
+    }
+    \strng{namehash}{APMdHy1}
+    \strng{fullhash}{APMdHy1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Buenas Practicas en el diseño de APIS y Linked Data}
+    \field{year}{2019}
+  \endentry
 
-\bibitem[Olano, 2019]{olano2019}
-Olano, J. (2019).
-\newblock Qu\'e es grafana y c\'omo podemos emplearlo para la monitorizaci\'on.
-\newblock Recuperado de: https://pandorafms.com/blog/es/que-es-grafana/.
+  \entry{garcia2014}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GJ}{%
+         family={Garcia},
+         familyi={G\bibinitperiod},
+         given={Joaquin},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJ1}
+    \strng{fullhash}{GJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.hwlibre.com/que-es-una-placa-sbc/}
+    \field{title}{Que es una placa SBC}
+    \field{year}{2014}
+  \endentry
 
-\bibitem[Palencia, 2012]{garcia2012}
-Palencia, O.~G. (2012).
-\newblock {\em Gestión Moderna del Mantenimiento Industrial}.
-\newblock Ediciones de la U.
+  \entry{gareth2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HG}{%
+         family={Halfacree},
+         familyi={H\bibinitperiod},
+         given={Gareth},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=KP}{%
+         family={King},
+         familyi={K\bibinitperiod},
+         given={Phill},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Raspberry Pi Trading Ltd.}%
+    }
+    \strng{namehash}{HG1}
+    \strng{fullhash}{HG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Raspberry Pi: User Guide}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[Piqu\'e, 1998]{pique1998}
-Piqu\'e, T. (1998).
-\newblock Ntp 333: Análisis probabilístico de riesgos: Metodología del arbol
-  de fallos y errores.
-\newblock Technical report, Instituto Nacional de Seguridad e Higiene en el
-  Trabajo.
+  \entry{fera2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FM}{%
+         family={Fera},
+         familyi={F\bibinitperiod},
+         given={Marcello},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Macchiaroli},
+         familyi={M\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fruggiero},
+         familyi={F\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lambiase},
+         familyi={L\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FMMRFFLA1}
+    \strng{fullhash}{FMMRFFLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Production Managment Fundamentals for Additive Manufacturing}
+    \field{journaltitle}{IntechOpen}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[Renstrom, 2012]{renstrom2012}
-Renstrom, J. (2012).
-\newblock Monkey see, monkey make.
-\newblock Recuperado de:
-  https://couldthishappen.com/2012/02/monkey-see-monkey-make/.
+  \entry{cruz2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CB}{%
+         family={Cruz},
+         familyi={C\bibinitperiod},
+         given={Bernardo},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CB1}
+    \strng{fullhash}{CB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Universidad de Santiago de Chile}
+    \field{title}{Aplicación de modelo RCM bajo las normas SAE JA1011 y JA1012
+  para mejorar la gestión de mantenimiento en la máquina flexoplegadora de
+  cartón Martin 618}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[SAE, 1999]{saeja1011}
-SAE (1999).
-\newblock {\em SAE JA1011: Evaluation Criteria for Reliability-Centred
-  Maintenance(RCM) Processes}.
-\newblock The Engineering Society For Advancing Mobility Land, Sea Air and
-  Space.
+  \entry{aransyash2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AD}{%
+         family={Aransyash},
+         familyi={A\bibinitperiod},
+         given={Dedy},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Rosa},
+         familyi={R\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Colombo},
+         familyi={C\bibinitperiod},
+         given={Giorgio},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ADRFCG1}
+    \strng{fullhash}{ADRFCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Smart Maintenance: A Wearable Augmented Reality Application
+  Integrated with CMMS to Minmize Unsheduled Downtime}
+    \field{journaltitle}{Computer-Aidded Design and Applications}
+    \field{year}{2019}
+  \endentry
 
-\bibitem[SAE, 2002]{saeja1012}
-SAE (2002).
-\newblock {\em SAE JA1012: Una Guía para la Norma de Mantenimiento Centrado en
-  Confiabilidad (MCC)}.
-\newblock The Engineering Society For Advancing Mobility Land, Sea Air and
-  Space.
+  \entry{unit2009}{book}{}
+    \name{author}{1}{}{%
+      {{hash=U}{%
+         family={UNIT},
+         familyi={U\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Instituto uruguayo de normas t\'ecnicas}%
+    }
+    \strng{namehash}{U1}
+    \strng{fullhash}{U1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Herramientas para la Mejora de la Calidad}
+    \field{year}{2009}
+  \endentry
 
-\bibitem[Sancho, 2019]{sancho2020}
-Sancho, P. (2019).
-\newblock Fundamentos de node-red.
-\newblock Recuperado de:
-  https://www.techedgegroup.com/es/blog/fundamenos-node-red/.
+  \entry{germanreprap2019}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=GR}{%
+         family={German-RepRap},
+         familyi={G\bibinithyphendelim R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {German-RepRap}%
+    }
+    \strng{namehash}{GR1}
+    \strng{fullhash}{GR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{X350 3D-printer quick start guide}
+    \field{year}{2016}
+  \endentry
 
-\bibitem[Saygin et~al., 2016]{saygin2016}
-Saygin, A., Cakan, A., and Tinkir, M. (2016).
-\newblock Modeling and position control of scara type 3d printer.
-\newblock {\em NTERNATIONAL JOURNAL OF SCIENTIFIC AND TECHNOLOGY RESEARCH}.
+  \entry{pique1998}{report}{}
+    \name{author}{1}{}{%
+      {{hash=PT}{%
+         family={Piqu\'e},
+         familyi={P\bibinitperiod},
+         given={Tomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PT1}
+    \strng{fullhash}{PT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{NTP 333: Análisis Probabilístico de riesgos: Metodología
+  del Arbol de fallos y errores}
+    \list{institution}{1}{%
+      {Instituto Nacional de Seguridad e Higiene en el Trabajo}%
+    }
+    \field{type}{techreport}
+    \field{year}{1998}
+  \endentry
 
-\bibitem[Shenoy, 2005]{shenoy2005}
-Shenoy, D. (2005).
-\newblock {\em Maintenance Resources Management Adapting MRP}.
-\newblock Taylor \& Francis e-Library.
+  \entry{saeja1012}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={SAE},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{2}{%
+      {The Engineering Society For Advancing Mobility Land, Sea Air}%
+      {Space}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{SAE JA1012: Una Guía para la Norma de Mantenimiento Centrado
+  en Confiabilidad (MCC)}
+    \field{year}{2002}
+  \endentry
 
-\bibitem[Sifonte, 2017]{sifonte2017}
-Sifonte, J. (2017).
-\newblock Norma sae ja1011 – criterios de evaluación para procesos de
-  mantenimiento centrado en confiabilidad (rcm).
-\newblock Recuperado de: http://www.pdmtechusa.com/criterios-evaluacion-rcm/.
+  \entry{correa2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CA}{%
+         family={Correa},
+         familyi={C\bibinitperiod},
+         given={Angie},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CA1}
+    \strng{fullhash}{CA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.rpubs.com/angiepcorreas/391417}
+    \field{title}{Taller Pruebas de bondad de ajuste}
+    \field{year}{2018}
+  \endentry
 
-\bibitem[SPIP, 2012]{spip2012}
-SPIP (2012).
-\newblock Introduccion a las hojas de estilo.
-\newblock Recuperado de: https://www.spip.net/esarticle2500.html.
+  \entry{marchante2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MA}{%
+         family={Marchante},
+         familyi={M\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA1}
+    \strng{fullhash}{MA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de
+  https://www.3dnatives.com/es/octoprint-aplicacion-control-impresora-210820202/}
+    \field{title}{OctoPrint, la aplicación para controlar tu impresora 3D}
+    \field{year}{2020}
+  \endentry
 
-\bibitem[Takamori, 2018]{takamori2018}
-Takamori, R. (2018).
-\newblock Growable robot with additive-additive-manufacturing.
-\newblock In {\em Conference on Human Factors in Computing}.
+  \entry{olano2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=OJ}{%
+         family={Olano},
+         familyi={O\bibinitperiod},
+         given={Jimmy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OJ1}
+    \strng{fullhash}{OJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://pandorafms.com/blog/es/que-es-grafana/}
+    \field{title}{Qu\'e es Grafana y c\'omo podemos emplearlo para la
+  monitorizaci\'on}
+    \field{year}{2019}
+  \endentry
 
-\bibitem[Torre, 2013]{torre2013}
-Torre, R. (2013).
-\newblock Apuntes sobre el proyecto reprap.
-\newblock Recuperado de:
-  http://www.laboralcentrodearte.org/es/files/2013/bloglaboral/apuntes-sobre-el-proyecto-reprap.
+  \entry{sancho2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SP}{%
+         family={Sancho},
+         familyi={S\bibinitperiod},
+         given={Pablo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SP1}
+    \strng{fullhash}{SP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.techedgegroup.com/es/blog/fundamenos-node-red/}
+    \field{title}{Fundamentos de Node-Red}
+    \field{year}{2019}
+  \endentry
 
-\bibitem[UNIT, 2009]{unit2009}
-UNIT (2009).
-\newblock {\em Herramientas para la Mejora de la Calidad}.
-\newblock Instituto uruguayo de normas t\'ecnicas.
+  \entry{velasco2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=VR}{%
+         family={Velasco},
+         familyi={V\bibinitperiod},
+         given={Ruben},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VR1}
+    \strng{fullhash}{VR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://www.redeszone.net/2017/03/18/instalar-configurar-servidor-mysql-phpmyadmin/}
+    \field{title}{C\'omo instalar y configurar un servidor MySQL y PHPMyAdmin}
+    \field{year}{2017}
+  \endentry
 
-\bibitem[Valdivieso, 2019]{valdivieso2019}
-Valdivieso, C. (2019).
-\newblock Gartner hype cycle 2019: 3d printing predictions.
-\newblock Recuperado de:
-  https://www.3dnatives.com/en/gartner-hype-cycle-3dprintingpredictions-150120194/.
+  \entry{munoz2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MJ}{%
+         family={Munoz},
+         familyi={M\bibinitperiod},
+         given={Jose},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJ1}
+    \strng{fullhash}{MJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://openwebinars.net/blog/que-es-flask/}
+    \field{title}{Qu\'e es Flask}
+    \field{year}{2017}
+  \endentry
 
-\bibitem[Velasco, 2017]{velasco2017}
-Velasco, R. (2017).
-\newblock C\'omo instalar y configurar un servidor mysql y phpmyadmin.
-\newblock Recuperado de:
-  https://www.redeszone.net/2017/03/18/instalar-configurar-servidor-mysql-phpmyadmin/.
-
-\end{thebibliography}
+  \entry{leis2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LC}{%
+         family={Leis},
+         familyi={L\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LC1}
+    \strng{fullhash}{LC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Recuperado de:
+  https://aulacm.com/guia-hacer-brainstorming-generar-ideas-creativas/}
+    \field{title}{C\'omo hacer un Brainstorming y generar ideas creativas para
+  tu negocio}
+    \field{year}{2020}
+  \endentry
+\enddatalist
+\endinput

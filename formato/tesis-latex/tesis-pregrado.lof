@@ -1,71 +1,218 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Tama\IeC {\~n}o del mercado y pron\IeC {\'o}stico de la impresi\IeC {\'o}n 3D \citep {donovan2019}.\relax }}{9}{figure.caption.4}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Hype Cycle o Ciclo de sobreexplotaci\IeC {\'o}n de Gartner de la tecnolog\IeC {\'\i }a de impresi\IeC {\'o}n 3D al a\IeC {\~n}o 2019 \citep {valdivieso2019}.\relax }}{10}{figure.caption.5}% 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Proceso de impresi\IeC {\'o}n 3D FDM \citep {bournias2017} \relax }}{12}{figure.caption.6}% 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Esquema de funcionamiento de impresi\IeC {\'o}n 3D FDM \citep {bournias2017}.\relax }}{12}{figure.caption.7}% 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Esquema de impresora 3D cartesiana \citep {b3dsourced2020}.\relax }}{15}{figure.caption.9}% 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Esquema de impresora 3D Delta \citep {b3dsourced2020}.\relax }}{15}{figure.caption.10}% 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Esquema de impresora 3D polar \citep {takamori2018}\relax }}{16}{figure.caption.11}% 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Esquema de impresora 3D scara \citep {saygin2016}\relax }}{16}{figure.caption.12}% 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Esquema conceptual de niveles \citep {camps2005}\relax }}{51}{figure.caption.16}% 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Modelo Cliente/Servidor \citep {marini2012}.\relax }}{52}{figure.caption.17}% 
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Raspberry Pi 3 modelo B+ \citep {gareth2018}\relax }}{59}{figure.caption.19}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces N\IeC {\'u}mero de publicaciones por a\IeC {\~n}o y seg\IeC {\'u}n tem\IeC {\'a}tica \citep {fera2018}\relax }}{62}{figure.caption.20}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Marco de trabajo para la programaci\IeC {\'o}n de la producci\IeC {\'o}n \citep {fera2018}\relax }}{68}{figure.caption.21}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Pareto por n\IeC {\'u}mero de fallas para Plegadora \citep {cruz2018}\relax }}{72}{figure.caption.23}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva de confiabilidad para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{73}{figure.caption.24}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Indicadores de mantenimiento para la secci\IeC {\'o}n de plegado \citep {cruz2018}\relax }}{73}{figure.caption.25}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama UML que describe la relaci\IeC {\'o}n de los registros entre m\IeC {\'a}quinas, fallas, causas y acciones de mantenimiento \citep {aransyash2019}\relax }}{76}{figure.caption.26}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inal\IeC {\'a}mbrico; (b) funcionalidad del sistema; (c) operaci\IeC {\'o}n de diagn\IeC {\'o}stico basado en el historial de fallas; (d) gu\IeC {\'\i }a del sistema al operador a trav\IeC {\'e}s de instrucciones de texto y video \citep {aransyash2019}.\relax }}{77}{figure.caption.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Tama\IeC {\~n}o del mercado y pron\IeC {\'o}stico de la impresi\IeC {\'o}n 3D \parencite {donovan2019}.\relax }}{14}{figure.caption.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Hype Cycle o Ciclo de sobreexpectaci\IeC {\'o}n de Gartner de la tecnolog\IeC {\'\i }a de impresi\IeC {\'o}n 3D al a\IeC {\~n}o 2019 \parencite {valdivieso2019}.\relax }}{15}{figure.caption.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Proceso de impresi\IeC {\'o}n 3D FDM \parencite {bournias2017} \relax }}{17}{figure.caption.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Esquema de funcionamiento de impresi\IeC {\'o}n 3D FDM \parencite {bournias2017}.\relax }}{17}{figure.caption.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Esquema de impresora 3D cartesiana \parencite {b3dsourced2020}.\relax }}{20}{figure.caption.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Esquema de impresora 3D Delta \parencite {b3dsourced2020}.\relax }}{20}{figure.caption.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Esquema de impresora 3D polar \parencite {takamori2018}\relax }}{21}{figure.caption.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Esquema de impresora 3D SCARA \parencite {saygin2016}\relax }}{21}{figure.caption.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Esquema conceptual de niveles \parencite {camps2005}\relax }}{56}{figure.caption.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Modelo Cliente/Servidor \parencite {marini2012}.\relax }}{57}{figure.caption.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Raspberry Pi 3 modelo B+ \parencite {gareth2018}\relax }}{63}{figure.caption.18}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Impresora X350.\relax }}{85}{figure.caption.34}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout y simbolog\IeC {\'\i }a del taller de impresi\IeC {\'o}n 3D.\relax }}{92}{figure.caption.38}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama funcional de bloques para la m\IeC {\'a}quina de impresi\IeC {\'o}n 3D.\relax }}{94}{figure.caption.39}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{96}{figure.caption.41}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{97}{figure.caption.42}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{97}{figure.caption.43}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{98}{figure.caption.44}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{98}{figure.caption.45}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de decisi\IeC {\'o}n para impresora 3D.\relax }}{101}{figure.caption.47}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350.\relax }}{103}{figure.caption.49}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350.\relax }}{104}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350.\relax }}{105}{figure.caption.51}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350\relax }}{106}{figure.caption.52}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Continuaci\IeC {\'o}n de hoja de decisi\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350\relax }}{107}{figure.caption.53}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Continuaci\IeC {\'o}n de hoja de decisi\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350\relax }}{107}{figure.caption.54}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de movimiento de impresora X350.\relax }}{108}{figure.caption.55}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de movimiento de impresora X350.\relax }}{109}{figure.caption.56}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de movimiento de impresora X350.\relax }}{110}{figure.caption.57}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de movimiento de impresora X350\relax }}{111}{figure.caption.58}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Continuaci\IeC {\'o}n de hoja de decisi\IeC {\'o}n RCM para subsistema de movimiento de impresora X350\relax }}{112}{figure.caption.59}% 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de control de impresora X350\relax }}{112}{figure.caption.60}% 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de control de impresora X350\relax }}{113}{figure.caption.61}% 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de alimentaci\IeC {\'o}n de impresora X350\relax }}{113}{figure.caption.62}% 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de alimentaci\IeC {\'o}n de impresora X350\relax }}{114}{figure.caption.63}% 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de construcci\IeC {\'o}n de impresora X350\relax }}{115}{figure.caption.64}% 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de construcci\IeC {\'o}n de impresora X350\relax }}{115}{figure.caption.65}% 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de construcci\IeC {\'o}n de impresora X350\relax }}{116}{figure.caption.66}% 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Diagrama de flujos para el proceso de recepci\IeC {\'o}n, producci\IeC {\'o}n y entrega de piezas y productos.\relax }}{117}{figure.caption.67}% 
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Diagrama de flujo del proceso de impresi\IeC {\'o}n 3D.\relax }}{118}{figure.caption.68}% 
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Mapa de Stakeholders del proyecto.\relax }}{121}{figure.caption.70}% 
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Primera etapa del mapa de experiencia.\relax }}{124}{figure.caption.72}% 
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Segunda etapa del mapa de experiencia.\relax }}{124}{figure.caption.73}% 
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Tercera etapa del mapa de experiencia.\relax }}{125}{figure.caption.74}% 
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el monitoreo de la condici\IeC {\'o}n.\relax }}{130}{figure.caption.76}% 
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el monitoreo de la condici\IeC {\'o}n.\relax }}{130}{figure.caption.77}% 
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el control de la producci\IeC {\'o}n.\relax }}{131}{figure.caption.78}% 
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Captura de interfaz utilizada por \textit {AMFG} para el control de la producci\IeC {\'o}n\relax }}{132}{figure.caption.79}% 
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Captura de interfaz utilizada por \textit {AMFG} para el control de la producci\IeC {\'o}n.\relax }}{132}{figure.caption.80}% 
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para el control de indicadores.\relax }}{133}{figure.caption.81}% 
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para el control del mantenimiento.\relax }}{133}{figure.caption.82}% 
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para la gesti\IeC {\'o}n de tareas.\relax }}{134}{figure.caption.83}% 
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Interfaz del estado actual de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)\relax }}{137}{figure.caption.85}% 
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Interfaz del mando a distancia de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)\relax }}{137}{figure.caption.86}% 
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Visualizaci\IeC {\'o}n de datos en grafana \citep {olano2019}.\relax }}{142}{figure.caption.92}% 
-\contentsline {figure}{\numberline {3.45}{\ignorespaces Nodos utilizados en la programaci\IeC {\'o}n por flujos En Node-Red.\relax }}{143}{figure.caption.93}% 
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Dashboard de Node-red para acceso remoto por navegador.\relax }}{143}{figure.caption.94}% 
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Interfaz de bases de datos MySQL en PHPMyAdmin\relax }}{144}{figure.caption.95}% 
-\contentsline {figure}{\numberline {3.48}{\ignorespaces Esquema de la arquitectura propuesta para la aplicaci\IeC {\'o}n\relax }}{148}{figure.caption.96}% 
-\contentsline {figure}{\numberline {3.49}{\ignorespaces Esquema de las bases de datos propuestas para la aplicaci\IeC {\'o}n\relax }}{149}{figure.caption.97}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces N\IeC {\'u}mero de publicaciones por a\IeC {\~n}o y seg\IeC {\'u}n tem\IeC {\'a}tica \parencite {fera2018}\relax }}{66}{figure.caption.19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Marco de trabajo para la programaci\IeC {\'o}n de la producci\IeC {\'o}n \parencite {fera2018}\relax }}{72}{figure.caption.20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de Pareto por n\IeC {\'u}mero de fallas para Plegadora \parencite {cruz2018}\relax }}{76}{figure.caption.22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Curva de confiabilidad para la secci\IeC {\'o}n de plegado \parencite {cruz2018}\relax }}{77}{figure.caption.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Indicadores de mantenimiento para la secci\IeC {\'o}n de plegado \parencite {cruz2018}\relax }}{77}{figure.caption.24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama UML que describe la relaci\IeC {\'o}n de los registros entre m\IeC {\'a}quinas, fallas, causas y acciones de mantenimiento \parencite {aransyash2019}\relax }}{79}{figure.caption.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sistema de Realidad Aumentada integrado con CMMS. De izquierda a derecha y de arriba a abajo: (a) operador utiliza el sistema utilizando teclado inal\IeC {\'a}mbrico; (b) funcionalidad del sistema; (c) operaci\IeC {\'o}n de diagn\IeC {\'o}stico basado en el historial de fallas; (d) gu\IeC {\'\i }a del sistema al operador a trav\IeC {\'e}s de instrucciones de texto y video \parencite {aransyash2019}.\relax }}{80}{figure.caption.26}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de Pareto para impresora X350.\relax }}{87}{figure.caption.30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de Pareto para impresora X400.\relax }}{87}{figure.caption.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagrama de Pareto para impresora Prusa MK3.\relax }}{88}{figure.caption.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Layout y simbolog\IeC {\'\i }a del taller de impresi\IeC {\'o}n 3D.\relax }}{99}{figure.caption.42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama funcional de bloques para la m\IeC {\'a}quina de impresi\IeC {\'o}n 3D.\relax }}{101}{figure.caption.43}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{103}{figure.caption.45}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{104}{figure.caption.46}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{104}{figure.caption.47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Continuaci\IeC {\'o}n del \IeC {\'a}rbol de fallas de impresora 3D.\relax }}{105}{figure.caption.48}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \IeC {\'A}rbol de fallas de impresora 3D.\relax }}{105}{figure.caption.49}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de decisi\IeC {\'o}n para impresora 3D.\relax }}{108}{figure.caption.51}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350.\relax }}{110}{figure.caption.53}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350.\relax }}{111}{figure.caption.54}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350.\relax }}{112}{figure.caption.55}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350\relax }}{113}{figure.caption.56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Continuaci\IeC {\'o}n de hoja de decisi\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350\relax }}{114}{figure.caption.57}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Continuaci\IeC {\'o}n de hoja de decisi\IeC {\'o}n RCM para subsistema de extrusi\IeC {\'o}n de impresora X350\relax }}{114}{figure.caption.58}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de movimiento de impresora X350.\relax }}{115}{figure.caption.59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de movimiento de impresora X350.\relax }}{116}{figure.caption.60}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de movimiento de impresora X350.\relax }}{117}{figure.caption.61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de movimiento de impresora X350\relax }}{118}{figure.caption.62}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Continuaci\IeC {\'o}n de hoja de decisi\IeC {\'o}n RCM para subsistema de movimiento de impresora X350\relax }}{119}{figure.caption.63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de control de impresora X350\relax }}{119}{figure.caption.64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de control de impresora X350\relax }}{120}{figure.caption.65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de alimentaci\IeC {\'o}n de impresora X350\relax }}{120}{figure.caption.66}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de alimentaci\IeC {\'o}n de impresora X350\relax }}{121}{figure.caption.67}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Hoja de informaci\IeC {\'o}n RCM para subsistema de construcci\IeC {\'o}n de impresora X350\relax }}{122}{figure.caption.68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Continuaci\IeC {\'o}n de hoja de informaci\IeC {\'o}n RCM para subsistema de construcci\IeC {\'o}n de impresora X350\relax }}{122}{figure.caption.69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Hoja de decisi\IeC {\'o}n RCM para subsistema de construcci\IeC {\'o}n de impresora X350\relax }}{123}{figure.caption.70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Gr\IeC {\'a}fica de dispersi\IeC {\'o}n con ajuste lineal para m\IeC {\'a}quina X350\relax }}{124}{figure.caption.71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Par\IeC {\'a}metros de Weibull para m\IeC {\'a}quina X350\relax }}{125}{figure.caption.72}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Gr\IeC {\'a}fico de confiabilidad para m\IeC {\'a}quina X350\relax }}{126}{figure.caption.74}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Par\IeC {\'a}metros de Weibull para m\IeC {\'a}quina X400\relax }}{127}{figure.caption.76}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Par\IeC {\'a}metros de Weibull para m\IeC {\'a}quina X400\relax }}{127}{figure.caption.77}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Gr\IeC {\'a}fico de confiabilidad para m\IeC {\'a}quina X400\relax }}{128}{figure.caption.78}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Par\IeC {\'a}metros de Weibull para m\IeC {\'a}quina Prusa MK3\relax }}{129}{figure.caption.81}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Par\IeC {\'a}metros de Weibull para m\IeC {\'a}quina Prusa MK3\relax }}{129}{figure.caption.82}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Gr\IeC {\'a}fico de confiabilidad para m\IeC {\'a}quina Prusa MK3\relax }}{130}{figure.caption.83}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Diagrama de flujos para el proceso de recepci\IeC {\'o}n, producci\IeC {\'o}n y entrega de piezas y productos.\relax }}{133}{figure.caption.86}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Diagrama de flujo del proceso de impresi\IeC {\'o}n 3D.\relax }}{134}{figure.caption.87}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Mapa de Stakeholders del proyecto.\relax }}{137}{figure.caption.89}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Primera etapa del mapa de experiencia.\relax }}{140}{figure.caption.91}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Segunda etapa del mapa de experiencia.\relax }}{140}{figure.caption.92}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Tercera etapa del mapa de experiencia.\relax }}{141}{figure.caption.93}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el monitoreo de la condici\IeC {\'o}n.\relax }}{146}{figure.caption.95}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el monitoreo de la condici\IeC {\'o}n.\relax }}{146}{figure.caption.96}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.47}{\ignorespaces Captura de interfaz utilizada por \textit {3Dtrust} para el control de la producci\IeC {\'o}n.\relax }}{147}{figure.caption.97}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.48}{\ignorespaces Captura de interfaz utilizada por \textit {AMFG} para el control de la producci\IeC {\'o}n\relax }}{148}{figure.caption.98}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.49}{\ignorespaces Captura de interfaz utilizada por \textit {AMFG} para el control de la producci\IeC {\'o}n.\relax }}{148}{figure.caption.99}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.50}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para el control de indicadores.\relax }}{149}{figure.caption.100}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.51}{\ignorespaces Captura de interfaz utilizada por \textit {FRACCTAL} para el control del mantenimiento.\relax }}{149}{figure.caption.101}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.52}{\ignorespaces Captura de interfaz utilizada por la aplicaci\IeC {\'o}n \textit {FRACCTAL} para la gesti\IeC {\'o}n de tareas.\relax }}{150}{figure.caption.102}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.53}{\ignorespaces Interfaz del estado actual de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)\relax }}{153}{figure.caption.104}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.54}{\ignorespaces Interfaz del mando a distancia de una impresora 3D en Octoprint (Recuperado https://www.octoprint.org)\relax }}{153}{figure.caption.105}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.55}{\ignorespaces Visualizaci\IeC {\'o}n de datos en grafana \parencite {olano2019}.\relax }}{158}{figure.caption.111}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.56}{\ignorespaces Nodos utilizados en la programaci\IeC {\'o}n por flujos En Node-Red.\relax }}{159}{figure.caption.112}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.57}{\ignorespaces Dashboard de Node-red para acceso remoto por navegador.\relax }}{159}{figure.caption.113}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.58}{\ignorespaces Interfaz de bases de datos MySQL en PHPMyAdmin\relax }}{160}{figure.caption.114}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.59}{\ignorespaces Esquema de la arquitectura propuesta para la aplicaci\IeC {\'o}n\relax }}{164}{figure.caption.115}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.60}{\ignorespaces Esquema de las bases de datos propuestas para la aplicaci\IeC {\'o}n\relax }}{165}{figure.caption.116}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.61}{\ignorespaces Base de datos creada para series de tiempo en Influxdb\relax }}{166}{figure.caption.117}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.62}{\ignorespaces Mediciones en base de datos de series de tiempo.\relax }}{166}{figure.caption.118}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.63}{\ignorespaces Tabla de base de datos con el registro de los mantenimientos correctivos realizados.\relax }}{167}{figure.caption.119}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.64}{\ignorespaces Tabla de base de datos con el registro de las inspecciones previas realizadas.\relax }}{167}{figure.caption.120}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.65}{\ignorespaces Tabla de base de datos con el registro de las actividades no planificadas a realizar.\relax }}{167}{figure.caption.121}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.66}{\ignorespaces Tabla de base de datos con el registro de las impresiones terminadas.\relax }}{167}{figure.caption.122}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.67}{\ignorespaces Archivo csv obtenido de la base de datos.\relax }}{168}{figure.caption.123}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.68}{\ignorespaces Dashboard Inicial del programa de gesti\IeC {\'o}n del mantenimiento\relax }}{172}{figure.caption.131}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.69}{\ignorespaces P\IeC {\'a}gina de registro y control de mantenimientos correctivos.\relax }}{173}{figure.caption.132}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.70}{\ignorespaces P\IeC {\'a}gina de registro y control de acciones no planificadas.\relax }}{174}{figure.caption.133}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.71}{\ignorespaces Panel de control de Octoprint.\relax }}{175}{figure.caption.134}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.72}{\ignorespaces Dashboard de indicadores y monitoreo de la condici\IeC {\'o}n.\relax }}{176}{figure.caption.135}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.73}{\ignorespaces Segunda iteraci\IeC {\'o}n para dashboard Inicial del programa de gesti\IeC {\'o}n del mantenimiento.\relax }}{178}{figure.caption.136}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.74}{\ignorespaces Segunda iteraci\IeC {\'o}n para ingreso de datos de impresoras en mantenimiento correctivo.\relax }}{179}{figure.caption.137}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.75}{\ignorespaces Segunda iteraci\IeC {\'o}n para ingreso de datos de mantenimiento correctivo.\relax }}{179}{figure.caption.138}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.76}{\ignorespaces Registro de fallas en taller de impresi\IeC {\'o}n 3D.\relax }}{190}{figure.caption.143}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.77}{\ignorespaces Continuaci\IeC {\'o}n de registros de fallas en taller de impresi\IeC {\'o}n 3D.\relax }}{191}{figure.caption.144}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.78}{\ignorespaces Tiempo entre fallas, rango medio y linealizaci\IeC {\'o}n de funci\IeC {\'o}n para an\IeC {\'a}lisis de Weibull para impresora X350.\relax }}{191}{figure.caption.145}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.79}{\ignorespaces Tiempo entre fallas, rango medio y linealizaci\IeC {\'o}n de funci\IeC {\'o}n para an\IeC {\'a}lisis de Weibull para impresora X400.\relax }}{192}{figure.caption.146}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.80}{\ignorespaces Tiempo entre fallas, rango medio y linealizaci\IeC {\'o}n de funci\IeC {\'o}n para an\IeC {\'a}lisis de Weibull para impresora Prusa MK2.\relax }}{192}{figure.caption.147}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.81}{\ignorespaces Pauta de preguntas para entrevista personal.\relax }}{193}{figure.caption.148}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.82}{\ignorespaces Continuaci\IeC {\'o}n de pauta de preguntas para entrevista personal\relax }}{194}{figure.caption.149}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.83}{\ignorespaces Respuestas de entrevista personal\relax }}{195}{figure.caption.150}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.84}{\ignorespaces Continuaci\IeC {\'o}n de respuestas de entrevista personal.\relax }}{196}{figure.caption.151}% 

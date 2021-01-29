@@ -1,0 +1,863 @@
+\documentclass[a4paper,10pt]{ltxdockit}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[czech,vietnamese,english]{babel}
+\usepackage{csquotes}
+\usepackage[useregional]{datetime2}
+%\usepackage{tgpagella}
+\usepackage{microtype}
+\usepackage{hanging}
+\usepackage{doc}% Macro \BibTeX
+
+% Set up the style (blue colors)
+\addtokomafont{section}{\spotcolor}
+\addtokomafont{subsection}{\spotcolor}
+\addtokomafont{subsubsection}{\spotcolor}
+\addtokomafont{paragraph}{\spotcolor}
+\addtokomafont{descriptionlabel}{\spotcolor}
+
+\def\t|#1|{\texttt{#1}}
+\def\c#1{%
+\hangpara{3em}{1}%
+\fullcite{#1}}
+
+\newcommand*{\biber}{\sty{biber}\xspace}
+\newcommand*{\biblatex}{\sty{biblatex}\xspace}
+\newcommand*{\biblatexiso}{\sty{biblatex-iso690}\xspace}
+
+\usepackage[
+  style=iso-authoryear,
+  sortlocale=cs_CZ,% We need this for proper sorting,
+  %   because most of the bib examples are Czech ones,
+  %   but the main document language is English
+  pagetotal=true,
+]{biblatex}
+
+\addbibresource{mybib.bib}
+
+% Support diacritics in Czech examples
+% ref.: https://stackoverflow.com/a/16084246
+\lstset{
+  literate=
+  {á}{{\'a}}1
+  {č}{{\v{c}}}1
+  {ď}{{\v{d}}}1
+  {é}{{\'e}}1
+  {ě}{{\v{e}}}1
+  {í}{{\'i}}1
+  {ň}{{\v{n}}}1
+  {ó}{{\'o}}1
+  {ř}{{\v{r}}}1
+  {š}{{\v{s}}}1
+  {ť}{{\v{t}}}1
+  {ú}{{\'u}}1
+  {ů}{{\r{u}}}1
+  {ý}{{\'y}}1
+  {ž}{{\v{z}}}1
+  {Á}{{\'A}}1
+  {Č}{{\v{C}}}1
+  {Ď}{{\v{D}}}1
+  {É}{{\'E}}1
+  {Ě}{{\v{E}}}1
+  {Í}{{\'I}}1
+  {Ň}{{\v{N}}}1
+  {Ó}{{\'O}}1
+  {Ř}{{\v{R}}}1
+  {Š}{{\v{S}}}1
+  {Ť}{{\v{T}}}1
+  {Ú}{{\'U}}1
+  {Ů}{{\r{U}}}1
+  {Ý}{{\'Y}}1
+  {Ž}{{\v{Z}}}1
+}
+
+\titlepage{%
+  title={ISO~690 \biblatex style},
+  subtitle={},
+  url={https://github.com/michal-h21/biblatex-iso690},
+  author={Michal Hoftich},
+  email={michal.h21@gmail.com},
+  revision={0.4.0},
+  date={\DTMDate{2020-03-25}}}
+
+\hypersetup{%
+  pdftitle={ISO~690 \biblatex style},
+  pdfsubject={Bibliography References and Citations by ISO~690},
+  pdfauthor={Michal Hoftich with Johannes Böttcher, Moritz Wemheuer and Dávid Lupták},
+  pdfkeywords={tex, latex, bibtex, biblatex, bibliography, references, citation}}
+
+\begin{document}
+
+\printtitlepage
+\tableofcontents
+
+\section{Introduction}
+
+\subsection{About}
+\label{sec:about}
+
+\biblatex is a bibliography and citation tool for \LaTeX. This project
+provides support for citations and references according to the ISO~690
+international standard. As the standard ISO~690 is a little bit ambiguous in
+some details regarding the formatting of records, we largely follow the
+requirements of the Czech interpretation, as it is the required form in many
+Czech universities. Of course, the style can be used in other languages as
+well.
+
+\subsection{Requirements}
+
+Basically, \biblatex $\geq$ 3.14 with \biber $\geq$ 2.14 (both versions dated
+2019-12-01) is all you need to use this package. No special packages different
+from those required by the \biblatex package are used. For a complete list of
+such packages, please refer to the \biblatex documentation.
+
+\subsection{Accessibility}
+\label{sec:accessibility}
+
+This package is available on \textsc{ctan}%
+\footnote{\url{https://www.ctan.org/pkg/biblatex-iso690}} and is included in
+MiK\TeX{} and \TeX{}~Live 2016 or later as \biblatexiso. The development
+version can be found on GitHub.%
+\footnote{\url{https://github.com/michal-h21/biblatex-iso690}}
+
+\subsection{License}
+
+This project is released under the LaTeX Project Public License%
+\footnote{\url{https://www.latex-project.org/lppl.txt}}.
+
+\subsection{Acknowledgments}
+
+Thanks to all contributors who have participated in the development of this style,
+especially Johannes Böttcher, Moritz Wemheuer, Dávid Lupták and others.
+
+\subsection{Feedback}
+\label{sec:feedback}
+
+The project lives on the GitHub page \url{https://github.com/michal-h21/biblatex-iso690},
+so feel free to use the possibilities provided there for reporting issues and the like.
+
+\section{Usage}
+
+\subsection{General}
+\label{sec:general:multilang}
+
+A minimal working example for \t|babel| package:
+\begin{ltxexample}
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english,czech]{babel}
+% \usepackage[main=czech,english]{babel}
+\usepackage{csquotes}
+
+\usepackage[style=iso-authoryear]{biblatex}
+\addbibresource{mybib.bib}
+
+\begin{document}
+\cite{knuth1990virtual}
+\printbibliography
+\end{document}
+\end{ltxexample}
+
+\noindent
+A minimal working example for \t|polyglossia| package:
+\begin{ltxexample}
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{polyglossia}
+\setmainlanguage{czech}
+\setotherlanguage{english}
+\usepackage{csquotes}
+
+\usepackage[style=iso-authoryear]{biblatex}
+\addbibresource{mybib.bib}
+
+\begin{document}
+\cite{knuth1990virtual}
+\printbibliography
+\end{document}
+\end{ltxexample}
+
+According to the ISO~690 standard, some of the elements of the bibliographic
+resource should be printed in the main document language (language I~am
+currently writing) while the others should be in the language of a resource.
+You can specify the language of a resource into the field \t|langid| on a
+per-entry basis in a resource (\t|.bib|) file. In addition, all of the
+languages specified in these fields have to be loaded by the \t|babel| or
+\t|polyglossia| package respectively.
+
+Note that for correct support of localization functionality, the \t|babel|
+or \t|polyglossia| package should be used. The main document language
+is:
+
+\begin{description}
+  \item[babel] the last one entered in a list of languages passed to the
+    \t|babel| package options, or the one specified by \t|main| keyword
+    (see MWE above)
+  \item[polyglossia] the one specified in the directive
+    \cmd{setmainlanguage} (other languages could be specified using
+    \cmd{setotherlanguage}) (see MWE above)
+\end{description}
+
+\subsection{Citation systems}
+\label{sec:citation:systems}
+
+The international standard ISO~690 introduces three methods
+(\ref{sec:standard:methods}) of citation and referencing in its informative
+annex. You can select a citation/referencing method in the \t|style| option:
+
+\begin{ltxexample}
+  \usepackage[style=<method>]{biblatex}
+\end{ltxexample}
+
+
+\subsubsection{Standardized methods}
+\label{sec:standard:methods}
+
+The informative annex of the standard mentions name and date, numeric, and
+running notes systems. This package does not support the last one.
+
+\begin{description}
+  \item[iso-authoryear] name and date system, so-called Harvard style
+  \item[iso-numeric] numeric system
+\end{description}
+
+\subsubsection{Non-standardized methods}
+\label{sec:nonstandard:methods}
+
+Based on the user input, this package also supports other citation/referencing
+methods:
+
+\begin{description}
+  \item[iso-alphabetic] alphabetic system
+  \item[iso-authortitle] name and title system
+\end{description}
+
+\subsection{Citation commands}
+
+\biblatex provides a lot of citation commands out of the box. However, to
+conform to the standard, it is necessary to know which command can be used
+for which citation method. Here is an overview.
+
+\subsubsection{Numeric system}
+\label{sec:numeric}
+
+For \t|iso-numeric| style, the usage of cite command is as simple as
+\cmd{cite} (citation number in brackets), \cmd{parencite} (citation number in
+parentheses), or \cmd{supercite} (citation number as a superscript).
+
+\noindent
+Example (number 1 only serves as a random citation number):
+\begin{itemize}
+  \item command \cmd{cite\{knuth1990virtual\}} outputs [1],
+  \item command \cmd{parencite\{knuth1990virtual\}} outputs (1),
+  \item command \cmd{supercite\{knuth1990virtual\}} outputs $^1$.
+\end{itemize}
+
+\noindent
+According to the standard, pick and stick to only one citation format in the
+whole document (select either only \cmd{cite}, or \cmd{parencite}, or
+\cmd{supercite}).
+
+\subsubsection{Author-date system}
+
+For \t|iso-authoryear| method (and possibly also for other methods
+\t|iso-alphabetic| and \t|iso-authortitle|), you should distinguish two
+situations:
+
+\begin{itemize}
+  \item The name of the creator appears naturally in the text, so only the year is
+  in parentheses; use \cmd{textcite}.
+
+  \noindent
+  Example: command \cmd{textcite\{knuth1990virtual\}} outputs
+  \textcite{knuth1990virtual}.
+
+  \item The name of the creator doesn't appear naturally in the text, so both name
+  and the year are in parentheses; use \cmd{parencite}.
+
+  \noindent
+  Example: command \cmd{parencite\{knuth1990virtual\}} outputs
+  \parencite{knuth1990virtual}.
+\end{itemize}
+
+\subsection{Package options}
+
+\subsubsection{Provided by \biblatex by default}
+\label{sec:pkg:opt}
+
+Frequently used package options are:
+
+\begin{optionlist}
+
+\optitem[]{style}{\opt{iso-authoryear}, \opt{iso-numeric},
+  \opt{iso-alphabetic}, \opt{iso-authortitle}}
+
+Style to be used for bibliography references and citations. Four possibilities
+are available for the \biblatexiso package, see~\ref{sec:citation:systems} for
+details.
+
+\optitem[biber]{backend}{\opt{biber}, \opt{bibtex}, \opt{bibtex8}}
+
+Backend program for generating bibliographic entries. \biber is the default
+one for the \biblatex package, providing a large variety of features. Other
+options are \t|bibtex| and \t|bibtex8|, but they both are far behind the
+possibilities of \biber. \biber is the recommended backend.
+
+\optitem[other]{autolang}{\opt{other}, see \biblatex documentation for more
+  options}
+
+Controls which language environment is used. The default value for this
+package is \t|other|, which encloses the \t|bib| entry in an \t|otherlanguage|
+environment and prints localization terms in the language of the resource or
+uses language-specific hyphenation. Use the \t|langid| field in \t|bib| entry
+to specify its language.
+
+\optitem[auto]{sortlocale}{\opt{auto}, \prm{locale}}
+
+Responsible for sorting the bibliography according to the entered \prm{locale}
+identifier. The default value is \t|auto|, meaning the \prm{locale} is set to
+the main document language identifier (if \t|babel|/\t|polyglossia| is used).
+A real use case example: this document is in English (main document language),
+but uses Czech sorting (\t|sortlocale=cs\_CZ|).
+
+\end{optionlist}
+
+\subsubsection{Provided by \biblatexiso in addition}
+\label{sec:pkg:opt:iso690}
+
+\begin{optionlist}
+
+\boolitem[false]{spacecolon}
+
+If \t|true|, a space is printed before the colon used in subtitles and
+publication information. Printing the colon this way is not recommended.
+The default value is \t|false|.
+
+\boolitem[false]{pagetotal}
+
+The number of total pages is no longer required if the item is being cited as
+a whole. Setting this option to \t|true| will print such optional information
+in the notes section at the end of the reference in brackets. The default
+value is \t|false|.
+
+\boolitem[false]{shortnumeration}
+
+The standard ISO~690 allows omission of term \t|volume| and terms for smaller
+components of a serial publication. If this option is \t|true|, such terms are
+distinguished typographically (the volume number in bold type and the part
+number, if required, in parentheses). If \t|false|, such terms are printed
+with preceding literal terms.
+
+\boolitem[true]{thesisinfoinnotes}
+
+To print a thesis information (thesis type, institution and supervisor) before
+the section \textit{availability and access} is possible by setting the option
+to \t|false|. Otherwise it will be printed in the \textit{notes} section.
+The default value is \t|true|.
+
+\boolitem[true]{doi}
+
+Enable or disable printing of the DOI number.
+
+\boolitem[true]{isbn}
+
+Enable or disable printing of the ISBN, ISSN, and other standard identifiers.
+
+\boolitem[true]{eprint}
+
+Enable or disable printing of the eprint field.
+
+\boolitem[true]{url}
+
+Enable or disable the printing of the URL. This option also affects the
+printing of \t|[online]| medium designation for electronic resources other
+than \t|@online| entry type (see \ref{sec:howpublished}).
+
+\boolitem[false]{articlepubinfo}
+
+Enable or disable printing publication information (\t|location| and
+\t|publisher| fields) for an \t|@article| entry type. The default value is
+\t|false| since it is very unusual behavior and rarely used by either other
+citation styles or citation managers.
+
+\end{optionlist}
+
+
+\subsection{Database guide}
+\label{sec:database}
+
+\biblatex supports more entry fields than legacy \BibTeX. Hence
+some examples of bibliography entry types with respective fields follow.
+
+%\begin{description}
+
+\paragraph{Book} \hfill\\
+
+\c{borgman2003from}
+\begin{ltxexample}
+@book{borgman2003from,
+  author    = {Borgman, Christine L.},
+  title     = {From {Gutenberg} to the Global Information Infrastructure},
+  subtitle  = {Access to Information in the Networked World},
+  location  = {Cambridge (Mass.)},
+  publisher = {The MIT Press},
+  date      = {2003},
+  pagetotal = {xviii, 324},
+  isbn      = {0-262-52345-0},
+  langid    = {english},
+}
+\end{ltxexample}
+
+The \t|pagetotal| field is the total number of pages of the work. If multiple
+kinds of numeration are used in the work, e.g. Arabic as well as Roman numerals,
+both can be provided, separated by a comma. The localization term \t|pages| is 
+only appended for Arabic numerals, though. Note that the total number of pages
+is no longer required by the standard itself, see also \ref{sec:pkg:opt:iso690}.
+
+The \t|langid| field is required for multilingual support of printing
+references. This option affects the printing of localization terms used in the
+reference, e.g. \t|edition| field. See also \ref{sec:general:multilang}.
+
+\paragraph{Contribution to a collection} \hfill\\
+
+\c{greenberg1998camel}
+\begin{ltxexample}
+@incollection{greenberg1998camel,
+  author       = {Greenberg, Douglas},
+  title        = {Camel Drivers and Gatecrashers},
+  subtitle     = {Quality Control in the Digital Research Library},
+  editor       = {Hawkins, Brian L. and Battin, Patricia},
+  booktitle    = {The Mirage of Continuity},
+  booksubtitle = {Reconfiguring Academic Information
+                   Resources for the 21st Century},
+  date         = {1998},
+  location     = {Washington (D.C.)},
+  publisher    = {Council on Library and Information Resources;
+                   Association of American Universities},
+  isbn         = {1-887334-59-9},
+  pages        = {105--116},
+  langid       = {english},
+}
+\end{ltxexample}
+
+The \t|title| field is the title of the contribution, the \t|booktitle|
+is the title of the collection.
+
+The \t|pages| field is one or more page numbers or page ranges. This field
+is essential since the reference should identify the part of the item
+that is cited.
+
+It is also possible to use the cross-referencing feature to reference
+from a contribution entry (child entry) to a separate entry of a collection
+(parent entry). This can be done with the \t|crossref| field
+as the following example shows:
+\newline
+
+\noindent\c{sbornik2007clanek}
+ 
+\begin{ltxexample}
+@collection{sbornik2007,
+  title     = {Mimořádně užitečný sborník},
+  editor    = {Geniální, Jiří},
+  location  = {Praha},
+  publisher = {Academia},
+  date      = {2007},
+  isbn      = {978-3-4947-0284-1},
+  langid    = {czech},
+}
+
+@incollection{sbornik2007clanek,
+  author   = {Vlaštovka, Josef},
+  title    = {Velmi zajímavý článek},
+  pages    = {22--45},
+  crossref = {sbornik2007},
+}
+\end{ltxexample}
+
+Now, there is no need to fill in \t|booktitle| in the \t|sbornik| entry.
+The \t|biber| backend program performs the inheritance between parent and
+child entry automatically. Other backends may not support this feature.
+
+\paragraph{Article in a serial}\hfill\\
+
+\c{lynch2005where}
+\begin{ltxexample}
+@article{lynch2005where,
+  author       = {Lynch, Clifford},
+  title        = {Where Do We Go From Here?},
+  subtitle     = {The Next Decade for Digital Libraries},
+  journaltitle = {D-Lib Magazine},
+  date         = {2005},
+  volume       = {11},
+  number       = {7/8},
+  issn         = {1082-9873},
+  doi          = {10.1045/july2005-lynch},
+  url          = {http://www.dlib.org/dlib/july05/lynch/07lynch.html},
+  urldate      = {2005-08-15},
+  langid       = {english},
+}
+\end{ltxexample}
+
+The example above is an article in an online magazine. If the magazine
+is available online only, i.e. it is not published in print,
+it should be cited as an electronic information resource. This can be
+achieved by providing the \t|urldate| field (see \ref{sec:howpublished}).
+On the other hand
+\newline
+
+\c{knuth1990virtual}
+\begin{ltxexample}
+@periodical{tugboat1980,
+  journaltitle = {TUGBoat},
+  publisher    = {TUG},
+  date         = {1980/},
+  issn         = {0896-3207},
+  url          = {http://tugboat.tug.org/TUGboat},
+  langid       = {english},
+  options      = {skipbib=true},
+}
+
+@article{knuth1990virtual,
+  author       = {Knuth, Donald},
+  title        = {Virtual Fonts: More Fun for Grand Wizards},
+  date         = {1990-04},
+  volume       = {11},
+  number       = {1},
+  pages        = {13--23},
+  url          = {http://tugboat.tug.org/TUGboat/tb11-1/tb27knut.pdf},
+  crossref     = {tugboat1980},
+}
+\end{ltxexample}
+
+\noindent the example shows an article in a printed magazine, which is 
+\emph{also} available online. Similar to the contribution to a collection,
+using the cross-referencing feature can be beneficial.
+
+\subsubsection{Specific entry types}
+
+\paragraph{Thesis}\hfill\\
+\label{sec:thesis}
+
+The \t|thesis| entry type and its aliases \t|mastersthesis| and
+\t|phdthesis| are available by default for thesis works. Use the
+\t|type| field to specify the type of the thesis -- a localization
+term or literal string can be entered. For the list of supported
+localization terms, please refer to section 4.9.2.13 of the
+\biblatex documentation. Available terms are \t|bathesis|,
+\t|mathesis|, \t|phdthesis|, and \t|candthesis|. Names of the
+supervisor and school (institution) can be entered into the fields
+\t|supervisor| and \t|institution|, respectively.
+\newline
+
+\c{luptak2016thesis}
+\begin{ltxexample}
+@thesis{luptak2016thesis,
+  author       = {Lupták, Dávid},
+  title        = {Typesetting of Bibliography According to ISO 690 Norm},
+  date         = {2016},
+  type         = {bathesis},
+  institution  = {Masaryk University, Faculty of Informatics},
+  location     = {Brno},
+  supervisor   = {Petr Sojka},
+  url          = {https://is.muni.cz/th/422640/fi_b/},
+}
+\end{ltxexample}
+
+\paragraph{Patent}\hfill\\
+\label{sec:patent}
+
+The field \t|number| is available for the patent classification
+or request number.
+If the inventor is also known, we can use \t|editora| and \t|editoratype|
+fields to specify that. Use an additionally created role \t|inventor| for the
+\t|editoratype| field; it is the key that translates based on the localization
+strings.
+For the patent type, we can use localization strings as well, e.g.
+\t|patenteu|.
+\newline
+
+\c{groll2008method}
+\begin{ltxexample}
+@patent{groll2008method,
+  author      = {Clad Metals LLC Canonsburg, PA 15317 (US)},
+  title       = {Method of making a copper core five-ply composite
+                  and cooking vessel},
+  editora     = {Groll, W. A.},
+  editoratype = {inventor},
+  publisher   = {Google Patents},
+  number      = {EP 1 094 937 B1},
+  type        = {patenteu},
+  date        = {2008-07-30},
+  url         = {https://patents.google.com/patent/EP1094937B1},
+}
+\end{ltxexample}
+
+\subsection{Hints and Caveats}
+
+This section provides additional hints concerning the \biblatex package
+as well as the ISO~690 standard.
+
+For now, some of the things have to be dealt with at the level of the 
+\t|bib| file, other ones are directly addressed in this style package.
+Everything else relies on the \biblatex package, so please also refer
+to the \biblatex documentation.
+
+\subsubsection{Creators}
+
+The persons or organizations responsible for the cited work should be
+primarily given in the \t|author| field. If it is not appropriate,
+other fields like \t|editor| and \t|editorX| family fields or some
+specific ones (e.g. \t|translator|) can be used. Note also the field
+\t|editortype| and \t|editortypeX| family fields which can be used
+to specify the type of the editor. This is useful to distinguish the role
+of the creator and their relationship to the cited work. Some roles
+are supported by default, e.g. \t|editor|, \t|compiler|, \t|founder|
+and \t|reviser|, some are created additionally, i.e. \t|inventor|,
+\t|director|; in other cases, use the literal string.
+
+Example:
+When citing cinematographic works, which are typically the output of many
+individuals, the title should be used as the first element of the reference.
+However, it is appropriate to include some relevant roles, e.g. the director:
+
+\begin{ltxexample}
+  editora     = {Welles, Orson},
+  editoratype = {director},
+\end{ltxexample}
+
+The field \t|nameaddon| can be used to append additional information
+to the creator's name, e.g. variant forms of a name, name additions,
+or pseudonyms. This field is printed as is, in square brackets, after
+the creator's name, see~\parencite{gorki1955artamonovs}.
+
+If possible, all names of multiple creators should be given in the reference
+(the upper limit is set to 99 names). If you need to omit any names, you can
+use the keyword \uv{\t|and others|} in the name list for your \t|bib| entry:
+
+\begin{ltxexample}
+  editor  = {Humphrey Appleby and others},
+\end{ltxexample}
+
+For anonymous works cited by the author-year method, the term \textit{Anon}
+should be used in place of the creator's name. Please reflect this
+in the \t|bib| file, since there is no other support for this for now.
+
+\subsubsection{Titles}
+
+Similar to the \t|nameaddon| field for names, \t|titleaddon| serves such
+purpose for titles. This field is appropriate for providing other or
+alternative titles, elucidation of ambiguous or incorrect titles, substitute
+for no titles, translation of titles, etc.,
+see~\parencite{gorki1955artamonovs}.
+
+Note that also other \t|*titleaddon| fields are supported by default.
+
+\subsubsection{Medium type}
+\label{sec:howpublished}
+
+The field \t|howpublished| is used for providing information about the medium
+designation (e.g., Braille, film, and photograph) or type of medium for the
+electronic resources (e.g., online, online database, and podcast). The default
+output for electronic information resources (\t|@online| entry types or
+entries including \t|urldate| field) is \t|[online]|, even without
+
+\begin{ltxexample}
+  howpublished = {online},
+\end{ltxexample}
+
+\noindent
+listed in the \t|bib| file. The \t|howpublished| field is printed as is,
+in square brackets, after the title section, generally. The field accepts
+localization strings (e.g. \t|online| or \t|film|) or literal string values.
+
+\subsubsection{Edition}
+
+The \t|edition| field is the edition of a publication. It is required
+if the item is not a first edition. Use an integer or a literal string
+to fill in this field. Please reflect the constraint not to print
+the edition if the cited item is a first edition, by not providing
+this field in the \t|bib| file.
+
+The \t|version| field is used for providing information about
+updated versions of an item, usually software.
+
+\subsubsection{Date}
+\label{sec:date}
+
+If an exact date is not known, an approximate date should be supplied in
+brackets preceded by a circa localization string (e.g. ca.). To achieve this
+behavior, specify the date followed by a tilde, as in the example below:
+
+\begin{ltxexample}
+  date = {1490~},         % tilde meaning circa
+\end{ltxexample}
+
+In case no date is given and also no approximation is possible, that
+should be stated. Please reflect this in the \t|bib| file by including
+no date field in the respective entry. It automatically translates
+to something like \textit{[n.d.]}, based on your language, meaning
+\textit{no date}.
+
+The \biblatexiso package provides new field \t|dateaddon| that can be
+used for date specificities. Description of some known use cases follows.
+
+If the date provided in the primary source of data is obviously incorrect
+(e.g. 1959), the correction should be supplied in brackets (e.g. [i.e. 1995]):
+
+\begin{ltxexample}
+  date      = {1959},
+  dateaddon = {\mkbibbrackets{i.e. 1995}},
+\end{ltxexample}
+
+You can use \t|dateaddon| field also for missing dates and their rough
+approximations (e.g. providing only centuries), or for different calendar
+systems:
+
+\begin{ltxexample}
+  dateaddon = {\mkbibbrackets{16th century}},
+  dateaddon = {Jewish calendar 5685 \mkbibbrackets{1925}},
+\end{ltxexample}
+
+And if you need to use a copyright date alongside the publication date, or
+only a copyright date, you can use \t|dateaddon| field as well:
+
+\begin{ltxexample}
+  date      = {2000},
+  dateaddon = {\addcomma\space\textcopyright\addnbthinspace 2001},
+\end{ltxexample}
+
+If you have only a copyright date (e.g. \textcopyright\,2001), you can use
+\t|sortyear| field to clarify the sorting, the entry will be sorted by the
+year (2001) and not the literal value (\textcopyright\,2001):
+
+\begin{ltxexample}
+  dateaddon = {\textcopyright\addnbthinspace 2001},
+  sortyear  = {2001},
+\end{ltxexample}
+
+Please also note the syntax for dates -- ISO 8601 format
+(\t|YYYY-MM-DD|) is accepted. Please use slash instead of
+any kind of dash for ranges of dates. If the range is
+open ended, enter just the first date followed by a slash.
+And last but not least, use the \t|date| field instead of
+the \t|year| field in general. Examples follow:
+
+\begin{ltxexample}
+  date = {2012-12-21},    % exact date
+  date = {1998/2001},     % date range
+  date = {2016/},         % open ended date range
+\end{ltxexample}
+
+\subsubsection{Location}
+\label{sec:library}
+
+If only a limited number of copies of the work exists or
+the location of a graphic work is essential to its identification,
+such location (e.g. library or repository) should be stated
+in a reference. The field \t|library| serves for this purpose,
+see~\parencite{gosse1912garden}.
+
+\nocite{*}
+\printbibliography[title={Reference bibliography},heading={bibnumbered}]
+
+
+\section{Revision history}
+
+\begin{changelog}
+
+\begin{release}{0.4.0}{2020-03-25}
+\item Fixed deprecated name handling
+\item Declared mapping suffix (\t|<lang>-iso.lbx|) for localization files
+\item Updated and improved documentation, README, and \t|bib| examples
+\item Delimiters defined by the new way
+\item Refined \t|date| and \t|names| macros
+\item Added date circa\see{sec:date}
+\item Added \t|dateaddon| field\see{sec:date}
+\item Commented source code to understand it for others better
+\item Employed standard \cmd{mkbibacro} for DOI, ISBN, ISSN, ISAN, ISMN, ISRN,
+  ISWC (small caps instead of uppercase)
+\item INCOMPATIBLE CHANGE: replaced \t|classification| with \t|number| field
+  for patent entries\see{sec:patent}
+\item Added localization strings \t|director|, \t|bydirector|, \t|inventor|,
+  \t|byinventor|, \t|online|, \t|film|
+\item Added Bulgarian and French localization
+\item Increased maximum number of names to print to 99 (9 before)
+\item Removed \biblatex{} backwards compatibility code
+\item Fixed printing \t|url| and \t|urldate| for \t|@online| entries
+\item Fixed multiple ISBNs / ISSNs
+\item Allowed the package option \t|abbreviate=[true\textbar false]| to work
+  for all bibstrings\see{sec:pkg:opt}
+\item Added \cmd{parencite} support for \t|iso-numeric| style\see{sec:numeric}
+\item Added \t|articlepubinfo| package option\see{sec:pkg:opt:iso690}
+\item Logging only to \t|.log| file (no terminal output)
+\item Added support for \t|report| and \t|movie| entry types
+\item Added support of localization strings in \t|howpublished|
+  field\see{sec:howpublished}
+\item Fixed typos, code improvements
+\end{release}
+
+\begin{release}{0.3.3}{2019-10-30}
+\item Documentation with better wording
+\item Enable multilingual references by default\see{sec:pkg:opt}
+\item Added \t|isbn|, \t|doi|, \t|url| and \t|eprint| package options for
+  blocking corresponding fields\see{sec:pkg:opt:iso690}
+\item Printing out (the same) editors also in the consecutive entries --
+  get rid of the dash as default (\t|iso-authoryear| style)
+\item Removed deprecated \biblatex\ options
+\item Changed URL address for DOI records
+\item Clean up of indentation and spacing in the source code
+\item Renamed \t|editor| macro to \t|incollection-editor|
+\item Added Polish localization
+\end{release}
+
+\begin{release}{0.3.2}{2017-04-25}
+\item Synchronized \t|iso-numeric| bibliography environment with original
+  \t|numeric| style
+\item Added support for alphabetic bibliographic style
+  (\t|iso-alphabetic|)\see{sec:nonstandard:methods}
+\item INCOMPATIBLE CHANGE: \t|thesisinfolast| package option changed to
+  \t|thesisinfoinnotes|\see{sec:pkg:opt:iso690}
+\item README copyediting and conversion to markdown
+\item Various documentation and README corrections and enhancements
+\item Added German localization
+\end{release}
+
+\begin{release}{0.3.1}{2016-05-13}
+\item First public release on \textsc{ctan}\see{sec:accessibility}
+\item Added support for \t|thesis| entry type\see{sec:thesis}
+\item Added support for \t|patent| entry type\see{sec:patent}
+\item Added support for including location information (\t|library|
+  field)\see{sec:library}
+\item Added Slovak localization
+\item Removed non-breaking space after standard identifier terms
+\item Streamlined \t|iso-authortitle| citation style\see{sec:nonstandard:methods}
+\item Minor documentation corrections
+\end{release}
+
+\begin{release}{0.3}{2016-05-04}
+\item A~complete refactoring of the style to comply the latest version of the
+  \biblatex package as well as ISO~690 international standard\see{sec:about}
+\item Added English version of the documentation/user guide (this document)
+\end{release}
+
+\begin{release}{0.2.1}{2016-03-13}
+\item Solved issues about punctuation marks and redundant spaces
+\item Compatibility support for the latest version of the \biblatex package
+\item Reformatted the driver for \t|inbook| entry type
+\end{release}
+
+\begin{release}{0.2}{2015-03-25}
+\item Gathered changes during the past four years
+\item Solved issue about the spacing of strings in the main document language
+\end{release}
+
+\begin{release}{0.1}{2011-02-03}
+\item First public release\see{sec:feedback}
+\item Draft of the documentation (only in Czech)
+\item Support for almost all of the entry types provided by the \biblatex
+  package\see{sec:database}
+\end{release}
+
+\end{changelog}
+
+\end{document}

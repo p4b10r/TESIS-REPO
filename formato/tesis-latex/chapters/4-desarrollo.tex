@@ -32,10 +32,78 @@ Las ventajas del proceso de impresión 3D FDM como la fabricación de diseños c
 
 
 \subsection{Selección del equipo}
+\subsubsection{Análisis de falla}
+
+El primer paso para encontrar los equipos más críticos en la granja de impresión 3D es el estudio de los registros de fallos, obtenidos a través del levantamiento de información de fallas ocurridas entre el 12 de mayo y el 10 de octubre del año 2020. Este registro consta (ver Apéndice, Figura 4.73)  de la fecha de aparición de la falla, fecha de término del mantenimiento correctivo, descripción de la falla, tiempo aproximado de reparación y descripción de la actividad correctiva. 
+ 
+El diagrama de Pareto corresponde a una técnica gráfica simple para ordenar elementos, desde el más frecuente hasta el menos frecuente. Esta herramienta presenta, en forma decreciente, la contribución relativa de cada elemento al efecto total, que puede basarse en la cantidad de sucesos u otras mediciones de impacto sobre el efecto \parencite{unit2009}. Según el mismo autor, la metodología incluye las siguientes etapas:
+
+\begin{itemize}
+\item Selección de elementos a estudiar.
+\item Selección de la unidad de medición de análisis.
+\item Selección del periodo de tiempo.
+\item Listar los elementos de izquierda a derecha, de modo que disminuya la magnitud de la unidad de medición.
+\item Dibujar un rectángulo cuya alutra representa la magnitud de la unidad de medición para el elemento.
+\item Construir curva de frecuencia acumulada.
+\item identificar los elementos más importantes según el análisis realizado.
+\end{itemize}
+
+
+A partir de los registros de fallas se configura un diagrama de Pareto para cada máquina, a excepción de la impresora \textit{Ender 3}, que fue puesta en operación durante el proceso de recolección de datos por tanto su muestra es insuficiente para el análisis. Así, se busca identificar cómo el 20\% de las causas son responsables del 80\% de los efectos respecto a las fallas en los equipos. Para esto, los elementos a estudiar corresponden al tipo de fallas registradas según cada impresora, en el tiempo comprendido por el levantamiento de información realizado. La unidad de medición corresponde a la frecuencia de las fallas para cada máquina, y se agrupan según la similitud de las fallas o el subsistema donde ocurre. A continuación, se muestran las fallas y frecuencias agrupadas para las impresoras del taller.
+
+\begin{table}[H]
+\centering
+\includegraphics[scale=1]{images/dataparetox350.png}
+\caption{Fallas y frecuencia de ocurrencia para impresora X350.}
+\label{dataparetox350}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\includegraphics[scale=1]{images/dataparetox400.png}
+\caption{Fallas y frecuencia de ocurrencia para impresora X400.}
+\label{dataparetox400}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\includegraphics[scale=1]{images/dataparetomk2.png}
+\caption{Fallas y frecuencia de ocurrencia para impresora Prusa MK2.}
+\label{dataparetomk2}
+\end{table}
+
+Los resultados representados en el diagrama de Pareto son los siguientes:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{images/paretox350.png}
+\caption{Diagrama de Pareto para impresora X350.}
+\label{paretox350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{images/paretox400.png}
+\caption{Diagrama de Pareto para impresora X400.}
+\label{paretox400}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{images/paretomk3.png}
+\caption{Diagrama de Pareto para impresora Prusa MK3.}
+\label{paretomk3}
+\end{figure}
+
+Se puede observar que, para todas las impresoras estudiadas, la mayor cantidad de fallos que se han debido reparar consiste en la inexistencia de extrusión de filamento. Este suceso suele ocurrir luego de cambios de material o la limpieza incorrecta del conjunto extrusor luego de ciertas horas de impresión. Como muestra la figura \ref{paretox350}, la impresora X350 ha presentado defectos por paradas catastróficas que no permiten una puesta en marcha inmediata, como la rotura de componentes en la cama caliente y desconexiones de la pantalla LCD por el movimiento del cabezal de extrusión. Por otra parte, la máquina X400 presenta como segunda falla la mala adhesión a la cama. Esto sucede tanto por configuraciones erróneas del proceso, como incompatibilidad del material de impresión con la superficie de la cama caliente. Asimismo, la figura \ref{paretox400} da a entender que existen registros de fallas catastróficas como la rotura de la cama que tienen un efecto sobre la producción, no obstante, la frecuencia de este suceso es mínima. En relación a la impresora MK3 (ver figura \ref{paretomk3}, las fallas aparecidas no afectan en mayor medida la puesta en marcha inmediata, salvo un evento en específico de rotura de la cubierta PEI por una incorrecta nivelación de la cama. De estos resultados, se obtiene que el énfasis de las tareas de mantenimiento se deben enfocar en el correcto funcionamiento del conjunto de extrusión, el monitoreo de la condición de la cama caliente y nivelación de ejes para la prevención de colisiones. 
+
+
 
 \subsubsection{Análisis de criticidad}
 
-El primer paso para determinar la máquina de impresión 3D más crítica, es la realización de un análisis de criticidad a los equipos del taller. Debido a que la empresa no ha registrado periódicamente las fallas ocurridas y las acciones de mantenimiento realizadas, el análisis se basará en establecer cual sería la condición más favorable, así como la condición menos favorable de cada uno de los criterios a evaluar, según apreciaciones generales e información obtenida en los últimos seis meses. Para esto, los aspectos a evaluar son:
+Para determinar la máquina de impresión 3D más crítica, se debe efectuar un análisis de criticidad a los equipos del taller. Debido a que la empresa no ha registrado periódicamente las fallas ocurridas y las acciones de mantenimiento realizadas, el análisis se basará en establecer cual sería la condición más favorable, así como la condición menos favorable de cada uno de los criterios a evaluar, según apreciaciones generales e información obtenida en los últimos seis meses. Para esto, los aspectos a evaluar son:
 
 \begin{itemize}
 \item Impacto a la seguridad
@@ -53,15 +121,15 @@ Las tablas de ponderaciones para cada uno de estos son las siguientes:
     \hline
     Frecuencia de las fallas & \multicolumn{1}{l|}{Ponderación} \\
     \hline
-    mayor que 16 /semestre & 5 \\
+    mayor que 13 /semestre & 5 \\
     \hline
-    12-15/semestre & 4 \\
+    12-9/semestre & 4 \\
     \hline
-    8-11/semestre & 3 \\
+    8-5/semestre & 3 \\
     \hline
-    4-7/semestre & 2 \\
+    4-1/semestre & 2 \\
     \hline
-    Menor a 4/al semestre & 1 \\
+    0 /al semestre & 1 \\
     \hline
     \end{tabular}%
     \caption{Ponderaciones para el ítem de frecuencia de fallas}
@@ -136,6 +204,8 @@ Las tablas de ponderaciones para cada uno de estos son las siguientes:
   \label{tab:addlabel}%
 \end{table}%
 
+\clearpage
+
 Los resultados del análisis de criticidad para elegir el activo más crítico se muestran en la siguiente tabla:
 
 \begin{table}[H]
@@ -158,7 +228,7 @@ Los resultados del análisis de criticidad para elegir el activo más crítico s
   \label{tab:addlabel}%
 \end{table}%
 
-El puntaje final se obtiene multiplicando el valor obtenido de las frecuencias por la sumatoria total de las consecuencias para cada Activo. De este análisis se desprende que la impresora \textit{X350 German RepRap} es el equipo con mayor criticidad en función de las variables estudiadas, en el periodo comprendido por seis meses desde marzo hasta agosto del 2020.
+El puntaje final se obtiene multiplicando el valor obtenido de las frecuencias por la sumatoria total de las consecuencias para cada Activo. De este análisis se desprende que la impresora \textit{X350 German RepRap} es el equipo con mayor criticidad en función de las variables estudiadas, en el periodo comprendido entre mayo y octubre de 2020.
 
 \subsection{Descripción del equipo}
 
@@ -200,7 +270,7 @@ A continuación, se resumen los datos técnicos generales de la máquina:
     Boquilla & 0,4 mm \\
     \hline
     \end{tabular}%
-    \caption{Ficha Técnica de la máquina X350 German RepRap \citep{germanreprap2019}.}
+    \caption{Ficha Técnica de la máquina X350 German RepRap \parencite{germanreprap2019}.}
   \label{tab:addlabel}%
 \end{table}%
 
@@ -294,7 +364,7 @@ La tabla de componentes para la impresora X350 resulta de la siguiente forma:
 \caption{Tabla de componentes para impresora X350.}
 \end{table}
 
-A continuación, se resumen las recomendaciones de mantenimiento y los problemas frecuentes que el fabricante entrega en su guía para el usuario \citep{germanreprap2019}:
+A continuación, se resumen las recomendaciones de mantenimiento y los problemas frecuentes que el fabricante entrega en su guía para el usuario \parencite{germanreprap2019}:
 
 \begin{table}[H]
   \centering
@@ -348,7 +418,7 @@ Según \cite{unit2009}, un Diagrama de Interrelaciones Funcionales permite ident
 
 \subsubsection{Árbol de Fallas} 
  
-Según \cite{pique1998}, el método de árbol de fallos o FTA por sus siglas en inglés \textit{Fault Tree Analysis} se trata de un método deductivo de análisis que parte de la previa selección de un suceso no deseado o evento que se pretende evitar. Seguidamente, de manera sistemática y lógica se presentan las combinaciones de las situaciones que pueden dar a lugar a la producción del evento a evitar. Se deben conformar niveles sucesivos de tal manera que cada suceso esté generado a partir de sucesos del nivel inferior siendo el nexo de unión entre los niveles la existencia de operadores o puertas lógicas \citep{pique1998}. En la siguiente tabla se muestran los símbolos que se utilizan en el árbol de falla.
+Según \cite{pique1998}, el método de árbol de fallos o FTA por sus siglas en inglés \textit{Fault Tree Analysis} se trata de un método deductivo de análisis que parte de la previa selección de un suceso no deseado o evento que se pretende evitar. Seguidamente, de manera sistemática y lógica se presentan las combinaciones de las situaciones que pueden dar a lugar a la producción del evento a evitar. Se deben conformar niveles sucesivos de tal manera que cada suceso esté generado a partir de sucesos del nivel inferior siendo el nexo de unión entre los niveles la existencia de operadores o puertas lógicas \parencite{pique1998}. En la siguiente tabla se muestran los símbolos que se utilizan en el árbol de falla.
  
 \begin{table}[H]
 \centering
@@ -369,7 +439,7 @@ Símbolo & Significado \\
 \includegraphics[scale=1]{images/arbol/transferencia.png} & Indica que el árbol continúa en otro lugar. \\
 \hline
 \end{tabular}
-\caption{Símbolos y significados del árbol de fallas \citep{pique1998}}
+\caption{Símbolos y significados del árbol de fallas \parencite{pique1998}}
 \end{table}
 
 Según \cite{pique1998}, los pasos para la resolución de árboles de fallo son los siguientes:
@@ -439,7 +509,7 @@ Según la norma SAE JA-1012, un análisis de modos y efectos de fallas puede ayu
 
 \subsubsection{Estructura Diagrama de decisión}
 
-Si bien la norma SAE JA1012 entrega diagramas tipo para la elaboración del diagrama de decisión RCM, deja de manifiesto que existen diferencias entre los distintos tipos de diagramas utilizados en el mundo, llegando a siquiera cumplir con la normativa SAE JA1011 en algunos casos. Es por esto que, para la realización de esta herramienta, se realiza una búsqueda con el fin de encontrar un algoritmo de de decisión afín al tipo de mantenimiento que se busca hacer en este caso. En todo caso, según \cite{saeja1012}, las fases de aplicación de este diagrama se conforma típicamente por tres fases:
+Si bien la norma SAE JA1012 entrega diagramas tipo para la elaboración del diagrama de decisión RCM, deja de manifiesto que existen diferencias entre los distintos tipos de diagramas utilizados en el mundo, llegando a siquiera cumplir con la normativa SAE JA1011 en algunos casos. Es por esto que, para la realización de esta herramienta, se realiza una búsqueda con el fin de encontrar un algoritmo de decisión afín al tipo de mantenimiento que se busca hacer en este caso. En todo caso, según \cite{saeja1012}, las fases de aplicación de este diagrama se conforma típicamente por tres fases:
 
 \begin{enumerate}
 \item Trabajando desde el principio, utilice el diagrama de decisión para determinar las categorías de consecuencias que aplica al modo de falla en consideración.
@@ -475,7 +545,7 @@ Por otra parte, la estructura para la hoja de decisión RCM es la siguiente:
 \cline{1-13}    F     & FF    & MF    & H     & S     & E     & O     & N1    & N2    & N3    & H4    & H5    & S4    &       &       &   \\
     \hline
     \end{tabular}}%
-    \caption{Estructura propuesta para hoja de Información RCM.}
+    \caption{Estructura propuesta para hoja de Decisión RCM.}
   \label{tab:addlabel}%
 \end{table}%
 
@@ -587,6 +657,196 @@ A continuación, se muestran las hojas de información RCM obtenidos para los su
 \caption{Hoja de decisión RCM para subsistema de construcción de impresora X350}
 \end{figure}
 
+\subsection{Análisis de confiabilidad método de Weibull}
+
+Los datos utilizados para el análisis de Weibull fueron obtenidos a través del levantamiento de información de fallas ocurridas entre el 12 de mayo y el 10 de octubre del año 2020. El registro de fallas consta de la fecha de aparición de la falla, fecha de término del mantenimiento correctivo, descripción de la falla, tiempo aproximado de reparación y descripción de la actividad correctiva.
+La estimación de los parámetros de forma y escala se realiza según la criticidad obtenida en el análisis realizado anteriormente, y se obtendrán de dos formas con el fin de contrastar los resultados: a través de la realización de un ajuste lineal de los datos recogidos en el levantamiento de información, y por medio de la librería de python \textit{scipy}. Es importante mencionar que se obvía el análisis de la máquina \textit{Ender 3}, dado que fue adquirida durante el mes de julio y solo presenta dos datos en el registro. La validación del ajuste elegido se realiza a través del test de Shapiro, esto pues, según \cite{correa2018}, el test de Shapiro Wilk se considera uno de los más potentes para el contraste de normalidad, especialmente para muestras pequeñas. 
+
+\subsubsection{Análisis de Weibull para impresora X350}
+
+En la figura \ref{weibx350} se muestra el ajuste lineal realizado, desde donde se obtiene la ecuación del ajuste y el coeficiente $R^2$. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/weibullx350.png}
+\caption{Gráfica de dispersión con ajuste lineal para máquina X350}
+\label{weibx350}
+\end{figure}
+
+
+De la gráfica anterior, se nota que el coeficiente de correlación $R^2$ es cercano a 0,95, lo que da como resultado un buen ajuste lineal de la ecuación. Se puede obtener el parámetro de forma $\beta$ correspondiente a la pendiente del ajuste lineal obtenido. En la misma línea, el parámetro de escala $\theta$ es determinado en función del parámetro de forma y el término libre, según la ecuación:
+
+\begin{equation}
+\theta=e^{\left(-\frac{-b}{\beta}\right)}
+\end{equation}
+
+En la figura \ref{paramx350} se muestran los parámetros de Weibull obtenidos según la regresión lineal de los datos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/paramx350.png}
+\caption{Parámetros de Weibull para máquina X350}
+\label{paramx350}
+\end{figure}
+
+\begin{table}[H]
+\begin{lstlisting}
+shape: 0.9554383829299531 scale: 13.133371155314343
+\end{lstlisting}
+\caption{Parámetros de forma y escala obtenidos a través de la librería de python \textit{scypi} para impresora X350.}
+\end{table}
+
+De la misma forma, la función de confiabilidad se muestra en la figura \ref{confx350}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/confx350.png}
+\caption{Gráfico de confiabilidad para máquina X350}
+\label{confx350}
+\end{figure}
+
+La comprobación de la validez de los resultados obtenidos por medio del test de validación de Shapiro se realiza con el método \textit{shapiro} del módulo \textit{stats} de python, obteniendo el siguiente resultado:
+
+
+\begin{table}[H]
+\begin{lstlisting}
+ShapiroResult(statistic=0.9501206874847412, pvalue=0.6913892030715942)
+\end{lstlisting}
+\caption{Resultados de test de Shapiro para máquina X350.}
+\label{shapirox350}
+\end{table}
+
+Como se observa en el resultado \ref{shapirox350}, el valor porcentual es mayor al nivel de significancia para esta prueba (0,05), por tanto los resultados se pueden considerar válidos.
+
+\
+
+\subsubsection{Análisis de Weibull para impresora X400}
+
+Siguiendo el mismo procedimiento anterior, el ajuste lineal asociado a los datos obtenidos para la impresora X400 se presentan a continuación:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/paramx400.png}
+\caption{Parámetros de Weibull para máquina X400}
+\label{paramx350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/paramx400.png}
+\caption{Parámetros de Weibull para máquina X400}
+\label{paramx400}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/confx350.png}
+\caption{Gráfico de confiabilidad para máquina X400}
+\label{confx350}
+\end{figure}
+
+
+\begin{table}[H]
+\begin{lstlisting}
+shape: 1.30316121331562 scale: 20.0898613669566
+
+
+\end{lstlisting}
+\caption{Parámetros de forma y escala obtenidos a través de la librería de python \textit{scypi} para impresora X400.}
+\end{table}
+
+La comprobación de la validez de los resultados obtenidos por medio del test de validación de Shapiro  entrega el siguiente resultado:
+
+
+\begin{table}[H]
+\begin{lstlisting}
+ShapiroResult(statistic=0.9501206874847412, pvalue=0.6913892030715942)
+
+\end{lstlisting}
+\caption{Resultados de test de Shapiro para máquina X400.}
+\label{shapirox400}
+\end{table}
+
+Como se observa en el resultado \ref{shapirox400}, el valor porcentual es mayor al nivel de significancia para esta prueba (0,05), por tanto los resultados se pueden considerar válidos.
+
+
+\subsubsection{Análisis de Weibull para impresora Prusa MK3}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/parammk3.png}
+\caption{Parámetros de Weibull para máquina Prusa MK3}
+\label{paramx350}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/parammk3.png}
+\caption{Parámetros de Weibull para máquina Prusa MK3}
+\label{parammk3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/confmk3.png}
+\caption{Gráfico de confiabilidad para máquina Prusa MK3}
+\label{confx350}
+\end{figure}
+
+
+\begin{table}[H]
+\begin{lstlisting}
+shape: 0.866970622862605 scale: 14.7761423634349
+
+
+
+\end{lstlisting}
+\caption{Parámetros de forma y escala obtenidos a través de la librería de python \textit{scypi} para impresora Prusa MK3.}
+\end{table}
+
+La comprobación de la validez de los resultados obtenidos por medio del test de validación de Shapiro  entrega el siguiente resultado:
+
+
+\begin{table}[H]
+\begin{lstlisting}
+ShapiroResult(statistic=0.8503733277320862, pvalue=0.12387081235647202)
+
+
+\end{lstlisting}
+\caption{Resultados de test de Shapiro para máquina Prusa MK3}
+\label{shapiromk3}
+\end{table}
+
+Como se observa en el resultado \ref{shapirox400}, el valor porcentual es mayor al nivel de significancia para esta prueba (0,05), por tanto los resultados se pueden considerar válidos.
+
+\section{Plan de Mantenimiento}
+
+Una vez terminado el análisis de las máquinas impresoras 3D del taller, se deben determinar los planes y acciones para los mantenimientos. En este sentido, el objeto del desarrollo del proyecto es utilizar las herramientas de software necesarias para gestionar los registros de falla de los equipos.
+
+\paragraph{Mantenimiento diario o proactivo} La inspección diaria se debe realizar previo a la utilización de la máquina. Esta contempla las siguientes acciones:
+
+\begin{itemize}
+\item Revisión de alimentación eléctrica: revisar la conexión de la fuente de alimentación de la máquina.
+\item Conexión a la aplicación: revisar conexión a internet, y que la máquina esté debidamente conectada al software.
+\item Sistema mecánico: deshabilitar motores y verificar distancia vertical entre boquilla y cama.
+\item Sistema térmico: verificar que boquilla y cama estén limpias y sin restos de filamento. Precalentar a la temperatura configurada.
+\item Sistema de extrusión: extruir filamento y verificar la uniformidad del flujo.
+\end{itemize}
+
+\paragraph{Mantenimiento preventivo} El mantenimiento preventivo se configura en intervalos semanales, cada 30 días, y cada 60 días. Asimismo, existen acciones de mantenimiento que se basan en las horas de impresión de la máquina, entre las 200, 300 y 3200 horas de impresión y Las acciones de mantenimiento según estos intervalos son:
+
+\begin{itemize}
+\item Limpieza y lubricación de barras lisas y roscadas. (semanal).
+\item Limpieza de extrusor en caliente (semanal).
+\item Revisar gabinete de placa controladora (30 días, luego cada 60 días).
+\item Revisar estado de conexiones en cables de termistor y calentador (30 días)
+\item Revisar esado de conexiones de cables de motores paso a paso (30 días).
+\item Recambio de boquilla (300 horas de impresión).
+\item Revisar y volver a tensar correas (300 horas de impresión).
+\item Revisión de energía de alimentación de drivers (cada 3200 horas de impresión).
+\end{itemize}
+
+
 
 
 \section{Aplicación de metodología Design Thinking para el desarrollo de Aplicación Web}
@@ -630,7 +890,7 @@ Se observa que durante el proceso existen, a lo menos, tres escenarios o lugares
 
 \subsection{Planificación del marco de trabajo}
 
-Para definir el rumbo de planificación del proyecto, se estima conveniente trabajar en seis fases inspiradas en el design tinking: empatizar, definir, investigar, idear, prototipar y testear. De esta forma, el marco de trabajo se resume de la siguiente forma:
+Para definir el rumbo de planificación del proyecto, se estima conveniente trabajar en seis fases inspiradas en el Design Thinking: empatizar, definir, investigar, idear, prototipar y testear. De esta forma, el marco de trabajo se resume de la siguiente forma:
 
 \begin{table}[H]
 \centering
@@ -657,7 +917,7 @@ Testear & prueba en entorno de producción & aplicación funcional \\
 
 \subsection{Empatizar}
 
-La fase de inicio consiste en investigar cómo y por qué los usuarios, en este caso todos las personas involucradas en el proceso de impresión 3D, realizan las acciones que ellos encuentran determinantes en el proceso de impresión. Según la metodología, estos son definidos como \textit{stakeholders}. Este paso es indispensable, pues revela las personalidades, necesidades y patrones de trabajo de los stakeholders, y solo así se puede comenzar a esbozar el diseño de un concepto de producto en el cual se orientará la aplicación. Esto se realiza a través de un \textit{mapa de stakeholders}. Así, se reconoce que el principal sujeto de análisis es el operario de la impresora 3D. En la misma línea, otros participantes que tienen conexión con el proyecto son el diseñador y quien se encarga de la gestión de la empresa. Se consideran como contribuyentes o beneficiarios indirectos a los clientes de la empresa y quienes prestan servicios o insumos; también se encuentran indirectamente los competidores con capacidad similar de producción.
+La fase de inicio consiste en investigar cómo y por qué los usuarios, en este caso todos las personas involucradas en el proceso de impresión 3D, realizan las acciones que ellos encuentran determinantes en el proceso de impresión. Según la metodología, estos son definidos como \textit{stakeholders}. Este paso es indispensable, pues revela las personalidades, necesidades y patrones de trabajo de los sujetos, y solo así se puede comenzar a esbozar el diseño de un concepto de producto en el cual se orientará la aplicación. Esto se realiza a través de un \textit{mapa de stakeholders}. Así, se reconoce que el principal sujeto de análisis es el operario de la impresora 3D. En la misma línea, otros participantes que tienen conexión con el proyecto son el diseñador y quien se encarga de la gestión de la empresa. Se consideran como contribuyentes o beneficiarios indirectos a los clientes de la empresa y quienes prestan servicios o insumos; también se encuentran indirectamente los competidores con capacidad similar de producción.
 
 \begin{figure}[H]
 \centering
@@ -762,7 +1022,7 @@ Del análisis realizado a través del mapa de experiencia, se obtienen las sigui
 \end{itemize}
 
 \subsection{Definir}
-Para comprender y definir los requisitos de diseño para la solución propuesta y, al mismo tiempo, transformarlos en objetivos de diseño, es trabaja con la técnica de las \textit{cinco W}. Este se sintetiza desde la entrevista con el usuario, la cual arroja los siguientes resultados:
+Para comprender y definir los requisitos de diseño para la solución propuesta y, al mismo tiempo, transformarlos en objetivos de diseño, se trabaja con la técnica de las \textit{cinco W}. Este se sintetiza desde la entrevista con el usuario, la cual arroja los siguientes resultados:
 
 \begin{table}[H]
 \centering
@@ -803,7 +1063,7 @@ De las técnicas anteriormente utilizadas, y a modo de conseguir los \textit{ins
 
 \subsection{Investigar}
 
-En esta etapa se busca obtener la mayor información posible respecto a la tecnologías desarrolladas para la gestión de los procesos de mantenimiento, ya sea para pequeñas y medianas empresas, industrias y manufactura aditiva. Para esto, se realiza una investigación del tipo secundaria a partir de información obtenida por fuentes externas, y cualitativa en la medida que pueda informar respecto al consumo de tecnologías de gestión. Para esto, se proponen tres tipos de investigación:
+En esta etapa se busca obtener la mayor información posible respecto a la tecnologías desarrolladas para la gestión de los procesos de mantenimiento, ya sea para pequeñas y medianas empresas, industrias vinculadas a la producción y manufactura aditiva. Para esto, y a partir de información obtenida por fuentes externas, se realiza una investigación del tipo secundaria y cualitativa en la medida que pueda informar respecto al consumo de tecnologías de gestión. Para esto, se proponen tres tipos de investigación:
 
 \begin{itemize}
 
@@ -887,12 +1147,12 @@ La investigación de referentes estará centrada en softwares o aplicaciones de 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.9]{images/fracctal2.png}
-\caption{Captura de interfaz utilizada por \textit{FRACCTAL} para la gestión de tareas.}
+\includegraphics[scale=0.9]{images/fracctal3.png}
+\caption{Captura de interfaz utilizada por la aplicación \textit{FRACCTAL} para la gestión de tareas.}
 \label{fracctal3}
 \end{figure}
 
-En primer lugar, se nota que el público objetivo de todas las empresas corresponde a pequeñas, medianas y grandes industrias de manufactura. Como se observa en las figuras \ref{3dtmonitoreo} y \ref{3dtmonitoreo2}, en el caso de \textit{3DTrust} el monitoreo de la condición se realiza a través de dos interfaces distintas, una para la la observación de los estados de temperatura de una impresora 3D a lo largo del tiempo, y otra a modo de \textit{dashboard} para el monitoreo de las máquinas conectadas. En la figura \ref{3dtmonitoreo3}, se muestra que la forma de gestionar el control de la producción es a través de las funciones básicas de las bases de datos denominada \textit{CRUD},por el acrónimo en inglés de las funciones leer, actualizar, eliminar o crear. Por otra parte, \textit{AMFG} opta por realizar un calendario de actividades para la gestión de la producción. En la figura \ref{amfg} se muestra una interfaz gráfica para representar el estado y el tiempo de realización de las tareas planificadas. Además, existe la posibilidad de verificar el modelo a imprimir en la misma aplicación, tal como se observa en la figura \ref{amfg2}. En relación a \textit{FRACCTAL}, la principal cualidad es que en su \textit{dashboard} entrega información a modo de indicadores, ya sea gráficos o escalas, del cumplimiento de las tareas propuestas. En la figura \ref{fracctal} se pueden encontrar indicadores de porcentaje de cumplimiento, tareas planificadas versus no planificadas, entre otros. Al igual que con la empresa anterior, la sección relacionada a acciones y control de mantenimiento se realiza a través de funciones \textit{CRUD}, y se muestra a través de una interfaz de base de datos; esta característica se repite respecto al sistema de gestión de tareas, como se observa en la figura \ref{fracctal3}.
+En primer lugar, se nota que el público objetivo de todas las empresas corresponde a pequeñas, medianas y grandes industrias de manufactura. Como se observa en las figuras \ref{3dtmonitoreo} y \ref{3dtmonitoreo2}, en el caso de \textit{3DTrust} el monitoreo de la condición se realiza a través de dos interfaces distintas, una para la la observación de los estados de temperatura de una impresora 3D a lo largo del tiempo, y otra a modo de \textit{dashboard} para el monitoreo de las máquinas conectadas. En la figura \ref{3dtmonitoreo3}, se muestra que la forma de gestionar el control de la producción es a través de las funciones básicas de las bases de datos denominada \textit{CRUD},por el acrónimo en inglés de las funciones leer, actualizar, eliminar o crear. Por otra parte, \textit{AMFG} opta por realizar un calendario de actividades para la gestión de la producción. En la figura \ref{amfg} se muestra una interfaz gráfica para representar el estado y el tiempo de realización de las tareas planificadas. Además, existe la posibilidad de verificar el modelo a imprimir en la misma aplicación. En relación a \textit{FRACCTAL}, la principal cualidad es que en su \textit{dashboard} entrega información a modo de indicadores, ya sea gráficos o escalas, del cumplimiento de las tareas propuestas. En la figura \ref{fracctal} se pueden encontrar indicadores de porcentaje de cumplimiento, tareas planificadas versus no planificadas, entre otros. Al igual que con la empresa anterior, la sección relacionada a acciones y control de mantenimiento se realiza a través de funciones \textit{CRUD}, y se muestra a través de una interfaz de base de datos; esta característica se repite respecto al sistema de gestión de tareas, como se observa en la figura \ref{fracctal3}.
 
 
 \begin{table}[H]
@@ -1051,7 +1311,7 @@ Esta etapa consiste en encontrar las herramientas de programación que puedan in
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{images/grafana.png}
-\caption{Visualización de datos en grafana \citep{olano2019}.}
+\caption{Visualización de datos en grafana \parencite{olano2019}.}
 \end{figure}
 
 Grafana es compatible con servidores de diversas bases de datos como \textit{influxdb} o \textit{MySQL}, lo que permite vincularlo a códigos realizados en otras plataformas.
@@ -1086,8 +1346,8 @@ En palabras de \cite{sancho2020} es importante destacar igualmente que una de su
 
 \subsection{Idear}
 
-Según \citep{leis2020}, el Brainstorming es una técnica creativa, ideada en 1939 por Alex Faickney Osborn, que se basa en la interacción entre los integrantes de un grupo para crear nuevas ideas sobre un tema en concreto. De acuerdo con esta técnica, la interacción entre los distintos integrantes del grupo potencia la creatividad y se generan ideas que, trabajando individualmente, no se conseguirían. De esta forma, gracias al trabajo en grupo, las ideas de los usuarios se retroalimentan con las de los otros integrantes del grupo.
-El mismo autor propone tres fases para la realización de la técnica del brainstorming \citep{leis2020}:
+Según \parencite{leis2020}, el Brainstorming es una técnica creativa, ideada en 1939 por Alex Faickney Osborn, que se basa en la interacción entre los integrantes de un grupo para crear nuevas ideas sobre un tema en concreto. De acuerdo con esta técnica, la interacción entre los distintos integrantes del grupo potencia la creatividad y se generan ideas que, trabajando individualmente, no se conseguirían. De esta forma, gracias al trabajo en grupo, las ideas de los usuarios se retroalimentan con las de los otros integrantes del grupo.
+El mismo autor propone tres fases para la realización de la técnica del brainstorming \parencite{leis2020}:
 
 \begin{itemize}
 \item Identificación del problema
@@ -1095,7 +1355,7 @@ El mismo autor propone tres fases para la realización de la técnica del brains
 \item Análisis
 \end{itemize}
 
-\paragraph{Identificación del problema} Como se menciona en el Capítulo 3, los problemas detectados se relacionan a la imposibilidad del monitoreo de máquinas simultánemanete, detenciones imprevistas por mantenimientos y la ausencia de registro datos en general. Por tanto, la pregunta para comenzar el brainstorming queda enunciada como: \textit{¿Cómo se puede mejorar el sistema de monitoreo y mantenimiento a través de una aplicación web?}
+\paragraph{Identificación del problema} Como se menciona en el Capítulo 3, los problemas detectados se relacionan a la imposibilidad del monitoreo de máquinas simultáneamente, detenciones imprevistas por mantenimientos y la ausencia de registro de datos en general. Por tanto, la pregunta para comenzar el brainstorming queda enunciada como: \textit{¿Cómo se puede mejorar el sistema de monitoreo y mantenimiento a través de una aplicación web?}
 
 \paragraph{Generación de ideas} La fase de generación de ideas parte con las siguientes definiciones:
 
@@ -1158,6 +1418,253 @@ La lógica de la aplicación se encargará de requerir y recibir los datos desde
 \label{esquemadb}
 \end{figure}
 
+\subsubsection{Caracterización de datos}
 
-\subsection{Testear}
+Los datos obtenidos a través de la consulta a la API de Octoprint se pueden caracterizar de dos formas: datos obtenidos por series e intervalos de tiempo, y datos según un evento en específico. Es importante destacar que ambas no pueden ser tratadas de la misma forma, dado que las series por intervalos de tiempo suelen entregar un alto volumen de datos en un periodo específico y en general son utilizadas para la representación de los datos en vivo. Por esto, se elige utilizar \textit{Influxdb} como servidor de bases de datos de series. En este sentido, las variables asociadas a este tipo de registro de datos son las temperaturas de la cama caliente y extrusor, estado actual de impresión, progreso de la impresión, y las métricas calculadas de MTBF, MTTR y Confiabilidad. En la figura \ref{influxdb} se muestra la base de datos creada para la aplicación, mientras que en la figura \ref{measurements}  se incluyen los datos recogidos y métricas obtenidas. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/influxdb.png}
+\caption{Base de datos creada para series de tiempo en Influxdb}
+\label{influxdb}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/influxmeasurements.png}
+\caption{Mediciones en base de datos de series de tiempo.}
+\label{measurements}
+\end{figure}
+
+
+Por otra parte, la existencia de eventos específicos que puedan determinar ciertos estados de la impresora requieren un tratamiento distinto que los datos en vivo; esto es, seleccionar, borrar, ordenar o cambiar información. Así, para los registros de mantenimiento se utiliza el tipo de bases de datos relacional basada en \textit{Mysql}. En esta linea, la base de datos cuenta con las tablas de piezas canceladas y terminadas (figura \ref{dbterminadas}), registros de mantenimiento correctivo (figura \ref{dbcorrectivo}), paradas no planificadas (figura \ref{dbplanificadas}) y registros de inspección diaria (figura \ref{dbiprevia}). Se debe notar que, para la obtención de las métricas de MTBF, MTTR y la confiabilidad, tanto los tiempos entre falla como el tiempo final de reparación se almacenan en una base de datos relacional, y son exportadas a archivos .csv (ver figura \ref{comenzadoscsv}) para facilitar la lectura y procesamiento de la data obtenida.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/dbcorrectivo.png}
+\caption{Tabla de base de datos con el registro de los mantenimientos correctivos realizados.}
+\label{dbcorrectivo}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/dbiprevia.png}
+\caption{Tabla de base de datos con el registro de las inspecciones previas realizadas.}
+\label{dbiprevia}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/dbplanificadas.png}
+\caption{Tabla de base de datos con el registro de las actividades no planificadas a realizar.}
+\label{dbplanificadas}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/dbterminadas.png}
+\caption{Tabla de base de datos con el registro de las impresiones terminadas.}
+\label{dbterminadas}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/comenzadoscsv.png}
+\caption{Archivo csv obtenido de la base de datos.}
+\label{comenzadoscsv}
+\end{figure}
+
+\subsubsection{Métricas}
+
+Para el control de la producción y el mantenimiento se calculan las siguientes métricas:
+
+\paragraph{MTBF (Tiempo Medio Entre Fallas):} esta métrica se obtiene calculando la diferencia entre las marcas temporales de los registro de fallas, con unidad en horas.
+
+\begin{table}[H]
+\begin{lstlisting}
+var div=msg.payload.length;
+var sum=0;
+for (var i=0;i<msg.payload.length;i++){
+    sum=msg.payload[i]+sum;
+}
+var prom=sum/div;
+msg.payload=parseInt(prom/60000);
+return msg;
+\end{lstlisting}
+\caption{Código en Node-red para la obtención del tiempo medio entre fallas.}
+\end{table}
+
+\paragraph{MTTR (Tiempo Medio Para Reparar):} este promedio se calcula realizando la diferencia entre las marcas temporales de los registro de fallas y el término de la reparación, con unidad en horas.
+
+\begin{table}[H]
+\begin{lstlisting}
+msg1=[];
+
+if (msg.payload[0].length==msg.payload[1].length){
+    for (var i=0;i<msg.payload[0].length;i++){
+        var a=msg.payload[0][i];
+        var b=msg.payload[1][i];
+        diff=b-a;
+        msg1.push(diff);
+    
+    }
+    
+    msg.payload=msg1;
+
+    return msg;    
+} else {
+    return null
+}
+
+-------------
+
+var div=msg.payload.length;
+var sum=0;
+
+for(var i=0;i<msg.payload.length;i++){
+    sum=msg.payload[i]+sum;
+}
+var prom=sum/div;
+msg.payload=prom/60000;
+return msg;
+\end{lstlisting}
+\caption{Código en Node-red para la obtención del tiempo medio para reparar}
+\end{table}
+
+
+\paragraph{Confiabilidad:} el cálculo de la confiabilidad se realiza dividiendo el tiempo medio entre fallas por la suma del tiempo medio entre fallas y el tiempo medio para reparar.
+
+\begin{equation}
+R=\frac{MTBF}{MTBF+MTTR}\cdot 100
+\end{equation}
+
+\begin{table}[H]
+\begin{lstlisting}
+msg.payload=(msg.payload[0]/(+msg.payload[0]+msg.payload[1]))*100;
+return msg;
+\end{lstlisting}
+\caption{Código en Node-red para la obtención de la confiabilidad.}
+\end{table}
+
+\paragraph{Filamento Impreso:} la cantidad de filamento impreso se obtiene multiplicando el volumen del filamento ocupado (diámetro 1,75 mm) en una pieza por la densidad promedio del plástico utilizado por defecto (PLA+).
+
+\begin{equation}
+m=1,24\left[\frac{g}{cm^3}\right] \cdot \frac{\pi \cdot 0,175^2}{4} \cdot l
+\end{equation}
+
+\begin{table}[H]
+\begin{lstlisting}
+INSERT INTO terminadas (pieza, tiempo_impresion, filamento) VALUES (%s,%s,%s),(pieza, tiempo_impresion, filamento*1.24*3.14*0,175*0,175/4)
+\end{lstlisting}
+\caption{Query Mysql para la obtención de filamento impreso.}
+\end{table}
+
+
+\paragraph{Tiempo total de impresión:} el tiempo total de impresión se obtiene sumando la columna de los tiempos individuales de impresión caracterizados en la tabla de la base de datos.
+
+\begin{table}[H]
+\begin{lstlisting}
+SELECT SUM(tiempo_impresion) FROM terminadas
+\end{lstlisting}
+\caption{Query Mysql para la obtención del tiempo total de impresión.}
+\end{table}
+
+
+\paragraph{Piezas canceladas:} la cantidad de piezas canceladas resulta de contar todas las filas en la tabla de base de datos de piezas canceladas.
+
+\begin{table}[H]
+\begin{lstlisting}
+SELECT COUNT(tiempo_impresion) FROM canceladas
+\end{lstlisting}
+\caption{Query Mysql para la obtención de la cantidad  total de piezas canceladas.}
+\end{table}
+
+\paragraph{Piezas terminadas:} la cantidad de piezas terminadas resulta de contar todas las filas en la tabla de base de datos de piezas terminadas.
+
+
+\begin{table}[H]
+\begin{lstlisting}
+SELECT COUNT(tiempo_impresion) FROM terminadas
+\end{lstlisting}
+\caption{Query Mysql para la obtención de la cantidad  total de piezas terminadas.}
+\end{table}
+
+\subsection{Implementar y testear}
+
+Una vez terminado el desarrollo tanto de la lógica como de la interfaz de usuario, se inicia la implementación y testeo de la aplicación. Esta se realiza en el taller de impresión de la empresa, iniciando la recopilación de datos y monitoreo en vivo de una máquina. En primer lugar, se muestra el dashboard inicial (ver figura \ref{inspprevia}, que permite un fácil y rápido control del mantenimiento diario, mostrando una serie de pasos para considerar esta acción como realizada. Asimismo, se muestra en vivo la hora y fecha de la última acción previa a la utilización de la máquina, así como el estado actual. La siguiente pestaña de la aplicación considera el registro y control del mantenimiento correctivo, sistematizando el registro según la impresora, el tipo de mantenimiento a registrar, el subsistema en que se encuentra la falla, y una descripción de la falla. En la misma página mostrada en la figura \ref{registrocorrectivo} existe una tabla donde se registra, además de los datos anteriores, la marca temporal en la que el operario inicia la operación de mantenimiento correctivo y en la que este finaliza. También existe la posibilidad de anotar acciones no planificadas, como el recambio de alguna pieza o una revisión que no exista en las inspecciones previas, o que no se considere una acción correctiva. En la barra de navegación existe un link directo al panel de control de Octoprint (figura \ref{paneloctoprint}), donde el operario realiza todo lo relacionado al proceso de impresión, desde cargar un archivo para su fabricación, como ordenes de precalentamiento de boquilla y cama. El monitoreo de la condición y la obtención de métricas para el mantenimiento se condensan en el dashboard de la figura \ref{grafanaoctocmms}. Aquí, se muestra el estado actual de la máquina, temperaturas de boquilla y cama, estado de la conexión, progreso de la impresión actual, tiempo medio entre fallas y tiempo medio para reparar, confiabilidad, piezas impresas, tiempo total de impresión, filamento extruido, piezas terminadas y piezas canceladas. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4,angle=90]{images/inspprevia.png}
+\caption{Dashboard Inicial del programa de gestión del mantenimiento}
+\label{inspprevia}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4,angle=90]{images/registrocorrectivo.png}
+\caption{Página de registro y control de mantenimientos correctivos.}
+\label{registrocorrectivo}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4,angle=90]{images/registronoplanificado.png}
+\caption{Página de registro y control de acciones no planificadas.}
+\label{registronoplanificado}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4,angle=90]{images/paneloctoprint.png}
+\caption{Panel de control de Octoprint.}
+\label{paneloctoprint}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4,angle=90]{images/grafanaoctocmms.png}
+\caption{Dashboard de indicadores y monitoreo de la condición.}
+\label{grafanaoctocmms}
+\end{figure}
+
+Luego de realizar la primera prueba en entorno de producción se realizan las siguientes observaciones:
+
+\begin{itemize}
+\item El primer prototipo no cumple con una interfaz amigable, pues existe confusión en el ingreso manual de datos correspondientes al mantenimiento correctivo. Por ejemplo, en cada falla ocurrida se debe escribir el nombre de la impresora, el tipo de mantenimiento, el sistema y la falla.
+\item La información y acciones de mantenimiento preventivo aparecen muy desordenadas en el espacio de la página. Esto provoca que el usuario observa poca información en un espacio muy grande. 
+\end{itemize}
+
+Para resolver a cada punto observado en el testeo de la aplicación, y a modo de segunda iteración, se propone realizar mejoras en el diseño visual e ingreso de la información. En este sentido, la etapa de prototipado se reinicia en un punto avanzado del proceso, puesto que el cambio a realizar no impacta de mayor manera en la lógica de la aplicación. En primer lugar, se reconfigura y redistribuye el dashboard de la aplicación, para que el usuario pueda encontrar toda la información respecto a los mantenimientos autónomos, semanales y mensuales, como se muestra en la figura \ref{v02_insprevia}.
+
+Por otra parte, para mantener la integridad de los datos en el proceso de ingreso de mantenimientos correctivos, se elige la opción de crear una lista desplegable para cada ítem a revisar. Realizar esta acción permite una estandarización en el ingreso de la información dado que limita y contextualiza cada dato de entrada a la aplicación. Las figuras \ref{menuimpresora} y \ref{pestanasistema} muestran los resultados del testeo de las mejoras realizadas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4,angle=90]{images/v02_insprevia.png}
+\caption{Segunda iteración para dashboard Inicial del programa de gestión del mantenimiento.}
+\label{v02_insprevia}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/menuimpresora.png}
+\caption{Segunda iteración para ingreso de datos de impresoras en mantenimiento correctivo.}
+\label{menuimpresora}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.9]{images/pestanasistema.png}
+\caption{Segunda iteración para ingreso de datos de mantenimiento correctivo.}
+\label{pestanasistema}
+\end{figure}
+
+
+
+
+
+
+
+  
 

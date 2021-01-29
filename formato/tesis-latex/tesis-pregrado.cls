@@ -41,7 +41,7 @@
 
 %--------Archivos suplementarios
 \RequirePackage[spanish]{babel}
-\RequirePackage[utf8x]{inputenc}
+\RequirePackage[utf8]{inputenc}
 % \RequirePackage[latin1]{inputenc}
 % \RequirePackage[T1]{fontenc}
 % \RequirePackage{lmodern}
@@ -65,9 +65,14 @@
 \RequirePackage{upgreek}
 \iftxfonts\RequirePackage{txfonts}\fi
 %-------Entornos, figuras
+
+\usepackage{subfigure}
+\usepackage[subfigure]{tocloft}
+
 \RequirePackage{verbatim}
 \RequirePackage{fancyvrb}
 \RequirePackage{enumerate}
+
 %-------Imagenes GNU Plot
 \RequirePackage{graphicx}
 \RequirePackage{epsf}
@@ -140,13 +145,13 @@
 	numberstyle=\tiny,
 	numberfirstline=false,
 	breaklines=true,
-	%
+%	%
 	tabsize=4,
 	upquote=true,
 	extendedchars=true,
 	morecomment=[s]{/**\<}{*/},
 	morecomment=[s]{/*}{*/},
-%    morekeywords={¿,?},
+    morekeywords={¿,?},
 }
 
 \usepackage{color}
@@ -173,14 +178,19 @@
 	backgroundcolor=\color{gray75},
 }
 %--------Bibliografia
-\RequirePackage{apacite}
-\RequirePackage[authoryear]{natbib}
+%\usepackage{bibtex}
+
+
+
+
+
+%\RequirePackage[authoryear]{natbib}
 \RequirePackage{tocbibind} % Agregar referencias al índice
-\RequirePackage[fixlanguage]{babelbib}
-\selectbiblanguage{spanish}
-\bibpunct{(}{)}{;}{}{,}{,}
-\setcounter{secnumdepth}{3} %Mostrar numeración en las subsubsecciones
-\setcounter{tocdepth}{3} %Mostrar las subsubsecciones en el índice
+%\RequirePackage[fixlanguage]{babelbib}
+%\selectbiblanguage{spanish}
+%\bibpunct{(}{)}{;}{}{,}{,}
+%\setcounter{secnumdepth}{3} %Mostrar numeración en las subsubsecciones
+%\setcounter{tocdepth}{3} %Mostrar las subsubsecciones en el índice
 %--------Teoremas, definiciones, ejemplos, lemas, etc
 \newtheoremstyle{teorema}{\topsep}{\topsep}%
 	{\normalfont} % Body font
@@ -265,7 +275,9 @@
 %================================================================
 \lhead{\chaptername \thechapter. \chaptermark}
 \chead{}
-\rhead{\thepage}
+\rhead{}
+\lfoot{}
+\rfoot{}
 \cfoot{}
 \fancyheadoffset[LE,RO]{0cm}
 % Cambios al default de spanish
@@ -277,7 +289,7 @@
 \addto\captionsspanish
 {
 	\def\bibname{Referencias}
-	\def\contentsname{\'Indice de Contenidos}
+	\def\contentsname{Tabla de Contenidos}
 	\def\listfigurename{\'Indice de Figuras}
 	\def\listtablename{\'Indice de Tablas}
 	\def\listalgorithmname{\'Indice de Algoritmos}
@@ -289,6 +301,13 @@
 \renewcommand{\appendixname}{Apéndices}
 \renewcommand{\appendixtocname}{Apéndices}
 \renewcommand{\appendixpagename}{Apéndices}
+% Se agrega la palabra 'Figura' al índice de figuras
+\renewcommand{\cftfigfont}{Figura~}
+% Espacio entre los números y el caption de la Figura
+\setlength{\cftfignumwidth}{2.75em}
+\renewcommand{\cfttabfont}{Tabla~}
+% Espacio entre los números y el caption de la Tabla
+\setlength{\cfttabnumwidth}{2em}
 %--------Header de los capitulos
 % by Emir
 \usepackage[compact]{titlesec}
@@ -483,35 +502,37 @@
 		\begin{center}
 		\vspace*{1cm}
 		\iflogo
-			{\bf\MakeUppercase{\@autor}}\\[1cm]
+			{\bf\@autor}\\[1cm]
 		\else
-			{\bf\MakeUppercase{\@autor}}\\[1.5cm]
+			{\bf\MakeUppercase{\@autor}}\\[1cm]
 		\fi
 
 		%Datos profesor(es)
-		\vspace*{1.6cm}
+		\vspace*{0.5cm}
 		\begin{flushleft}
 		\normalsize
-		\hspace{7.5cm} PROFESOR GU\'IA: {\MakeUppercase{\@profesorguia}}\\
+		\hspace{7cm} \textbf{Profesor Guía:} \\ 
+		\hspace{7cm} {\bf\@profesorguia}\\
 		\ifdosguias
-			\hspace{7.5cm} PROFESOR CO-GU\'IA: {\MakeUppercase{\@profesorcoguia}}\\
+			\hspace{6cm} PROFESOR CO-GU\'IA: {\MakeUppercase{\@profesorcoguia}}\\
 		\fi
-		\vspace{1cm}
-		\hspace{7.5cm} TRABAJO DE TITULACIÓN PRESENTADO\\
-		\hspace{7.5cm} EN CONFORMIDAD A LOS REQUISITOS PARA\\
+		\vspace{0.5cm}
+		\hspace{7cm}  \textbf{Trabajo de titulación presentado en}  \\
+		\hspace{7cm} \textbf{conformidad  de los requisitos para}  \\
 		\ifcivil
-			\hspace{7.5cm} OBTENER EL T\'ITULO DE INGENIERO CIVIL\\
-			\hspace{7.5cm} EN INFORM\'ATICA\\
+			\hspace{7cm} \textbf{obtener el título de Ingeniero Civil}\\
+			\hspace{7cm} \textbf{en Mecánica}\\
+			\
 		\fi
 		\ifejecucion
-			\hspace{7.5cm} OBTENER EL T\'ITULO DE INGENIERO DE \\
-			\hspace{7.5cm} EJECUCI\'ON EN COMPUTACI\'ON E INFORM\'ATICA\\
+			\hspace{6cm} OBTENER EL T\'ITULO DE INGENIERO DE \\
+			\hspace{6cm} EJECUCI\'ON EN COMPUTACI\'ON E INFORM\'ATICA\\
 		\fi
 		\end{flushleft}
 
-		\vspace*{3.5cm}
-		\normalsize\MakeUppercase{\@ciudad\ -- \@pais}\\
-		\@annoexamen
+		\vspace*{0.5cm}
+		\normalsize\MakeUppercase{\bf\@ciudad\ -- \bf\@pais}\\
+		\bf\@annoexamen
 		\end{center}\par
 		\iflogo \vspace{.9cm} \else \vspace{1cm} \fi
 	}
@@ -525,10 +546,10 @@
 		% no va copyright
 	\else
 		\thispagestyle{empty}
-		\vspace*{18cm}\par
+		\vspace*{17cm}\par
 		\begin{flushleft}
-		\copyright\ \@autor \\
-		Se autoriza la reproducción parcial o total de esta obra, con fines académicos, por cualquier forma, medio o procedimiento, siempre y cuando se incluya la cita bibliográfica del documento.
+		\textbf{Pablo Alejandro Ruz Donooso - 2020}\\
+		
 		%Queda prohibida la reproducción parcial o total de esta obra en cualquier forma, medio o procedimiento sin permiso por escrito del autor.
 		\end{flushleft}
 	\fi
