@@ -1,57 +1,210 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
-\contentsline {chapter}{\'Indice de Figuras}{viii}{chapter*.2}%
-\contentsline {chapter}{\'Indice de Tablas}{ix}{chapter*.3}%
-\contentsline {chapter}{\'Indice de Algoritmos}{x}{chapter*.4}%
-\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Antecedentes y motivaci\'on}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Descripci\'on del problema}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Soluci\'on propuesta}{1}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objetivos y alcance del proyecto}{1}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{1}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\'ificos}{1}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Alcances}{2}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}Metodolog\'ia y herramientas utilizadas}{3}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Metodolog\'ia}{3}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Herramientas de desarrollo}{3}{subsection.1.5.2}%
-\contentsline {section}{\numberline {1.6}Resultados Obtenidos}{3}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Organizaci\'on del documento}{3}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Marco Te\'orico}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Impresi\IeC {\'o}n 3D}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Historia de la impresi\IeC {\'o}n 3D}{6}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}M\IeC {\'e}todos de impresi\IeC {\'o}n 3D}{8}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Impresoras 3D FDM}{8}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Tipolog\IeC {\'\i }as de impresi\IeC {\'o}n 3D FDM}{8}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Mantenimiento}{8}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Historia y evoluci\IeC {\'o}n del mantenimiento}{9}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Mantenimiento correctivo}{14}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Mantenimiento preventivo}{15}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Mantenimiento centrado en la condici\IeC {\'o}n}{15}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Mantenimiento centrado en la confiabilidad}{15}{subsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.5.1}Funci\IeC {\'o}n densidad de probabilidad}{20}{subsubsection.2.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.2.5.2}Media y varianza de una variable continua}{21}{subsubsection.2.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.2.5.3}Distribuci\IeC {\'o}n normal}{21}{subsubsection.2.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.2.5.4}Distribuci\IeC {\'o}n exponencial}{22}{subsubsection.2.2.5.4}%
-\contentsline {subsubsection}{\numberline {2.2.5.5}Distribuci\IeC {\'o}n de Weibull}{22}{subsubsection.2.2.5.5}%
-\contentsline {section}{\numberline {2.3}Lean Manufacturing}{23}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Historia Lean Manufacturing}{23}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Herramientas de mantenimiento}{23}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Design Thinking}{23}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{23}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Design Thinking}{23}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Fases del Design Thinking}{23}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Herramientas de software}{23}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{23}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Lenguajes de hojas de estilo}{23}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Bases de datos}{23}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Arquitectura Cliente-Servidor}{23}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}API}{23}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Ordenadores de placa reducida}{23}{subsection.2.5.6}%
-\contentsline {chapter}{\numberline {3}Estado del Arte}{24}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Gesti\IeC {\'o}n de la producci\IeC {\'o}n en la fabricaci\IeC {\'o}n aditiva}{24}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Gesti\IeC {\'o}n del mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{29}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Tecnolog\IeC {\'\i }as innovadoras que utilicen CMMS para la gesti\IeC {\'o}n del mantenimiento.}{29}{section.3.3}%
-\contentsline {chapter}{Referencias}{34}{chapter*.9}%
-\contentsline {chapter}{Ap\IeC {\'e}ndices}{35}{section*.10}%
-\contentsline {chapter}{Manual de Usuario}{36}{appendix*.11}%
-\contentsline {section}{\numberline {.1}Requerimientos}{36}{section.Alph0.1}%
-\contentsline {section}{\numberline {.2}Instalaci\'on}{36}{section.Alph0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\'Indice de Tablas}{vii}{section*.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\'Indice de Figuras}{x}{section*.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Antecedentes y motivaci\'on}{4}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Objetivos y alcance del proyecto}{5}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Objetivo general}{5}{subsection.1.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Objetivos espec\'ificos}{5}{subsection.1.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Alcances}{6}{subsection.1.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Marco Te\'orico}{7}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Fabricaci\'on aditiva}{7}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Impresi\IeC {\'o}n 3D}{9}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Historia de la impresi\IeC {\'o}n 3D}{10}{subsection.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Tecnolog\IeC {\'\i }as de impresi\IeC {\'o}n 3D}{15}{subsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Impresoras 3D de Modelado por Deposici\IeC {\'o}n Fundida}{16}{subsection.2.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Tipolog\IeC {\'\i }as de impresi\IeC {\'o}n 3D de Modelado por Deposici\IeC {\'o}n Fundida}{19}{subsection.2.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Mantenimiento}{22}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Historia y evoluci\IeC {\'o}n del mantenimiento}{23}{subsection.2.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Mantenimiento correctivo}{27}{subsection.2.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Mantenimiento preventivo}{29}{subsection.2.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Mantenimiento centrado en la condici\IeC {\'o}n}{31}{subsection.2.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Mantenimiento centrado en la confiabilidad}{35}{subsection.2.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.6}Confiabilidad}{41}{subsection.2.3.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Funci\IeC {\'o}n densidad de probabilidad}{41}{subsection.2.3.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Media y varianza de una variable continua}{42}{subsection.2.3.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Distribuci\IeC {\'o}n normal}{42}{equation.2.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Distribuci\IeC {\'o}n exponencial}{43}{equation.2.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Distribuci\IeC {\'o}n de Weibull}{43}{equation.2.3.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Metodolog\IeC {\'\i }as \IeC {\'a}giles}{46}{section.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Design Thinking}{47}{subsection.2.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Fases del Design Thinking}{49}{subsection.2.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Herramientas de software}{52}{section.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}Lenguajes de programaci\IeC {\'o}n orientada a objetos}{52}{subsection.2.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Lenguajes de hojas de estilo}{54}{subsection.2.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}Bases de datos}{54}{subsection.2.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.4}Arquitectura Cliente-Servidor}{56}{subsection.2.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.5}Interfaz de Programaci\IeC {\'o}n de Aplicaciones}{58}{subsection.2.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.6}Ordenadores de placa reducida}{61}{subsection.2.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Estado del Arte}{64}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Gesti\IeC {\'o}n de la producci\IeC {\'o}n en la fabricaci\IeC {\'o}n aditiva}{64}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Gesti\IeC {\'o}n del mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{74}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Tecnolog\IeC {\'\i }as innovadoras que utilicen Gesti\IeC {\'o}n del mantenimiento Asistido por Computadora.}{78}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Desarrollo del proyecto}{82}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Antecedentes de la empresa}{82}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Descripci\IeC {\'o}n de la empresa}{82}{subsection.4.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Descripci\IeC {\'o}n del Problema}{83}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3} Aplicaci\IeC {\'o}n de mantenimiento basado en la teor\IeC {\'\i }a de la confiabilidad}{84}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Selecci\IeC {\'o}n del equipo}{84}{subsection.4.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{An\IeC {\'a}lisis de falla}{84}{subsection.4.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{An\IeC {\'a}lisis de criticidad}{89}{figure.caption.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Descripci\IeC {\'o}n del equipo}{91}{subsection.4.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Contexto Operacional}{98}{subsection.4.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.4}Delimitaci\IeC {\'o}n de funciones}{100}{subsection.4.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Diagrama de Interrelaciones Funcionales}{100}{subsection.4.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.5}Determinaci\IeC {\'o}n de fallas}{101}{subsection.4.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\'A}rbol de Fallas}{101}{subsection.4.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.6}An\IeC {\'a}lisis de Modos y Efectos de Falla}{106}{subsection.4.3.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Estructura del An\IeC {\'a}lisis}{106}{subsection.4.3.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Estructura Diagrama de decisi\IeC {\'o}n}{106}{table.caption.50}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Resultados}{109}{table.caption.52}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.7}An\IeC {\'a}lisis de confiabilidad m\IeC {\'e}todo de Weibull}{123}{subsection.4.3.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{An\IeC {\'a}lisis de Weibull para impresora X350}{124}{subsection.4.3.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{An\IeC {\'a}lisis de Weibull para impresora X400}{127}{table.caption.75}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{An\IeC {\'a}lisis de Weibull para impresora Prusa MK3}{129}{table.caption.80}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Plan de Mantenimiento}{131}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mantenimiento diario o proactivo}{131}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mantenimiento preventivo}{131}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Aplicaci\IeC {\'o}n de metodolog\IeC {\'\i }a Design Thinking para el desarrollo de Aplicaci\IeC {\'o}n Web}{132}{section.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Situaci\IeC {\'o}n actual}{133}{subsection.4.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Planificaci\IeC {\'o}n del marco de trabajo}{135}{subsection.4.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}Empatizar}{136}{subsection.4.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}Definir}{142}{subsection.4.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.5}Investigar}{144}{subsection.4.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Investigaci\IeC {\'o}n de referentes}{145}{subsection.4.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{3Dtrust - https://3dtrust.de/}{145}{subsection.4.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{AMFG - https://amfg.ai/service-bureaus-2/}{147}{figure.caption.97}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{FRACCTAL - https://www.fracttal.com/es/}{148}{figure.caption.99}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Investigaci\IeC {\'o}n de software a utilizar}{152}{table.caption.103}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Investigaci\IeC {\'o}n de las herramientas de desarrollo a utilizar}{157}{table.caption.110}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Grafana}{157}{table.caption.110}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Node-red/Node-red Dashboard}{158}{figure.caption.111}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mysql-PHPMyAdmin}{159}{figure.caption.113}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Flask-Python framework}{160}{figure.caption.114}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.6}Idear}{161}{subsection.4.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Identificaci\IeC {\'o}n del problema}{161}{subsection.4.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Generaci\IeC {\'o}n de ideas}{161}{subsection.4.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Informaci\IeC {\'o}n:}{162}{subsection.4.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Interfaz:}{162}{subsection.4.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Modos de utilizaci\IeC {\'o}n:}{162}{subsection.4.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.7}Prototipar}{163}{subsection.4.5.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Caracterizaci\IeC {\'o}n de datos}{165}{figure.caption.116}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}tricas}{168}{figure.caption.123}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{MTBF (Tiempo Medio Entre Fallas):}{168}{figure.caption.123}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{MTTR (Tiempo Medio Para Reparar):}{168}{table.caption.124}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Confiabilidad:}{169}{table.caption.125}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Filamento Impreso:}{169}{table.caption.126}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Tiempo total de impresi\IeC {\'o}n:}{170}{table.caption.127}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Piezas canceladas:}{170}{table.caption.128}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Piezas terminadas:}{170}{table.caption.129}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.8}Implementar y testear}{171}{subsection.4.5.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusiones}{180}{chapter*.139}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Ap\IeC {\'e}ndices}{189}{section*.141}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Ap\IeC {\'e}ndice}{190}{chapter*.142}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Registro y levantamiento de informaci\IeC {\'o}n}{190}{section.4.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}An\IeC {\'a}lisis de Weibull}{191}{section.4.7}% 

@@ -1,54 +1,75 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis-pregrado.aux
+The style file: biblatex.bst
 A level-1 auxiliary file: cubierta.aux
-A level-1 auxiliary file: chapters/gracias.aux
 A level-1 auxiliary file: chapters/dedicatoria.aux
+A level-1 auxiliary file: chapters/gracias.aux
 A level-1 auxiliary file: chapters/abstract.aux
 A level-1 auxiliary file: chapters/1-intro.aux
 A level-1 auxiliary file: chapters/2-preliminares.aux
 A level-1 auxiliary file: chapters/3-estado_del_arte.aux
-The style file: apalike.bst
+A level-1 auxiliary file: chapters/4-desarrollo.aux
+A level-1 auxiliary file: chapters/conclusiones.aux
 A level-1 auxiliary file: chapters/Apendice-1.aux
-Database file #1: bibliografia.bib
-You've used 20 entries,
-            1935 wiz_defined-function locations,
-            575 strings with 6858 characters,
-and the built_in function-call counts, 5461 in all, are:
-= -- 528
-> -- 173
-< -- 18
-+ -- 54
-- -- 52
-* -- 355
-:= -- 1052
-add.period$ -- 59
-call.type$ -- 20
-change.case$ -- 118
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 244
-empty$ -- 384
-format.name$ -- 74
-if$ -- 1029
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 18
-newline$ -- 102
-num.names$ -- 60
-pop$ -- 116
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 13340 items from 5000.
+Database file #1: tesis-pregrado-blx.bib
+Database file #2: bibliografia.bib
+Biblatex version: 3.11
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 60 entries,
+            6304 wiz_defined-function locations,
+            1443 strings with 17003 characters,
+and the built_in function-call counts, 249870 in all, are:
+= -- 16278
+> -- 5605
+< -- 1820
++ -- 5042
+- -- 1554
+* -- 13970
+:= -- 21848
+add.period$ -- 0
+call.type$ -- 60
+change.case$ -- 0
+chr.to.int$ -- 35
+cite$ -- 118
+duplicate$ -- 28023
+empty$ -- 24410
+format.name$ -- 2969
+if$ -- 54132
+int.to.chr$ -- 0
+int.to.str$ -- 157
+missing$ -- 0
+newline$ -- 1222
+num.names$ -- 3160
+pop$ -- 19803
 preamble$ -- 1
-purify$ -- 126
+purify$ -- 1466
 quote$ -- 0
-skip$ -- 195
+skip$ -- 11977
 stack$ -- 0
-substring$ -- 242
-swap$ -- 13
-text.length$ -- 0
+substring$ -- 22319
+swap$ -- 6696
+text.length$ -- 1110
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 106
+top$ -- 1
+type$ -- 2025
 warning$ -- 0
-while$ -- 40
+while$ -- 2906
 width$ -- 0
-write$ -- 241
+write$ -- 1163
